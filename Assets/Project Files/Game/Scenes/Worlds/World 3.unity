@@ -561,7 +561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 352b09c3-e3d2-4686-9c1b-4eefe52d57d6
-  title: Bina Pemotong
+  title: "\u0628\u064A\u0646\u0627 \u06A4\u0645\u0648\u062A\u0648\u06A0"
   rewardType: 0
   resourceReward:
     currencyType: 500
@@ -5340,7 +5340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 927523e9-b689-49f2-a518-0b465574704d
-  title: Bina Rakit
+  title: "\u0628\u064A\u0646\u0627 \u0631\u0627\u06A9\u064A\u062A"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -6035,7 +6035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 8222c461-6f5c-4ca5-b712-7f6bcc5b3ed2
-  title: Keluar Dari Pulau
+  title: "\u06A9\u0644\u0648\u0627\u0631 \u062F\u0631\u064A \u06A4\u0648\u0644\u0627\u0648"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -6843,7 +6843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: e70b26da-040d-4317-abc5-166a663b2cdd
-  title: Cari Harta Karun
+  title: "\u0686\u0627\u0631\u064A \u0647\u0631\u062A\u0627 \u0642\u0627\u0631\u0648\u0646"
   rewardType: 1
   resourceReward:
     currencyType: 0
@@ -9214,7 +9214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 6a9f3512-1149-4f4a-97f4-35c2595d5c2d
-  title: Buka Harta Karun
+  title: "\u0628\u0648\u06A9 \u0647\u0631\u062A\u0627 \u0642\u0627\u0631\u0648\u0646"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -19297,7 +19297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: bfb5ea19-371c-4684-8553-4ea61e501344
-  title: Bina Khemah
+  title: "\u0628\u064A\u0646\u0627 \u062E\u064A\u0645\u0647"
   rewardType: 0
   resourceReward:
     currencyType: 1
@@ -25346,7 +25346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 67cf59cb-32b4-43af-b38a-829e3f04a4e9
-  title: Kumpul Beberapa Kayu
+  title: "\u06A9\u0648\u0645\u06A4\u0648\u0644 \u0628\u0628\u0631\u0627\u06A4 \u06A9\u0627\u064A\u0648"
   rewardType: 0
   resourceReward:
     currencyType: 1
@@ -27609,7 +27609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 1d299db3-1241-4c5b-ac9c-a0c44cb958bf
-  title: Kumpul Buah Labu
+  title: "\u06A9\u0648\u0645\u06A4\u0648\u0644 \u0628\u0648\u0627\u0647 \u0644\u0627\u0628\u0648"
   rewardType: 0
   resourceReward:
     currencyType: 102
@@ -30174,7 +30174,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.HelperMission
   id: e764aff9-be16-4dc4-9f80-73faef046f0e
-  title: Selamatkan yang masih hidup
+  title: "\u0633\u0644\u0627\u0645\u062A\u06A9\u0646 \u064A\u06A0 \u0645\u0627\u0633\u064A\u0647/\u0645\u0633\u064A\u062D
+    \u0647\u064A\u062F\u0648\u06A4"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -33139,7 +33140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: d749e259-0033-45ab-b291-930fda715909
-  title: Kumpul Buah Kelapa
+  title: "\u06A9\u0648\u0645\u06A4\u0648\u0644 \u0628\u0648\u0627\u0647 \u06A9\u0644\u0627\u06A4"
   rewardType: 0
   resourceReward:
     currencyType: 101
@@ -46138,7 +46139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 9de2e6c3-4e5e-4734-8635-f1daf0e14fed
-  title: Bina Jambatan #2
+  title: "\u0628\u064A\u0646\u0627 \u062C\u0645\u0628\u062A\u0646 *#2*"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -49113,7 +49114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 9303c333-68b5-4670-ad39-d064da66e546
-  title: Tangkap Ikan
+  title: "\u062A\u06A0\u06A9\u06A4 \u0627\u064A\u06A9\u0646"
   rewardType: 0
   resourceReward:
     currencyType: 500
@@ -53954,7 +53955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: ccef317c-aa02-49d0-b851-9be3c3924990
-  title: Bina Stor Makanan
+  title: "\u0628\u064A\u0646\u0627 \u0633\u062A\u0648\u0631 \u0645\u0627\u06A9\u0646\u0646"
   rewardType: 1
   resourceReward:
     currencyType: 100
@@ -54049,7 +54050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 7eeabcff-440c-4044-b49c-107a0596abde
-  title: Kumpul Beberapa Batu
+  title: "\u06A9\u0648\u0645\u06A4\u0648\u0644 \u0628\u0628\u0631\u0627\u06A4 \u0628\u0627\u062A\u0648"
   rewardType: 0
   resourceReward:
     currencyType: 2
@@ -64129,7 +64130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 2cd4e8db-90fa-49f5-a7c3-ddbc512a18d1
-  title: Kumpul Buah Anggur
+  title: "\u06A9\u0648\u0645\u06A4\u0648\u0644 \u0628\u0648\u0627\u0647 \u0627\u06A0\u0762\u0648\u0631"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -66931,7 +66932,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 69925f56-c9f5-4bd0-98c9-c260eca64738
-  title: Bina Tempat Memasak
+  title: "\u0628\u064A\u0646\u0627 \u062A\u0645\u06A4\u062A \u0645\u0645\u0627\u0633\u0642"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -74899,7 +74900,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 1c0bdc79-a1e5-47b5-9758-e3494bf3648f
-  title: Bina Tempat Masak Baharu
+  title: "\u0628\u064A\u0646\u0627 \u062A\u0645\u06A4\u062A \u0645\u0627\u0633\u0642
+    \u0628\u0647\u0627\u0631\u0648"
   rewardType: 0
   resourceReward:
     currencyType: 150
@@ -83420,7 +83422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 672d53a7-c3f8-47af-af13-351e2c51d579
-  title: Teruskan Mengembara
+  title: "\u062A\u0631\u0648\u0633\u06A9\u0646 \u0645\u06A0\u0645\u0628\u0627\u0631\u0627"
   rewardType: 2
   resourceReward:
     currencyType: 0
@@ -87296,7 +87298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 72aa15c7-71ed-49c5-b1cb-e858a46310f9
-  title: Teruskan Mengembara
+  title: "\u062A\u0631\u0648\u0633\u06A9\u0646 \u0645\u06A0\u0645\u0628\u0627\u0631\u0627"
   rewardType: 2
   resourceReward:
     currencyType: 0
@@ -89911,7 +89913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 3efd8a51-a7b9-4d34-ab69-726550afe2c9
-  title: Bersihkan Kawasan
+  title: "\u0628\u0631\u0633\u064A\u0647\u06A9\u0646 \u06A9\u0627\u0648\u0633\u0646"
   rewardType: 0
   resourceReward:
     currencyType: 2
@@ -96080,7 +96082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 33e052ba-10d8-4213-886a-9f5b79350132
-  title: Bina Stor Batu
+  title: "\u0628\u064A\u0646\u0627 \u0633\u062A\u0648\u0631 \u0628\u0627\u062A\u0648"
   rewardType: 0
   resourceReward:
     currencyType: 2
@@ -99015,7 +99017,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 4a0d5127-3504-444c-aa77-4dfb6ac45ae0
-  title: Bina Jambatan
+  title: "\u0628\u064A\u0646\u0627 \u062C\u0645\u0628\u062A\u0646"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -100405,8 +100407,8 @@ MonoBehaviour:
   navMeshSurface: {fileID: 438512383339899028}
   subWorldHandler:
     subworlds:
-    - {fileID: 18863360}
     - {fileID: 1820117116}
+    - {fileID: 18863360}
   diggingSpawnSettings:
     spawnDelay:
       firstValue: 0

@@ -1919,7 +1919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.CollectMission
   id: 9f33ac55-330f-4199-b26c-e444799d3197
-  title: Pergi memancing
+  title: "\u06A4\u0631\u0762\u064A \u0645\u0645\u0646\u0686\u064A\u06A0"
   rewardType: 0
   resourceReward:
     currencyType: 103
@@ -2672,7 +2672,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.GroundUnlockMission
   id: 0222c2b2-3838-4707-97f8-02ad5d9cb863
-  title: Bersihkan Kawasan #5
+  title: "\u0628\u0631\u0633\u064A\u0647\u06A9\u0646 \u06A9\u0627\u0648\u0633\u0646
+    *#5*"
   rewardType: 0
   resourceReward:
     currencyType: 51
@@ -3747,7 +3748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.GroundUnlockMission
   id: b7f59ea3-e358-4e42-b6e9-c87cc99461e0
-  title: Bersihkan Kawasan
+  title: "\u0628\u0631\u0633\u064A\u0647\u06A9\u0646 \u06A9\u0627\u0648\u0633\u0646"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -4211,7 +4212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.CollectMission
   id: 8ca8b44c-99da-4ba5-a4f8-31cc4c045142
-  title: Kumpul Batu Bata
+  title: "\u06A9\u0648\u0645\u06A4\u0648\u0644 \u0628\u0627\u062A\u0648 \u0628\u0627\u062A"
   rewardType: 0
   resourceReward:
     currencyType: 51
@@ -6320,7 +6321,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.GroundUnlockMission
   id: 88d67db6-ee5d-43c5-bec8-be278cd9b8bc
-  title: Bersihkan Kawasan #4
+  title: "\u0628\u0631\u0633\u064A\u0647\u06A9\u0646 \u06A9\u0627\u0648\u0633\u0646
+    *#4*"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -7547,7 +7549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.CollectMission
   id: cdc494ff-b8a9-4a14-a65f-5e843383f16c
-  title: Kumpul Batu
+  title: "\u06A9\u0648\u0645\u06A4\u0648\u0644 \u0628\u0627\u062A\u0648"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -9940,7 +9942,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.GroundUnlockMission
   id: 4113071b-dc7e-4a48-b2bf-43e2053665e6
-  title: Bersihkan Kawasan #2
+  title: "\u0628\u0631\u0633\u064A\u0647\u06A9\u0646 \u06A9\u0627\u0648\u0633\u0646
+    *#2*"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -15659,7 +15662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.CollectMission
   id: 5c3ea8d3-ca71-4031-a520-884f16c45f2c
-  title: Kumpul Buah Labu
+  title: "\u06A9\u0648\u0645\u06A4\u0648\u0644 \u0628\u0648\u0627\u0647 \u0644\u0627\u0628\u0648"
   rewardType: 0
   resourceReward:
     currencyType: 51
@@ -17666,7 +17669,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.BuildingMission
   id: 67fef30c-57e1-4a23-871f-b57eeafe157b
-  title: Bina Tempat Untuk Memasak
+  title: "\u0628\u064A\u0646\u0627 \u062A\u0645\u06A4\u062A \u0627\u0648\u0646\u062A\u0648\u0642
+    \u0645\u0645\u0627\u0633\u0642"
   rewardType: 0
   resourceReward:
     currencyType: 101
@@ -18480,7 +18484,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.BuildingMission
   id: 5a088627-9176-4fb0-ba84-d1ea067c476f
-  title: Bina Tempat Letak Batu
+  title: "\u0628\u064A\u0646\u0627 \u062A\u0645\u06A4\u062A \u0644\u062A\u0642/\u0644\u064A\u062A\u0642
+    \u0628\u0627\u062A\u0648"
   rewardType: 0
   resourceReward:
     currencyType: 2
@@ -19403,7 +19408,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.BuildingMission
   id: 81c7207f-83b6-466f-b9a2-51d445a7441a
-  title: Bina Kilang Batu Bata
+  title: "\u0628\u064A\u0646\u0627 \u06A9\u064A\u0644\u06A0 \u0628\u0627\u062A\u0648
+    \u0628\u0627\u062A"
   rewardType: 0
   resourceReward:
     currencyType: 51
@@ -21636,7 +21642,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.GroundUnlockMission
   id: e75adec6-f719-47f9-8c43-6ae9329a07a3
-  title: Bersihkan Kawasan #3
+  title: "\u0628\u0631\u0633\u064A\u0647\u06A9\u0646 \u06A9\u0627\u0648\u0633\u0646
+    *#3*"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -24394,7 +24401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.CollectMission
   id: 0a9a34b9-9185-45e3-bc04-abe8cd0baa1f
-  title: Buka Harta Karun
+  title: "\u0628\u0648\u06A9 \u0647\u0631\u062A\u0627 \u0642\u0627\u0631\u0648\u0646"
   rewardType: 0
   resourceReward:
     currencyType: 51
@@ -25153,7 +25160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.BuildingMission
   id: c6cce4d3-16df-423a-9ae3-678b9ad22a05
-  title: Bina Jambatan
+  title: "\u0628\u064A\u0646\u0627 \u062C\u0645\u0628\u062A\u0646"
   rewardType: 0
   resourceReward:
     currencyType: 500
@@ -26732,7 +26739,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.GroundUnlockMission
   id: 63270a27-8fb0-4a18-991a-39b68561f9ab
-  title: Bersihkan Kawasan #7
+  title: "\u0628\u0631\u0633\u064A\u0647\u06A9\u0646 \u06A9\u0627\u0648\u0633\u0646
+    *#7*"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -27441,7 +27449,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.BuildingMission
   id: 2232de78-93fe-4581-9cf7-b7f0ebd8daed
-  title: Bina Jambatan Kelima
+  title: "\u0628\u064A\u0646\u0627 \u062C\u0645\u0628\u062A\u0646 \u06A9\u0644\u064A\u0645"
   rewardType: 0
   resourceReward:
     currencyType: 50
@@ -27554,7 +27562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.BuildingMission
   id: f4762d3f-55df-44d5-8b8b-a29f770237ac
-  title: Bina Jambatan Kedua
+  title: "\u0628\u064A\u0646\u0627 \u062C\u0645\u0628\u062A\u0646 \u06A9\u062F\u0648\u0627"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -28207,7 +28215,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.CollectMission
   id: 4247fd44-446c-46e3-bb7e-1c4b182e420c
-  title: Kumpul Papan
+  title: "\u06A9\u0648\u0645\u06A4\u0648\u0644 \u06A4\u0627\u06A4\u0646"
   rewardType: 0
   resourceReward:
     currencyType: 50
@@ -30864,7 +30872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.CollectMission
   id: c40e5540-acd7-4ca0-b807-e7f5df8529f3
-  title: Masak Ikan
+  title: "\u0645\u0627\u0633\u0642 \u0627\u064A\u06A9\u0646"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -30990,7 +30998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.GroundUnlockMission
   id: 46a2c315-be26-40dc-b40c-c53ced993591
-  title: Bina Rakit
+  title: "\u0628\u064A\u0646\u0627 \u0631\u0627\u06A9\u064A\u062A"
   rewardType: 2
   resourceReward:
     currencyType: 0
@@ -33131,7 +33139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.WorldChangeMission
   id: a640d2db-ddc5-47a8-8bae-a5ce8261dacd
-  title: KELUAR DARI PULAU
+  title: "\u06A9\u0644\u0648\u0627\u0631 \u062F\u0631\u064A \u06A4\u0648\u0644\u0627\u0648"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -35291,7 +35299,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.BuildingMission
   id: 85b66ffa-a9c8-4fb8-a7f2-aad8166fc08d
-  title: Bina Kilang Pembuatan Papan
+  title: "\u0628\u064A\u0646\u0627 \u06A9\u064A\u0644\u06A0 \u06A4\u0645\u0628\u0648\u0627\u062A\u0646
+    \u06A4\u0627\u06A4\u0646"
   rewardType: 0
   resourceReward:
     currencyType: 1
@@ -38837,7 +38846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.BuildingMission
   id: 48a37fc4-66e3-4ae0-b875-838fb3fc6715
-  title: Bina Jambatan Keempat
+  title: "\u0628\u064A\u0646\u0627 \u062C\u0645\u0628\u062A\u0646 \u06A9\u0623\u0645\u06A4\u062A"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -42113,7 +42122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.CollectMission
   id: 2c9cc0e0-b78b-466e-a425-edc4914eea44
-  title: Kumpul Kayu
+  title: "\u06A9\u0648\u0645\u06A4\u0648\u0644 \u06A9\u0627\u064A\u0648"
   rewardType: 0
   resourceReward:
     currencyType: 1
@@ -46200,7 +46209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.CollectMission
   id: 95cb9689-591e-44cd-aac2-852687be8e54
-  title: Kumpul 40 Batu Bata
+  title: "\u06A9\u0648\u0645\u06A4\u0648\u0644  40  \u0628\u0627\u062A\u0648 \u0628\u0627\u062A"
   rewardType: 0
   resourceReward:
     currencyType: 52
@@ -48356,7 +48365,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.GroundUnlockMission
   id: 3a7c3918-40bc-404c-be79-56f637e2a720
-  title: 'Bersihkan kawasan '
+  title: "\u0628\u0631\u0633\u064A\u0647\u06A9\u0646 \u06A9\u0627\u0648\u0633\u0646"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -49006,7 +49015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.CollectMission
   id: 8f29232c-cba7-47b2-b7bf-3aa501589e8d
-  title: Kumpul Pemotong
+  title: "\u06A9\u0648\u0645\u06A4\u0648\u0644 \u06A4\u0645\u0648\u062A\u0648\u06A0"
   rewardType: 0
   resourceReward:
     currencyType: 500
@@ -49273,7 +49282,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.BuildingMission
   id: bb41e73d-39f1-479e-86c4-2d1ffb86526e
-  title: Bina Jambatan Ketiga
+  title: "\u0628\u064A\u0646\u0627 \u062C\u0645\u0628\u062A\u0646 \u06A9\u062A\u064A\u0762"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -49851,7 +49860,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.BuildingMission
   id: 551a88b6-51b5-43b5-9dd0-6312a64e656e
-  title: Bina Tempat Memasak
+  title: "\u0628\u064A\u0646\u0627 \u062A\u0645\u06A4\u062A \u0645\u0645\u0627\u0633\u0642"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -50577,7 +50586,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.GroundUnlockMission
   id: 43fbdd54-19f7-452c-8615-e0bb90e8c050
-  title: Bersihkan Kawasan #6
+  title: "\u0628\u0631\u0633\u064A\u0647\u06A9\u0646 \u06A9\u0627\u0648\u0633\u0646
+    *#6*"
   rewardType: 0
   resourceReward:
     currencyType: 50
@@ -52552,7 +52562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.CollectMission
   id: 7e2dbb40-6bc0-47b8-9703-ae6d11c5ced9
-  title: Kumpul Kelapa
+  title: "\u06A9\u0648\u0645\u06A4\u0648\u0644 \u06A9\u0644\u0627\u06A4"
   rewardType: 0
   resourceReward:
     currencyType: 0
@@ -55240,7 +55250,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Watermelon.HelperMission
   id: ed225d35-778f-4865-a613-cc210fa0ba37
-  title: Selamatkan yang masih hidup
+  title: "\u0633\u0644\u0627\u0645\u062A\u06A9\u0646 \u064A\u06A0 \u0645\u0627\u0633\u064A\u0647/\u0645\u0633\u064A\u062D
+    \u0647\u064A\u062F\u0648\u06A4"
   rewardType: 1
   resourceReward:
     currencyType: 0
