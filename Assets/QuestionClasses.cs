@@ -55,630 +55,565 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Apakah maksud Rukun Iman?",
+                                "اڤاكه مقصود روكون ايمان؟",
                                 new List<string>
                                 {
-                                    "Tiang agama",
-                                    "Perkara yang wajib dipercayai",
-                                    "Rukun solat",
+                                    "تياڠ اڬام",
+                                    "ڤركارا يڠ واجب دڤرچاياٴي",
+                                    "روكون صلاة",
                                 },
                                 1
                             ),
                             new Question(
-                                "Berapa bilangan Rukun Iman?",
-                                new List<string> { "Tiga", "Lima", "Enam" },
+                                "براڤ بيلڠن روكون ايمان؟",
+                                new List<string> { "تيڬ", "ليم", "انم" },
                                 2
                             ),
                             new Question(
-                                "Rukun Iman pertama ialah beriman kepada",
-                                new List<string> { "Malaikat", "Allah", "Rasul" },
+                                "روكون ايمان ڤرتام ايله برايمان كڤد",
+                                new List<string> { "ملائكة", "الله", "رسول" },
                                 1
                             ),
                             new Question(
-                                "Beriman kepada Allah bermaksud kita percaya bahawa Allah itu",
-                                new List<string> { "Ada dan Maha Berkuasa", "Manusia", "Banyak" },
+                                "برايمان كڤد الله برمقصود كيت ڤرچاي بهاوا الله ايت",
+                                new List<string> { "اد دان مها بركواس", "مأنسي", "باڽق" },
                                 0
                             ),
                             new Question(
-                                "Rukun Iman kedua ialah beriman kepada",
-                                new List<string> { "Kitab", "Malaikat", "Rasul" },
+                                "روكون ايمان كدوا ايله برايمان كڤد",
+                                new List<string> { "كتاب", "ملائكة", "رسول" },
                                 1
                             ),
                             new Question(
-                                "Beriman kepada malaikat bermaksud percaya bahawa malaikat",
+                                "برايمان كڤد ملائكة برمقصود ڤرچاي بهاوا ملائكة",
                                 new List<string>
                                 {
-                                    "tidak wujud",
-                                    "makhluk Allah yang taat",
-                                    "boleh makan dan minum",
+                                    "تيدق وجود",
+                                    "مخلوق الله يڠ طاعة",
+                                    "بوليه ماكن دان مينوم",
                                 },
                                 1
                             ),
                             new Question(
-                                "Rukun Iman ketiga ialah beriman kepada",
-                                new List<string> { "Kitab", "Rasul", "Hari Akhirat" },
+                                "روكون ايمان كتيڬ ايله برايمان كڤد",
+                                new List<string> { "كتاب", "رسول", "هاري اخيرة" },
                                 0
                             ),
                             new Question(
-                                "Beriman kepada kitab bermaksud percaya kepada",
+                                "برايمان كڤد كتاب برمقصود ڤرچاي كڤد",
                                 new List<string>
                                 {
-                                    "Buku sekolah",
-                                    "Kitab yang diturunkan Allah",
-                                    "Taurat sahaja",
+                                    "بوكو سكوله",
+                                    "كتاب يڠ دتورونكن الله",
+                                    "توراة سهاج",
                                 },
                                 1
                             ),
                             new Question(
-                                "Rukun Iman keempat ialah beriman kepada",
-                                new List<string> { "Rasul", "Syurga", "Hari Akhirat" },
+                                "روكون ايمان كأمڤت ايله برايمان كڤد",
+                                new List<string> { "رسول", "شرڬ", "هاري اخيرة" },
                                 0
                             ),
                             new Question(
-                                "Rukun Iman kelima ialah beriman kepada",
-                                new List<string> { "Qada' dan Qadar", "Hari Akhirat", "Syurga" },
+                                "روكون ايمان كليم ايله برايمان كڤد",
+                                new List<string> { "قضاء دان قدر", "هاري اخيرة", "شرڬ" },
                                 1
                             ),
                             new Question(
-                                "Rukun Iman keenam ialah beriman kepada",
-                                new List<string> { "Qada' dan Qadar", "Syaitan", "Iman" },
+                                "روكون ايمان كأنم ايله برايمان كڤد",
+                                new List<string> { "قضاء دان قدر", "شيطان", "ايمان" },
                                 0
                             ),
                             new Question(
-                                "Dalil beriman kepada Allah terdapat dalam",
-                                new List<string> { "Hadis", "Al-Quran", "Kisah Nabi" },
+                                "دليل برايمان كڤد الله ترداڤت دالم",
+                                new List<string> { "حديث", "القرآن", "قصه نبي" },
                                 1
                             ),
                             new Question(
-                                "Allah mencipta di dunia ini.",
-                                new List<string>
-                                {
-                                    "manusia dan alam",
-                                    "haiwan sahaja",
-                                    "benda jahat",
-                                },
+                                "الله منچيڤتا... د دنيا اين.",
+                                new List<string> { "مأنسي دان عالم", "حيوان سهاج", "بندا جاهت" },
                                 0
                             ),
                             new Question(
-                                "Tanda orang beriman kepada Allah ialah dia",
-                                new List<string>
-                                {
-                                    "rajin beribadah",
-                                    "malas solat",
-                                    "suka menipu",
-                                },
+                                "تندا اورڠ برايمان كڤد الله ايله دي",
+                                new List<string> { "راجين برعبادة", "مالس صلاة", "سوك منيڤو" },
                                 0
                             ),
                             new Question(
-                                "Kita mesti yakin bahawa Allah ialah Tuhan yang",
-                                new List<string> { "ramai", "satu", "dua" },
+                                "كيت مستي يقين بهاوا الله ايله توهن يڠ",
+                                new List<string> { "راماي", "ساتو", "دوا" },
                                 1
                             ),
                             new Question(
-                                "Orang yang beriman kepada Allah tidak akan",
-                                new List<string> { "menipu", "berzikir", "bersyukur" },
+                                "اورڠ يڠ برايمان كڤد الله تيدق اكن",
+                                new List<string> { "منيڤو", "برذكر", "برشكور" },
                                 0
                             ),
                             new Question(
-                                "Iman bermaksud percaya dengan",
+                                "ايمان برمقصود ڤرچاي دڠن",
                                 new List<string>
                                 {
-                                    "lidah dan hati",
-                                    "mata dan telinga",
-                                    "tangan dan kaki",
+                                    "ليده دان هاتي",
+                                    "مات دان تليڠا",
+                                    "تاڠن دان كاكي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Allah bersifat Maha",
-                                new List<string> { "Lupa", "Kuasa", "Lemah" },
+                                "الله برصفت مها",
+                                new List<string> { "لوڤ", "كواس", "لمه" },
                                 1
                             ),
                             new Question(
-                                "Kalimah Syahadah mengandungi dua",
-                                new List<string> { "kalimat", "bahagian", "doa" },
+                                "كلمه شهادة مڠاندوڠي دوا",
+                                new List<string> { "كليمه", "بهاڬين", "دعاء" },
                                 1
                             ),
                             new Question(
-                                "Bahagian pertama Syahadah ialah pengakuan kepada",
-                                new List<string> { "Rasul", "Allah", "Malaikat" },
+                                "بهاڬين ڤرتام شهادة ايله ڤڠاكوان كڤد",
+                                new List<string> { "رسول", "الله", "ملائكة" },
                                 1
                             ),
                             new Question(
-                                "Bahagian kedua Syahadah ialah pengakuan kepada",
+                                "بهاڬين كدوا شهادة ايله ڤڠاكوان كڤد",
                                 new List<string>
                                 {
-                                    "Muhammad sebagai Rasul",
-                                    "Allah sebagai Tuhan",
-                                    "Malaikat",
+                                    "محمد سباڬاي رسول",
+                                    "الله سباڬاي توهن",
+                                    "ملائكة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Syahadah mengajar kita supaya",
+                                "شهادة مڠاجر كيت سوڤاي",
                                 new List<string>
                                 {
-                                    "percaya kepada Allah dan Rasul",
-                                    "malas solat",
-                                    "tidak berzakat",
+                                    "ڤرچاي كڤد الله دان رسول",
+                                    "مالس صلاة",
+                                    "تيدق برزكاة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Orang Islam wajib membaca kalimah Syahadah ketika",
-                                new List<string> { "bermain", "masuk Islam", "tidur" },
+                                "اورڠ إسلام واجب ممباچ كلمه شهادة كتيك",
+                                new List<string> { "برماءين", "ماسوق إسلام", "تيدور" },
                                 1
                             ),
                             new Question(
-                                "Islam bermaksud",
+                                "إسلام برمقصود",
+                                new List<string> { "كأمانن دان ڤاتوه كڤد الله", "ككاياءن", "كواس" },
+                                0
+                            ),
+                            new Question(
+                                "ايمان برمقصود",
                                 new List<string>
                                 {
-                                    "keamanan dan patuh kepada Allah",
-                                    "kekayaan",
-                                    "kuasa",
+                                    "ڤرچاي دان يقين كڤد الله",
+                                    "مڽره ديري كڤد شيطان",
+                                    "مالس بلاجر",
                                 },
                                 0
                             ),
                             new Question(
-                                "Iman bermaksud",
+                                "إسلام دان ايمان مستي اد برسام اونتوق منجادي",
+                                new List<string> { "اومت يڠ سمڤورنا", "اورڠ كاي", "ڤماءين بولا" },
+                                0
+                            ),
+                            new Question(
+                                "هوبوڠن إسلام دان ايمان سڤرتي",
                                 new List<string>
                                 {
-                                    "percaya dan yakin kepada Allah",
-                                    "menyerah diri kepada syaitan",
-                                    "malas belajar",
+                                    "ڤوكوق دان بواه",
+                                    "اءير دان اڤي",
+                                    "لاڠيت دان لاءوت",
                                 },
                                 0
                             ),
                             new Question(
-                                "Islam dan Iman mesti ada bersama untuk menjadi",
-                                new List<string>
-                                {
-                                    "umat yang sempurna",
-                                    "orang kaya",
-                                    "pemain bola",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Hubungan Islam dan Iman seperti",
-                                new List<string>
-                                {
-                                    "pokok dan buah",
-                                    "air dan api",
-                                    "langit dan laut",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Asma' al-Husna bermaksud nama-nama",
-                                new List<string> { "rasul", "baik Allah", "malaikat" },
+                                "أسماء الحسنى برمقصود نام٢",
+                                new List<string> { "رسول", "باءيق الله", "ملائكة" },
                                 1
                             ),
                             new Question(
-                                "Bilangan Asma' al-Husna ialah",
+                                "بيلڠن أسماء الحسنى ايله",
                                 new List<string> { "33", "77", "99" },
                                 2
                             ),
                             new Question(
-                                "Antara contoh Asma' al-Husna ialah",
-                                new List<string> { "Ar-Rahman", "Zulkarnain", "Fir'aun" },
+                                "انتارا چونتوه أسماء الحسنى ايله",
+                                new List<string> { "الرحمن", "ذوالقرنين", "فرعون" },
                                 0
                             ),
                             new Question(
-                                "Ar-Rahman bermaksud",
-                                new List<string> { "Maha Pemurah", "Maha Kaya", "Maha Kuat" },
+                                "الرحمن برمقصود",
+                                new List<string> { "مها ڤموره", "مها كاي", "مها قوات" },
                                 0
                             ),
                             new Question(
-                                "Asma' al-Husna mengajar kita supaya",
-                                new List<string>
-                                {
-                                    "meniru sifat baik Allah",
-                                    "berlawan",
-                                    "menipu",
-                                },
+                                "أسماء الحسنى مڠاجر كيت سوڤاي",
+                                new List<string> { "منيرو صفت باءيق الله", "برلاون", "منيڤو" },
                                 0
                             ),
                             new Question(
-                                "Allah bersifat As-Sami' bermaksud Allah Maha",
-                                new List<string> { "Melihat", "Mendengar", "Mengetahui" },
+                                "الله برصفت السميع برمقصود الله مها",
+                                new List<string> { "مليهت", "مندڠر", "مڠتاهوءي" },
                                 1
                             ),
                             new Question(
-                                "Allah bersifat Al-Basir bermaksud Allah Maha",
-                                new List<string> { "Melihat", "Pemurah", "Berkuasa" },
+                                "الله برصفت البصير برمقصود الله مها",
+                                new List<string> { "مليهت", "ڤموره", "بركواس" },
                                 0
                             ),
                             new Question(
-                                "Tauhid bermaksud mengesakan",
-                                new List<string> { "Rasul", "Allah", "Malaikat" },
+                                "توحيد برمقصود مڠيساكن",
+                                new List<string> { "رسول", "الله", "ملائكة" },
                                 1
                             ),
                             new Question(
-                                "Tauhid terbahagi kepada bahagian.",
-                                new List<string> { "dua", "tiga", "empat" },
+                                "توحيد تربهاڬي كڤد... بهاڬين.",
+                                new List<string> { "دوا", "تيڬ", "امڤت" },
                                 1
                             ),
                             new Question(
-                                "Tauhid Rububiyyah bermaksud mengesakan Allah sebagai",
-                                new List<string>
-                                {
-                                    "Tuhan yang mencipta dan mentadbir",
-                                    "Rasul",
-                                    "manusia",
-                                },
+                                "توحيد ربوبية برمقصود مڠيساكن الله سباڬاي",
+                                new List<string> { "توهن يڠ منچيڤتا دان منتدبير", "رسول", "مأنسي" },
                                 0
                             ),
                             new Question(
-                                "Tauhid Uluhiyyah bermaksud hanya menyembah",
-                                new List<string> { "Rasul", "Allah", "Malaikat" },
+                                "توحيد ألوهية برمقصود هاڽ مڽمبه",
+                                new List<string> { "رسول", "الله", "ملائكة" },
                                 1
                             ),
                             new Question(
-                                "Tauhid Asmaa wa Sifat bermaksud beriman dengan",
-                                new List<string>
-                                {
-                                    "nama dan sifat Allah",
-                                    "nama nabi",
-                                    "kitab Allah",
-                                },
+                                "توحيد أسماء وصفات برمقصود برايمان دڠن",
+                                new List<string> { "نام دان صفت الله", "نام نبي", "كتاب الله" },
                                 0
                             ),
                             new Question(
-                                "Dalil tauhid boleh didapati dalam",
-                                new List<string> { "Al-Quran", "buku cerita", "surat khabar" },
+                                "دليل توحيد بوليه دداڤتي دالم",
+                                new List<string> { "القرآن", "بوكو چريتا", "سورت خبر" },
                                 0
                             ),
                             new Question(
-                                "Orang yang bertauhid tidak akan selain Allah.",
-                                new List<string> { "menyembah", "menyebut", "menyayangi" },
+                                "اورڠ يڠ برتوحيد تيدق اكن... سلاين الله.",
+                                new List<string> { "مڽمبه", "مڽبوت", "مڽايڠي" },
                                 0
                             ),
                             new Question(
-                                "Orang yang tidak bertauhid akan menjadi",
-                                new List<string> { "beriman", "musyrik", "alim" },
+                                "اورڠ يڠ تيدق برتوحيد اكن منجادي",
+                                new List<string> { "برايمان", "مشرك", "عالم" },
                                 1
                             ),
                             new Question(
-                                "Kita mesti mempelajari tauhid supaya",
-                                new List<string> { "kenal Allah", "menjadi kaya", "dipuji orang" },
+                                "كيت مستي ممڤلاجري توحيد سوڤاي",
+                                new List<string> { "كنل الله", "منجادي كاي", "دڤوجي اورڠ" },
                                 0
                             ),
                             new Question(
-                                "Allah sahaja yang layak disembah kerana Dia",
-                                new List<string>
-                                {
-                                    "maha kuat dan berkuasa",
-                                    "manusia",
-                                    "malaikat",
-                                },
+                                "الله سهاج يڠ لايق دسمبه كرنا دي",
+                                new List<string> { "مها قوات دان بركواس", "مأنسي", "ملائكة" },
                                 0
                             ),
                             new Question(
-                                "Dalil iman kepada Allah terdapat dalam surah",
-                                new List<string> { "Al-Ikhlas", "Al-Fatihah", "Al-Kawthar" },
+                                "دليل ايمان كڤد الله ترداڤت دالم سورة",
+                                new List<string> { "الإخلاص", "الفاتحة", "الكوثر" },
                                 1
                             ),
                             new Question(
-                                "Islam dan Iman membawa kita ke jalan",
-                                new List<string> { "neraka", "kebaikan", "kemalasan" },
+                                "إسلام دان ايمان ممباوا كيت كجالن",
+                                new List<string> { "نراك", "كباءيقن", "كمالسن" },
                                 1
                             ),
                             new Question(
-                                "Iman dalam hati akan membuat seseorang menjadi",
-                                new List<string> { "penyayang dan jujur", "pemarah", "pendendam" },
+                                "ايمان دالم هاتي اكن ممبوات سسأورڠ منجادي",
+                                new List<string> { "ڤڽايڠ دان جوجور", "ڤماره", "ڤندندم" },
                                 0
                             ),
                             new Question(
-                                "Asma' al-Husna menunjukkan sifat Allah yang",
-                                new List<string> { "buruk", "mulia", "jahat" },
+                                "أسماء الحسنى منونجوقكن صفت الله يڠ",
+                                new List<string> { "بوروق", "موليا", "جاهت" },
                                 1
                             ),
                             new Question(
-                                "Kita hendaklah berdoa menggunakan",
-                                new List<string> { "Asma' al-Husna", "nama sendiri", "nama orang" },
+                                "كيت هندقله بردعاء مڠڬوناكن",
+                                new List<string> { "أسماء الحسنى", "نام سنديري", "نام اورڠ" },
                                 0
                             ),
                             new Question(
-                                "Orang Islam mesti percaya kepada semua",
-                                new List<string> { "rukun iman", "rukun negara", "rukun hidup" },
+                                "اورڠ إسلام مستي ڤرچاي كڤد سموا",
+                                new List<string> { "روكون ايمان", "روكون نڬارا", "روكون هيدوڤ" },
                                 0
                             ),
                             new Question(
-                                "Beriman kepada Allah menjadikan kita",
-                                new List<string>
-                                {
-                                    "taat dan bersyukur",
-                                    "malas dan sombong",
-                                    "lalai",
-                                },
+                                "برايمان كڤد الله منجاديكن كيت",
+                                new List<string> { "طاعة دان برشكور", "مالس دان سومبوڠ", "لالاي" },
                                 0
                             ),
                         }, //tahap 4
                     },
-                    //level 2 IBADAH 1
+                    //level 2 IBADAH 1 (Contains Sirah Content)
                     new Levels
                     {
                         questions = new List<Question>
                         {
                             new Question(
-                                "Sirah bermaksud cerita tentang kehidupan.",
-                                new List<string> { "Nabi dan Rasul", "Malaikat", "Sahabat" },
+                                "سيرة برمقصود چريتا تنتڠ كهيدوڤن...",
+                                new List<string> { "نبي دان رسول", "ملائكة", "صحابت" },
                                 0
                             ),
                             new Question(
-                                "Sirah mengajar kita tentang Nabi Muhammad.",
-                                new List<string> { "kesihatan", "kehidupan", "pekerjaan" },
+                                "سيرة مڠاجر كيت تنتڠ نبي محمد...",
+                                new List<string> { "كصيحاتن", "كهيدوڤن", "ڤكرجاءن" },
                                 1
                             ),
                             new Question(
-                                "Sumber utama sirah ialah...",
-                                new List<string>
-                                {
-                                    "al-Quran dan Hadis",
-                                    "buku cerita",
-                                    "surat khabar",
-                                },
+                                "سومبر اوتام سيرة ايله...",
+                                new List<string> { "القرآن دان حديث", "بوكو چريتا", "سورت خبر" },
                                 0
                             ),
                             new Question(
-                                "Kita belajar sirah supaya dapat meniru Nabi Muhammad.",
-                                new List<string>
-                                {
-                                    "meniru akhlak",
-                                    "berlawan dengan",
-                                    "melupakannya",
-                                },
+                                "كيت بلاجر سيرة سوڤاي داڤت... نبي محمد.",
+                                new List<string> { "منيرو اخلاق", "برلاون دڠن", "ملوڤاكنڽ" },
                                 0
                             ),
                             new Question(
-                                "Sirah membantu kita menjadi...",
-                                new List<string> { "malas", "sombong", "baik" },
+                                "سيرة ممبنتو كيت منجادي...",
+                                new List<string> { "مالس", "سومبوڠ", "باءيق" },
                                 2
                             ),
                             new Question(
-                                "Orang yang tidak belajar sirah akan sukar mengenal...",
-                                new List<string> { "haiwan", "Nabi Muhammad", "tumbuhan" },
+                                "اورڠ يڠ تيدق بلاجر سيرة اكن سوكر مڠنل...",
+                                new List<string> { "حيوان", "نبي محمد", "تومبوهن" },
                                 1
                             ),
                             new Question(
-                                "Sirah ialah satu cara untuk kita mengetahui sejarah...",
-                                new List<string> { "Islam", "negara", "dunia" },
+                                "سيرة ايله ساتو چارا اونتوق كيت مڠتاهوءي سجاره...",
+                                new List<string> { "إسلام", "نڬارا", "دنيا" },
                                 0
                             ),
                             new Question(
-                                "Sirah menceritakan perjuangan...",
-                                new List<string> { "sahabat Nabi", "malaikat", "musuh" },
+                                "سيرة منچريتاكن ڤرجواڠن...",
+                                new List<string> { "صحابت نبي", "ملائكة", "موسوه" },
                                 0
                             ),
                             new Question(
-                                "Kita hendaklah membaca sirah dengan rasa...",
-                                new List<string> { "marah", "bosan", "cinta kepada Nabi" },
+                                "كيت هندقله ممباچ سيرة دڠن راس...",
+                                new List<string> { "ماره", "بوسن", "چينتا كڤد نبي" },
                                 2
                             ),
                             new Question(
-                                "Pengajaran sirah membantu kita menjadi umat yang...",
-                                new List<string> { "lemah", "kuat dan beriman", "lupa diri" },
+                                "ڤڠاجرن سيرة ممبنتو كيت منجادي اومت يڠ...",
+                                new List<string> { "لمه", "قوات دان برايمان", "لوڤ ديري" },
                                 1
                             ),
                             new Question(
-                                "Bapa Nabi Muhammad bernama...",
-                                new List<string> { "Abu Talib", "Abdullah", "Abdul Muttalib" },
+                                "باڤ نبي محمد برنام...",
+                                new List<string> { "أبو طالب", "عبد الله", "عبد المطلب" },
                                 1
                             ),
                             new Question(
-                                "Ibu Nabi Muhammad bernama...",
-                                new List<string> { "Fatimah", "Aminah", "Khadijah" },
+                                "ايبو نبي محمد برنام...",
+                                new List<string> { "فاطمة", "آمنة", "خديجة" },
                                 1
                             ),
                             new Question(
-                                "Datuk Nabi Muhammad bernama...",
-                                new List<string> { "Abu Talib", "Abdul Muttalib", "Hamzah" },
+                                "داتوق نبي محمد برنام...",
+                                new List<string> { "أبو طالب", "عبد المطلب", "حمزة" },
                                 1
                             ),
                             new Question(
-                                "Nama penuh Nabi Muhammad ialah Muhammad bin...",
-                                new List<string> { "Abu Talib", "Abdullah", "Abu Bakar" },
+                                "نام ڤنوه نبي محمد ايله محمد بن...",
+                                new List<string> { "أبو طالب", "عبد الله", "أبو بكر" },
                                 1
                             ),
                             new Question(
-                                "Nabi Muhammad berasal daripada bangsa...",
-                                new List<string> { "Quraisy", "Rom", "Parsi" },
+                                "نبي محمد برأصل دريڤد بڠسا...",
+                                new List<string> { "قريش", "روم", "فارسي" },
                                 0
                             ),
                             new Question(
-                                "Nabi Muhammad keturunan Nabi...",
-                                new List<string> { "Isa", "Ibrahim", "Musa" },
+                                "نبي محمد كتورونن نبي...",
+                                new List<string> { "عيسى", "إبراهيم", "موسى" },
                                 1
                             ),
                             new Question(
-                                "Nabi Muhammad digelar Al-Amin kerana...",
+                                "نبي محمد دڬلر الأمين كرنا...",
                                 new List<string>
                                 {
-                                    "suka bergurau",
-                                    "bersikap jujur dan amanah",
-                                    "kuat makan",
+                                    "سوك برڬوراو",
+                                    "برسيقڤ جوجور دان أمانه",
+                                    "قوات ماكن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Ibu Nabi Muhammad wafat ketika Baginda masih...",
-                                new List<string> { "bayi", "remaja", "dewasa" },
+                                "ايبو نبي محمد وفاة كتيك بڬيندا ماسيه...",
+                                new List<string> { "بايي", "رماجا", "ديواسا" },
                                 0
                             ),
                             new Question(
-                                "Selepas ibu dan bapa wafat, Nabi dijaga oleh...",
-                                new List<string> { "sahabat", "datuk", "jiran" },
+                                "سلڤس ايبو دان باڤ وفاة، نبي دجاڬ اوليه...",
+                                new List<string> { "صحابت", "داتوق", "جيرن" },
                                 1
                             ),
                             new Question(
-                                "Selepas datuk wafat, Nabi dijaga oleh...",
-                                new List<string> { "Abu Talib", "Umar", "Bilal" },
+                                "سلڤس داتوق وفاة، نبي دجاڬ اوليه...",
+                                new List<string> { "أبو طالب", "عمر", "بلال" },
                                 0
                             ),
                             new Question(
-                                "Nabi Muhammad ialah... terakhir.",
-                                new List<string> { "rasul", "malaikat", "sahabat" },
+                                "نبي محمد ايله... تراخير.",
+                                new List<string> { "رسول", "ملائكة", "صحابت" },
                                 0
                             ),
                             new Question(
-                                "Nabi Muhammad diutuskan kepada...",
-                                new List<string>
-                                {
-                                    "kaum Arab sahaja",
-                                    "semua manusia",
-                                    "orang Quraisy sahaja",
-                                },
+                                "نبي محمد دأوتوسكن كڤد...",
+                                new List<string> { "قوم عرب سهاج", "سموا مأنسي", "اورڠ قريش سهاج" },
                                 1
                             ),
                             new Question(
-                                "Tentera bergajah datang untuk... Kaabah.",
-                                new List<string> { "membina", "memusnahkan", "membersihkan" },
+                                "تنترا برڬاجه داتڠ اونتوق... كعبة.",
+                                new List<string> { "ممبينا", "ممسنهكن", "ممبرسيهكن" },
                                 1
                             ),
                             new Question(
-                                "Pemimpin tentera bergajah ialah...",
-                                new List<string> { "Abrahah", "Abu Jahal", "Hamzah" },
+                                "ڤميمڤين تنترا برڬاجه ايله...",
+                                new List<string> { "أبرهة", "أبو جهل", "حمزة" },
                                 0
                             ),
                             new Question(
-                                "Allah menghantar burung... untuk melawan tentera bergajah.",
-                                new List<string> { "merpati", "ababil", "gagak" },
+                                "الله مڠهنتر بوروڠ... اونتوق ملاون تنترا برڬاجه.",
+                                new List<string> { "مرڤاتي", "أبابيل", "ڬاڬق" },
                                 1
                             ),
                             new Question(
-                                "Burung-burung itu membawa...",
-                                new List<string> { "batu", "makanan", "surat" },
+                                "بوروڠ-بوروڠ ايت ممباوا...",
+                                new List<string> { "باتو", "ماكنن", "سورت" },
                                 0
                             ),
                             new Question(
-                                "Peristiwa tentera bergajah berlaku pada tahun...",
-                                new List<string> { "tahun gajah", "tahun unta", "tahun harimau" },
+                                "ڤريستيوا تنترا برڬاجه برلاكو ڤد تاهون...",
+                                new List<string> { "تاهون ڬاجه", "تاهون اونتا", "تاهون هاريماو" },
                                 0
                             ),
                             new Question(
-                                "Bapa Nabi Muhammad meninggal dunia di...",
-                                new List<string> { "Makkah", "Madinah", "Syam" },
+                                "باڤ نبي محمد منيڠڬل دنيا د...",
+                                new List<string> { "مكة", "مدينة", "شام" },
                                 2
                             ),
                             new Question(
-                                "Bapa Nabi wafat sebelum Nabi...",
-                                new List<string> { "lahir", "berkahwin", "berhijrah" },
+                                "باڤ نبي وفاة سبلوم نبي...",
+                                new List<string> { "لاهير", "بركهوين", "برهجرة" },
                                 0
                             ),
                             new Question(
-                                "Ibu Nabi bernama Aminah binti...",
-                                new List<string> { "Wahab", "Umar", "Ali" },
+                                "ايبو نبي برنام آمنة بنت...",
+                                new List<string> { "وهب", "عمر", "علي" },
                                 0
                             ),
                             new Question(
-                                "Datuk Nabi ialah seorang yang...",
-                                new List<string> { "pemarah", "penyayang dan mulia", "sombong" },
+                                "داتوق نبي ايله سأورڠ يڠ...",
+                                new List<string> { "ڤماره", "ڤڽايڠ دان موليا", "سومبوڠ" },
                                 1
                             ),
                             new Question(
-                                "Peristiwa tentera bergajah menunjukkan Allah itu...",
-                                new List<string> { "lemah", "Maha Kuasa", "lupa" },
+                                "ڤريستيوا تنترا برڬاجه منونجوقكن الله ايت...",
+                                new List<string> { "لمه", "مها كواس", "لوڤ" },
                                 1
                             ),
                             new Question(
-                                "Allah melindungi Kaabah daripada...",
-                                new List<string> { "manusia", "tentera bergajah", "burung" },
+                                "الله مليندوڠي كعبة دريڤد...",
+                                new List<string> { "مأنسي", "تنترا برڬاجه", "بوروڠ" },
                                 1
                             ),
                             new Question(
-                                "Peristiwa itu berlaku sebelum Nabi Muhammad...",
-                                new List<string> { "lahir", "berkahwin", "berhijrah" },
+                                "ڤريستيوا ايت برلاكو سبلوم نبي محمد...",
+                                new List<string> { "لاهير", "بركهوين", "برهجرة" },
                                 0
                             ),
                             new Question(
-                                "Nabi Muhammad lahir di...",
-                                new List<string> { "Makkah", "Madinah", "Taif" },
+                                "نبي محمد لاهير د...",
+                                new List<string> { "مكة", "مدينة", "طائف" },
                                 0
                             ),
                             new Question(
-                                "Masa kelahiran Nabi ialah pada waktu...",
-                                new List<string> { "pagi", "siang", "malam" },
+                                "ماس كلاهيرن نبي ايله ڤد وقتو...",
+                                new List<string> { "ڤاڬي", "سياڠ", "مالم" },
                                 2
                             ),
                             new Question(
-                                "Nabi lahir pada hari...",
-                                new List<string> { "Isnin", "Jumaat", "Sabtu" },
+                                "نبي لاهير ڤد هاري...",
+                                new List<string> { "إثنين", "جمعة", "سبت" },
                                 0
                             ),
                             new Question(
-                                "Tahun kelahiran Nabi dikenali sebagai...",
-                                new List<string> { "tahun unta", "tahun gajah", "tahun hijrah" },
+                                "تاهون كلاهيرن نبي دكنلي سباڬاي...",
+                                new List<string> { "تاهون اونتا", "تاهون ڬاجه", "تاهون هجرة" },
                                 1
                             ),
                             new Question(
-                                "Kelahiran Nabi membawa rahmat kepada...",
+                                "كلاهيرن نبي ممباوا رحمة كڤد...",
                                 new List<string>
                                 {
-                                    "umat Islam sahaja",
-                                    "seluruh alam",
-                                    "bangsa Arab sahaja",
+                                    "اومت إسلام سهاج",
+                                    "سلوروه عالم",
+                                    "بڠسا عرب سهاج",
                                 },
                                 1
                             ),
                             new Question(
-                                "Nama Nabi diberikan oleh...",
-                                new List<string> { "ibunya", "datuknya", "sahabat" },
+                                "نام نبي دبريكن اوليه...",
+                                new List<string> { "ايبوڽ", "داتوقڽ", "صحابت" },
                                 1
                             ),
                             new Question(
-                                "Nabi Muhammad disusukan oleh...",
-                                new List<string> { "Halimah As-Sa'diyah", "Aminah", "Fatimah" },
+                                "نبي محمد د-سوسوكن اوليه...",
+                                new List<string> { "حليمة السعدية", "آمنة", "فاطمة" },
                                 0
                             ),
                             new Question(
-                                "Kelahiran Nabi disambut dengan penuh...",
-                                new List<string> { "gembira", "sedih", "marah" },
+                                "كلاهيرن نبي دسامبوت دڠن ڤنوه...",
+                                new List<string> { "ڬمبيرا", "سديه", "ماره" },
                                 0
                             ),
                             new Question(
-                                "Nabi Muhammad lahir dalam keadaan...",
-                                new List<string> { "bersih dan suci", "sakit", "menangis kuat" },
+                                "نبي محمد لاهير دالم كأداءن...",
+                                new List<string> { "برسيه دان سوچي", "ساكيت", "مناڠيس قوات" },
                                 0
                             ),
                             new Question(
-                                "Datuk Nabi sangat... apabila Nabi lahir.",
-                                new List<string> { "sedih", "gembira", "takut" },
+                                "داتوق نبي ساڠت... اڤابيلا نبي لاهير.",
+                                new List<string> { "سديه", "ڬمبيرا", "تاكوت" },
                                 1
                             ),
                             new Question(
-                                "Kelahiran Nabi Muhammad menunjukkan kasih sayang... kepada manusia.",
-                                new List<string> { "malaikat", "Allah", "ibu" },
+                                "كلاهيرن نبي محمد منونجوقكن كاسيه سايڠ... كڤد مأنسي.",
+                                new List<string> { "ملائكة", "الله", "ايبو" },
                                 1
                             ),
                             new Question(
-                                "Nabi lahir untuk membawa... kepada manusia.",
-                                new List<string> { "kesesatan", "kebenaran", "kesusahan" },
+                                "نبي لاهير اونتوق ممباوا... كڤد مأنسي.",
+                                new List<string> { "كسستن", "كبنرن", "كسوسهن" },
                                 1
                             ),
                             new Question(
-                                "Umat Islam patut bersyukur atas... Nabi Muhammad.",
-                                new List<string> { "kematian", "kelahiran", "hijrah" },
+                                "اومت إسلام ڤاتوت برشكور اتس... نبي محمد.",
+                                new List<string> { "كماتين", "كلاهيرن", "هجرة" },
                                 1
                             ),
                             new Question(
-                                "Nabi ialah contoh... bagi seluruh manusia.",
-                                new List<string> { "buruk", "terbaik", "biasa" },
+                                "نبي ايله چونتوه... باڬي سلوروه مأنسي.",
+                                new List<string> { "بوروق", "ترباءيق", "بياسا" },
                                 1
                             ),
                             new Question(
-                                "Kelahiran Nabi berlaku selepas peristiwa...",
-                                new List<string> { "Isra' Mikraj", "tentera bergajah", "hijrah" },
+                                "كلاهيرن نبي برلاكو سلڤس ڤريستيوا...",
+                                new List<string> { "إسراء معراج", "تنترا برڬاجه", "هجرة" },
                                 1
                             ),
                             new Question(
-                                "Kita mesti mencintai Nabi dengan cara...",
-                                new List<string>
-                                {
-                                    "meniru akhlaknya",
-                                    "melupakannya",
-                                    "membencinya",
-                                },
+                                "كيت مستي منچينتاءي نبي دڠن چارا...",
+                                new List<string> { "منيرو اخلاقڽ", "ملوڤاكنڽ", "ممبنچيڽ" },
                                 0
                             ),
 
@@ -691,283 +626,263 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Sirah bermaksud cerita tentang kehidupan",
-                                new List<string> { "Nabi dan Rasul", "Malaikat", "Sahabat" },
+                                "سيرة برمقصود چريتا تنتڠ كهيدوڤن",
+                                new List<string> { "نبي دان رسول", "ملائكة", "صحابت" },
                                 0
                             ),
                             new Question(
-                                "Sirah mengajar kita tentang Nabi Muhammad",
-                                new List<string> { "kesihatan", "kehidupan", "pekerjaan" },
+                                "سيرة مڠاجر كيت تنتڠ نبي محمد",
+                                new List<string> { "كصيحاتن", "كهيدوڤن", "ڤكرجاءن" },
                                 1
                             ),
                             new Question(
-                                "Sumber utama sirah ialah",
-                                new List<string>
-                                {
-                                    "al-Quran dan Hadis",
-                                    "buku cerita",
-                                    "surat khabar",
-                                },
+                                "سومبر اوتام سيرة ايله",
+                                new List<string> { "القرآن دان حديث", "بوكو چريتا", "سورت خبر" },
                                 0
                             ),
                             new Question(
-                                "Kita belajar sirah supaya dapat Nabi Muhammad",
-                                new List<string>
-                                {
-                                    "meniru akhlak",
-                                    "berlawan dengan",
-                                    "melupakannya",
-                                },
+                                "كيت بلاجر سيرة سوڤاي داڤت... نبي محمد",
+                                new List<string> { "منيرو اخلاق", "برلاون دڠن", "ملوڤاكنڽ" },
                                 0
                             ),
                             new Question(
-                                "Sirah membantu kita menjadi",
-                                new List<string> { "malas", "sombong", "baik" },
+                                "سيرة ممبنتو كيت منجادي",
+                                new List<string> { "مالس", "سومبوڠ", "باءيق" },
                                 2
                             ),
                             new Question(
-                                "Orang yang tidak belajar sirah akan sukar mengenal",
-                                new List<string> { "haiwan", "Nabi Muhammad", "tumbuhan" },
+                                "اورڠ يڠ تيدق بلاجر سيرة اكن سوكر مڠنل",
+                                new List<string> { "حيوان", "نبي محمد", "تومبوهن" },
                                 1
                             ),
                             new Question(
-                                "Sirah ialah satu cara untuk kita mengetahui sejarah",
-                                new List<string> { "Islam", "negara", "dunia" },
+                                "سيرة ايله ساتو چارا اونتوق كيت مڠتاهوءي سجاره",
+                                new List<string> { "إسلام", "نڬارا", "دنيا" },
                                 0
                             ),
                             new Question(
-                                "Sirah menceritakan perjuangan",
-                                new List<string> { "sahabat Nabi", "malaikat", "musuh" },
+                                "سيرة منچريتاكن ڤرجواڠن",
+                                new List<string> { "صحابت نبي", "ملائكة", "موسوه" },
                                 0
                             ),
                             new Question(
-                                "Kita hendaklah membaca sirah dengan rasa",
-                                new List<string> { "marah", "bosan", "cinta kepada Nabi" },
+                                "كيت هندقله ممباچ سيرة دڠن راس",
+                                new List<string> { "ماره", "بوسن", "چينتا كڤد نبي" },
                                 2
                             ),
                             new Question(
-                                "Pengajaran sirah membantu kita menjadi umat yang",
-                                new List<string> { "lemah", "kuat dan beriman", "lupa diri" },
+                                "ڤڠاجرن سيرة ممبنتو كيت منجادي اومت يڠ",
+                                new List<string> { "لمه", "قوات دان برايمان", "لوڤ ديري" },
                                 1
                             ),
                             new Question(
-                                "Bapa Nabi Muhammad bernama",
-                                new List<string> { "Abu Talib", "Abdullah", "Abdul Muttalib" },
+                                "باڤ نبي محمد برنام",
+                                new List<string> { "أبو طالب", "عبد الله", "عبد المطلب" },
                                 1
                             ),
                             new Question(
-                                "Ibu Nabi Muhammad bernama",
-                                new List<string> { "Fatimah", "Aminah", "Khadijah" },
+                                "ايبو نبي محمد برنام",
+                                new List<string> { "فاطمة", "آمنة", "خديجة" },
                                 1
                             ),
                             new Question(
-                                "Datuk Nabi Muhammad bernama",
-                                new List<string> { "Abu Talib", "Abdul Muttalib", "Hamzah" },
+                                "داتوق نبي محمد برنام",
+                                new List<string> { "أبو طالب", "عبد المطلب", "حمزة" },
                                 1
                             ),
                             new Question(
-                                "Nama penuh Nabi Muhammad ialah Muhammad bin",
-                                new List<string> { "Abu Talib", "Abdullah", "Abu Bakar" },
+                                "نام ڤنوه نبي محمد ايله محمد بن",
+                                new List<string> { "أبو طالب", "عبد الله", "أبو بكر" },
                                 1
                             ),
                             new Question(
-                                "Nabi Muhammad berasal daripada bangsa",
-                                new List<string> { "Quraisy", "Rom", "Parsi" },
+                                "نبي محمد برأصل دريڤد بڠسا",
+                                new List<string> { "قريش", "روم", "فارسي" },
                                 0
                             ),
                             new Question(
-                                "Nabi Muhammad keturunan Nabi",
-                                new List<string> { "Isa", "Ibrahim", "Musa" },
+                                "نبي محمد كتورونن نبي",
+                                new List<string> { "عيسى", "إبراهيم", "موسى" },
                                 1
                             ),
                             new Question(
-                                "Nabi Muhammad digelar Al-Amin kerana",
+                                "نبي محمد دڬلر الأمين كرنا",
                                 new List<string>
                                 {
-                                    "suka bergurau",
-                                    "bersikap jujur dan amanah",
-                                    "kuat makan",
+                                    "سوك برڬوراو",
+                                    "برسيقڤ جوجور دان أمانه",
+                                    "قوات ماكن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Ibu Nabi Muhammad wafat ketika Baginda masih",
-                                new List<string> { "bayi", "remaja", "dewasa" },
+                                "ايبو نبي محمد وفاة كتيك بڬيندا ماسيه",
+                                new List<string> { "بايي", "رماجا", "ديواسا" },
                                 0
                             ),
                             new Question(
-                                "Selepas ibu dan bapa wafat, Nabi dijaga oleh",
-                                new List<string> { "sahabat", "datuk", "jiran" },
+                                "سلڤس ايبو دان باڤ وفاة، نبي دجاڬ اوليه",
+                                new List<string> { "صحابت", "داتوق", "جيرن" },
                                 1
                             ),
                             new Question(
-                                "Selepas datuk wafat, Nabi dijaga oleh",
-                                new List<string> { "Abu Talib", "Umar", "Bilal" },
+                                "سلڤس داتوق وفاة، نبي دجاڬ اوليه",
+                                new List<string> { "أبو طالب", "عمر", "بلال" },
                                 0
                             ),
                             new Question(
-                                "Nabi Muhammad ialah terakhir.",
-                                new List<string> { "rasul", "malaikat", "sahabat" },
+                                "نبي محمد ايله... تراخير.",
+                                new List<string> { "رسول", "ملائكة", "صحابت" },
                                 0
                             ),
                             new Question(
-                                "Nabi Muhammad diutuskan kepada",
-                                new List<string>
-                                {
-                                    "kaum Arab sahaja",
-                                    "semua manusia",
-                                    "orang Quraisy sahaja",
-                                },
+                                "نبي محمد دأوتوسكن كڤد",
+                                new List<string> { "قوم عرب سهاج", "سموا مأنسي", "اورڠ قريش سهاج" },
                                 1
                             ),
                             new Question(
-                                "Tentera bergajah datang untuk Kaabah.",
-                                new List<string> { "membina", "memusnahkan", "membersihkan" },
+                                "تنترا برڬاجه داتڠ اونتوق... كعبة.",
+                                new List<string> { "ممبينا", "ممسنهكن", "ممبرسيهكن" },
                                 1
                             ),
                             new Question(
-                                "Pemimpin tentera bergajah ialah",
-                                new List<string> { "Abrahah", "Abu Jahal", "Hamzah" },
+                                "ڤميمڤين تنترا برڬاجه ايله",
+                                new List<string> { "أبرهة", "أبو جهل", "حمزة" },
                                 0
                             ),
                             new Question(
-                                "Allah menghantar burung untuk melawan tentera bergajah.",
-                                new List<string> { "merpati", "ababil", "gagak" },
+                                "الله مڠهنتر بوروس... اونتوق ملاون تنترا برڬاجه.",
+                                new List<string> { "مرڤاتي", "أبابيل", "ڬاڬق" },
                                 1
                             ),
                             new Question(
-                                "Burung-burung itu membawa",
-                                new List<string> { "batu", "makanan", "surat" },
+                                "بوروڠ-بوروڠ ايت ممباوا",
+                                new List<string> { "باتو", "ماكنن", "سورت" },
                                 0
                             ),
                             new Question(
-                                "Peristiwa tentera bergajah berlaku pada tahun",
-                                new List<string> { "tahun gajah", "tahun unta", "tahun harimau" },
+                                "ڤريستيوا تنترا برڬاجه برلاكو ڤد تاهون",
+                                new List<string> { "تاهون ڬاجه", "تاهون اونتا", "تاهون هاريماو" },
                                 0
                             ),
                             new Question(
-                                "Bapa Nabi Muhammad meninggal dunia di",
-                                new List<string> { "Makkah", "Madinah", "Syam" },
+                                "باڤ نبي محمد منيڠڬل دنيا د",
+                                new List<string> { "مكة", "مدينة", "شام" },
                                 2
                             ),
                             new Question(
-                                "Bapa Nabi wafat sebelum Nabi",
-                                new List<string> { "lahir", "berkahwin", "berhijrah" },
+                                "باڤ نبي وفاة سبلوم نبي",
+                                new List<string> { "لاهير", "بركهوين", "برهجرة" },
                                 0
                             ),
                             new Question(
-                                "Ibu Nabi bernama Aminah binti",
-                                new List<string> { "Wahab", "Umar", "Ali" },
+                                "ايبو نبي برنام آمنة بنت",
+                                new List<string> { "وهب", "عمر", "علي" },
                                 0
                             ),
                             new Question(
-                                "Datuk Nabi ialah seorang yang",
-                                new List<string> { "pemarah", "penyayang dan mulia", "sombong" },
+                                "داتوق نبي ايله سأورڠ يڠ",
+                                new List<string> { "ڤماره", "ڤڽايڠ دان موليا", "سومبوڠ" },
                                 1
                             ),
                             new Question(
-                                "Peristiwa tentera bergajah menunjukkan Allah itu",
-                                new List<string> { "lemah", "Maha Kuasa", "lupa" },
+                                "ڤريستيوا تنترا برڬاجه منونجوقكن الله ايت",
+                                new List<string> { "لمه", "مها كواس", "لوڤ" },
                                 1
                             ),
                             new Question(
-                                "Allah melindungi Kaabah daripada",
-                                new List<string> { "manusia", "tentera bergajah", "burung" },
+                                "الله مليندوڠي كعبة دريڤد",
+                                new List<string> { "مأنسي", "تنترا برڬاجه", "بوروڠ" },
                                 1
                             ),
                             new Question(
-                                "Peristiwa itu berlaku sebelum Nabi Muhammad",
-                                new List<string> { "lahir", "berkahwin", "berhijrah" },
+                                "ڤريستيوا ايت برلاكو سبلوم نبي محمد",
+                                new List<string> { "لاهير", "بركهوين", "برهجرة" },
                                 0
                             ),
                             new Question(
-                                "Nabi Muhammad lahir di",
-                                new List<string> { "Makkah", "Madinah", "Taif" },
+                                "نبي محمد لاهير د",
+                                new List<string> { "مكة", "مدينة", "طائف" },
                                 0
                             ),
                             new Question(
-                                "Masa kelahiran Nabi ialah pada waktu",
-                                new List<string> { "pagi", "siang", "malam" },
+                                "ماس كلاهيرن نبي ايله ڤد وقتو",
+                                new List<string> { "ڤاڬي", "سياڠ", "مالم" },
                                 2
                             ),
                             new Question(
-                                "Nabi lahir pada hari",
-                                new List<string> { "Isnin", "Jumaat", "Sabtu" },
+                                "نبي لاهير ڤد هاري",
+                                new List<string> { "إثنين", "جمعة", "سبت" },
                                 0
                             ),
                             new Question(
-                                "Tahun kelahiran Nabi dikenali sebagai",
-                                new List<string> { "tahun unta", "tahun gajah", "tahun hijrah" },
+                                "تاهون كلاهيرن نبي دكنلي سباڬاي",
+                                new List<string> { "تاهون اونتا", "تاهون ڬاجه", "تاهون هجرة" },
                                 1
                             ),
                             new Question(
-                                "Kelahiran Nabi membawa rahmat kepada",
+                                "كلاهيرن نبي ممباوا رحمة كڤد",
                                 new List<string>
                                 {
-                                    "umat Islam sahaja",
-                                    "seluruh alam",
-                                    "bangsa Arab sahaja",
+                                    "اومت إسلام سهاج",
+                                    "سلوروه عالم",
+                                    "بڠسا عرب سهاج",
                                 },
                                 1
                             ),
                             new Question(
-                                "Nama Nabi diberikan oleh",
-                                new List<string> { "ibunya", "datuknya", "sahabat" },
+                                "نام نبي دبريكن اوليه",
+                                new List<string> { "ايبوڽ", "داتوقڽ", "صحابت" },
                                 1
                             ),
                             new Question(
-                                "Nabi Muhammad disusukan oleh",
-                                new List<string> { "Halimah As-Sa'diyah", "Aminah", "Fatimah" },
+                                "نبي محمد د-سوسوكن اوليه",
+                                new List<string> { "حليمة السعدية", "آمنة", "فاطمة" },
                                 0
                             ),
                             new Question(
-                                "Kelahiran Nabi disambut dengan penuh",
-                                new List<string> { "gembira", "sedih", "marah" },
+                                "كلاهيرن نبي دسامبوت دڠن ڤنوه",
+                                new List<string> { "ڬمبيرا", "سديه", "ماره" },
                                 0
                             ),
                             new Question(
-                                "Nabi Muhammad lahir dalam keadaan",
-                                new List<string> { "bersih dan suci", "sakit", "menangis kuat" },
+                                "نبي محمد لاهير دالم كأداءن",
+                                new List<string> { "برسيه دان سوچي", "ساكيت", "مناڠيس قوات" },
                                 0
                             ),
                             new Question(
-                                "Datuk Nabi sangat apabila Nabi lahir.",
-                                new List<string> { "sedih", "gembira", "takut" },
+                                "داتوق نبي ساڠت... اڤابيلا نبي لاهير.",
+                                new List<string> { "سديه", "ڬمبيرا", "تاكوت" },
                                 1
                             ),
                             new Question(
-                                "Kelahiran Nabi Muhammad menunjukkan kasih sayang kepada manusia.",
-                                new List<string> { "malaikat", "Allah", "ibu" },
+                                "كلاهيرن نبي محمد منونجوقكن كاسيه سايڠ... كڤد مأنسي.",
+                                new List<string> { "ملائكة", "الله", "ايبو" },
                                 1
                             ),
                             new Question(
-                                "Nabi lahir untuk membawa kepada manusia.",
-                                new List<string> { "kesesatan", "kebenaran", "kesusahan" },
+                                "نبي لاهير اونتوق ممباوا... كڤد مأنسي.",
+                                new List<string> { "كسستن", "كبنرن", "كسوسهن" },
                                 1
                             ),
                             new Question(
-                                "Umat Islam patut bersyukur atas Nabi Muhammad",
-                                new List<string> { "kematian", "kelahiran", "hijrah" },
+                                "اومت إسلام ڤاتوت برشكور اتس... نبي محمد",
+                                new List<string> { "كماتين", "كلاهيرن", "هجرة" },
                                 1
                             ),
                             new Question(
-                                "Nabi ialah contoh bagi seluruh manusia.",
-                                new List<string> { "buruk", "terbaik", "biasa" },
+                                "نبي ايله چونتوه... باڬي سلوروه مأنسي.",
+                                new List<string> { "بوروق", "ترباءيق", "بياسا" },
                                 1
                             ),
                             new Question(
-                                "Kelahiran Nabi berlaku selepas peristiwa",
-                                new List<string> { "Isra' Mikraj", "tentera bergajah", "hijrah" },
+                                "كلاهيرن نبي برلاكو سلڤس ڤريستيوا",
+                                new List<string> { "إسراء معراج", "تنترا برڬاجه", "هجرة" },
                                 1
                             ),
                             new Question(
-                                "Kita mesti mencintai Nabi dengan cara",
-                                new List<string>
-                                {
-                                    "meniru akhlaknya",
-                                    "melupakannya",
-                                    "membencinya",
-                                },
+                                "كيت مستي منچينتاءي نبي دڠن چارا",
+                                new List<string> { "منيرو اخلاقڽ", "ملوڤاكنڽ", "ممبنچيڽ" },
                                 0
                             ),
 
@@ -980,388 +895,333 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Apakah maksud adab dengan Allah?",
+                                "اڤاكه مقصود ادب دڠن الله؟",
                                 new List<string>
                                 {
-                                    "Perbuatan yang sopan terhadap Allah",
-                                    "Berbuat jahat kepada Allah",
-                                    "Melupakan Allah",
+                                    "ڤربواتن يڠ سوڤن ترهادڤ الله",
+                                    "بربوات جاهت كڤد الله",
+                                    "ملوڤاكن الله",
                                 },
                                 0
                             ),
                             new Question(
-                                "Hukum beradab dengan Allah ialah",
-                                new List<string> { "Wajib", "Sunat", "Makruh" },
+                                "حكوم برادب دڠن الله ايله",
+                                new List<string> { "واجب", "سنة", "مكروه" },
                                 0
                             ),
                             new Question(
-                                "Kita hendaklah sentiasa kepada Allah.",
-                                new List<string> { "Taat", "Melawan", "Bermalas-malasan" },
+                                "كيت هندقله سنتياس... كڤد الله.",
+                                new List<string> { "طاعة", "ملاون", "برمالس-مالسن" },
                                 0
                             ),
                             new Question(
-                                "Contoh adab dengan Allah ialah",
-                                new List<string> { "Menunaikan solat", "Bergaduh", "Menipu" },
+                                "چونتوه ادب دڠن الله ايله",
+                                new List<string> { "منونايكن صلاة", "برڬادوه", "منيڤو" },
                                 0
                             ),
                             new Question(
-                                "Apabila kita berdoa, kita hendaklah",
+                                "اڤابيلا كيت بردعاء، كيت هندقله",
                                 new List<string>
                                 {
-                                    "Rendah diri dan bersopan",
-                                    "Marah-marah",
-                                    "Bercakap kuat",
+                                    "رنده ديري دان برسوڤن",
+                                    "ماره-ماره",
+                                    "برچاكڤ قوات",
                                 },
                                 0
                             ),
                             new Question(
-                                "Hikmah beradab dengan Allah ialah Allah akan",
+                                "حكمة برادب دڠن الله ايله الله اكن",
+                                new List<string> { "مڽايڠي كيت", "مماراهي كيت", "منجاءوهكن كيت" },
+                                0
+                            ),
+                            new Question(
+                                "كيت منونجوقكن ادب كڤد الله دڠن",
                                 new List<string>
                                 {
-                                    "Menyayangi kita",
-                                    "Memarahi kita",
-                                    "Menjauhkan kita",
+                                    "برشكور اتس نعمة-ڽ",
+                                    "مڠابايكن ڤرينته-ڽ",
+                                    "ملڠڬر حكوم",
                                 },
                                 0
                             ),
                             new Question(
-                                "Kita menunjukkan adab kepada Allah dengan",
+                                "كيت هندقله... كڤد اجرن إسلام.",
+                                new List<string> { "مڠيكوت", "منولق", "مننتڠ" },
+                                0
+                            ),
+                            new Question(
+                                "عاقبة تيدق برادب دڠن الله ايله",
                                 new List<string>
                                 {
-                                    "Bersyukur atas nikmat-Nya",
-                                    "Mengabaikan perintah-Nya",
-                                    "Melanggar hukum",
+                                    "دبنچي دان بردوسا",
+                                    "دسايڠي سموا اورڠ",
+                                    "داڤت ڤهالا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Kita hendaklah kepada ajaran Islam.",
-                                new List<string> { "Mengikut", "Menolak", "Menentang" },
+                                "اورڠ يڠ برادب دڠن الله اكن منداڤت",
+                                new List<string> { "ڤهالا دان كبركتن", "كسديهن", "حكومن" },
                                 0
                             ),
                             new Question(
-                                "Akibat tidak beradab dengan Allah ialah",
+                                "ادب دڠن ايبو باڤ برمقصود",
                                 new List<string>
                                 {
-                                    "Dibenci dan berdosa",
-                                    "Disayangi semua orang",
-                                    "Dapat pahala",
+                                    "حرمتي دان طاعتي ايبو باڤ",
+                                    "ملاون ايبو باڤ",
+                                    "ابايكن مريك",
                                 },
                                 0
                             ),
                             new Question(
-                                "Orang yang beradab dengan Allah akan mendapat",
+                                "حكوم برادب دڠن ايبو باڤ ايله",
+                                new List<string> { "واجب", "هاروس", "سنة" },
+                                0
+                            ),
+                            new Question(
+                                "كيت هندقله مندڠر نصيحة",
+                                new List<string> { "ايبو باڤ", "كاون", "اورڠ اسيڠ" },
+                                0
+                            ),
+                            new Question(
+                                "چونتوه ادب دڠن ايبو باڤ ايله",
                                 new List<string>
                                 {
-                                    "Pahala dan keberkatan",
-                                    "Kesedihan",
-                                    "Hukuman",
+                                    "ممبنتو دان مڠحرمتي مريك",
+                                    "منيڠڬيكن سوارا",
+                                    "منيڠڬلكن رومه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Adab dengan ibu bapa bermaksud",
+                                "كيت تيدق بوليه... كڤد ايبو باڤ.",
+                                new List<string> { "منيڠڬيكن سوارا", "مڽاڤو رومه", "ممبنتو مريك" },
+                                0
+                            ),
+                            new Question(
+                                "حكمة برادب دڠن ايبو باڤ ايله",
+                                new List<string> { "دكاسيهي الله دان ايبو باڤ", "دحكوم", "دبنچي" },
+                                0
+                            ),
+                            new Question(
+                                "عاقبة تيدق برادب دڠن ايبو باڤ ايله",
                                 new List<string>
                                 {
-                                    "Hormati dan taati ibu bapa",
-                                    "Melawan ibu bapa",
-                                    "Abaikan mereka",
+                                    "بردوسا دان دبنچي",
+                                    "دكاسيهي اورڠ",
+                                    "داڤت ڤهالا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Hukum beradab dengan ibu bapa ialah",
-                                new List<string> { "Wajib", "Harus", "Sunat" },
+                                "كيت هندقله برچاكڤ دڠن ايبو باڤ دڠن سوارا يڠ",
+                                new List<string> { "لمبوت دان سوڤن", "قوات", "كاسر" },
                                 0
                             ),
                             new Question(
-                                "Kita hendaklah mendengar nasihat",
-                                new List<string> { "Ibu bapa", "Kawan", "Orang asing" },
+                                "ايبو باڤ ڤرلو دحرمتي كرنا مريك",
+                                new List<string> { "برجاس كڤد كيت", "اورڠ جاءوه", "ڬورو" },
                                 0
                             ),
                             new Question(
-                                "Contoh adab dengan ibu bapa ialah",
+                                "كيت بوليه بردعاء كڤد الله سوڤاي... ايبو باڤ كيت.",
+                                new List<string> { "مڠاسيهي", "مڠحكوم", "منڬور" },
+                                0
+                            ),
+                            new Question(
+                                "كلوارڬ ايله",
                                 new List<string>
                                 {
-                                    "Membantu dan menghormati mereka",
-                                    "Meninggikan suara",
-                                    "Meninggalkan rumah",
+                                    "اورڠ يڠ تيڠڬل برسام كيت",
+                                    "اورڠ اسيڠ",
+                                    "كاون سكوله",
                                 },
                                 0
                             ),
                             new Question(
-                                "Kita tidak boleh kepada ibu bapa.",
+                                "اهلي كلوارڬ ترديري دريڤد",
                                 new List<string>
                                 {
-                                    "Meninggikan suara",
-                                    "Menyapu rumah",
-                                    "Membantu mereka",
+                                    "ايبو باڤ دان اديق-براديق",
+                                    "اورڠ جاءوه",
+                                    "ڬورو",
                                 },
                                 0
                             ),
                             new Question(
-                                "Hikmah beradab dengan ibu bapa ialah",
+                                "كيت هندقله مڠحرمتي",
+                                new List<string> { "اهلي كلوارڬ", "اورڠ تيدق دكنلي", "حيوان" },
+                                0
+                            ),
+                            new Question(
+                                "محرم ايله",
+                                new List<string> { "اورڠ يڠ حرام دكهويني", "اورڠلوار", "كاون" },
+                                0
+                            ),
+                            new Question(
+                                "بوكن محرم ايله",
                                 new List<string>
                                 {
-                                    "Dikasihi Allah dan ibu bapa",
-                                    "Dihukum",
-                                    "Dibenci",
+                                    "اورڠ يڠ بوليه دكهويني",
+                                    "اورڠ سبليق",
+                                    "اديق كاندوڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Akibat tidak beradab dengan ibu bapa ialah",
+                                "كيت هندقله برڬاءول دڠن كلوارڬ سچارا",
+                                new List<string> { "سوڤن دان حرمت", "كاسر", "بيسيڠ" },
+                                0
+                            ),
+                            new Question(
+                                "كيت مستي منولوڠ اهلي كلوارڬ يڠ",
+                                new List<string> { "ساكيت", "مالس", "جاهت" },
+                                0
+                            ),
+                            new Question(
+                                "كيت هندقله... اڤابيلا برچاكڤ دڠن كلوارڬ.",
                                 new List<string>
                                 {
-                                    "Berdosa dan dibenci",
-                                    "Dikasihi orang",
-                                    "Dapat pahala",
+                                    "مڠڬوناكن كات يڠ باءيق",
+                                    "منيڠڬيكن سوارا",
+                                    "كتاوا قوات",
                                 },
                                 0
                             ),
                             new Question(
-                                "Kita hendaklah bercakap dengan ibu bapa dengan suara yang",
-                                new List<string> { "Lembut dan sopan", "Kuat", "Kasar" },
+                                "اهلي كلوارڬ مستي هيدوڤ دالم كأداءن",
+                                new List<string> { "هرموني دان كاسيه سايڠ", "برڬادوه", "برجاءوهن" },
                                 0
                             ),
                             new Question(
-                                "Ibu bapa perlu dihormati kerana mereka",
-                                new List<string> { "Berjasa kepada kita", "Orang jauh", "Guru" },
+                                "كڤنتيڠن برادب دڠن كلوارڬ ايله داڤت هيدوڤ",
+                                new List<string> { "بهاڬيا دان دسايڠي", "سديه", "بوسن" },
                                 0
                             ),
                             new Question(
-                                "Kita boleh berdoa kepada Allah supaya ibu bapa kita.",
-                                new List<string> { "Mengasihi", "Menghukum", "Menegur" },
+                                "كيت مستي مڠعملكن ادب سوڤاي",
+                                new List<string> { "دكاسيهي الله", "دحكوم", "دبنچي ڬورو" },
                                 0
                             ),
                             new Question(
-                                "Keluarga ialah",
+                                "عاقبة تيدق برادب دڠن كلوارڬ ايله",
                                 new List<string>
                                 {
-                                    "Orang yang tinggal bersama kita",
-                                    "Orang asing",
-                                    "Kawan sekolah",
+                                    "هيدوڤ تيدق بهاڬيا",
+                                    "دكاسيهي سموا اورڠ",
+                                    "داڤت ڬنجرن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Ahli keluarga terdiri daripada",
+                                "كيت هندقله مڠحرمتي سموا اهلي كلوارڬ",
                                 new List<string>
                                 {
-                                    "Ibu bapa dan adik-beradik",
-                                    "Orang jauh",
-                                    "Guru",
+                                    "تنڤا مڠيرا عمور",
+                                    "يڠ كاي سهاج",
+                                    "يڠ مودا سهاج",
                                 },
                                 0
                             ),
                             new Question(
-                                "Kita hendaklah menghormati",
+                                "كلوارڬ يڠ بهاڬيا هيدوڤ دڠن ڤنوه",
                                 new List<string>
                                 {
-                                    "Ahli keluarga",
-                                    "Orang tidak dikenali",
-                                    "Haiwan",
+                                    "كاسيه سايڠ دان تولول-منولوڠ",
+                                    "كماراهن",
+                                    "ڤرموسوهن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Mahram ialah",
+                                "چارا مروجودكن كلوارڬ بهاڬيا ايله دڠن",
                                 new List<string>
                                 {
-                                    "Orang yang haram dikahwini",
-                                    "Orang luar",
-                                    "Kawan",
+                                    "برتولق انسور دان ساليڠ ممبنتو",
+                                    "برڬادوه",
+                                    "مڽالهكن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Bukan mahram ialah",
+                                "ادب برچاكڤ دڠن كلوارڬ ايله دڠن سوارا يڠ",
+                                new List<string> { "لمبوت دان سوڤن", "قوات دان ماره", "كاسر" },
+                                0
+                            ),
+                            new Question(
+                                "كيت هندقله منزيارهي",
+                                new List<string> { "ساودارا-مارا", "اورڠ جاهت", "اورڠ تيدق دكنلي" },
+                                0
+                            ),
+                            new Question(
+                                "كيت مستي برشكور كڤد الله اتس",
+                                new List<string> { "نعمة كلوارڬ", "كسديهن", "كماراهن" },
+                                0
+                            ),
+                            new Question(
+                                "كيت هندقله سنتياس... ايبو باڤ دان كلوارڬ.",
+                                new List<string> { "مندعاءكن مريك", "مماراهي مريك", "منڠكيڠ مريك" },
+                                0
+                            ),
+                            new Question(
+                                "كيت مستي طاعة كڤد ڤرينته",
+                                new List<string> { "الله دان ايبو باڤ", "كاون", "ڬورو" },
+                                0
+                            ),
+                            new Question(
+                                "الله سوك كڤد انق يڠ... كڤد ايبو باڤ.",
+                                new List<string> { "ڤاتوه دان طاعة", "درهاك", "ماره" },
+                                0
+                            ),
+                            new Question(
+                                "ادب بردعاء كڤد الله ايله دڠن",
+                                new List<string> { "رنده ديري دان سوڤن", "كتاوا", "مناڠيس قوات" },
+                                0
+                            ),
+                            new Question(
+                                "كيت مستي برايمان دان... كڤد الله.",
+                                new List<string> { "برشكور", "ملاون", "ماره" },
+                                0
+                            ),
+                            new Question(
+                                "چونتوه تيدق برادب دڠن الله ايله",
+                                new List<string> { "منيڠڬلكن صلاة", "برذكر", "بردعاء" },
+                                0
+                            ),
+                            new Question(
+                                "كيت هندقله... كڤد اجرن إسلام.",
+                                new List<string> { "طاعة", "منولق", "ملاون" },
+                                0
+                            ),
+                            new Question(
+                                "الله اكن سايڠ كڤد اورڠ يڠ",
+                                new List<string> { "برادب دان ڤاتوه", "درهاك", "لالاي" },
+                                0
+                            ),
+                            new Question(
+                                "ادب ايله",
                                 new List<string>
                                 {
-                                    "Orang yang boleh dikahwini",
-                                    "Orang sebilik",
-                                    "Adik kandung",
+                                    "ڤراڠاي يڠ باءيق دان سوڤن",
+                                    "سيقڤ جاهت",
+                                    "كرس هاتي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Kita hendaklah bergaul dengan keluarga secara",
-                                new List<string> { "Sopan dan hormat", "Kasar", "Bising" },
+                                "انق يڠ باءيق اكن سنتياس... ايبو باڤ.",
+                                new List<string> { "مڠحرمتي", "منڠكيڠ", "ملاون" },
                                 0
                             ),
                             new Question(
-                                "Kita mesti menolong ahli keluarga yang",
-                                new List<string> { "Sakit", "Malas", "Jahat" },
+                                "حكمة برادب دڠن كلوارڬ ايله",
+                                new List<string> { "دسايڠي الله دان مأنسي", "دبنچي اورڠ", "دحكوم" },
                                 0
                             ),
                             new Question(
-                                "Kita hendaklah apabila bercakap dengan keluarga.",
-                                new List<string>
-                                {
-                                    "Menggunakan kata yang baik",
-                                    "Meninggikan suara",
-                                    "Ketawa kuat",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Ahli keluarga mesti hidup dalam keadaan",
-                                new List<string>
-                                {
-                                    "Harmoni dan kasih sayang",
-                                    "Bergaduh",
-                                    "Berjauhan",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Kepentingan beradab dengan keluarga ialah dapat hidup",
-                                new List<string> { "Bahagia dan disayangi", "Sedih", "Bosan" },
-                                0
-                            ),
-                            new Question(
-                                "Kita mesti mengamalkan adab supaya",
-                                new List<string> { "Dikasihi Allah", "Dihukum", "Dibenci guru" },
-                                0
-                            ),
-                            new Question(
-                                "Akibat tidak beradab dengan keluarga ialah",
-                                new List<string>
-                                {
-                                    "Hidup tidak bahagia",
-                                    "Dikasihi semua orang",
-                                    "Dapat ganjaran",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Kita hendaklah menghormati semua ahli keluarga",
-                                new List<string>
-                                {
-                                    "Tanpa mengira umur",
-                                    "Yang kaya sahaja",
-                                    "Yang muda sahaja",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Keluarga yang bahagia hidup dengan penuh",
-                                new List<string>
-                                {
-                                    "Kasih sayang dan tolong-menolong",
-                                    "Kemarahan",
-                                    "Permusuhan",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Cara mewujudkan keluarga bahagia ialah dengan",
-                                new List<string>
-                                {
-                                    "Bertolak ansur dan saling membantu",
-                                    "Bergaduh",
-                                    "Menyalahkan",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Adab bercakap dengan keluarga ialah dengan suara yang",
-                                new List<string> { "Lembut dan sopan", "Kuat dan marah", "Kasar" },
-                                0
-                            ),
-                            new Question(
-                                "Kita hendaklah menziarahi",
-                                new List<string>
-                                {
-                                    "Saudara-mara",
-                                    "Orang jahat",
-                                    "Orang tidak dikenali",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Kita mesti bersyukur kepada Allah atas",
-                                new List<string> { "Nikmat keluarga", "Kesedihan", "Kemarahan" },
-                                0
-                            ),
-                            new Question(
-                                "Kita hendaklah sentiasa ibu bapa dan keluarga.",
-                                new List<string>
-                                {
-                                    "Mendoakan mereka",
-                                    "Memarahi mereka",
-                                    "Menengking mereka",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Kita mesti taat kepada perintah",
-                                new List<string> { "Allah dan ibu bapa", "Kawan", "Guru" },
-                                0
-                            ),
-                            new Question(
-                                "Allah suka kepada anak yang kepada ibu bapa.",
-                                new List<string> { "Patuh dan taat", "Derhaka", "Marah" },
-                                0
-                            ),
-                            new Question(
-                                "Adab berdoa kepada Allah ialah dengan",
-                                new List<string>
-                                {
-                                    "Rendah diri dan sopan",
-                                    "Ketawa",
-                                    "Menangis kuat",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Kita mesti beriman dan kepada Allah.",
-                                new List<string> { "Bersyukur", "Melawan", "Marah" },
-                                0
-                            ),
-                            new Question(
-                                "Contoh tidak beradab dengan Allah ialah",
-                                new List<string> { "Meninggalkan solat", "Berzikir", "Berdoa" },
-                                0
-                            ),
-                            new Question(
-                                "Kita hendaklah kepada ajaran Islam.",
-                                new List<string> { "Taat", "Menolak", "Melawan" },
-                                0
-                            ),
-                            new Question(
-                                "Allah akan sayang kepada orang yang",
-                                new List<string> { "Beradab dan patuh", "Derhaka", "Lalai" },
-                                0
-                            ),
-                            new Question(
-                                "Adab ialah",
-                                new List<string>
-                                {
-                                    "Perangai yang baik dan sopan",
-                                    "Sikap jahat",
-                                    "Keras hati",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Anak yang baik akan sentiasa ibu bapa.",
-                                new List<string> { "Menghormati", "Menengking", "Melawan" },
-                                0
-                            ),
-                            new Question(
-                                "Hikmah beradab dengan keluarga ialah",
-                                new List<string>
-                                {
-                                    "Disayangi Allah dan manusia",
-                                    "Dibenci orang",
-                                    "Dihukum",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Allah suka orang yang",
-                                new List<string> { "Beradab dan sopan", "Pemarah", "Derhaka" },
+                                "الله سوك اورڠ يڠ",
+                                new List<string> { "برادب دان سوڤن", "ڤماره", "درهاك" },
                                 0
                             ),
 
@@ -1374,367 +1234,342 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Malaikat ialah makhluk Allah yang dicipta daripada ...",
-                                new List<string> { "Air", "Cahaya", "Tanah" },
+                                "ملائكة اياله مخلوق الله يڠ دچيڤتا درڤد ...",
+                                new List<string> { "اءير", "چهايا", "تانه" },
                                 1
                             ),
                             new Question(
-                                "Malaikat bersifat ...",
+                                "ملائكة برصيفت ...",
+                                new List<string> { "تيدق ڤرنه ايڠكر", "ڤماره", "تيدور وقتو مالم" },
+                                0
+                            ),
+                            new Question(
+                                "ملائكة تيدق ممڤوڽاءي ...",
+                                new List<string> { "سايڤ", "جantina", "توڬس" }, // "Jantina" usually "جنتينا"
+                                1
+                            ),
+                            new Question(
+                                "توڬس ملائكة ميكائيل اياله ممبري ...",
+                                new List<string> { "رزقي", "وحيو", "علمو" },
+                                0
+                            ),
+                            new Question(
+                                "ملائكة يڠ منجاڬ شرڬ اياله ...",
+                                new List<string> { "مالك", "رضوان", "عتيد" },
+                                1
+                            ),
+                            new Question(
+                                "ملائكة منچاتت عملن ماءنسي سوڤايا ...",
                                 new List<string>
                                 {
-                                    "Tidak pernah ingkar",
-                                    "Pemarah",
-                                    "Tidur waktu malam",
+                                    "ماءنسي بوليه منيرو",
+                                    "دجاديكن ريكود عملن",
+                                    "ملائكة بوسن",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "ملائكة تيدق ماكن دان مينوم كرانا ...",
+                                new List<string>
+                                {
+                                    "مريك مالس",
+                                    "مريك درڤد چهايا",
+                                    "مريك لاڤر سنتياس",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "ملائكة عتيد منچاتت ...",
+                                new List<string> { "ڤربواتن جاهت", "ڤربواتن باءيق", "رزقي" },
+                                0
+                            ),
+                            new Question(
+                                "ملائكة يڠ منيوڤ سڠكاكالا ڤد هاري قيامة اياله ...",
+                                new List<string> { "عزرائيل", "إسرافيل", "ميكائيل" },
+                                1
+                            ),
+                            new Question(
+                                "مڠاڤ ماءنسي ڤرلو بربوات باءيق؟",
+                                new List<string>
+                                {
+                                    "كرانا دتونتون ملائكة",
+                                    "كرانا تاكوتكن ماءنسي",
+                                    "كرانا ايڠين سومبوڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Malaikat tidak mempunyai ...",
-                                new List<string> { "Sayap", "Jantina", "Tugas" },
-                                1
-                            ),
-                            new Question(
-                                "Tugas Malaikat Mikail ialah memberi ...",
-                                new List<string> { "Rezeki", "Wahyu", "Ilmu" },
-                                0
-                            ),
-                            new Question(
-                                "Malaikat yang menjaga syurga ialah ...",
-                                new List<string> { "Malik", "Ridwan", "Atid" },
-                                1
-                            ),
-                            new Question(
-                                "Malaikat mencatat amalan manusia supaya ...",
+                                "برايمان كڤد ملائكة منمبهكن ...",
                                 new List<string>
                                 {
-                                    "Manusia boleh meniru",
-                                    "Dijadikan rekod amalan",
-                                    "Malaikat bosan",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Malaikat tidak makan dan minum kerana ...",
-                                new List<string>
-                                {
-                                    "Mereka malas",
-                                    "Mereka daripada cahaya",
-                                    "Mereka lapar sentiasa",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Malaikat Atid mencatat ...",
-                                new List<string> { "Perbuatan jahat", "Perbuatan baik", "Rezeki" },
-                                0
-                            ),
-                            new Question(
-                                "Malaikat yang meniup sangkakala pada hari kiamat ialah ...",
-                                new List<string> { "Izrail", "Israfil", "Mikail" },
-                                1
-                            ),
-                            new Question(
-                                "Mengapa manusia perlu berbuat baik?",
-                                new List<string>
-                                {
-                                    "Kerana ditonton malaikat",
-                                    "Kerana takutkan manusia",
-                                    "Kerana ingin sombong",
+                                    "ايمان دان كطاعتن",
+                                    "مالس برعبادة",
+                                    "صيفت ماره",
                                 },
                                 0
                             ),
                             new Question(
-                                "Beriman kepada malaikat menambahkan ...",
-                                new List<string>
-                                {
-                                    "Iman dan ketaatan",
-                                    "Malas beribadah",
-                                    "Sifat marah",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Siapakah ketua segala malaikat?",
-                                new List<string> { "Mikail", "Jibril", "Malik" },
+                                "سياڤاكه كتوا سڬالا ملائكة؟",
+                                new List<string> { "ميكائيل", "جبريل", "مالك" },
                                 1
                             ),
                             new Question(
-                                "Rasul ialah manusia yang ...",
+                                "رسول اياله ماءنسي يڠ ...",
                                 new List<string>
                                 {
-                                    "Lahir di istana",
-                                    "Diutus oleh Allah",
-                                    "Sangat kaya",
+                                    "لاهير د ااستان",
+                                    "دأوتوس اوليه الله",
+                                    "ساڠت كاي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Rasul dipilih oleh ...",
-                                new List<string> { "Malaikat", "Manusia", "Allah" },
+                                "رسول دڤيليه اوليه ...",
+                                new List<string> { "ملائكة", "ماءنسي", "الله" },
                                 2
                             ),
                             new Question(
-                                "Salah satu sifat wajib rasul ialah ...",
-                                new List<string> { "Berbohong", "Amanah", "Pemalas" },
+                                "ساله ساتو صيفت واجب رسول اياله ...",
+                                new List<string> { "بربوهوڠ", "امانة", "ڤمالس" },
                                 1
                             ),
                             new Question(
-                                "Contoh nabi dan rasul yang wajib diketahui ialah ...",
-                                new List<string> { "Abu Lahab", "Nabi Nuh", "Qarun" },
+                                "چونتوه نبي دان رسول يڠ واجب دكتاهوءي اياله ...",
+                                new List<string> { "أبو لهب", "نبي نوح", "قارون" },
                                 1
                             ),
                             new Question(
-                                "Rasul membawa ajaran ...",
-                                new List<string> { "Sihir", "Kebaikan", "Tengkarah" },
+                                "رسول ممباوا اجرن ...",
+                                new List<string> { "سيحير", "كباءيقن", "تڠكره" },
                                 1
                             ),
                             new Question(
-                                "Mengapa manusia perlu mengikuti ajaran rasul?",
+                                "مڠاڤ ماءنسي ڤرلو مڠيكوتي اجرن رسول؟",
                                 new List<string>
                                 {
-                                    "Supaya hidup mengikut petunjuk Allah",
-                                    "Untuk meraih populariti",
-                                    "Untuk jadi kaya",
+                                    "سوڤايا هيدوڤ مڠيكوت ڤتونجوق الله",
+                                    "اونتوق مرايه ڤوڤولاريتي",
+                                    "اونتوق جادي كاي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Ajaran rasul mengajar manusia supaya ...",
+                                "اجرن رسول مڠاجر ماءنسي سوڤايا ...",
                                 new List<string>
                                 {
-                                    "Menyembah Allah",
-                                    "Menyembah matahari",
-                                    "Menghina orang lain",
+                                    "مڽمبه الله",
+                                    "مڽمبه ماتاهاري",
+                                    "مڠهينا اورڠ لاءين",
                                 },
                                 0
                             ),
                             new Question(
-                                "Rasul mengajak manusia ke arah ...",
-                                new List<string> { "Kejahatan", "Kebaikan", "Perbalahan" },
+                                "رسول مڠاجق ماءنسي كأره ...",
+                                new List<string> { "كجاهتن", "كباءيقن", "ڤربالهن" },
                                 1
                             ),
                             new Question(
-                                "Sifat wajib Allah ialah sifat yang ...",
-                                new List<string>
-                                {
-                                    "Mustahil",
-                                    "Pasti ada pada Allah",
-                                    "Milik malaikat",
-                                },
+                                "صيفت واجب الله اياله صيفت يڠ ...",
+                                new List<string> { "مستحيل", "ڤستي اد ڤد الله", "ميليق ملائكة" },
                                 1
                             ),
                             new Question(
-                                "Sifat Qiyamuhu Binafsih bermaksud ...",
+                                "صيفت قيامه بنفسه برمقصود ...",
                                 new List<string>
                                 {
-                                    "Allah berdiri sendiri, tidak bergantung kepada sesiapa",
-                                    "Allah perlukan makhluk",
-                                    "Allah lemah",
+                                    "الله برديري سنديري، تيدق برڬنتوڠ كڤد سسياڤا",
+                                    "الله ڤرلوكن مخلوق",
+                                    "الله لمه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Allah Maha Mengetahui disebut ...",
-                                new List<string> { "Ilmu", "Qudrat", "Hayat" },
+                                "الله مها مڠتاهوءي دسبوت ...",
+                                new List<string> { "علم", "قدرة", "حياة" },
                                 0
                             ),
                             new Question(
-                                "Allah Maha Berkuasa disebut ...",
-                                new List<string> { "Iradat", "Qudrat", "Basar" },
+                                "الله مها بركواس دسبوت ...",
+                                new List<string> { "إرادة", "قدرة", "بصر" },
                                 1
                             ),
                             new Question(
-                                "Allah Maha Hidup disebut ...",
-                                new List<string> { "Hayat", "Sama'", "Basar" },
+                                "الله مها هيدوڤ دسبوت ...",
+                                new List<string> { "حياة", "سمع", "بصر" },
                                 0
                             ),
                             new Question(
-                                "Allah tidak sama dengan makhluk disebut sifat ...",
-                                new List<string> { "Baqa'", "Mukhalafatu lil hawadith", "Qidam" },
+                                "الله تيدق سام دڠن مخلوق دسبوت صيفت ...",
+                                new List<string> { "بقاء", "مخالفته للحوادث", "قدم" },
                                 1
                             ),
                             new Question(
-                                "Allah bercakap tanpa suara disebut ...",
-                                new List<string> { "Ilmu", "Kalam", "Basar" },
+                                "الله برچاكڤ تنڤا سوارا دسبوت ...",
+                                new List<string> { "علم", "كلام", "بصر" },
                                 1
                             ),
                             new Question(
-                                "Allah mendengar segala-galanya ialah sifat ...",
-                                new List<string> { "Sama'", "Basar", "Qiyam" },
+                                "الله مندڠر سڬالا-ڬالاڽ اياله صيفت ...",
+                                new List<string> { "سمع", "بصر", "قيام" },
                                 0
                             ),
                             new Question(
-                                "Allah melihat semua perkara ialah sifat ...",
-                                new List<string> { "Qudrat", "Ilmu", "Basar" },
+                                "الله مليهت سموا ڤركارا اياله صيفت ...",
+                                new List<string> { "قدرة", "علم", "بصر" },
                                 2
                             ),
                             new Question(
-                                "Sifat Salbiah ialah sifat yang ...",
+                                "صيفت سلبية اياله صيفت يڠ ...",
+                                new List<string> { "منولق ككورڠن", "منمبه ككورڠن", "ميليق مخلوق" },
+                                0
+                            ),
+                            new Question(
+                                "چونتوه ڤڠحياتن صيفت الله اياله ...",
+                                new List<string> { "منجادي امانة", "منيڤو", "برمالس-مالسن" },
+                                0
+                            ),
+                            new Question(
+                                "الله مميليقي صيفت سمڤورنا كرانا ...",
                                 new List<string>
                                 {
-                                    "Menolak kekurangan",
-                                    "Menambah kekurangan",
-                                    "Milik makhluk",
+                                    "الله مها بركواس",
+                                    "الله سڤرتي مخلوق",
+                                    "الله ڤرلوكن بنتوان",
                                 },
                                 0
                             ),
                             new Question(
-                                "Contoh penghayatan sifat Allah ialah ...",
-                                new List<string> { "Menjadi amanah", "Menipu", "Bermalas-malasan" },
-                                0
-                            ),
-                            new Question(
-                                "Allah memiliki sifat sempurna kerana ...",
+                                "صيفت معنوية اياله ...",
                                 new List<string>
                                 {
-                                    "Allah Maha Berkuasa",
-                                    "Allah seperti makhluk",
-                                    "Allah perlukan bantuan",
+                                    "صيفت يڠ ملڠكڤكن صيفت معاني",
+                                    "صيفت بيبس توڬس",
+                                    "صيفت مخلوق",
                                 },
                                 0
                             ),
                             new Question(
-                                "Sifat Ma'nawiyyah ialah ...",
+                                "وجود برمقصود الله ...",
                                 new List<string>
                                 {
-                                    "Sifat yang melengkapkan sifat Ma'ani",
-                                    "Sifat bebas tugas",
-                                    "Sifat makhluk",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Wujud bermaksud Allah ...",
-                                new List<string>
-                                {
-                                    "Tidak wujud",
-                                    "Wujud tanpa pencipta",
-                                    "Wujud seperti manusia",
+                                    "تيدق وجود",
+                                    "وجود تنڤا ڤنچيڤتا",
+                                    "وجود سڤرتي ماءنسي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Manusia percaya kepada Wujud Allah kerana ...",
+                                "ماءنسي ڤرچاي كڤد وجود الله كرانا ...",
                                 new List<string>
                                 {
-                                    "Alam ini ada Pencipta",
-                                    "Alam terjadi sendiri",
-                                    "Alam tidak wujud",
+                                    "عالم اين اد ڤنچيڤتا",
+                                    "عالم ترجادي سنديري",
+                                    "عالم تيدق وجود",
                                 },
                                 0
                             ),
                             new Question(
-                                "Qidam bermaksud Allah ...",
-                                new List<string>
-                                {
-                                    "Ada permulaan",
-                                    "Tidak bermula",
-                                    "Baru diciptakan",
-                                },
+                                "قدم برمقصود الله ...",
+                                new List<string> { "اد ڤرمولاءن", "تيدق برمولا", "بارو دچيڤتاكن" },
                                 1
                             ),
                             new Question(
-                                "Alam yang teratur membuktikan Allah ...",
-                                new List<string> { "Lemah", "Qidam dan berkuasa", "Tiada" },
+                                "عالم يڠ تراتور ممبوقتيكن الله ...",
+                                new List<string> { "لمه", "قدم دان بركواس", "تياد" },
                                 1
                             ),
                             new Question(
-                                "Baqa' bermaksud Allah ...",
-                                new List<string> { "Kekal", "Akan mati", "Tua" },
+                                "بقاء برمقصود الله ...",
+                                new List<string> { "ككل", "اكن ماتي", "توا" },
                                 0
                             ),
                             new Question(
-                                "Beriman bahawa Allah kekal menjadikan kita ...",
-                                new List<string>
-                                {
-                                    "Gelisah",
-                                    "Yakin dan tenang",
-                                    "Malas beribadah",
-                                },
+                                "برايمان بهاوا الله ككل منجاديكن كيت ...",
+                                new List<string> { "ڬليسه", "يقين دان تنڠ", "مالس برعبادة" },
                                 1
                             ),
                             new Question(
-                                "Contoh memahami Baqa' ialah ...",
+                                "چونتوه ممهامي بقاء اياله ...",
                                 new List<string>
                                 {
-                                    "Yakin Allah sentiasa ada",
-                                    "Yakin Allah semakin tua",
-                                    "Yakin Allah memerlukan makhluk",
+                                    "يقين الله سنتياس اد",
+                                    "يقين الله سماكين توا",
+                                    "يقين الله ممرلوكن مخلوق",
                                 },
                                 0
                             ),
                             new Question(
-                                "Tumbuhan penting kerana ...",
+                                "تومبوهن ڤنتيڠ كرانا ...",
                                 new List<string>
                                 {
-                                    "Menghasilkan makanan",
-                                    "Menyebabkan kebuluran",
-                                    "Menjadi racun",
+                                    "مڠحاصيلكن ماكنن",
+                                    "مڽببكن كبولورن",
+                                    "منجادي راچون",
                                 },
                                 0
                             ),
                             new Question(
-                                "Daun berfungsi untuk ...",
+                                "داون برفوڠسي اونتوق ...",
                                 new List<string>
                                 {
-                                    "Menangkap cahaya matahari",
-                                    "Mengeluarkan api",
-                                    "Menghasilkan batu",
+                                    "منڠكڤ چهايا ماتاهاري",
+                                    "مڠلواركن اڤي",
+                                    "مڠحاصيلكن باتو",
                                 },
                                 0
                             ),
                             new Question(
-                                "Hikmah tumbuhan kepada manusia ialah ...",
+                                "حكمه تومبوهن كڤد ماءنسي اياله ...",
                                 new List<string>
                                 {
-                                    "Menjadi tempat tidur",
-                                    "Menyediakan oksigen",
-                                    "Menghalang hujan",
+                                    "منجادي تمڤت تيدور",
+                                    "مڽدياكن اوكسيجن",
+                                    "مڠهالڠ هوجن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Allah mencipta tumbuhan supaya manusia ...",
-                                new List<string> { "Membazir", "Bersyukur", "Menyombong" },
+                                "الله منچيڤتا تومبوهن سوڤايا ماءنسي ...",
+                                new List<string> { "ممبازير", "برشكور", "مڽومبوڠ" },
                                 1
                             ),
                             new Question(
-                                "Buah-buahan mengandungi ...",
-                                new List<string> { "Vitamin", "Batu", "Besi" },
+                                "بواه-بواهن مڠاندوڠي ...",
+                                new List<string> { "ۏيتامين", "باتو", "بسي" },
                                 0
                             ),
                             new Question(
-                                "Ulul Azmi ialah rasul yang ...",
-                                new List<string> { "Putus asa", "Sangat tabah", "Lemah" },
+                                "أولوا العزم اياله رسول يڠ ...",
+                                new List<string> { "ڤوتوس اسا", "ساڠت تابه", "لمه" },
                                 1
                             ),
                             new Question(
-                                "Bilangan rasul Ulul Azmi ialah ...",
+                                "بيلاڠن رسول أولوا العزم اياله ...",
                                 new List<string> { "5", "7", "10" },
                                 0
                             ),
                             new Question(
-                                "Nabi Isa a.s. ialah salah seorang ...",
-                                new List<string> { "Ulul Azmi", "Sahabat", "Malaikat" },
+                                "نبي عيسى عليه السلام اياله ساله سأورڠ ...",
+                                new List<string> { "أولوا العزم", "صحابة", "ملائكة" },
                                 0
                             ),
                             new Question(
-                                "Nabi Ibrahim digelar Ulul Azmi kerana ...",
+                                "نبي إبراهيم دڬلر أولوا العزم كرانا ...",
                                 new List<string>
                                 {
-                                    "Suka marah",
-                                    "Sabar dan kuat menghadapi ujian",
-                                    "Tidak berdakwah",
+                                    "سوك ماره",
+                                    "صبر دان كوات مڠهادڤي اوجين",
+                                    "تيدق بردعوه",
                                 },
                                 1
                             ),
                             new Question(
-                                "Contoh meneladani Ulul Azmi ialah ...",
+                                "چونتوه منلادني أولوا العزم اياله ...",
                                 new List<string>
                                 {
-                                    "Mudah putus asa",
-                                    "Sabar menghadapi cabaran",
-                                    "Suka bertengkar",
+                                    "موده ڤوتوس اسا",
+                                    "صبر مڠهادڤي چابرن",
+                                    "سوك برتڠكر",
                                 },
                                 1
                             ),
@@ -1746,398 +1581,368 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Apakah maksud wuduk?",
+                                "اڤاكه مقصود وضوء؟",
                                 new List<string>
                                 {
-                                    "Menyucikan diri dengan debu",
-                                    "Menyucikan anggota tertentu dengan air",
-                                    "Menghilangkan najis",
+                                    "مڽوچيكن ديري دڠن دبو",
+                                    "مڽوچيكن اڠڬوتا ترتنتو دڠن اءير",
+                                    "مڠهيلڠكن نجيس",
                                 },
                                 1
                             ),
                             new Question(
-                                "Tayamum dilakukan apabila ...",
+                                "تيمم دلاكوكن اڤابيلا ...",
                                 new List<string>
                                 {
-                                    "Malas berwuduk",
-                                    "Tiada air atau mudarat guna air",
-                                    "Air jauh",
+                                    "مالس بروضوء",
+                                    "تياد اءير اتاو مضرت ڬونا اءير",
+                                    "اءير جاءوه",
                                 },
                                 1
                             ),
                             new Question(
-                                "Anggota wuduk berikut adalah betul kecuali ...",
-                                new List<string> { "Muka", "Kepala", "Perut" },
+                                "اڠڬوتا وضوء بريكوت اداله بتول كچوالي ...",
+                                new List<string> { "موک", "كڤالا", "ڤروت" },
                                 2
                             ),
                             new Question(
-                                "Anggota tayamum ialah ..",
+                                "اڠڬوتا تيمم اياله ..",
                                 new List<string>
                                 {
-                                    "Muka dan tangan",
-                                    "Kepala dan kaki",
-                                    "Tangan dan kaki",
+                                    "موک دان تاڠن",
+                                    "كڤالا دان كاكي",
+                                    "تاڠن دان كاكي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Perkara yang membatalkan wuduk ialah ...",
+                                "ڤركارا يڠ ممبطلكن وضوء اياله ...",
                                 new List<string>
                                 {
-                                    "Berjalan",
-                                    "Keluar sesuatu daripada qubul/dubur",
-                                    "Minum air",
+                                    "برجالن",
+                                    "كلوار سسواتو درڤد قبل/دوبور",
+                                    "مينوم اءير",
                                 },
                                 1
                             ),
                             new Question(
-                                "Perkara yang membatalkan tayamum ialah ...",
-                                new List<string> { "Duduk", "Mendapat air", "Bernafas" },
+                                "ڤركارا يڠ ممبطلكن تيمم اياله ...",
+                                new List<string> { "دودوق", "مندافت اءير", "برنفس" },
                                 1
                             ),
                             new Question(
-                                "Najis berat disucikan dengan ...",
+                                "نجيس برت دسوچيكن دڠن ...",
                                 new List<string>
                                 {
-                                    "Air sahaja",
-                                    "Tujuh basuhan termasuk tanah",
-                                    "Lap tiga kali",
+                                    "اءير سهاج",
+                                    "توجوه باسوهن ترماسوق تانه",
+                                    "لڤ تيڬ كالي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Najis ringan ialah ...",
+                                "نجيس ريڠن اياله ...",
                                 new List<string>
                                 {
-                                    "Darah",
-                                    "Arak",
-                                    "Air kencing bayi lelaki belum makan makanan pejal",
+                                    "داره",
+                                    "ارق",
+                                    "اءير كنچيڠ بايي للاكي بلوم ماكن ماكنن ڤجل",
                                 },
                                 2
                             ),
                             new Question(
-                                "Najis pertengahan disucikan dengan ...",
+                                "نجيس ڤرتڠهن دسوچيكن دڠن ...",
                                 new List<string>
                                 {
-                                    "Basuh hingga hilang bau dan warna",
-                                    "Lap tiga kali",
-                                    "Basuh tujuh kali",
+                                    "باسوه هيڠڬ هيلڠ باو دان ورنا",
+                                    "لڤ تيڬ كالي",
+                                    "باسوه توجوه كالي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Istinjak bermaksud ...",
+                                "استنجاء برمقصود ...",
                                 new List<string>
                                 {
-                                    "Membersih hadas besar",
-                                    "Membersih qubul dan dubur",
-                                    "Mandi wajib",
+                                    "ممبرسيه حدث بسر",
+                                    "ممبرسيه قبل دان دوبور",
+                                    "مندي واجب",
                                 },
                                 1
                             ),
                             new Question(
-                                "Hukum istinjak ialah ..",
-                                new List<string> { "Sunat", "Harus", "Wajib" },
+                                "حكم استنجاء اياله ..",
+                                new List<string> { "سنة", "هاروس", "واجب" },
                                 2
                             ),
                             new Question(
-                                "Alat kesat berikut boleh digunakan untuk istinjak kecuali ...",
-                                new List<string> { "Batu suci", "Tisu", "Kain bernajis" },
+                                "الت كست بريكوت بوليه دڬوناكن اونتوق استنجاء كچوالي ...",
+                                new List<string> { "باتو سوچي", "تيسو", "كاءين برنجيس" },
                                 2
                             ),
                             new Question(
-                                "Minimum lap bagi istinjak alat kesat adalah ...",
-                                new List<string> { "1 kali", "3 kali", "7 kali" },
+                                "مينيموم لڤ باڬي استنجاء الت كست اداله ...",
+                                new List<string> { "1 كالي", "3 كالي", "7 كالي" },
                                 1
                             ),
                             new Question(
-                                "Najis ringan disucikan dengan ...",
+                                "نجيس ريڠن دسوچيكن دڠن ...",
                                 new List<string>
                                 {
-                                    "Basuh tujuh kali",
-                                    "Percikan air",
-                                    "Lap tiga kali",
+                                    "باسوه توجوه كالي",
+                                    "ڤرچيقن اءير",
+                                    "لڤ تيڬ كالي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Hikmah berwuduk ialah.",
+                                "حكمه بروضوء اياله.",
                                 new List<string>
                                 {
-                                    "Menghilangkan ngantuk",
-                                    "Menyucikan jiwa",
-                                    "Melambatkan solat",
+                                    "مڠهيلڠكن مڠنتوق",
+                                    "مڽوچيكن جيوا",
+                                    "ملامبتكن صلاة",
                                 },
                                 1
                             ),
                             new Question(
-                                "Azan bermaksud ...",
+                                "أذان برمقصود ...",
+                                new List<string> { "ڤڠڬيلن صلاة", "ڤريڠاتن ماكن", "سروان تيدور" },
+                                0
+                            ),
+                            new Question(
+                                "إقامة برمقصود",
                                 new List<string>
                                 {
-                                    "Panggilan solat",
-                                    "Peringatan makan",
-                                    "Seruan tidur",
+                                    "سروان منديريكن صلاة",
+                                    "ڤڠڬيلن ماكن",
+                                    "سروان برذكر",
                                 },
                                 0
                             ),
                             new Question(
-                                "Iqamah bermaksud",
+                                "حكمه أذان اياله ...",
                                 new List<string>
                                 {
-                                    "Seruan mendirikan solat",
-                                    "Panggilan makan",
-                                    "Seruan berzikir",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Hikmah azan ialah ...",
-                                new List<string>
-                                {
-                                    "Menyeru manusia main",
-                                    "Menyampaikan syiar Islam",
-                                    "Menghalang ibadah",
+                                    "مڽرو ماءنسي ماءين",
+                                    "مڽمڤاءيكن شعار إسلام",
+                                    "مڠهالڠ عبادة",
                                 },
                                 1
                             ),
                             new Question(
-                                "Wuduk tidak sah jika ...",
-                                new List<string> { "Tidak tertib", "Banyak bercakap", "Duduk" },
+                                "وضوء تيدق صح جك ...",
+                                new List<string> { "تيدق ترتيب", "باڽق برچاكڤ", "دودوق" },
                                 0
                             ),
                             new Question(
-                                "Tayamum dilakukan menggunakan ...",
-                                new List<string> { "Air", "Debu suci", "Rumput" },
+                                "تيمم دلاكوكن مڠڬوناكن ...",
+                                new List<string> { "اءير", "دبو سوچي", "رومڤوت" },
                                 1
                             ),
                             new Question(
-                                "Rukun wuduk pertama ialah",
-                                new List<string> { "Membasuh kaki", "Membasuh tangan", "Niat" },
+                                "روكون وضوء ڤرتام اياله",
+                                new List<string> { "ممباسوه كاكي", "ممباسوه تاڠن", "نية" },
                                 2
                             ),
                             new Question(
-                                "Rukun tayamum pertama ialah",
-                                new List<string> { "Menepuk debu", "Niat", "Mencuci muka" },
+                                "روكون تيمم ڤرتام اياله",
+                                new List<string> { "منڤوق دبو", "نية", "منچوچي موک" },
                                 1
                             ),
                             new Question(
-                                "Najis berat contohnya ...",
-                                new List<string> { "Ayam", "Ikan", "Anjing" },
+                                "نجيس برت چونتوهڽ ...",
+                                new List<string> { "ايم", "ايكن", "انجيڠ" },
                                 2
                             ),
                             new Question(
-                                "Cara menyucikan najis pertengahan ialah ...",
+                                "چارا مڽوچيكن نجيس ڤرتڠهن اياله ...",
                                 new List<string>
                                 {
-                                    "Basuh hingga hilang sifat najis",
-                                    "Lap tiga kali",
-                                    "Tanah + air",
+                                    "باسوه هيڠڬ هيلڠ صيفت نجيس",
+                                    "لڤ تيڬ كالي",
+                                    "تانه + اءير",
                                 },
                                 0
                             ),
                             new Question(
-                                "Air mustakmal ialah",
+                                "اءير مستعمل اياله",
                                 new List<string>
                                 {
-                                    "Air mutlak",
-                                    "Air digunakan pada anggota wuduk",
-                                    "Air hujan",
+                                    "اءير مطلق",
+                                    "اءير دڬوناكن ڤد اڠڬوتا وضوء",
+                                    "اءير هوجن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Air mutlak boleh digunakan untuk ...",
-                                new List<string> { "Minum sahaja", "Bersuci", "Memasak sahaja" },
+                                "اءير مطلق بوليه دڬوناكن اونتوق ...",
+                                new List<string> { "مينوم سهاج", "برسوچي", "مماسق سهاج" },
                                 1
                             ),
                             new Question(
-                                "Istinjak tidak sah jika menggunakan ...",
-                                new List<string> { "Tisu", "Batu suci", "Benda tajam" },
+                                "استنجاء تيدق صح جك مڠڬوناكن ...",
+                                new List<string> { "تيسو", "باتو سوچي", "بندا تاجم" },
                                 2
                             ),
                             new Question(
-                                "Hikmah istinjak ialah ...",
+                                "حكمه استنجاء اياله ...",
                                 new List<string>
                                 {
-                                    "Membazir air",
-                                    "Mengelakkan bau tidak enak",
-                                    "Melambatkan mandi",
+                                    "ممبازير اءير",
+                                    "مڠيلقكن باو تيدق انق",
+                                    "ملامبتكن مندي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Azan disyariatkan untuk ...",
+                                "أذان دشريعتكن اونتوق ...",
                                 new List<string>
                                 {
-                                    "Mengajak makan",
-                                    "Memberitahu masuk waktu solat",
-                                    "Menanda perayaan",
+                                    "مڠاجق ماكن",
+                                    "ممبريتاهو ماسوق وقتو صلاة",
+                                    "منندا ڤراياءن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Lafaz azan bermula dengan ...",
-                                new List<string> { "Allahu Akbar", "Alhamdulillah", "Subhanallah" },
+                                "لفظ أذان برمولا دڠن ...",
+                                new List<string> { "الله أكبر", "الحمدلله", "سبحان الله" },
                                 0
                             ),
                             new Question(
-                                "Berwuduk dapat.",
+                                "بروضوء داڤت.",
                                 new List<string>
                                 {
-                                    "Menenangkan hati",
-                                    "Menghilangkan peluh",
-                                    "Mewarnakan kulit",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Tayamum tidak sah tanpa ..",
-                                new List<string> { "Niat", "Debu", "Lapik" },
-                                0
-                            ),
-                            new Question(
-                                "Najis mukhafafah ialah ...",
-                                new List<string>
-                                {
-                                    "Air kencing bayi lelaki",
-                                    "Najis manusia dewasa",
-                                    "Air liur anjing",
+                                    "مننڠكن هاتي",
+                                    "مڠهيلڠكن ڤلوه",
+                                    "مورناكن كوليت",
                                 },
                                 0
                             ),
                             new Question(
-                                "Tanah digunakan untuk menyucikan ...",
-                                new List<string>
-                                {
-                                    "Najis ringan",
-                                    "Najis berat",
-                                    "Najis pertengahan",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Rukun wuduk yang wajib adalah.",
-                                new List<string>
-                                {
-                                    "Titik air",
-                                    "Membasuh muka",
-                                    "Mengeringkan anggota",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Rukun tayamum ialah ..",
-                                new List<string>
-                                {
-                                    "Mandi",
-                                    "Menyapu muka dan tangan",
-                                    "Menyiram air",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Contoh najis pertengahan ialah ...",
-                                new List<string> { "Air kencing", "Air mutlak", "Debu suci" },
+                                "تيمم تيدق صح تنڤا ..",
+                                new List<string> { "نية", "دبو", "لاڤيق" },
                                 0
                             ),
                             new Question(
-                                "Air mutanajjis ialah",
+                                "نجيس مخففة اياله ...",
                                 new List<string>
                                 {
-                                    "Air dicampur sabun",
-                                    "Air terkena najis",
-                                    "Air masak",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Istinjak wajib apabila",
-                                new List<string>
-                                {
-                                    "Selepas makan",
-                                    "Keluar najis kecil atau besar",
-                                    "Selepas solat",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Azan dan iqamah menunjukkan ...",
-                                new List<string>
-                                {
-                                    "Syiar Islam",
-                                    "Permainan tradisi",
-                                    "Upacara adat",
+                                    "اءير كنچيڠ بايي للاكي",
+                                    "نجيس ماءنسي ديواسا",
+                                    "اءير ليور انجيڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Hikmah tayamum ialah.",
+                                "تانه دڬوناكن اونتوق مڽوچيكن ...",
+                                new List<string> { "نجيس ريڠن", "نجيس برت", "نجيس ڤرتڠهن" },
+                                1
+                            ),
+                            new Question(
+                                "روكون وضوء يڠ واجب اداله.",
+                                new List<string> { "تيتيق اءير", "ممباسوه موک", "مڠريڠكن اڠڬوتا" },
+                                1
+                            ),
+                            new Question(
+                                "روكون تيمم اياله ..",
+                                new List<string> { "مندي", "مڽاڤو موک دان تاڠن", "مڽيرم اءير" },
+                                1
+                            ),
+                            new Question(
+                                "چونتوه نجيس ڤرتڠهن اياله ...",
+                                new List<string> { "اءير كنچيڠ", "اءير مطلق", "دبو سوچي" },
+                                0
+                            ),
+                            new Question(
+                                "اءير متنجس اياله",
                                 new List<string>
                                 {
-                                    "Menjimatkan masa",
-                                    "Memudahkan ibadah dalam kesukaran",
-                                    "Mengelakkan wuduk",
+                                    "اءير دچمڤور صابون",
+                                    "اءير تركنا نجيس",
+                                    "اءير ماسق",
                                 },
                                 1
                             ),
                             new Question(
-                                "Air mutlak termasuk",
-                                new List<string> { "Air sungai", "Minyak", "Teh" },
+                                "استنجاء واجب اڤابيلا",
+                                new List<string>
+                                {
+                                    "سلڤس ماكن",
+                                    "كلوار نجيس كچيل اتاو بسر",
+                                    "سلڤس صلاة",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "أذان دان إقامة منونجوقكن ...",
+                                new List<string>
+                                {
+                                    "شعار إسلام",
+                                    "ڤرماءينن تراديسي",
+                                    "اوڤچارا عادة",
+                                },
                                 0
                             ),
                             new Question(
-                                "Menyapu kepala adalah ...",
-                                new List<string> { "Sunat wuduk", "Rukun wuduk", "Makruh wuduk" },
+                                "حكمه تيمم اياله.",
+                                new List<string>
+                                {
+                                    "منجيمتكن ماس",
+                                    "ممودهكن عبادة دالم كسوكرن",
+                                    "مڠيلقكن وضوء",
+                                },
                                 1
                             ),
                             new Question(
-                                "Tayamum dilakukan pada",
-                                new List<string> { "Pakaian", "Muka dan tangan", "Kaki dan perut" },
+                                "اءير مطلق ترماسوق",
+                                new List<string> { "اءير سوڠاي", "ميڽق", "تيه" },
+                                0
+                            ),
+                            new Question(
+                                "مڽاڤو كڤالا اداله ...",
+                                new List<string> { "سنة وضوء", "روكون وضوء", "مكروه وضوء" },
                                 1
                             ),
                             new Question(
-                                "Najis mughallazah ialah",
-                                new List<string> { "Darah", "Kencing bayi", "Babi" },
+                                "تيمم دلاكوكن ڤد",
+                                new List<string> { "ڤاكاين", "موک دان تاڠن", "كاكي دان ڤروت" },
+                                1
+                            ),
+                            new Question(
+                                "نجيس مغلظة اياله",
+                                new List<string> { "داره", "كنچيڠ بايي", "بابي" },
                                 2
                             ),
                             new Question(
-                                "Air kencing bayi perempuan disucikan dengan ...",
-                                new List<string> { "Basuhan biasa", "Percikan", "Tujuh basuhan" },
+                                "اءير كنچيڠ بايي ڤرمڤوان دسوچيكن دڠن ...",
+                                new List<string> { "باسوهن بياسا", "ڤرچيقن", "توجوه باسوهن" },
                                 0
                             ),
                             new Question(
-                                "Iqamah dilafazkan ...",
-                                new List<string>
-                                {
-                                    "Sekali sehari",
-                                    "Sebelum solat fardu",
-                                    "Selepas tidur",
-                                },
+                                "إقامة دلفظكن ...",
+                                new List<string> { "سكالي سهاري", "سبلوم صلاة فرض", "سلڤس تيدور" },
                                 1
                             ),
                             new Question(
-                                "Azan dikumandangkan oleh ...",
-                                new List<string> { "Imam", "Bilal", "Khatib" },
+                                "أذان دكومندڠكن اوليه ...",
+                                new List<string> { "امام", "بلال", "خطيب" },
                                 1
                             ),
                             new Question(
-                                "Hikmah najis disucikan ialah ...",
+                                "حكمه نجيس دسوچيكن اياله ...",
                                 new List<string>
                                 {
-                                    "Mengelakkan penyakit",
-                                    "Menghilangkan pahala",
-                                    "Menambah beban",
+                                    "مڠيلقكن ڤڽاكيت",
+                                    "مڠهيلڠكن ڤهالا",
+                                    "منمبه ببن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Tayamum bermula dengan ...",
-                                new List<string>
-                                {
-                                    "Menyapu tangan",
-                                    "Niat",
-                                    "Menepuk debu dua kali",
-                                },
+                                "تيمم برمولا دڠن ...",
+                                new List<string> { "مڽاڤو تاڠن", "نية", "منڤوق دبو دوا كالي" },
                                 1
                             ),
                         },
@@ -2148,323 +1953,298 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Siapakah ibu susuan Nabi Muhammad?",
-                                new List<string> { "Halimatus Sa'diyah", "Aminah", "Fatimah" },
+                                "سياڤاكه ايبو سوسوان نبي محمد؟",
+                                new List<string> { "حليمة السعدية", "آمنة", "فاطمة" },
                                 0
                             ),
                             new Question(
-                                "Nabi Muhammad disusukan di perkampungan?",
-                                new List<string> { "Bani Sa'ad", "Bani Tamim", "Bani Abbas" },
+                                "نبي محمد ددوسوكن د ڤركامڤوڠن؟",
+                                new List<string> { "بني سعد", "بني تميم", "بني عباس" },
                                 0
                             ),
                             new Question(
-                                "Siapakah ibu kandung Nabi Muhammad?",
-                                new List<string> { "Halimah", "Aminah", "Khadijah" },
+                                "سياڤاكه ايبو كاندوڠ نبي محمد؟",
+                                new List<string> { "حليمة", "آمنة", "خديجة" },
                                 1
                             ),
                             new Question(
-                                "Apakah tujuan Nabi Muhammad dibawa menziarahi pusara ayahanda?",
+                                "اڤاكه توجوان نبي محمد دباوا منزيارهي ڤوسارا ايهندا؟",
                                 new List<string>
                                 {
-                                    "Melawat keluarga",
-                                    "Mengukuhkan silaturahim",
-                                    "Mengenang ayahandanya",
+                                    "ملاوت كلوارڬ",
+                                    "مڠوكوهكن صلة الرحيم",
+                                    "مڠنڠ ايهنداڽ",
                                 },
                                 2
                             ),
                             new Question(
-                                "Di manakah terletaknya pusara ayahanda Nabi?",
-                                new List<string> { "Madinah", "Mekah", "Taif" },
+                                "د ماناكه ترلتقڽ ڤوسارا ايهندا نبي؟",
+                                new List<string> { "مدينة", "مكة", "طائف" },
                                 0
                             ),
                             new Question(
-                                "Siapakah yang wafat ketika Nabi berusia 6 tahun?",
-                                new List<string> { "Aminah", "Abdul Muttalib", "Abu Talib" },
+                                "سياڤاكه يڠ وفت كتيك نبي بروسيا 6 تاهون؟",
+                                new List<string> { "آمنة", "عبد المطلب", "أبو طالب" },
                                 0
                             ),
                             new Question(
-                                "Selepas kewafatan ibu, Nabi dijaga oleh?",
-                                new List<string> { "Datuknya", "Pakciknya", "Jirannya" },
+                                "سلڤس كوفاتن ايبو، نبي دجاڬ اوليه؟",
+                                new List<string> { "داتوقڽ", "ڤاقچيقڽ", "جيرنڽ" },
                                 0
                             ),
                             new Question(
-                                "Nama datuk Nabi Muhammad ialah?",
-                                new List<string> { "Abdullah", "Abdul Muttalib", "Abu Talib" },
+                                "نام داتوق نبي محمد اياله؟",
+                                new List<string> { "عبدالله", "عبد المطلب", "أبو طالب" },
                                 1
                             ),
                             new Question(
-                                "Abu Talib ialah?",
-                                new List<string>
-                                {
-                                    "Bapa saudara Nabi",
-                                    "Guru Nabi",
-                                    "Sahabat Nabi",
-                                },
+                                "أبو طالب اياله؟",
+                                new List<string> { "باڤ ساودارا نبي", "ڬورو نبي", "صحابة نبي" },
                                 0
                             ),
                             new Question(
-                                "Abu Talib menjaga Nabi dengan penuh?",
-                                new List<string> { "Marah", "Kasih sayang", "Paksaan" },
+                                "أبو طالب منجاڬ نبي دڠن ڤنوه؟",
+                                new List<string> { "ماره", "كاسيه سايڠ", "ڤقساءن" },
                                 1
                             ),
                             new Question(
-                                "Gelaran Nabi Muhammad sebelum menjadi Rasul ialah?",
-                                new List<string> { "Al-Amin", "Al-Mukhtar", "Al-Hakim" },
+                                "ڬلرن نبي محمد سبلوم منجادي رسول اياله؟",
+                                new List<string> { "الأمين", "المختار", "الحكيم" },
                                 0
                             ),
                             new Question(
-                                "Gelaran Al-Amin bermaksud?",
-                                new List<string> { "Bijaksana", "Terpuji", "Dipercayai" },
+                                "ڬلرن الأمين برمقصود؟",
+                                new List<string> { "بيجقسان", "ترڤوجي", "دڤرچاياءي" },
                                 2
                             ),
                             new Question(
-                                "Mengapa Nabi digelar Al-Amin?",
+                                "مڠاڤ نبي دڬلر الأمين؟",
                                 new List<string>
                                 {
-                                    "Suka bergurau",
-                                    "Sentiasa bercakap benar",
-                                    "Suka bermain",
+                                    "سوك برڬوراو",
+                                    "سنتياس برچاكڤ بنر",
+                                    "سوك برماءين",
                                 },
                                 1
                             ),
                             new Question(
-                                "Peristiwa mengangkat Hajarul Aswad berlaku ketika umur Nabi?",
-                                new List<string> { "15 tahun", "25 tahun", "35 tahun" },
+                                "ڤريستيوا مڠاڠكت حجر الأسود برلاكو كتيك عمور نبي؟",
+                                new List<string> { "15 تاهون", "25 تاهون", "35 تاهون" },
                                 2
                             ),
                             new Question(
-                                "Siapakah yang mencadangkan penyelesaian pertikaian Hajarul Aswad?",
-                                new List<string> { "Nabi Muhammad", "Abu Talib", "Abdul Muttalib" },
+                                "سياڤاكه يڠ منچادڠكن ڤڽلساين ڤرتيكاين حجر الأسود؟",
+                                new List<string> { "نبي محمد", "أبو طالب", "عبد المطلب" },
                                 0
                             ),
                             new Question(
-                                "Mengangkat Hajarul Aswad menunjukkan Nabi seorang yang?",
-                                new List<string> { "Penakut", "Adil", "Lalai" },
+                                "مڠاڠكت حجر الأسود منونجوقكن نبي سأورڠ يڠ؟",
+                                new List<string> { "ڤناكوت", "عاديل", "لالاي" },
                                 1
                             ),
                             new Question(
-                                "Pekerjaan Nabi semasa kecil ialah?",
-                                new List<string> { "Petani", "Pengembala kambing", "Nelayan" },
+                                "ڤكرجاءن نبي سماس كچيل اياله؟",
+                                new List<string> { "ڤتاني", "ڤڠمبالا كمبيڠ", "نلاين" },
                                 1
                             ),
                             new Question(
-                                "Mengembala kambing mengajar Nabi sifat?",
-                                new List<string> { "Sabar", "Marah", "Lalai" },
+                                "مڠمبالا كمبيڠ مڠاجر نبي صيفت؟",
+                                new List<string> { "صبر", "ماره", "لالاي" },
                                 0
                             ),
                             new Question(
-                                "Nabi berniaga ke Syam bersama?",
-                                new List<string> { "Abu Talib", "Abdul Muttalib", "Abu Bakar" },
+                                "نبي برنياڬ ك شام برسام؟",
+                                new List<string> { "أبو طالب", "عبد المطلب", "أبو بكر" },
                                 0
                             ),
                             new Question(
-                                "Berniaga ke Syam mengajar Nabi untuk?",
-                                new List<string> { "Bermain", "Menipu", "Berdikari" },
+                                "برنياڬ ك شام مڠاجر نبي اونتوق؟",
+                                new List<string> { "برماءين", "منيڤو", "برديكاري" },
                                 2
                             ),
                             new Question(
-                                "Sifat wajib Rasul yang bermaksud benar ialah?",
-                                new List<string> { "Amanah", "Fatanah", "Siddiq" },
+                                "صيفت واجب رسول يڠ برمقصود بنر اياله؟",
+                                new List<string> { "أمانة", "فطانة", "صدق" },
                                 2
                             ),
                             new Question(
-                                "Sifat amanah bermaksud?",
-                                new List<string> { "Boleh dipercayai", "Cerdik", "Menyampaikan" },
+                                "صيفت أمانة برمقصود؟",
+                                new List<string> { "بوليه دڤرچاياءي", "چرديق", "مڽمڤاءيكن" },
                                 0
                             ),
                             new Question(
-                                "Sifat tabligh bermaksud?",
-                                new List<string> { "Menyampaikan", "Menyembunyikan", "Menghukum" },
+                                "صيفت تبليغ برمقصود؟",
+                                new List<string> { "مڽمڤاءيكن", "مڽمبوڽيكن", "مڠحكوم" },
                                 0
                             ),
                             new Question(
-                                "Sifat fatanah bermaksud?",
-                                new List<string> { "Bijaksana", "Pemarah", "Lalai" },
+                                "صيفت فطانة برمقصود؟",
+                                new List<string> { "بيجقسان", "ڤماره", "لالاي" },
                                 0
                             ),
                             new Question(
-                                "Siapakah contoh terbaik sifat Siddiq?",
-                                new List<string> { "Nabi Muhammad", "Abu Lahab", "Abu Jahal" },
+                                "سياڤاكه چونتوه ترباءيق صيفت صدق؟",
+                                new List<string> { "نبي محمد", "أبو لهب", "أبو جهل" },
                                 0
                             ),
                             new Question(
-                                "Mengapa Rasul wajib bersifat benar?",
+                                "مڠاڤ رسول واجب برصيفت بنر؟",
                                 new List<string>
                                 {
-                                    "Untuk keseronokan",
-                                    "Untuk disanjung manusia",
-                                    "Supaya umat percaya ajaran baginda",
+                                    "اونتوق كسرونوقن",
+                                    "اونتوق دسانجوڠ ماءنسي",
+                                    "سوڤايا اومت ڤرچاي اجرن بڬيندا",
                                 },
                                 2
                             ),
                             new Question(
-                                "Rasulullah sentiasa amanah kerana?",
-                                new List<string>
-                                {
-                                    "Mahu kekayaan",
-                                    "Taat kepada Allah",
-                                    "Mahu pujian",
-                                },
+                                "رسول الله سنتياس أمانة كرانا؟",
+                                new List<string> { "ماهو ككاياءن", "طاعة كڤد الله", "ماهو ڤوجين" },
                                 1
                             ),
                             new Question(
-                                "Tabligh menunjukkan Rasulullah sentiasa?",
-                                new List<string>
-                                {
-                                    "Menyampaikan wahyu",
-                                    "Diam",
-                                    "Menyembunyikan ajaran",
-                                },
+                                "تبليغ منونجوقكن رسول الله سنتياس؟",
+                                new List<string> { "مڽمڤاءيكن وحيو", "ديام", "مڽمبوڽيكن اجرن" },
                                 0
                             ),
                             new Question(
-                                "Fatanah diperlukan supaya Rasul dapat?",
-                                new List<string> { "Bermain", "Menyelesaikan masalah", "Menipu" },
+                                "فطانة دڤرلوكن سوڤايا رسول داڤت؟",
+                                new List<string> { "برماءين", "مڽلسايكن مسئله", "منيڤو" },
                                 1
                             ),
                             new Question(
-                                "Contoh sifat amanah Nabi ialah?",
+                                "چونتوه صيفت أمانة نبي اياله؟",
                                 new List<string>
                                 {
-                                    "Menjaga barang orang Mekah",
-                                    "Menipu dalam berniaga",
-                                    "Bermalas-malasan",
+                                    "منجاڬ بارڠ اورڠ مكة",
+                                    "منيڤو دالم برنياڬ",
+                                    "برمالس-مالسن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Siapakah yang menjaga Nabi selepas datuknya wafat?",
-                                new List<string> { "Abu Talib", "Abu Bakar", "Umar" },
+                                "سياڤاكه يڠ منجاڬ نبي سلڤس داتوقڽ وفت؟",
+                                new List<string> { "أبو طالب", "أبو بكر", "عمر" },
                                 0
                             ),
                             new Question(
-                                "Kisah mengangkat Hajarul Aswad berlaku di?",
-                                new List<string> { "Kaabah", "Bukit Safa", "Gua Hira'" },
+                                "كيصه مڠاڠكت حجر الأسود برلاكو د؟",
+                                new List<string> { "كعبة", "بوكيت صفا", "ڬوا حراء" },
                                 0
                             ),
                             new Question(
-                                "Mengapa suku-suku Quraisy bergaduh ketika membina Kaabah?",
+                                "مڠاڤ سوكو-سوكو قريش برڬادوه كتيك ممبينا كعبة؟",
                                 new List<string>
                                 {
-                                    "Tidak cukup batu",
-                                    "Mahu meletakkan Hajarul Aswad",
-                                    "Tidak suka Kaabah",
+                                    "تيدق چوكوڤ باتو",
+                                    "ماهو ملتقكن حجر الأسود",
+                                    "تيدق سوك كعبة",
                                 },
                                 1
                             ),
                             new Question(
-                                "Penyelesaian Nabi menunjukkan sifat?",
-                                new List<string> { "Adil", "Marah", "Lalai" },
+                                "ڤڽلساين نبي منونجوقكن صيفت؟",
+                                new List<string> { "عاديل", "ماره", "لالاي" },
                                 0
                             ),
                             new Question(
-                                "Mengapa Nabi dihantar ke kampung Bani Sa'ad?",
+                                "مڠاڤ نبي دهانتر ك كامڤوڠ بني سعد؟",
                                 new List<string>
                                 {
-                                    "Udara segar dan baik untuk membesar",
-                                    "Banyak permainan",
-                                    "Ramai pedagang",
+                                    "اودارا سڬر دان باءيق اونتوق ممبسر",
+                                    "باڽق ڤرماءينن",
+                                    "راماي ڤداڬڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Siapakah abang susuan Nabi?",
-                                new List<string> { "Ali", "Hamzah", "Abu Talib" },
+                                "سياڤاكه ابڠ سوسوان نبي؟",
+                                new List<string> { "علي", "حمزة", "أبو طالب" },
                                 1
                             ),
                             new Question(
-                                "Aminah wafat di?",
-                                new List<string> { "Abwa'", "Madinah", "Mekah" },
+                                "آمنة وفت د؟",
+                                new List<string> { "أبواء", "مدينة", "مكة" },
                                 0
                             ),
                             new Question(
-                                "Abdul Muttalib ialah?",
-                                new List<string> { "Datuk Nabi", "Anak Nabi", "Menantu Nabi" },
+                                "عبد المطلب اياله؟",
+                                new List<string> { "داتوق نبي", "انق نبي", "مننتو نبي" },
                                 0
                             ),
                             new Question(
-                                "Sifat Siddiq dapat dilihat apabila Nabi sentiasa?",
-                                new List<string>
-                                {
-                                    "Berbohong",
-                                    "Bercakap benar",
-                                    "Menyembunyikan kebenaran",
-                                },
+                                "صيفت صدق داڤت دليهت اڤابيلا نبي سنتياس؟",
+                                new List<string> { "بربوهوڠ", "برچاكڤ بنر", "مڽمبوڽيكن كبنرن" },
                                 1
                             ),
                             new Question(
-                                "Amanah dapat dilihat ketika Nabi?",
+                                "أمانة داڤت دليهت كتيك نبي؟",
                                 new List<string>
                                 {
-                                    "Menjaga barang orang",
-                                    "Memecahkan barang",
-                                    "Menghilangkan barang",
+                                    "منجاڬ بارڠ اورڠ",
+                                    "ممچهكن بارڠ",
+                                    "مڠهيلڠكن بارڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Tabligh dapat dilihat ketika Nabi?",
+                                "تبليغ داڤت دليهت كتيك نبي؟",
+                                new List<string> { "مڽمڤاءيكن وحيو", "برديام ديري", "تيدق مڠاجر" },
+                                0
+                            ),
+                            new Question(
+                                "فطانة داڤت دليهت كتيك نبي؟",
                                 new List<string>
                                 {
-                                    "Menyampaikan wahyu",
-                                    "Berdiam diri",
-                                    "Tidak mengajar",
+                                    "مڽلسايكن ڤرتيكاين",
+                                    "برماءين سهاج",
+                                    "مڠات اورڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Fatanah dapat dilihat ketika Nabi?",
+                                "برنياڬ د شام منونجوقكن نبي سأورڠ يڠ؟",
+                                new List<string> { "ڤنيڤو", "راجين", "مالس" },
+                                1
+                            ),
+                            new Question(
+                                "ڤكرجاءن مڠمبالا كمبيڠ منجاديكن نبي لبيه؟",
+                                new List<string> { "لالاي", "برتڠڬوڠجواب", "ڤماره" },
+                                1
+                            ),
+                            new Question(
+                                "ڬلرن الأمين دبري اوليه؟",
+                                new List<string> { "ڤوترا روم", "اورڠ قريش", "اورڠ يهودي" },
+                                1
+                            ),
+                            new Question(
+                                "مڠاڤ صيفت واجب رسول ڤنتيڠ؟",
                                 new List<string>
                                 {
-                                    "Menyelesaikan pertikaian",
-                                    "Bermain sahaja",
-                                    "Mengata orang",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Berniaga di Syam menunjukkan Nabi seorang yang?",
-                                new List<string> { "Penipu", "Rajin", "Malas" },
-                                1
-                            ),
-                            new Question(
-                                "Pekerjaan mengembala kambing menjadikan Nabi lebih?",
-                                new List<string> { "Lalai", "Bertanggungjawab", "Pemarah" },
-                                1
-                            ),
-                            new Question(
-                                "Gelaran Al-Amin diberi oleh?",
-                                new List<string> { "Putera Rome", "Orang Quraisy", "Orang Yahudi" },
-                                1
-                            ),
-                            new Question(
-                                "Mengapa sifat wajib Rasul penting?",
-                                new List<string>
-                                {
-                                    "Untuk memikat manusia",
-                                    "Untuk menjadikan dakwah diterima",
-                                    "Untuk hiburan",
+                                    "اونتوق مميكت ماءنسي",
+                                    "اونتوق منجاديكن دعوه دتريما",
+                                    "اونتوق هيبورن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Sifat Siddiq lawannya ialah?",
-                                new List<string> { "Bohong", "Amanah", "Rajin" },
+                                "صيفت صدق لاونڽ اياله؟",
+                                new List<string> { "بوهوڠ", "أمانة", "راجين" },
                                 0
                             ),
                             new Question(
-                                "Sifat Amanah lawannya ialah?",
-                                new List<string> { "Curang", "Bijaksana", "Berani" },
+                                "صيفت أمانة لاونڽ اياله؟",
+                                new List<string> { "چورڠ", "بيجقسان", "براني" },
                                 0
                             ),
                             new Question(
-                                "Sifat Tabligh lawannya ialah?",
-                                new List<string> { "Menyampaikan", "Menyembunyikan", "Menjual" },
+                                "صيفت تبليغ لاونڽ اياله؟",
+                                new List<string> { "مڽمڤاءيكن", "مڽمبوڽيكن", "منجوال" },
                                 1
                             ),
                             new Question(
-                                "Sifat Fatanah lawannya ialah?",
-                                new List<string> { "Cerdik", "Bodoh", "Jujur" },
+                                "صيفت فطانة لاونڽ اياله؟",
+                                new List<string> { "چرديق", "بودوه", "جوجور" },
                                 1
                             ),
                         },
@@ -2475,449 +2255,399 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Maksud adab dengan Rasulullah ialah ...",
+                                "مقصود ادب دڠن رسول الله اياله ...",
                                 new List<string>
                                 {
-                                    "Mengikut perintah guru",
-                                    "Menghormati dan memuliakan Baginda",
-                                    "Mengikuti rakan-rakan",
+                                    "مڠيكوت ڤرينته ڬورو",
+                                    "مڠحرمتي دان ممولياكن بڬيندا",
+                                    "مڠيكوتي راكن-راكن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Hukum beradab dengan Rasulullah ialah ...",
-                                new List<string> { "Harus", "Makruh", "Wajib" },
+                                "حكم برادب دڠن رسول الله اياله ...",
+                                new List<string> { "هاروس", "مكروه", "واجب" },
                                 2
                             ),
                             new Question(
-                                "Antara berikut, yang manakah termasuk adab dengan Rasulullah?",
+                                "انتارا بريكوت، يڠ ماناكه ترماسوق ادب دڠن رسول الله؟",
                                 new List<string>
                                 {
-                                    "Menghina sunnah",
-                                    "Mengikuti ajaran baginda",
-                                    "Melupakan sejarah Nabi",
+                                    "مڠهينا سنة",
+                                    "مڠيكوتي اجرن بڬيندا",
+                                    "ملوڤاكن سجاره نبي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Akhlak Rasulullah ketika bersahabat ialah ...",
+                                "اخلاق رسول الله كتيك برصحابت اياله ...",
                                 new List<string>
                                 {
-                                    "Suka bermusuh",
-                                    "Menyakiti sahabat",
-                                    "Berbuat baik kepada sahabat",
-                                },
-                                2
-                            ),
-                            new Question(
-                                "Akhlak Rasulullah ketika bercakap ialah ...",
-                                new List<string>
-                                {
-                                    "Menjerit",
-                                    "Berkata benar dan lemah lembut",
-                                    "Berbohong",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Antara berikut, yang manakah akhlak Nabi ketika bersukan?",
-                                new List<string>
-                                {
-                                    "Menyusahkan orang lain",
-                                    "Menipu untuk menang",
-                                    "Bersukan dengan adil",
+                                    "سوك برموسوه",
+                                    "مڽاكيتي صحابت",
+                                    "بربوات باءيق كڤد صحابت",
                                 },
                                 2
                             ),
                             new Question(
-                                "Akhlak Rasulullah ketika berpakaian ialah ...",
+                                "اخلاق رسول الله كتيك برچاكڤ اياله ...",
+                                new List<string> { "منجريت", "بركات بنر دان لمه لمبوت", "بربوهوڠ" },
+                                1
+                            ),
+                            new Question(
+                                "انتارا بريكوت، يڠ ماناكه اخلاق نبي كتيك برسوكن؟",
                                 new List<string>
                                 {
-                                    "Sombong",
-                                    "Memilih pakaian yang bersih",
-                                    "Meniru pakaian dilarang",
+                                    "مڽوسهكن اورڠ لاءين",
+                                    "منيڤو اونتوق منڠ",
+                                    "برسوكن دڠن عاديل",
+                                },
+                                2
+                            ),
+                            new Question(
+                                "اخلاق رسول الله كتيك برڤاكاين اياله ...",
+                                new List<string>
+                                {
+                                    "سومبوڠ",
+                                    "مميله ڤاكاين يڠ برسيه",
+                                    "منيرو ڤاكاين دلارڠ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Menghormati Rasulullah mendatangkan ...",
-                                new List<string> { "Dosa", "Hikmah dan keberkatan", "Kemarahan" },
+                                "مڠحرمتي رسول الله منداثڠكن ...",
+                                new List<string> { "دوسا", "حكمه دان كبركتن", "كمارهن" },
                                 1
                             ),
                             new Question(
-                                "Kisah Sabit bin Qois memberi pengajaran supaya ...",
+                                "كيصه ثابت بن قيس ممبري ڤڠاجرن سوڤايا ...",
                                 new List<string>
                                 {
-                                    "Bersuara kuat",
-                                    "Merendahkan suara",
-                                    "Tidak bercakap dengan Nabi",
+                                    "برسوارا كوات",
+                                    "مرندهكن سوارا",
+                                    "تيدق برچاكڤ دڠن نبي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Mengikut adab Rasulullah membawa kepada ...",
+                                "مڠيكوت ادب رسول الله ممباوا كڤد ...",
                                 new List<string>
                                 {
-                                    "Hidup lebih teratur",
-                                    "Hidup bermasalah",
-                                    "Hidup kelam kabut",
+                                    "هيدوڤ لبيه تراتور",
+                                    "هيدوڤ برمسئله",
+                                    "هيدوڤ كلم كابوت",
                                 },
                                 0
                             ),
                             // Fasal 2 - Adab Tidur
                             new Question(
-                                "Adab sebelum tidur ialah ...",
+                                "ادب سبلوم تيدور اياله ...",
                                 new List<string>
                                 {
-                                    "Berlari",
-                                    "Membaca doa",
-                                    "Menonton TV hingga lewat malam",
+                                    "برلاري",
+                                    "ممباچ دعاء",
+                                    "منونتون تي.ۏي. هيڠڬ ليوت مالم",
                                 },
                                 1
                             ),
                             new Question(
-                                "Adab selepas bangun tidur ialah ...",
+                                "ادب سلڤس باڠون تيدور اياله ...",
                                 new List<string>
                                 {
-                                    "Terus makan",
-                                    "Membaca doa bangun tidur",
-                                    "Tidur semula",
+                                    "تروس ماكن",
+                                    "ممباچ دعاء باڠون تيدور",
+                                    "تيدور سمولا",
                                 },
                                 1
                             ),
                             new Question(
-                                "Mengamalkan adab tidur dapat ...",
+                                "مڠعملكن ادب تيدور داڤت ...",
                                 new List<string>
                                 {
-                                    "Membawa keberkatan",
-                                    "Menyusahkan",
-                                    "Menjadikan tidur tidak lena",
+                                    "ممباوا كبركتن",
+                                    "مڽوسهكن",
+                                    "منجاديكن تيدور تيدق لينا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Tidak mengamalkan adab tidur boleh menyebabkan ...",
-                                new List<string>
-                                {
-                                    "Badan segar",
-                                    "Mudah lalai",
-                                    "Lebih berdisiplin",
-                                },
+                                "تيدق مڠعملكن ادب تيدور بوليه مڽببكن ...",
+                                new List<string> { "بادن سڬر", "موده لالاي", "لبيه برديسيڤلين" },
                                 1
                             ),
                             new Question(
-                                "Sunat berwuduk sebelum tidur supaya ...",
+                                "سنة بروضوء سبلوم تيدور سوڤايا ...",
                                 new List<string>
                                 {
-                                    "Cepat lapar",
-                                    "Disukai kawan",
-                                    "Mendapat perlindungan Allah",
+                                    "چڤت لاڤر",
+                                    "دسكاءي كاون",
+                                    "مندافت ڤرليندوڠن الله",
                                 },
                                 2
                             ),
                             new Question(
-                                "Menyusun tempat tidur menunjukkan sikap ...",
-                                new List<string> { "Malas", "Rajin dan berdisiplin", "Sombong" },
+                                "مڽوسون تمڤت تيدور منونجوقكن سيكڤ ...",
+                                new List<string> { "مالس", "راجين دان برديسيڤلين", "سومبوڠ" },
                                 1
                             ),
                             new Question(
-                                "Doa sebelum tidur ialah ...",
+                                "دعاء سبلوم تيدور اياله ...",
                                 new List<string>
                                 {
-                                    "Bismillah",
-                                    "Alhamdulillah",
-                                    "Bismika Allahumma amutu wa ahya",
+                                    "بسم الله",
+                                    "الحمدلله",
+                                    "باسمك اللهم أموت وأحيا",
                                 },
                                 2
                             ),
                             // Fasal 3 - Adab Menunaikan Hajat
                             new Question(
-                                "Adab masuk tandas ialah ...",
+                                "ادب ماسوق تاندس اياله ...",
                                 new List<string>
                                 {
-                                    "Masuk dengan kaki kanan",
-                                    "Masuk sambil berbual",
-                                    "Masuk dengan kaki kiri",
+                                    "ماسوق دڠن كاكي كانن",
+                                    "ماسوق سمبيل بربوال",
+                                    "ماسوق دڠن كاكي كيري",
                                 },
                                 2
                             ),
                             new Question(
-                                "Doa masuk tandas dibaca supaya ...",
+                                "دعاء ماسوق تاندس دباچ سوڤايا ...",
                                 new List<string>
                                 {
-                                    "Mendapat kebersihan",
-                                    "Dijauhkan daripada gangguan syaitan",
-                                    "Menghilangkan mengantuk",
+                                    "مندافت كبرسيهن",
+                                    "دجاءوهكن درڤد ڬڠڬوان شيطان",
+                                    "مڠهيلڠكن مڠنتوق",
                                 },
                                 1
                             ),
                             new Question(
-                                "Adab keluar tandas ialah ...",
+                                "ادب كلوار تاندس اياله ...",
                                 new List<string>
                                 {
-                                    "Melangkah dengan kaki kanan",
-                                    "Tidak membaca doa",
-                                    "Mengotorkan tandas",
+                                    "ملڠكه دڠن كاكي كانن",
+                                    "تيدق ممباچ دعاء",
+                                    "مڠوتوركن تاندس",
                                 },
                                 0
                             ),
                             new Question(
-                                "Adab mandi termasuk ...",
+                                "ادب مندي ترماسوق ...",
                                 new List<string>
                                 {
-                                    "Membazir air",
-                                    "Menyiram seluruh badan",
-                                    "Bermain air",
+                                    "ممبازير اءير",
+                                    "مڽيرم سلوروه بادن",
+                                    "برماءين اءير",
                                 },
                                 1
                             ),
                             new Question(
-                                "Qada hajat bermaksud ...",
-                                new List<string> { "Mandi", "Buang air kecil/air besar", "Tidur" },
+                                "قضاء حاجت برمقصود ...",
+                                new List<string> { "مندي", "بواڠ اءير كچيل/اءير بسر", "تيدور" },
                                 1
                             ),
                             new Question(
-                                "Ketika qada hajat, kita tidak boleh ...",
-                                new List<string>
-                                {
-                                    "Menghadap kiblat",
-                                    "Diam",
-                                    "Membersihkan diri",
-                                },
+                                "كتيك قضاء حاجت، كيت تيدق بوليه ...",
+                                new List<string> { "مڠهادڤ قبلة", "ديام", "ممبرسيهكن ديري" },
                                 0
                             ),
                             new Question(
-                                "Mengamalkan adab tandas memberi ...",
-                                new List<string>
-                                {
-                                    "Kemudaratan",
-                                    "Kebaikan dan kesihatan",
-                                    "Masalah",
-                                },
+                                "مڠعملكن ادب تاندس ممبري ...",
+                                new List<string> { "كمضرتن", "كباءيقن دان كصيحتن", "مسئله" },
                                 1
                             ),
                             new Question(
-                                "Tidak menjaga adab tandas boleh menyebabkan ...",
-                                new List<string> { "Tandas bersih", "Penyakit", "Badan sihat" },
+                                "تيدق منجاڬ ادب تاندس بوليه مڽببكن ...",
+                                new List<string> { "تاندس برسيه", "ڤڽاكيت", "بادن صيحت" },
                                 1
                             ),
                             // Fasal 4 - Adab Berpakaian
                             new Question(
-                                "Aurat bermaksud ...",
+                                "عورة برمقصود ...",
                                 new List<string>
                                 {
-                                    "Tempat bermain",
-                                    "Anggota yang wajib ditutup",
-                                    "Tempat belajar",
+                                    "تمڤت برماءين",
+                                    "اڠڬوتا يڠ واجب دتوتوڤ",
+                                    "تمڤت بلاجر",
                                 },
                                 1
                             ),
                             new Question(
-                                "Aurat lelaki antara ...",
+                                "عورة للاكي انتارا ...",
                                 new List<string>
                                 {
-                                    "Pusat hingga lutut",
-                                    "Kepala hingga kaki",
-                                    "Tangan hingga dada",
+                                    "ڤوست هيڠڬ لوتوت",
+                                    "كڤالا هيڠڬ كاكي",
+                                    "تاڠن هيڠڬ دادا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Salah satu ciri pakaian menutup aurat ialah ...",
-                                new List<string>
-                                {
-                                    "Nipis",
-                                    "Ketat",
-                                    "Tidak menampakkan bentuk tubuh",
-                                },
+                                "ساله ساتو چيري ڤاكاين منوتوڤ عورة اياله ...",
+                                new List<string> { "نيڤيس", "كتت", "تيدق منمڤقكن بنتوق توبوه" },
                                 2
                             ),
                             new Question(
-                                "Adab memakai pakaian ialah ...",
+                                "ادب مماكاي ڤاكاين اياله ...",
                                 new List<string>
                                 {
-                                    "Memakai dari kiri",
-                                    "Memakai dari kanan",
-                                    "Memakai pakaian koyak",
+                                    "مماكاي دري كيري",
+                                    "مماكاي دري كانن",
+                                    "مماكاي ڤاكاين كويق",
                                 },
                                 1
                             ),
                             new Question(
-                                "Mengamalkan adab berpakaian menunjukkan kita ...",
-                                new List<string>
-                                {
-                                    "Sombong",
-                                    "Tidak peduli",
-                                    "Menjaga maruah diri",
-                                },
+                                "مڠعملكن ادب برڤاكاين منونجوقكن كيت ...",
+                                new List<string> { "سومبوڠ", "تيدق ڤدولي", "منجاڬ مروه ديري" },
                                 2
                             ),
                             new Question(
-                                "Tidak menjaga adab berpakaian boleh menyebabkan ...",
-                                new List<string> { "Dipandang buruk", "Dipuji", "Disukai ramai" },
+                                "تيدق منجاڬ ادب برڤاكاين بوليه مڽببكن ...",
+                                new List<string> { "دڤندڠ بوروق", "دڤوجي", "دسكاءي راماي" },
                                 0
                             ),
                             // Fasal 5 - Adab Makan dan Minum
                             new Question(
-                                "Adab sebelum makan ialah ...",
-                                new List<string> { "Membasuh tangan", "Bermain", "Tidur" },
+                                "ادب سبلوم ماكن اياله ...",
+                                new List<string> { "ممباسوه تاڠن", "برماءين", "تيدور" },
                                 0
                             ),
                             new Question(
-                                "Adab semasa makan ialah ...",
+                                "ادب سماس ماكن اياله ...",
                                 new List<string>
                                 {
-                                    "Menyelitkan tangan kiri",
-                                    "Makan dengan tangan kanan",
-                                    "Mengunyah kuat",
+                                    "مڽليتكن تاڠن كيري",
+                                    "ماكن دڠن تاڠن كانن",
+                                    "مڠوڽه كوات",
                                 },
                                 1
                             ),
                             new Question(
-                                "Selepas makan kita digalakkan ...",
-                                new List<string>
-                                {
-                                    "Membasuh pinggan",
-                                    "Menjerit",
-                                    "Membuang makanan",
-                                },
+                                "سلڤس ماكن كيت دڬالقكن ...",
+                                new List<string> { "ممباسوه ڤيڠڬن", "منجريت", "ممبواڠ ماكنن" },
                                 0
                             ),
                             new Question(
-                                "Adab minum ialah ...",
+                                "ادب مينوم اياله ...",
                                 new List<string>
                                 {
-                                    "Minum sambil berdiri",
-                                    "Minum dengan tangan kanan",
-                                    "Minum sambil bercakap",
+                                    "مينوم سمبيل برديري",
+                                    "مينوم دڠن تاڠن كانن",
+                                    "مينوم سمبيل برچاكڤ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Kelebihan mengamalkan adab makan ialah ...",
+                                "كلبيهن مڠعملكن ادب ماكن اياله ...",
                                 new List<string>
                                 {
-                                    "Makanan menjadi busuk",
-                                    "Mendapat pahala",
-                                    "Tidak kenyang",
+                                    "ماكنن منجادي بوسوق",
+                                    "مندافت ڤهالا",
+                                    "تيدق كڽڠ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Akibat tidak beradab ketika makan ialah ...",
-                                new List<string> { "Disukai guru", "Tercekik", "Lebih sopan" },
+                                "عاقبة تيدق برادب كتيك ماكن اياله ...",
+                                new List<string> { "دسكاءي ڬورو", "ترچكيق", "لبيه سوڤن" },
                                 1
                             ),
                             new Question(
-                                "Membaca doa sebelum makan menunjukkan sifat ...",
-                                new List<string> { "Syukur", "Sombong", "Malas" },
+                                "ممباچ دعاء سبلوم ماكن منونجوقكن صيفت ...",
+                                new List<string> { "شكور", "سومبوڠ", "مالس" },
                                 0
                             ),
                             // Fasal 6 - Adab Masuk dan Keluar Rumah
                             new Question(
-                                "Adab masuk rumah ialah ...",
-                                new List<string> { "Menjerit", "Memberi salam", "Menendang pintu" },
+                                "ادب ماسوق رومه اياله ...",
+                                new List<string> { "منجريت", "ممبري سلام", "منندڠ ڤينتو" },
                                 1
                             ),
                             new Question(
-                                "Adab keluar rumah ialah ...",
+                                "ادب كلوار رومه اياله ...",
                                 new List<string>
                                 {
-                                    "Membaca doa keluar rumah",
-                                    "Menyanyi",
-                                    "Membuang sampah",
+                                    "ممباچ دعاء كلوار رومه",
+                                    "مڽاڽي",
+                                    "ممبواڠ سمڤه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Mengamalkan adab masuk rumah membawa ...",
-                                new List<string> { "Masalah", "Keselamatan", "Kemarahan" },
+                                "مڠعملكن ادب ماسوق رومه ممباوا ...",
+                                new List<string> { "مسئله", "كسلامتن", "كمارهن" },
                                 1
                             ),
                             new Question(
-                                "Tidak mengamalkan adab keluar rumah boleh mengakibatkan ...",
+                                "تيدق مڠعملكن ادب كلوار رومه بوليه مڠعاقبتكن ...",
                                 new List<string>
                                 {
-                                    "Dilindungi Allah",
-                                    "Hilang keselamatan",
-                                    "Mendapat pahala",
+                                    "دلليندوڠي الله",
+                                    "هيلڠ كسلامتن",
+                                    "مندافت ڤهالا",
                                 },
                                 1
                             ),
                             new Question(
-                                "Salah satu adab dalam rumah ialah ...",
+                                "ساله ساتو ادب دالم رومه اياله ...",
                                 new List<string>
                                 {
-                                    "Menyusahkan ahli keluarga",
-                                    "Menghormati ibu bapa",
-                                    "Memijak barang",
+                                    "مڽوسهكن اهلي كلوارڬ",
+                                    "مڠحرمتي ايبو باڤ",
+                                    "مميجيق بارڠ",
                                 },
                                 1
                             ),
                             // Fasal 7 - Adab Menaiki Kenderaan
                             new Question(
-                                "Adab menaiki kenderaan ialah ...",
+                                "ادب مناءيقي كندراءن اياله ...",
+                                new List<string> { "تولق-منولق", "براتور دڠن سوڤن", "منجريت" },
+                                1
+                            ),
+                            new Question(
+                                "دعاء مناءيقي كندراءن دباچ اونتوق ...",
                                 new List<string>
                                 {
-                                    "Tolak-menolak",
-                                    "Beratur dengan sopan",
-                                    "Menjerit",
+                                    "مندافت هيبورن",
+                                    "كسلامتن دالم ڤرجلانن",
+                                    "ممبواڠ ماس",
                                 },
                                 1
                             ),
                             new Question(
-                                "Doa menaiki kenderaan dibaca untuk ...",
+                                "ادب مڠڬوناكن كندراءن عوام اياله ...",
+                                new List<string> { "مڠڬڠڬو ڤنومڤڠ", "دودوق سوڤن", "مڽاڽي كوات" },
+                                1
+                            ),
+                            new Question(
+                                "كلبيهن مڠعملكن ادب كندراءن اياله ...",
+                                new List<string> { "ڤرجلانن سلامت", "كندراءن روسق", "ڤنومڤڠ ماره" },
+                                0
+                            ),
+                            new Question(
+                                "عاقبة تيدق برادب د دالم كندراءن ...",
                                 new List<string>
                                 {
-                                    "Mendapat hiburan",
-                                    "Keselamatan dalam perjalanan",
-                                    "Membuang masa",
+                                    "دسكاءي سموا اورڠ",
+                                    "ممبهاياكن ديري دان اورڠ لاءين",
+                                    "سلامت سنتياس",
                                 },
                                 1
                             ),
                             new Question(
-                                "Adab menggunakan kenderaan awam ialah ...",
+                                "منجاڬ كبرسيهن كندراءن عوام اياله ...",
                                 new List<string>
                                 {
-                                    "Mengganggu penumpang",
-                                    "Duduk sopan",
-                                    "Menyanyi kuat",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Kelebihan mengamalkan adab kenderaan ialah ...",
-                                new List<string>
-                                {
-                                    "Perjalanan selamat",
-                                    "Kenderaan rosak",
-                                    "Penumpang marah",
+                                    "ادب يڠ باءيق",
+                                    "تيدق ڤنتيڠ",
+                                    "ملامبتكن ڤرجلانن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Akibat tidak beradab di dalam kenderaan ...",
-                                new List<string>
-                                {
-                                    "Disukai semua orang",
-                                    "Membahayakan diri dan orang lain",
-                                    "Selamat sentiasa",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Menjaga kebersihan kenderaan awam ialah ...",
-                                new List<string>
-                                {
-                                    "Adab yang baik",
-                                    "Tidak penting",
-                                    "Melambatkan perjalanan",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Duduk dengan sopan ketika menaiki kenderaan menunjukkan ...",
-                                new List<string> { "Akhlak mulia", "Sikap buruk", "Sifat marah" },
+                                "دودوق دڠن سوڤن كتيك مناءيقي كندراءن منونجوقكن ...",
+                                new List<string> { "اخلاق موليا", "سيكڤ بوروق", "صيفت ماره" },
                                 0
                             ),
                         },
@@ -2928,438 +2658,403 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Apakah tujuan Allah menurunkan kitab-kitab-Nya?",
+                                "اڤاكه توجوان الله منورونكن كتاب٢-ڽ؟",
                                 new List<string>
                                 {
-                                    "Untuk petunjuk manusia",
-                                    "Untuk hiasan rumah",
-                                    "Untuk dijual",
+                                    "اونتوق ڤتونجوق ماءنسي",
+                                    "اونتوق هياسن رومه",
+                                    "اونتوق دجوال",
                                 },
                                 0
                             ),
                             new Question(
-                                "Kitab Zabur diturunkan kepada Nabi?",
-                                new List<string> { "Nabi Yunus", "Nabi Daud", "Nabi Adam" },
+                                "كتاب زبور دتورونكن كڤد نبي؟",
+                                new List<string> { "نبي يونس", "نبي داود", "نبي آدم" },
                                 1
                             ),
                             new Question(
-                                "Kitab Injil merupakan kitab bagi umat?",
-                                new List<string> { "Nabi Musa", "Nabi Isa", "Nabi Hud" },
+                                "كتاب إنجيل مروڤاكن كتاب باڬي اومت؟",
+                                new List<string> { "نبي موسى", "نبي عيسى", "نبي هود" },
                                 1
                             ),
                             new Question(
-                                "Apakah kitab pertama sebelum Al-Quran?",
-                                new List<string> { "Zabur", "Taurat", "Injil" },
+                                "اڤاكه كتاب ڤرتام سبلوم القرءان؟",
+                                new List<string> { "زبور", "توراة", "إنجيل" },
                                 1
                             ),
                             new Question(
-                                "Mengapa Al-Quran disebut mukjizat terbesar?",
+                                "مڠاڤ القرءان دسبوت معجزة تربسر؟",
                                 new List<string>
                                 {
-                                    "Bahasanya indah",
-                                    "Tidak berubah",
-                                    "Mengandungi kisah moden",
+                                    "بهاساڽ اينده",
+                                    "تيدق بروبه",
+                                    "مڠاندوڠي كيصه مودن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah amalan terbaik terhadap Al-Quran?",
+                                "اڤاكه عملن ترباءيق ترهادڤ القرءان؟",
                                 new List<string>
                                 {
-                                    "Tidak menyentuhnya",
-                                    "Membacanya selalu",
-                                    "Menyimpannya di almari",
+                                    "تيدق مڽنتوهڽ",
+                                    "ممباچاڽ سلالو",
+                                    "مڽيمڤنڽ د الماري",
                                 },
                                 1
                             ),
                             new Question(
-                                "Siapakah yang ditugaskan menyampaikan Al-Quran kepada manusia?",
-                                new List<string> { "Nabi Muhammad", "Nabi Isa", "Nabi Ibrahim" },
+                                "سياڤاكه يڠ دتوڬسكن مڽمڤاءيكن القرءان كڤد ماءنسي؟",
+                                new List<string> { "نبي محمد", "نبي عيسى", "نبي إبراهيم" },
                                 0
                             ),
                             new Question(
-                                "Apakah bukti seseorang mencintai Al-Quran?",
-                                new List<string>
-                                {
-                                    "Mengamalkan ajarannya",
-                                    "Meletaknya tinggi",
-                                    "Mewarnakannya",
-                                },
+                                "اڤاكه بوقتي سسأورڠ منچينتاءي القرءان؟",
+                                new List<string> { "مڠعملكن اجرنڽ", "ملتقڽ تيڠڬي", "مورناكنڽ" },
                                 0
                             ),
                             new Question(
-                                "Apakah maksud kitab samawi?",
+                                "اڤاكه مقصود كتاب سماوي؟",
                                 new List<string>
                                 {
-                                    "Kitab buatan manusia",
-                                    "Kitab dari langit",
-                                    "Kitab sekolah",
+                                    "كتاب بواتن ماءنسي",
+                                    "كتاب داري لاڠيت",
+                                    "كتاب سكوله",
                                 },
                                 1
                             ),
                             new Question(
-                                "Mengapa manusia perlu beriman kepada kitab?",
+                                "مڠاڤ ماءنسي ڤرلو برايمان كڤد كتاب؟",
                                 new List<string>
                                 {
-                                    "Untuk panduan hidup",
-                                    "Untuk koleksi",
-                                    "Untuk pertandingan",
+                                    "اونتوق ڤندوان هيدوڤ",
+                                    "اونتوق كوليكسي",
+                                    "اونتوق ڤرتنديڠن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah peristiwa hari kiamat?",
+                                "اڤاكه ڤريستيوا هاري قيامة؟",
+                                new List<string> { "هنچورڽ عالم", "هاري كلاهيرن", "ڤرڤيندهن رومه" },
+                                0
+                            ),
+                            new Question(
+                                "ساله ساتو تندا كچيل قيامة اياله؟",
                                 new List<string>
                                 {
-                                    "Hancurnya alam",
-                                    "Hari kelahiran",
-                                    "Perpindahan rumah",
+                                    "باڠونن تيڠڬي",
+                                    "كمونچولن دجال",
+                                    "تورونڽ نبي عيسى",
                                 },
                                 0
                             ),
                             new Question(
-                                "Salah satu tanda kecil kiamat ialah?",
+                                "اڤاكه تندا بسر قيامة؟",
                                 new List<string>
                                 {
-                                    "Bangunan tinggi",
-                                    "Kemunculan Dajjal",
-                                    "Turunnya Nabi Isa",
+                                    "راماي منونتوت علمو",
+                                    "ماتاهاري تربيت د بارت",
+                                    "حيوان ماكين باڽق",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "مڠاڤ ماءنسي دباڠكيتكن؟",
+                                new List<string>
+                                {
+                                    "اونتوق برماءين",
+                                    "اونتوق دأديلي",
+                                    "اونتوق برسيار-سيار",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "اورڠ برايمان ڤرچاي هاري قيامة كرانا؟",
+                                new List<string>
+                                {
+                                    "ستياڤ مخلوق ڤستي ماتي",
+                                    "عالم ككل سلاماڽ",
+                                    "ماءنسي هيدوڤ دوا كالي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah tanda besar kiamat?",
+                                "كسن برايمان كڤد قيامة؟",
                                 new List<string>
                                 {
-                                    "Ramai menuntut ilmu",
-                                    "Matahari terbit di barat",
-                                    "Haiwan makin banyak",
+                                    "سوك برمالس",
+                                    "راجين بربوات باءيق",
+                                    "تيدق كيصه دوسا",
                                 },
                                 1
                             ),
                             new Question(
-                                "Mengapa manusia dibangkitkan?",
-                                new List<string>
-                                {
-                                    "Untuk bermain",
-                                    "Untuk diadili",
-                                    "Untuk bersiar-siar",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Orang beriman percaya hari kiamat kerana?",
-                                new List<string>
-                                {
-                                    "Setiap makhluk pasti mati",
-                                    "Alam kekal selamanya",
-                                    "Manusia hidup dua kali",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Kesan beriman kepada kiamat?",
-                                new List<string>
-                                {
-                                    "Suka bermalas",
-                                    "Rajin berbuat baik",
-                                    "Tidak kisah dosa",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Siapakah yang mengetahui tarikh kiamat?",
-                                new List<string> { "Malaikat", "Nabi", "Allah" },
+                                "سياڤاكه يڠ مڠتاهوءي تاريخ قيامة؟",
+                                new List<string> { "ملائكة", "نبي", "الله" },
                                 2
                             ),
                             new Question(
-                                "Apa yang berlaku setelah kiamat?",
-                                new List<string> { "Akhirat", "Manusia ghaib", "Tiada kehidupan" },
+                                "اڤ يڠ برلاكو ستله قيامة؟",
+                                new List<string> { "آخرة", "ماءنسي غائب", "تياد كهيدوڤن" },
                                 0
                             ),
                             new Question(
-                                "Apakah contoh tanda kecil kiamat?",
+                                "اڤاكه چونتوه تندا كچيل قيامة؟",
                                 new List<string>
                                 {
-                                    "Ramai orang berbohong",
-                                    "Bulan terbelah",
-                                    "Dajjal muncul",
+                                    "راماي اورڠ بربوهوڠ",
+                                    "بولن تربله",
+                                    "دجال مونچول",
                                 },
                                 0
                             ),
                             new Question(
-                                "Mengapa tanda kiamat diberitahu kepada manusia?",
+                                "مڠاڤ تندا قيامة دبريتاهو كڤد ماءنسي؟",
                                 new List<string>
                                 {
-                                    "Supaya takut",
-                                    "Supaya sedar dan bertaubat",
-                                    "Supaya melarikan diri",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Mukhalafatu bermaksud Allah?",
-                                new List<string>
-                                {
-                                    "Berbeza dari makhluk",
-                                    "Sama seperti manusia",
-                                    "Menyerupai malaikat",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Dalil sifat ini banyak disebut dalam surah?",
-                                new List<string> { "Al-Ikhlas", "Al-Falaq", "An-Nas" },
-                                0
-                            ),
-                            new Question(
-                                "Allah tidak sama dengan makhluk kerana?",
-                                new List<string>
-                                {
-                                    "Allah sempurna",
-                                    "Makhluk kuat",
-                                    "Makhluk berkuasa",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Makhluk memerlukan udara tetapi Allah?",
-                                new List<string>
-                                {
-                                    "Perlu udara",
-                                    "Tidak berhajat apa pun",
-                                    "Perlu tenaga",
+                                    "سوڤايا تاكوت",
+                                    "سوڤايا سدر دان برتوبة",
+                                    "سوڤايا ملاريكن ديري",
                                 },
                                 1
                             ),
                             new Question(
-                                "Sifat ini membuktikan Allah?",
+                                "مخالفته للحوادث برمقصود الله؟",
                                 new List<string>
                                 {
-                                    "Terikat ruang",
-                                    "Bergantung pada makhluk",
-                                    "Sempurna tanpa kekurangan",
+                                    "بربيذا درڤد مخلوق",
+                                    "سام سڤرتي ماءنسي",
+                                    "مڽروڤاءي ملائكة",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "دليل صيفت اين باڽق دسبوت دالم سورة؟",
+                                new List<string> { "الإخلاص", "الفلق", "الناس" },
+                                0
+                            ),
+                            new Question(
+                                "الله تيدق سام دڠن مخلوق كرانا؟",
+                                new List<string> { "الله سمڤورنا", "مخلوق كوات", "مخلوق بركواس" },
+                                0
+                            ),
+                            new Question(
+                                "مخلوق ممرلوكن اودارا تتاڤي الله؟",
+                                new List<string>
+                                {
+                                    "ڤرلو اودارا",
+                                    "تيدق برحاجت اڤ ڤون",
+                                    "ڤرلو تناڬ",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "صيفت اين ممبوقتيكن الله؟",
+                                new List<string>
+                                {
+                                    "تريكت رواڠ",
+                                    "برڬنتوڠ ڤد مخلوق",
+                                    "سمڤورنا تنڤا ككورڠن",
                                 },
                                 2
                             ),
                             new Question(
-                                "Kesan beriman kepada sifat ini?",
+                                "كسن برايمان كڤد صيفت اين؟",
                                 new List<string>
                                 {
-                                    "Yakin kebesaran Allah",
-                                    "Takut manusia",
-                                    "Menjadi sombong",
+                                    "يقين كبسرن الله",
+                                    "تاكوت ماءنسي",
+                                    "منجادي سومبوڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Mengapa manusia tidak boleh menyerupakan Allah dengan makhluk?",
+                                "مڠاڤ ماءنسي تيدق بوليه مڽروڤاكن الله دڠن مخلوق؟",
                                 new List<string>
                                 {
-                                    "Allah Maha Suci",
-                                    "Makhluk sempurna",
-                                    "Manusia tahu segalanya",
+                                    "الله مها سوچي",
+                                    "مخلوق سمڤورنا",
+                                    "ماءنسي تاهو سڬالاڽ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Perbezaan antara Allah dan makhluk ialah?",
+                                "ڤربيذاءن انتارا الله دان مخلوق اياله؟",
                                 new List<string>
                                 {
-                                    "Allah tidak berubah",
-                                    "Makhluk tidak mati",
-                                    "Makhluk tidak lemah",
+                                    "الله تيدق بروبه",
+                                    "مخلوق تيدق ماتي",
+                                    "مخلوق تيدق لمه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Sifat ini menegaskan Allah?",
+                                "صيفت اين منڬسكن الله؟",
                                 new List<string>
                                 {
-                                    "Menyerupai makhluk",
-                                    "Tidak menyerupai makhluk",
-                                    "Memerlukan tempat",
+                                    "مڽروڤاءي مخلوق",
+                                    "تيدق مڽروڤاءي مخلوق",
+                                    "ممرلوكن تمڤت",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah bukti akal tentang sifat ini?",
+                                "اڤاكه بوقتي عقل تنتڠ صيفت اين؟",
                                 new List<string>
                                 {
-                                    "Makhluk lemah",
-                                    "Pencipta mesti berbeza dari ciptaan",
-                                    "Makhluk kekal",
+                                    "مخلوق لمه",
+                                    "ڤنچيڤتا مستي بربيذا دري چيڤتاءن",
+                                    "مخلوق ككل",
                                 },
                                 1
                             ),
                             new Question(
-                                "Qiyamuhu Binafsihi bermaksud Allah?",
+                                "قيامه بنفسه برمقصود الله؟",
                                 new List<string>
                                 {
-                                    "Memerlukan bantuan",
-                                    "Bergantung kepada makhluk",
-                                    "Berdiri sendiri",
+                                    "ممرلوكن بنتوان",
+                                    "برڬنتوڠ كڤد مخلوق",
+                                    "برديري سنديري",
                                 },
                                 2
                             ),
                             new Question(
-                                "Makhluk memerlukan makanan tetapi Allah?",
+                                "مخلوق ممرلوكن ماكنن تتاڤي الله؟",
                                 new List<string>
                                 {
-                                    "Memerlukan lebih banyak",
-                                    "Tidak berhajat apa pun",
-                                    "Memerlukan bantuan",
+                                    "ممرلوكن لبيه باڽق",
+                                    "تيدق برحاجت اڤ ڤون",
+                                    "ممرلوكن بنتوان",
                                 },
                                 1
                             ),
                             new Question(
-                                "Dalil sifat ini terdapat dalam surah?",
-                                new List<string> { "Al-Ikhlas", "Al-Kafirun", "Al-Fil" },
+                                "دليل صيفت اين تردڤت دالم سورة؟",
+                                new List<string> { "الإخلاص", "الكافرون", "الفيل" },
                                 0
                             ),
                             new Question(
-                                "Allah bersifat Qiyamuhu Binafsihi kerana?",
-                                new List<string> { "Maha Kaya", "Maha Lapar", "Maha Penat" },
+                                "الله برصيفت قيامه بنفسه كرانا؟",
+                                new List<string> { "مها كاي", "مها لاڤر", "مها ڤنت" },
                                 0
                             ),
                             new Question(
-                                "Kesan memahami sifat ini?",
+                                "كسن ممهامي صيفت اين؟",
                                 new List<string>
                                 {
-                                    "Suka berbohong",
-                                    "Tambah yakin beribadah",
-                                    "Menjadi malas",
+                                    "سوك بربوهوڠ",
+                                    "تمبه يقين برعبادة",
+                                    "منجادي مالس",
                                 },
                                 1
                             ),
                             new Question(
-                                "Allah tidak berhajat kepada?",
-                                new List<string> { "Makhluk", "Kuasa", "Diri-Nya" },
+                                "الله تيدق برحاجت كڤد؟",
+                                new List<string> { "مخلوق", "كواس", "ديري-ڽ" },
                                 0
                             ),
                             new Question(
-                                "Sifat ini menunjukkan Allah?",
+                                "صيفت اين منونجوقكن الله؟",
                                 new List<string>
                                 {
-                                    "Bergantung kepada langit",
-                                    "Bergantung kepada waktu",
-                                    "Tidak bergantung kepada sesiapa",
+                                    "برڬنتوڠ كڤد لاڠيت",
+                                    "برڬنتوڠ كڤد وقتو",
+                                    "تيدق برڬنتوڠ كڤد سسياڤا",
                                 },
                                 2
                             ),
                             new Question(
-                                "Makhluk berdiri dengan bantuan Allah, Allah berdiri?",
+                                "مخلوق برديري دڠن بنتوان الله، الله برديري؟",
                                 new List<string>
                                 {
-                                    "Dengan bantuan makhluk",
-                                    "Dengan sendiri",
-                                    "Dengan matahari",
+                                    "دڠن بنتوان مخلوق",
+                                    "دڠن سنديري",
+                                    "دڠن ماتاهاري",
                                 },
                                 1
                             ),
                             new Question(
-                                "Dengan memahami sifat ini, manusia akan?",
-                                new List<string> { "Berputus asa", "Sombong", "Bersyukur" },
+                                "دڠن ممهامي صيفت اين، ماءنسي اكن؟",
+                                new List<string> { "برڤوتوس اسا", "سومبوڠ", "برشكور" },
                                 2
                             ),
                             new Question(
-                                "Allah tidak berubah kerana?",
+                                "الله تيدق بروبه كرانا؟",
+                                new List<string> { "مها سمڤورنا", "ممرلوكن ماكن", "ممرلوكن ريحت" },
+                                0
+                            ),
+                            new Question(
+                                "حيوان دچيڤتاكن الله اونتوق؟",
+                                new List<string> { "بوقتيكن ككواساءن-ڽ", "ڤرماءينن", "هياسن" },
+                                0
+                            ),
+                            new Question(
+                                "سورة النمل منچريتاكن تنتڠ؟",
+                                new List<string> { "سموت", "هريماو", "كودا" },
+                                0
+                            ),
+                            new Question(
+                                "حيوان ممبنتو ماءنسي دڠن؟",
                                 new List<string>
                                 {
-                                    "Maha Sempurna",
-                                    "Memerlukan makan",
-                                    "Memerlukan rehat",
+                                    "ممبري ماكنن",
+                                    "مڠاجر مناري",
+                                    "ممبري ڤاكاين مودن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Haiwan diciptakan Allah untuk?",
-                                new List<string>
-                                {
-                                    "Buktikan kekuasaan-Nya",
-                                    "Permainan",
-                                    "Hiasan",
-                                },
+                                "لبه دسبوت دالم القرءان كرانا؟",
+                                new List<string> { "مڠحاصيلكن مادو", "مربهاي", "سوكر دتڠكڤ" },
                                 0
                             ),
                             new Question(
-                                "Surah An-Naml menceritakan tentang?",
-                                new List<string> { "Semut", "Harimau", "Kuda" },
-                                0
-                            ),
-                            new Question(
-                                "Haiwan membantu manusia dengan?",
+                                "كهيدوڤن حيوان منونجوقكن؟",
                                 new List<string>
                                 {
-                                    "Memberi makanan",
-                                    "Mengajar menari",
-                                    "Memberi pakaian moden",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Lebah disebut dalam Al-Quran kerana?",
-                                new List<string>
-                                {
-                                    "Menghasilkan madu",
-                                    "Merbahaya",
-                                    "Sukar ditangkap",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Kehidupan haiwan menunjukkan?",
-                                new List<string>
-                                {
-                                    "Kebetulan",
-                                    "Keindahan ciptaan Allah",
-                                    "Tiada tujuan",
+                                    "كبتولن",
+                                    "كأيندهن چيڤتاءن الله",
+                                    "تياد توجوان",
                                 },
                                 1
                             ),
                             new Question(
-                                "Manusia perlu menjaga haiwan kerana?",
+                                "ماءنسي ڤرلو منجاڬ حيوان كرانا؟",
                                 new List<string>
                                 {
-                                    "Haiwan milik manusia",
-                                    "Haiwan tidak bernilai",
-                                    "Sebahagian amanah Allah",
+                                    "حيوان ميليق ماءنسي",
+                                    "حيوان تيدق برنيلاي",
+                                    "سبهاڬين امانة الله",
                                 },
                                 2
                             ),
                             new Question(
-                                "Contoh haiwan dalam Al-Quran?",
-                                new List<string> { "Gajah", "Kucing", "Panda" },
+                                "چونتوه حيوان دالم القرءان؟",
+                                new List<string> { "ڬاجه", "كوچيڠ", "ڤندا" },
                                 0
                             ),
                             new Question(
-                                "Mengapa haiwan dianggap tanda kebesaran Allah?",
+                                "مڠاڤ حيوان دأڠڬڤ تندا كبسرن الله؟",
                                 new List<string>
                                 {
-                                    "Sukar dibunuh",
-                                    "Tidak boleh bergerak",
-                                    "Dicipta dengan keunikan",
+                                    "سوكر دبونوه",
+                                    "تيدق بوليه برڬرق",
+                                    "دچيڤتا دڠن كاونيكن",
                                 },
                                 2
                             ),
                             new Question(
-                                "Peranan unta dalam Al-Quran?",
+                                "ڤرانن اونتا دالم القرءان؟",
                                 new List<string>
                                 {
-                                    "Sebagai hiasan",
-                                    "Sebagai pengangkutan zaman nabi",
-                                    "Sebagai senjata",
+                                    "سباڬاي هياسن",
+                                    "سباڬاي ڤڠڠكوتن زمان نبي",
+                                    "سباڬاي سنجات",
                                 },
                                 1
                             ),
                             new Question(
-                                "Berfikir tentang haiwan membawa manusia kepada?",
-                                new List<string>
-                                {
-                                    "Lalai",
-                                    "Kenal kebesaran Allah",
-                                    "Tidak percaya Allah",
-                                },
+                                "برفيكير تنتڠ حيوان ممباوا ماءنسي كڤد؟",
+                                new List<string> { "لالاي", "كنل كبسرن الله", "تيدق ڤرچاي الله" },
                                 1
                             ),
                         },
@@ -3370,447 +3065,377 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Apakah maksud hadas kecil?",
+                                "اڤاكه مقصود حدث كچيل؟",
                                 new List<string>
                                 {
-                                    "Keadaan yang membatalkan wuduk",
-                                    "Keadaan wajib mandi",
-                                    "Keadaan suci daripada najis",
+                                    "كأداءن يڠ ممبطلكن وضوء",
+                                    "كأداءن واجب مندي",
+                                    "كأداءن سوچي درڤد نجيس",
                                 },
                                 0
                             ),
                             new Question(
-                                "Hadas besar berlaku kerana.",
+                                "حدث بسر برلاكو كرانا.",
                                 new List<string>
                                 {
-                                    "Makan dan minum",
-                                    "Bersentuhan dengan najis",
-                                    "Berjimak atau keluar mani",
+                                    "ماكن دان مينوم",
+                                    "برسنتوهن دڠن نجيس",
+                                    "برجماع اتاو كلوار ماني",
                                 },
                                 2
                             ),
                             new Question(
-                                "Contoh perkara yang membatalkan wuduk ialah ..",
-                                new List<string>
-                                {
-                                    "Tidur nyenyak",
-                                    "Mandi wajib",
-                                    "Berniat solat",
-                                },
+                                "چونتوه ڤركارا يڠ ممبطلكن وضوء اياله ..",
+                                new List<string> { "تيدور ڽڽق", "مندي واجب", "برنية صلاة" },
                                 0
                             ),
                             new Question(
-                                "Perkara yang mewajibkan mandi wajib ialah.",
-                                new List<string> { "Keluar mani", "Kentut", "Minum air" },
+                                "ڤركارا يڠ مواجبكن مندي واجب اياله.",
+                                new List<string> { "كلوار ماني", "كنتوت", "مينوم اءير" },
                                 0
                             ),
                             new Question(
-                                "Apakah rukun mandi wajib yang betul?",
+                                "اڤاكه روكون مندي واجب يڠ بتول؟",
                                 new List<string>
                                 {
-                                    "Membaca doa mandi",
-                                    "Berniat dan meratakan air ke seluruh tubuh",
-                                    "Membasuh kaki tiga kali",
+                                    "ممباچ دعاء مندي",
+                                    "برنية دان مراتاكن اءير كسلوروه توبوه",
+                                    "ممباسوه كاكي تيڬ كالي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah hikmah mandi wajib?",
+                                "اڤاكه حكمة مندي واجب؟",
                                 new List<string>
                                 {
-                                    "Menghilangkan mengantuk",
-                                    "Menyucikan diri daripada hadas besar",
-                                    "Menjadi lebih kuat",
+                                    "مڠهيلڠكن مڠنتوق",
+                                    "مڽوچيكن ديري درڤد حدث بسر",
+                                    "منجادي لبيه كوات",
                                 },
                                 1
                             ),
                             new Question(
-                                "Hadas besar menyebabkan seseorang",
+                                "حدث بسر مڽببكن سسأورڠ",
                                 new List<string>
                                 {
-                                    "Tidak boleh solat",
-                                    "Tidak boleh bercakap",
-                                    "Tidak boleh makan",
+                                    "تيدق بوليه صلاة",
+                                    "تيدق بوليه برچاكڤ",
+                                    "تيدق بوليه ماكن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Cara bersuci daripada hadas kecil ialah ...",
-                                new List<string> { "Mandi wajib", "Berwuduk", "Membaca doa" },
+                                "چارا برسوچي درڤد حدث كچيل اياله ...",
+                                new List<string> { "مندي واجب", "بروضوء", "ممباچ دعاء" },
                                 1
                             ),
                             new Question(
-                                "Salah satu sebab berhadas besar ialah ...",
+                                "ساله ساتو سبب برحدث بسر اياله ...",
                                 new List<string>
                                 {
-                                    "Keluar darah luka",
-                                    "Haidh bagi perempuan",
-                                    "Tidur sekejap",
+                                    "كلوار داره لوك",
+                                    "حيض باڬي ڤرمڤوان",
+                                    "تيدور سكجڤ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah perkara yang dilarang ketika berhadas kecil?",
-                                new List<string> { "Solat", "Makan", "Tidur" },
+                                "اڤاكه ڤركارا يڠ دلارڠ كتيك برحدث كچيل؟",
+                                new List<string> { "صلاة", "ماكن", "تيدور" },
                                 0
                             ),
                             new Question(
-                                "Perkara yang dilarang ketika berhadas besar ialah ...",
+                                "ڤركارا يڠ دلارڠ كتيك برحدث بسر اياله ...",
                                 new List<string>
                                 {
-                                    "Bersukan",
-                                    "Menonton TV",
-                                    "Menyentuh dan membaca al-Quran",
+                                    "برسوكن",
+                                    "منونتون تي.ۏي.",
+                                    "مڽنتوه دان ممباچ القرءان",
                                 },
                                 2
                             ),
                             new Question(
-                                "Salah satu sunnah mandi wajib ialah ...",
+                                "ساله ساتو سنة مندي واجب اياله ...",
                                 new List<string>
                                 {
-                                    "Membasuh kaki tiga kali",
-                                    "Mendahulukan anggota kanan",
-                                    "Menghadap kiblat",
+                                    "ممباسوه كاكي تيڬ كالي",
+                                    "منداهولوكن اڠڬوتا كانن",
+                                    "مڠهادڤ قبلة",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah maksud hadas besar?",
+                                "اڤاكه مقصود حدث بسر؟",
                                 new List<string>
                                 {
-                                    "Keadaan yang membatalkan puasa",
-                                    "Keadaan yang memerlukan mandi wajib",
-                                    "Keadaan tidak boleh makan",
+                                    "كأداءن يڠ ممبطلكن ڤواسا",
+                                    "كأداءن يڠ ممرلوكن مندي واجب",
+                                    "كأداءن تيدق بوليه ماكن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah tujuan wuduk?",
+                                "اڤاكه توجوان وضوء؟",
                                 new List<string>
                                 {
-                                    "Menyucikan diri daripada najis",
-                                    "Menyucikan diri daripada hadas kecil",
-                                    "Menghilangkan penat",
+                                    "مڽوچيكن ديري درڤد نجيس",
+                                    "مڽوچيكن ديري درڤد حدث كچيل",
+                                    "مڠهيلڠكن ڤنت",
                                 },
                                 1
                             ),
                             new Question(
-                                "Haidh menyebabkan seseorang.",
-                                new List<string> { "Wajib mandi", "Harus berwuduk", "Terus solat" },
+                                "حيض مڽببكن سسأورڠ.",
+                                new List<string> { "واجب مندي", "هاروس بروضوء", "تروس صلاة" },
                                 0
                             ),
                             new Question(
-                                "Apakah perbezaan hadas kecil dan besar?",
+                                "اڤاكه ڤربيذاءن حدث كچيل دان بسر؟",
                                 new List<string>
                                 {
-                                    "Cara bersuci berbeza",
-                                    "Tiada perbezaan",
-                                    "Kedua-duanya tidak memerlukan niat",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Apakah hikmah bersuci?",
-                                new List<string>
-                                {
-                                    "Mendapat pahala dan hidup bersih",
-                                    "Menjadi lebih tinggi",
-                                    "Menjadi kaya",
+                                    "چارا برسوچي بربيذا",
+                                    "تياد ڤربيذاءن",
+                                    "كدوا-دواڽ تيدق ممرلوكن نية",
                                 },
                                 0
                             ),
                             new Question(
-                                "Antara sebab hadas kecil ialah.",
+                                "اڤاكه حكمة برسوچي؟",
                                 new List<string>
                                 {
-                                    "Muntah sedikit",
-                                    "Buang angin",
-                                    "Berlari jauh",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Apakah maksud baligh?",
-                                new List<string>
-                                {
-                                    "Cukup umur 18 tahun",
-                                    "Sampainya seseorang pada tanda-tanda dewasa",
-                                    "Masuk sekolah menengah",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Batas aurat lelaki ialah",
-                                new List<string>
-                                {
-                                    "Pusat hingga lutut",
-                                    "Lutut hingga tumit",
-                                    "Bahagian kepala sahaja",
+                                    "مندافت ڤهالا دان هيدوڤ برسيه",
+                                    "منجادي لبيه تيڠڬي",
+                                    "منجادي كاي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Batas aurat perempuan ialah ...",
+                                "انتارا سبب حدث كچيل اياله.",
+                                new List<string> { "مونته سديكيت", "بواڠ اڠين", "برلاري جاءوه" },
+                                1
+                            ),
+                            new Question(
+                                "اڤاكه مقصود بالغ؟",
                                 new List<string>
                                 {
-                                    "Seluruh tubuh kecuali muka dan tangan",
-                                    "Pusat hingga lutut",
-                                    "Kepala sahaja",
+                                    "چوكوڤ عمور 18 تاهون",
+                                    "سمڤايڽ سسأورڠ ڤد تندا٢ ديواسا",
+                                    "ماسوق سكوله منڠه",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "باتس عورة للاكي اياله",
+                                new List<string>
+                                {
+                                    "ڤوست هيڠڬ لوتوت",
+                                    "لوتوت هيڠڬ توميت",
+                                    "بهاڬين كڤالا سهاج",
                                 },
                                 0
                             ),
                             new Question(
-                                "Antara tanda baligh ialah ..",
+                                "باتس عورة ڤرمڤوان اياله ...",
                                 new List<string>
                                 {
-                                    "Pandai membaca",
-                                    "Mimpi basah",
-                                    "Boleh menaiki bas",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Apakah tuntutan syarak kepada orang baligh?",
-                                new List<string>
-                                {
-                                    "Belajar muzik",
-                                    "Menjaga solat dan ibadah",
-                                    "Menjadi ketua kelas",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Hikmah menutup aurat ialah ...",
-                                new List<string>
-                                {
-                                    "Menjadi lebih cantik",
-                                    "Menjaga maruah dan kehormatan",
-                                    "Supaya tidak panas",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Apakah maksud aurat?",
-                                new List<string>
-                                {
-                                    "Bahagian tubuh yang wajib ditutup",
-                                    "Nama pakaian",
-                                    "Bahagian rambut",
+                                    "سلوروه توبوه كچوالي موك دان تاڠن",
+                                    "ڤوست هيڠڬ لوتوت",
+                                    "كڤالا سهاج",
                                 },
                                 0
                             ),
                             new Question(
-                                "Perempuan wajib menutup aurat apabila",
+                                "انتارا تندا بالغ اياله ..",
                                 new List<string>
                                 {
-                                    "Masuk tadika",
-                                    "Sudah baligh",
-                                    "Berumur 3 tahun",
+                                    "ڤنداي ممباچ",
+                                    "ميمڤي باسه",
+                                    "بوليه مناءيقي بس",
                                 },
                                 1
                             ),
                             new Question(
-                                "Antara kesan tidak menutup aurat ialah ...",
+                                "اڤاكه تونتوتن شرع كڤد اورڠ بالغ؟",
                                 new List<string>
                                 {
-                                    "Dipandang baik",
-                                    "Menjaga maruah",
-                                    "Mendapat dosa",
+                                    "بلاجر موزيك",
+                                    "منجاڬ صلاة دان عبادة",
+                                    "منجادي كتوا كلس",
                                 },
+                                1
+                            ),
+                            new Question(
+                                "حكمة منوتوڤ عورة اياله ...",
+                                new List<string>
+                                {
+                                    "منجادي لبيه چنتيق",
+                                    "منجاڬ مروه دان كحرمتن",
+                                    "سوڤايا تيدق ڤانس",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "اڤاكه مقصود عورة؟",
+                                new List<string>
+                                {
+                                    "بهاڬين توبوه يڠ واجب دتوتوڤ",
+                                    "نام ڤاكاين",
+                                    "بهاڬين رمبوت",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "ڤرمڤوان واجب منوتوڤ عورة اڤابيلا",
+                                new List<string> { "ماسوق تاديكا", "سوده بالغ", "برعمور 3 تاهون" },
+                                1
+                            ),
+                            new Question(
+                                "انتارا كسن تيدق منوتوڤ عورة اياله ...",
+                                new List<string> { "دڤندڠ باءيق", "منجاڬ مروه", "مندافت دوسا" },
                                 2
                             ),
                             new Question(
-                                "Aurat lelaki ketika solat ialah.",
-                                new List<string>
-                                {
-                                    "Pusat hingga lutut",
-                                    "Bahagian dada",
-                                    "Bahagian muka",
-                                },
+                                "عورة للاكي كتيك صلاة اياله.",
+                                new List<string> { "ڤوست هيڠڬ لوتوت", "بهاڬين دادا", "بهاڬين موك" },
                                 0
                             ),
                             new Question(
-                                "Baligh bagi perempuan berkait dengan ...",
-                                new List<string>
-                                {
-                                    "Suara berubah",
-                                    "Haid pertama",
-                                    "Kuku panjang",
-                                },
+                                "بالغ باڬي ڤرمڤوان بركاءيت دڠن ...",
+                                new List<string> { "سوارا بروبه", "حيض ڤرتام", "كوكو ڤنجڠ" },
                                 1
                             ),
                             new Question(
-                                "Menutup aurat adalah ...",
-                                new List<string>
-                                {
-                                    "Syarat sah solat",
-                                    "Perkara harus",
-                                    "Tuntutan syarak",
-                                },
+                                "منوتوڤ عورة اداله ...",
+                                new List<string> { "شرط صح صلاة", "ڤركارا هاروس", "تونتوتن شرع" },
                                 2
                             ),
                             new Question(
-                                "Apakah maksud solat?",
+                                "اڤاكه مقصود صلاة؟",
                                 new List<string>
                                 {
-                                    "Doa dan bacaan tertentu",
-                                    "Pergerakan badan sahaja",
-                                    "Perkara yang membatalkan puasa",
+                                    "دعاء دان باچاءن ترتنتو",
+                                    "ڤرڬرقن بادن سهاج",
+                                    "ڤركارا يڠ ممبطلكن ڤواسا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Bilangan solat fardu sehari semalam ialah ...",
+                                "بيلاڠن صلاة فرض سهاري سمالم اياله ...",
                                 new List<string> { "3", "5", "7" },
                                 1
                             ),
                             new Question(
-                                "Waktu solat Subuh ialah ...",
+                                "وقتو صلاة صبح اياله ...",
+                                new List<string> { "سلڤس عصر", "سبلوم شروق", "سلڤس عشاء" },
+                                1
+                            ),
+                            new Question(
+                                "روكون صلاة اياله.",
+                                new List<string> { "برديري تڬق", "ماكن سبلوم صلاة", "برچاكڤ" },
+                                0
+                            ),
+                            new Question(
+                                "انتارا ڤركارا يڠ ممبطلكن صلاة اياله ...",
+                                new List<string> { "برصلوات", "كتاوا كوات", "ممباچ الفاتحة" },
+                                1
+                            ),
+                            new Question(
+                                "ساله ساتو شرط صح صلاة اياله",
+                                new List<string> { "مڠهادڤ قبلة", "مينوم اءير دهولو", "تيدور" },
+                                0
+                            ),
+                            new Question(
+                                "انتارا سنة دالم صلاة اياله",
+                                new List<string> { "تكبيرة الإحرام", "دعاء قنوت", "نية" },
+                                1
+                            ),
+                            new Question(
+                                "وضوء اداله.",
+                                new List<string> { "شرط صح صلاة", "ڤركارا سنة", "روكون صلاة" },
+                                0
+                            ),
+                            new Question(
+                                "صلاة دلاكوكن ..",
                                 new List<string>
                                 {
-                                    "Selepas asar",
-                                    "Sebelum syuruk",
-                                    "Selepas isyak",
+                                    "اونتوق مڠحرمتي ڬورو",
+                                    "سباڬاي عبادة كڤد الله",
+                                    "اونتوق منجادي تيڠڬي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Rukun solat ialah.",
+                                "دالم صلاة، روكون قولي اياله",
+                                new List<string> { "ڤرڬرقن", "باچاءن", "نية" },
+                                1
+                            ),
+                            new Question(
+                                "چونتوه روكون صلاة اياله",
                                 new List<string>
                                 {
-                                    "Berdiri tegak",
-                                    "Makan sebelum solat",
-                                    "Bercakap",
+                                    "مماكاي تليكوڠ چنتيق",
+                                    "ممباچ الفاتحة",
+                                    "مڠيكت رمبوت",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "شرط واجب صلاة اياله",
+                                new List<string>
+                                {
+                                    "چوكوڤ عمور بالغ",
+                                    "بوليه ممباچ دعاء",
+                                    "تاهو ممباچ بوكو",
                                 },
                                 0
                             ),
                             new Question(
-                                "Antara perkara yang membatalkan solat ialah ...",
+                                "حكمة صلاة اياله",
                                 new List<string>
                                 {
-                                    "Berselawat",
-                                    "Ketawa kuat",
-                                    "Membaca al-Fatihah",
+                                    "مڠواتكن بادن",
+                                    "مندكتكن ديري كڤد الله",
+                                    "منجادي كاي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Salah satu syarat sah solat ialah",
-                                new List<string>
-                                {
-                                    "Menghadap kiblat",
-                                    "Minum air dahulu",
-                                    "Tidur",
-                                },
+                                "دالم صلاة، كيت ممباچ الفاتحة كتيك ...",
+                                new List<string> { "ركوع", "برديري", "سجود" },
+                                1
+                            ),
+                            new Question(
+                                "صلاة مغرب ممڤوڽاءي ...",
+                                new List<string> { "امڤت ركعة", "تيڬ ركعة", "دوا ركعة" },
+                                1
+                            ),
+                            new Question(
+                                "صلاة عصر دلاكوكن ڤد ...",
+                                new List<string> { "وقتو تڠه مالم", "وقتو ڤتڠ", "وقتو ڤاڬي" },
+                                1
+                            ),
+                            new Question(
+                                "انتارا ڤركارا ممبطلكن صلاة اياله ...",
+                                new List<string> { "برذكر دالم هاتي", "برحدث", "فوكوس" },
+                                1
+                            ),
+                            new Question(
+                                "نية صلاة دلاكوكن ...",
+                                new List<string> { "دالم هاتي", "دلفظ دڠن كوات", "تيدق ڤرلو" },
                                 0
                             ),
                             new Question(
-                                "Antara sunat dalam solat ialah",
-                                new List<string> { "Takbiratul ihram", "Doa qunut", "Niat" },
-                                1
-                            ),
-                            new Question(
-                                "Wuduk adalah.",
-                                new List<string>
-                                {
-                                    "Syarat sah solat",
-                                    "Perkara sunat",
-                                    "Rukun solat",
-                                },
+                                "صلاة عشاء ممڤوڽاءي ...",
+                                new List<string> { "امڤت ركعة", "تيڬ ركعة", "دوا ركعة" },
                                 0
                             ),
                             new Question(
-                                "Solat dilakukan ..",
+                                "ترتيب اياله ...",
                                 new List<string>
                                 {
-                                    "Untuk menghormati guru",
-                                    "Sebagai ibadah kepada Allah",
-                                    "Untuk menjadi tinggi",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Dalam solat, rukun qauli ialah",
-                                new List<string> { "Pergerakan", "Bacaan", "Niat" },
-                                1
-                            ),
-                            new Question(
-                                "Contoh rukun solat ialah",
-                                new List<string>
-                                {
-                                    "Memakai telekung cantik",
-                                    "Membaca al-Fatihah",
-                                    "Mengikat rambut",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Syarat wajib solat ialah",
-                                new List<string>
-                                {
-                                    "Cukup umur baligh",
-                                    "Boleh membaca doa",
-                                    "Tahu membaca buku",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Hikmah solat ialah",
-                                new List<string>
-                                {
-                                    "Menguatkan badan",
-                                    "Mendekatkan diri kepada Allah",
-                                    "Menjadi kaya",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Dalam solat, kita membaca al-Fatihah ketika ...",
-                                new List<string> { "Rukuk", "Berdiri", "Sujud" },
-                                1
-                            ),
-                            new Question(
-                                "Solat Maghrib mempunyai ...",
-                                new List<string> { "Empat rakaat", "Tiga rakaat", "Dua rakaat" },
-                                1
-                            ),
-                            new Question(
-                                "Solat Asar dilakukan pada ...",
-                                new List<string>
-                                {
-                                    "Waktu tengah malam",
-                                    "Waktu petang",
-                                    "Waktu pagi",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Antara perkara membatalkan solat ialah ...",
-                                new List<string> { "Berzikir dalam hati", "Berhadas", "Fokus" },
-                                1
-                            ),
-                            new Question(
-                                "Niat solat dilakukan ...",
-                                new List<string>
-                                {
-                                    "Dalam hati",
-                                    "Dilafaz dengan kuat",
-                                    "Tidak perlu",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Solat Isyak mempunyai ...",
-                                new List<string> { "Empat rakaat", "Tiga rakaat", "Dua rakaat" },
-                                0
-                            ),
-                            new Question(
-                                "Tertib ialah ...",
-                                new List<string>
-                                {
-                                    "Mendahulukan rukun dengan turutan yang betul",
-                                    "Melompat ketika solat",
-                                    "Membaca doa waktu solat",
+                                    "منداهولوكن روكون دڠن توروتن يڠ بتول",
+                                    "ملومڤت كتيك صلاة",
+                                    "ممباچ دعاء وقتو صلاة",
                                 },
                                 0
                             ),
@@ -3822,308 +3447,263 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Nabi Muhammad SAW berketurunan:",
-                                new List<string> { "Arab Quraisy", "Parsi", "Rom" },
+                                "نبي محمد ﷺ بركتورونن:",
+                                new List<string> { "عرب قريش", "ڤارسي", "روم" },
                                 0
                             ),
                             new Question(
-                                "Datuk Nabi yang menjaga Baginda selepas ibu wafat ialah:",
-                                new List<string> { "Abdul Muttalib", "Abu Talib", "Hamzah" },
+                                "داتوق نبي يڠ منجاڬ بڬيندا سلڤس ايبو وفت اياله:",
+                                new List<string> { "عبد المطلب", "أبو طالب", "حمزة" },
                                 0
                             ),
                             new Question(
-                                "Nabi Muhammad SAW lahir di:",
-                                new List<string> { "Mekah", "Madinah", "Thaif" },
+                                "نبي محمد ﷺ لاهير د:",
+                                new List<string> { "مكة", "مدينة", "طائف" },
                                 0
                             ),
                             new Question(
-                                "Ibu susu Nabi Muhammad SAW ialah:",
-                                new List<string> { "Halimatus Saadiah", "Aminah", "Zainab" },
+                                "ايبو سوسو نبي محمد ﷺ اياله:",
+                                new List<string> { "حليمة السعدية", "آمنة", "زينب" },
                                 0
                             ),
                             new Question(
-                                "Bilangan anak lelaki Nabi ialah:",
-                                new List<string> { "2 orang", "4 orang", "6 orang" },
+                                "بيلاڠن انق للاكي نبي اياله:",
+                                new List<string> { "2 اورڠ", "4 اورڠ", "6 اورڠ" },
                                 0
                             ),
                             new Question(
-                                "Bilangan anak perempuan Nabi ialah:",
-                                new List<string> { "4 orang", "2 orang", "3 orang" },
+                                "بيلاڠن انق ڤرمڤوان نبي اياله:",
+                                new List<string> { "4 اورڠ", "2 اورڠ", "3 اورڠ" },
                                 0
                             ),
                             new Question(
-                                "Suami kepada Fatimah ialah:",
-                                new List<string> { "Ali bin Abi Talib", "Uthman", "Abu Bakar" },
+                                "سوامي كڤد فاطمة اياله:",
+                                new List<string> { "علي بن أبي طالب", "عثمان", "أبو بكر" },
                                 0
                             ),
                             new Question(
-                                "Anak Nabi yang meninggal pada usia kecil ialah:",
-                                new List<string> { "Qasim", "Zainab", "Ruqayyah" },
+                                "انق نبي يڠ منيڠڬل ڤد اوسيا كچيل اياله:",
+                                new List<string> { "قاسم", "زينب", "رقية" },
                                 0
                             ),
                             new Question(
-                                "Nama ibu kepada Khadijah ialah:",
+                                "نام ايبو كڤد خديجة اياله:",
                                 new List<string>
                                 {
-                                    "Fatimah binti Za'idah",
-                                    "Aminah binti Wahab",
-                                    "Zainab binti Jahsy",
+                                    "فاطمة بنت زائدة",
+                                    "آمنة بنت وهب",
+                                    "زينب بنت جحش",
                                 },
                                 0
                             ),
                             new Question(
-                                "Rumah tangga yang bahagia dapat membentuk:",
+                                "رومه تڠڬ يڠ بهاڬيا داڤت ممبنتوق:",
+                                new List<string> { "اخلاق موليا", "مسئله سوسيال", "ڤرتليڠكهن" },
+                                0
+                            ),
+                            new Question(
+                                "انق خديجة دڠن نبي اياله:",
+                                new List<string> { "فاطمة", "عائشة", "حفصة" },
+                                0
+                            ),
+                            new Question(
+                                "سيدنا علي اياله:",
+                                new List<string> { "مننتو نبي", "باڤ ساودارا نبي", "ڬورو نبي" },
+                                0
+                            ),
+                            new Question(
+                                "سوسور ڬالور كلوارڬ ڤنتيڠ اونتوق:",
                                 new List<string>
                                 {
-                                    "Akhlak mulia",
-                                    "Masalah sosial",
-                                    "Pertelingkahan",
+                                    "مڠنلي اصل-اصول",
+                                    "منيمبولكن كبنچين",
+                                    "مرندهكن قوم لاءين",
                                 },
                                 0
                             ),
                             new Question(
-                                "Anak Khadijah dengan Nabi ialah:",
-                                new List<string> { "Fatimah", "Aisyah", "Hafsa" },
+                                "انق ڤرمڤوان نبي يڠ برهجرة ك حبشة اياله:",
+                                new List<string> { "رقية", "زينب", "أم كلثوم" },
                                 0
                             ),
                             new Question(
-                                "Saidina Ali ialah:",
+                                "اينستيتوسي كلوارڬ برڤرانن ممبنتوق:",
                                 new List<string>
                                 {
-                                    "Menantu Nabi",
-                                    "Bapa saudara Nabi",
-                                    "Guru Nabi",
+                                    "ڬينراسي بركواليتي",
+                                    "ڬينراسي ليار",
+                                    "ڬينراسي مالس",
                                 },
                                 0
                             ),
                             new Question(
-                                "Susur galur keluarga penting untuk:",
+                                "نبي دجاڬ اوليه أبو طالب سلڤس:",
                                 new List<string>
                                 {
-                                    "Mengenali asal-usul",
-                                    "Menimbulkan kebencian",
-                                    "Merendahkan kaum lain",
+                                    "داتوق بڬيندا وفت",
+                                    "بڬيندا بركهوين",
+                                    "بڬيندا برهجرة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Anak perempuan Nabi yang berhijrah ke Habsyah ialah:",
-                                new List<string> { "Ruqayyah", "Zainab", "Ummu Kultsum" },
+                                "وحيو ڤرتام دسمڤاءيكن اوليه ملائكة:",
+                                new List<string> { "جبريل", "ميكائيل", "إسرافيل" },
                                 0
                             ),
                             new Question(
-                                "Institusi keluarga berperanan membentuk:",
+                                "ڤريستيوا كرسولن برلاكو د:",
+                                new List<string> { "ڬوا حراء", "بوكيت أحد", "ڤادڠ عرفة" },
+                                0
+                            ),
+                            new Question(
+                                "نبي منريما وحيو ڤد وقتو:",
+                                new List<string> { "مالم", "سياڠ", "صبح" },
+                                0
+                            ),
+                            new Question(
+                                "ڤرينته ڤرتام دالم إسلام اياله:",
+                                new List<string> { "إقرأ", "سجود", "برذكر" },
+                                0
+                            ),
+                            new Question(
+                                "سلڤس منريما وحيو، نبي ڤولڠ كڤد:",
+                                new List<string> { "خديجة", "أبو بكر", "علي" },
+                                0
+                            ),
+                            new Question(
+                                "خديجة مننڠكن نبي دڠن:",
                                 new List<string>
                                 {
-                                    "Generasi berkualiti",
-                                    "Generasi liar",
-                                    "Generasi malas",
+                                    "ممبري سوكوڠن",
+                                    "مڠيجيك بڬيندا",
+                                    "برلاري ك رومه جيرن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Nabi dijaga oleh Abu Talib selepas:",
+                                "نبي بردعوه سچارا سڽڤ سلاما:",
+                                new List<string> { "3 تاهون", "1 تاهون", "10 تاهون" },
+                                0
+                            ),
+                            new Question(
+                                "اورڠ ڤرتام مملوق إسلام دري ڬولوڠن وانيتا اياله:",
+                                new List<string> { "خديجة", "عائشة", "فاطمة" },
+                                0
+                            ),
+                            new Question(
+                                "اورڠ ڤرتام مملوق إسلام دري كانق٢ اياله:",
+                                new List<string> { "علي بن أبي طالب", "زيد بن حارثة", "حسن" },
+                                0
+                            ),
+                            new Question(
+                                "سورة العلق مڠاجر كيت سوڤايا:",
                                 new List<string>
                                 {
-                                    "Datuk Baginda wafat",
-                                    "Baginda berkahwin",
-                                    "Baginda berhijrah",
+                                    "ممباچ دان منونتوت علمو",
+                                    "تيدور اول",
+                                    "برداڬڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Wahyu pertama disampaikan oleh Malaikat:",
-                                new List<string> { "Jibril", "Mikail", "Israfil" },
+                                "وحيو تورون ملالوءي:",
+                                new List<string> { "ملائكة", "ميمڤي بياسا", "اورڠ صالح" },
                                 0
                             ),
                             new Question(
-                                "Peristiwa kerasulan berlaku di:",
-                                new List<string> { "Gua Hira'", "Bukit Uhud", "Padang Arafah" },
-                                0
-                            ),
-                            new Question(
-                                "Nabi menerima wahyu pada waktu:",
-                                new List<string> { "Malam", "Siang", "Subuh" },
-                                0
-                            ),
-                            new Question(
-                                "Perintah pertama dalam Islam ialah:",
-                                new List<string> { "Iqra'", "Sujud", "Berzikir" },
-                                0
-                            ),
-                            new Question(
-                                "Selepas menerima wahyu, Nabi pulang kepada:",
-                                new List<string> { "Khadijah", "Abu Bakar", "Ali" },
-                                0
-                            ),
-                            new Question(
-                                "Khadijah menenangkan Nabi dengan:",
+                                "نبي ساڠت سوك برخلوة كرانا:",
                                 new List<string>
                                 {
-                                    "Memberi sokongan",
-                                    "Mengejek Baginda",
-                                    "Berlari ke rumah jiran",
+                                    "برفيكير تنتڠ چيڤتاءن الله",
+                                    "مڠاسيڠ ديري دري مشاركت",
+                                    "مڠومڤول هرتا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Nabi berdakwah secara senyap selama:",
-                                new List<string> { "3 tahun", "1 tahun", "10 tahun" },
+                                "كتيك منريما وحيو، نبي براس:",
+                                new List<string> { "ڬمنتر", "ڬمبيرا", "ماره" },
                                 0
                             ),
                             new Question(
-                                "Orang pertama memeluk Islam dari golongan wanita ialah:",
-                                new List<string> { "Khadijah", "Aisyah", "Fatimah" },
+                                "دعوه اول ترتومڤو كڤد:",
+                                new List<string> { "اهلي كلوارڬ", "كتوا قريش", "قوم يهودي" },
                                 0
                             ),
                             new Question(
-                                "Orang pertama memeluk Islam dari kanak-kanak ialah:",
+                                "كباءيقن ممباچ اياله:",
+                                new List<string> { "منمبه ڤڠتاهوان", "ممبازير ماس", "مڽوسهكن" },
+                                0
+                            ),
+                            new Question(
+                                "زيد بن حارثة اياله:",
+                                new List<string> { "ڤمبنتو نبي", "موسوه نبي", "كتوا قريش" },
+                                0
+                            ),
+                            new Question(
+                                "خديجة ممبري سوكوڠن كڤد نبي دالم بنتوق:",
+                                new List<string> { "هرتا دان سماڠت", "سنجات", "تنترا" },
+                                0
+                            ),
+                            new Question(
+                                "ڬلرن خديجة اياله:",
                                 new List<string>
                                 {
-                                    "Ali bin Abi Talib",
-                                    "Zaid bin Harithah",
-                                    "Hasan",
+                                    "ايبو اورڠ برايمان",
+                                    "ڤوتري قريش",
+                                    "وانيتا بدر",
                                 },
                                 0
                             ),
                             new Question(
-                                "Surah Al-'Alaq mengajar kita supaya:",
+                                "صيفت خديجة يڠ اوتام اياله:",
+                                new List<string> { "ڤموره", "بخيل", "ڬارڠ" },
+                                0
+                            ),
+                            new Question(
+                                "ڤرانن خديجة سباڬاي ايستري اياله:",
+                                new List<string> { "مننڠكن نبي", "مڠاول دعوه", "مڠهالڠ شعار" },
+                                0
+                            ),
+                            new Question(
+                                "خديجة سنتياس منجادي:",
                                 new List<string>
                                 {
-                                    "Membaca dan menuntut ilmu",
-                                    "Tidur awal",
-                                    "Berdagang",
+                                    "ڤڽوكوڠ اوتام نبي",
+                                    "ڤڠكريتيك نبي",
+                                    "ڤننتڠ دعوه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Wahyu turun melalui:",
-                                new List<string> { "Malaikat", "Mimpi biasa", "Orang soleh" },
+                                "خديجة ممبنتو نبي كتيك بڬيندا:",
+                                new List<string> { "منريما وحيو", "برڤرڠ", "برهجرة" },
                                 0
                             ),
                             new Question(
-                                "Nabi sangat suka berkhalwat kerana:",
+                                "خديجة منونجوقكن كاسيه سايڠ دڠن:",
+                                new List<string> { "مڠوربنكن هرتا", "منولق نبي", "ماره كڤد نبي" },
+                                0
+                            ),
+                            new Question(
+                                "خديجة منجادي ڤمبنتو نبي دڠن:",
                                 new List<string>
                                 {
-                                    "Berfikir tentang ciptaan Allah",
-                                    "Mengasing diri dari masyarakat",
-                                    "Mengumpul harta",
+                                    "مڠوروس كڤرلوان رومه",
+                                    "مڽوروه نبي بكرجا لبيه",
+                                    "منيڠڬلكن رومه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Ketika menerima wahyu, Nabi berasa:",
-                                new List<string> { "Gementar", "Gembira", "Marah" },
+                                "تاهون وفت خديجة دكنلي سباڬاي:",
+                                new List<string> { "تاهون كسديهن", "تاهون ڬاجه", "تاهون هجرة" },
                                 0
                             ),
                             new Question(
-                                "Dakwah awal tertumpu kepada:",
-                                new List<string>
-                                {
-                                    "Ahli keluarga",
-                                    "Ketua Quraisy",
-                                    "Kaum Yahudi",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Kebaikan membaca ialah:",
-                                new List<string>
-                                {
-                                    "Menambah pengetahuan",
-                                    "Membazir masa",
-                                    "Menyusahkan",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Zaid bin Harithah ialah:",
-                                new List<string> { "Pembantu Nabi", "Musuh Nabi", "Ketua Quraisy" },
-                                0
-                            ),
-                            new Question(
-                                "Khadijah memberi sokongan kepada Nabi dalam bentuk:",
-                                new List<string> { "Harta dan semangat", "Senjata", "Tentera" },
-                                0
-                            ),
-                            new Question(
-                                "Gelaran Khadijah ialah:",
-                                new List<string>
-                                {
-                                    "Ibu orang beriman",
-                                    "Puteri Quraisy",
-                                    "Wanita Badar",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Sifat Khadijah yang utama ialah:",
-                                new List<string> { "Pemurah", "Bakhil", "Garang" },
-                                0
-                            ),
-                            new Question(
-                                "Peranan Khadijah sebagai isteri ialah:",
-                                new List<string>
-                                {
-                                    "Menenangkan Nabi",
-                                    "Mengawal dakwah",
-                                    "Menghalang syiar",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Khadijah sentiasa menjadi:",
-                                new List<string>
-                                {
-                                    "Penyokong utama Nabi",
-                                    "Pengkritik Nabi",
-                                    "Penentang dakwah",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Khadijah membantu Nabi ketika Baginda:",
-                                new List<string> { "Menerima wahyu", "Berperang", "Berhijrah" },
-                                0
-                            ),
-                            new Question(
-                                "Khadijah menunjukkan kasih sayang dengan:",
-                                new List<string>
-                                {
-                                    "Mengorbankan harta",
-                                    "Menolak Nabi",
-                                    "Marah kepada Nabi",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Khadijah menjadi pembantu Nabi dengan:",
-                                new List<string>
-                                {
-                                    "Mengurus keperluan rumah",
-                                    "Menyuruh Nabi bekerja lebih",
-                                    "Meninggalkan rumah",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Tahun wafat Khadijah dikenali sebagai:",
-                                new List<string>
-                                {
-                                    "Tahun Kesedihan",
-                                    "Tahun Gajah",
-                                    "Tahun Hijrah",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Nabi menghargai Khadijah kerana:",
-                                new List<string>
-                                {
-                                    "Jasanya besar",
-                                    "Rumahnya besar",
-                                    "Harta banyak",
-                                },
+                                "نبي مڠهرڬاءي خديجة كرانا:",
+                                new List<string> { "جاساڽ بسر", "رومهڽ بسر", "هرتا باڽق" },
                                 0
                             ),
                         },
@@ -4134,467 +3714,402 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Orang dewasa bermaksud ..",
+                                "اورڠ ديواسا برمقصود ..",
                                 new List<string>
                                 {
-                                    "Kanak-kanak kecil",
-                                    "Individu yang sudah matang",
-                                    "Bayi",
+                                    "كانق-كانق كچيل",
+                                    "اينديۏيدو يڠ سوده ماتڠ",
+                                    "بايي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Orang tua merujuk kepada ...",
-                                new List<string> { "Warga emas", "Remaja", "Pelajar sekolah" },
+                                "اورڠ توا مروجوع كڤد ...",
+                                new List<string> { "ورڬ امس", "رماجا", "ڤلاجر سكوله" },
                                 0
                             ),
                             new Question(
-                                "Salah satu dalil berbuat baik kepada ibu bapa ialah ...",
-                                new List<string> { "Suruhan jiran", "Al-Quran", "Buku cerita" },
+                                "ساله ساتو دليل بربوات باءيق كڤد ايبو باڤ اياله ...",
+                                new List<string> { "سوروهن جيرن", "القرءان", "بوكو چريتا" },
                                 1
                             ),
                             new Question(
-                                "Antara adab dengan orang tua ialah ...",
+                                "انتارا ادب دڠن اورڠ توا اياله ...",
                                 new List<string>
                                 {
-                                    "Menjerit kepada mereka",
-                                    "Menghormati percakapan mereka",
-                                    "Mengabaikan arahan",
+                                    "منجريت كڤد مريك",
+                                    "مڠحرمتي ڤرچاكڤن مريك",
+                                    "مڠابايكن ارهن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Faedah beradab dengan orang tua ialah ...",
+                                "فاءيده برادب دڠن اورڠ توا اياله ...",
                                 new List<string>
                                 {
-                                    "Disayangi Allah",
-                                    "Dibenci semua orang",
-                                    "Hidup kesunyian",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Akibat tidak beradab dengan orang dewasa ialah ...",
-                                new List<string> { "Ramai kawan", "Mendapat dosa", "Dipuji guru" },
-                                1
-                            ),
-                            new Question(
-                                "Tanggungjawab anak kepada ibu bapa ialah ...",
-                                new List<string>
-                                {
-                                    "Menjawab dengan kasar",
-                                    "Menolong mereka",
-                                    "Menyuruh mereka bekerja",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Contoh orang dewasa ialah ...",
-                                new List<string>
-                                {
-                                    "Murid Tahun 1",
-                                    "Penjaga sekolah",
-                                    "Bayi baru lahir",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Apabila ibu bapa bercakap, anak perlu ...",
-                                new List<string>
-                                {
-                                    "Mengabaikan",
-                                    "Mendengar dengan baik",
-                                    "Berlari keluar",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Menghormati orang tua membawa kepada",
-                                new List<string>
-                                {
-                                    "Hubungan keluarga yang baik",
-                                    "Perselisihan faham",
-                                    "Kesedihan",
+                                    "دسايڠي الله",
+                                    "دبنچي سموا اورڠ",
+                                    "هيدوڤ كسوڽين",
                                 },
                                 0
                             ),
                             new Question(
-                                "Jiran bermaksud ..",
+                                "عاقبة تيدق برادب دڠن اورڠ ديواسا اياله ...",
+                                new List<string> { "راماي كاون", "مندافت دوسا", "دڤوجي ڬورو" },
+                                1
+                            ),
+                            new Question(
+                                "تڠڬوڠجواب انق كڤد ايبو باڤ اياله ...",
                                 new List<string>
                                 {
-                                    "Orang yang tinggal jauh",
-                                    "Orang yang tinggal berdekatan",
-                                    "Orang dalam sekolah",
+                                    "منجواب دڠن كاسر",
+                                    "منولوڠ مريك",
+                                    "مڽوروه مريك بكرجا",
                                 },
                                 1
                             ),
                             new Question(
-                                "Dalil adab berjiran mengajar kita supaya ...",
+                                "چونتوه اورڠ ديواسا اياله ...",
                                 new List<string>
                                 {
-                                    "Bermusuhan",
-                                    "Saling membantu",
-                                    "Menyakiti jiran",
+                                    "موريد تاهون 1",
+                                    "ڤنجاڬ سكوله",
+                                    "بايي بارو لاهير",
                                 },
                                 1
                             ),
                             new Question(
-                                "Adab dengan jiran Islam dan bukan Islam termasuk ...",
+                                "اڤابيلا ايبو باڤ برچاكڤ، انق ڤرلو ...",
+                                new List<string> { "مڠابايكن", "مندڠر دڠن باءيق", "برلاري كلوار" },
+                                1
+                            ),
+                            new Question(
+                                "مڠحرمتي اورڠ توا ممباوا كڤد",
                                 new List<string>
                                 {
-                                    "Mengutuk",
-                                    "Mengganggu waktu rehat",
-                                    "Bertegur sapa",
+                                    "هوبوڠن كلوارڬ يڠ باءيق",
+                                    "ڤرسليسيهن فهم",
+                                    "كسديهن",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "جيرن برمقصود ..",
+                                new List<string>
+                                {
+                                    "اورڠ يڠ تيڠڬل جاءوه",
+                                    "اورڠ يڠ تيڠڬل بردكتن",
+                                    "اورڠ دالم سكوله",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "دليل ادب برجيرن مڠاجر كيت سوڤايا ...",
+                                new List<string> { "برموسوهن", "ساليڠ ممبنتو", "مڽاكيتي جيرن" },
+                                1
+                            ),
+                            new Question(
+                                "ادب دڠن جيرن إسلام دان بوكن إسلام ترماسوق ...",
+                                new List<string> { "مڠوتوق", "مڠڬڠڬو وقتو ريحت", "برتڬور ساڤ" },
+                                2
+                            ),
+                            new Question(
+                                "فاءيده برادب دڠن جيرن اياله ...",
+                                new List<string>
+                                {
+                                    "دحرمتي مشاركت",
+                                    "رومه منجادي كوتور",
+                                    "تيدق دكنلي سسياڤا",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "عاقبة تيدق برادب دڠن جيرن اياله ...",
+                                new List<string>
+                                {
+                                    "هيدوڤ امن",
+                                    "برلاكو ڤرڬادوهن",
+                                    "جيرن سماكين راڤت",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "ساله ساتو حق جيرن اياله",
+                                new List<string> { "دچرچا", "تيدق دلاين", "دبنتو كتيك سوسه" },
+                                2
+                            ),
+                            new Question(
+                                "جيرن بوكن إسلام ڤرلو ...",
+                                new List<string> { "دڤندڠ رنده", "دحرمتي", "دهينا" },
+                                1
+                            ),
+                            new Question(
+                                "ڤربواتن مڠهيدوڤكن موزيك كوات هيڠڬ مڠڬڠڬو جيرن اياله ...",
+                                new List<string> { "باءيق", "بوروق", "سنة" },
+                                1
+                            ),
+                            new Question(
+                                "ممبري سلام كڤد جيرن اداله عملن ...",
+                                new List<string> { "تيدق دڬالقكن", "هاروس دأيلقكن", "برادب" },
+                                2
+                            ),
+                            new Question(
+                                "جك جيرن دتيمڤا مصيبة، كيت ڤرلو ...",
+                                new List<string> { "ملاريكن ديري", "منونجوقكن سيمڤاتي", "مڠيجيك" },
+                                1
+                            ),
+                            new Question(
+                                "تتامو اياله ...",
+                                new List<string>
+                                {
+                                    "اورڠ يڠ داتڠ بركونجوڠ",
+                                    "بيناتڠ ڤليهاراءن",
+                                    "بارڠ رومه",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "دليل ادب ملاين تتامو مڠاجر سوڤايا ...",
+                                new List<string> { "كدكوت", "مڠهينا تتامو", "مولياكن تتامو" },
+                                2
+                            ),
+                            new Question(
+                                "ادب ملاين تتامو ترماسوق",
+                                new List<string>
+                                {
+                                    "مڽمبوت دڠن سڽومن",
+                                    "منوتوڤ ڤينتو موك تتامو",
+                                    "ممبياركن تتامو برديري لاما",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "فاءيده ملاين تتامو اياله ..",
+                                new List<string> { "دڤندڠ باءيق", "دڤندڠ سومبوڠ", "دڤولاوكن" },
+                                0
+                            ),
+                            new Question(
+                                "عاقبة تيدق برادب دڠن تتامو اياله ...",
+                                new List<string>
+                                {
+                                    "تتامو براس ڬمبيرا",
+                                    "رومه دسكاءي سموا",
+                                    "هوبوڠن رڠڬڠ",
                                 },
                                 2
                             ),
                             new Question(
-                                "Faedah beradab dengan jiran ialah ...",
+                                "ادب سباڬاي تتامو اياله.",
                                 new List<string>
                                 {
-                                    "Dihormati masyarakat",
-                                    "Rumah menjadi kotor",
-                                    "Tidak dikenali sesiapa",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Akibat tidak beradab dengan jiran ialah ...",
-                                new List<string>
-                                {
-                                    "Hidup aman",
-                                    "Berlaku pergaduhan",
-                                    "Jiran semakin rapat",
+                                    "مڠوتوركن رومه توان",
+                                    "مڠحرمتي ماس توان رومه",
+                                    "مماراهي توان رومه",
                                 },
                                 1
                             ),
                             new Question(
-                                "Salah satu hak jiran ialah",
+                                "باتس ڤرڬاءولن دڠن تتامو ڤرلو دجاڬ سوڤايا ...",
                                 new List<string>
                                 {
-                                    "Dicerca",
-                                    "Tidak dilayan",
-                                    "Dibantu ketika susah",
+                                    "تيدق منيمبولكن فتنة",
+                                    "ملاكوكن ڤركارا حرام",
+                                    "مڠڬڠڬو جيرن",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "تتامو يڠ باءيق تيدق ...",
+                                new List<string>
+                                {
+                                    "مڠامبيل بارڠ تنڤا ايذين",
+                                    "مڠوچڤ تريما كاسيه",
+                                    "مڠحرمتي رواڠ توان رومه",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "توان رومه ڤرلو ...",
+                                new List<string>
+                                {
+                                    "ممبياركن تتامو منوڠڬو",
+                                    "مڽمبوت تتامو",
+                                    "برڤورا-ڤورا تياد د رومه",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "ملاين تتامو دڠن باءيق اداله ...",
+                                new List<string> { "ادب يڠ دتونتوت", "تيدق ڤنتيڠ", "دلارڠ" },
+                                0
+                            ),
+                            new Question(
+                                "OKU برمقصود ..",
+                                new List<string>
+                                {
+                                    "اورڠ يڠ كوات",
+                                    "اورڠ يڠ سمڤورنا",
+                                    "اورڠ يڠ ممڤوڽاءي ككورڠن ترتنتو",
                                 },
                                 2
                             ),
                             new Question(
-                                "Jiran bukan Islam perlu ...",
-                                new List<string> { "Dipandang rendah", "Dihormati", "Dihina" },
-                                1
+                                "كاتڬوري OKU ترماسوق ...",
+                                new List<string> { "ڤندڠرن", "كصيحتن نورمل", "كچرڬسن ڤنوه" },
+                                0
                             ),
                             new Question(
-                                "Perbuatan menghidupkan muzik kuat hingga mengganggu jiran ialah ...",
-                                new List<string> { "Baik", "Buruk", "Sunat" },
-                                1
-                            ),
-                            new Question(
-                                "Memberi salam kepada jiran adalah amalan ...",
+                                "ادب دڠن OKU اياله ...",
                                 new List<string>
                                 {
-                                    "Tidak digalakkan",
-                                    "Harus dielakkan",
-                                    "Beradab",
+                                    "مڠعاءيبكن مريك",
+                                    "مڠهولوركن بنتوان",
+                                    "منترتاواكن ككورڠن",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "فاءيده برادب دڠن OKU اياله ...",
+                                new List<string> { "مندافت ڤهالا", "مندافت موسوه", "دبنچي الله" },
+                                0
+                            ),
+                            new Question(
+                                "تيدق مڠحرمتي OKU مڽببكن ..",
+                                new List<string> { "هوبوڠن باءيق", "ڤربالهن", "كاسيه سايڠ برتمبه" },
+                                1
+                            ),
+                            new Question(
+                                "القرءان اياله.",
+                                new List<string> { "كلمة الله", "بوكو چريتا", "نوتا سكوله" },
+                                0
+                            ),
+                            new Question(
+                                "ادب دڠن القرءان ترماسوق ...",
+                                new List<string>
+                                {
+                                    "لتق د لنتاي",
+                                    "منجاڬ كبرسيهن ديري",
+                                    "ممبوك هلامن سچارا كاسر",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "فاءيده برادب دڠن القرءان اياله ...",
+                                new List<string>
+                                {
+                                    "دجاءوهي رحمة",
+                                    "مندافت هداية",
+                                    "هاتي منجادي ڬلڤ",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "عاقبة تيدق برادب دڠن القرءان اياله ...",
+                                new List<string>
+                                {
+                                    "مندافت ڤهالا",
+                                    "منجادي لبيه باءيق",
+                                    "مندافت دوسا",
                                 },
                                 2
                             ),
                             new Question(
-                                "Jika jiran ditimpa musibah, kita perlu ...",
+                                "مڠحرمتي كتاب دان بوكو برمقصود ...",
                                 new List<string>
                                 {
-                                    "Melarikan diri",
-                                    "Menunjukkan simpati",
-                                    "Mengejek",
+                                    "مروسقكن بوكو",
+                                    "منجاڬ دڠن راڤي",
+                                    "ممبواڠ سسوك هاتي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Tetamu ialah ...",
+                                "ڬورو برمقصود ...",
                                 new List<string>
                                 {
-                                    "Orang yang datang berkunjung",
-                                    "Binatang peliharaan",
-                                    "Barang rumah",
+                                    "اورڠ يڠ مڠاجر",
+                                    "كاون سبايا",
+                                    "جيرن سبله رومه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Dalil adab melayan tetamu mengajar supaya ...",
+                                "ادب دڠن ڬورو ترماسوق ...",
                                 new List<string>
                                 {
-                                    "Kedekut",
-                                    "Menghina tetamu",
-                                    "Muliakan tetamu",
-                                },
-                                2
-                            ),
-                            new Question(
-                                "Adab melayan tetamu termasuk",
-                                new List<string>
-                                {
-                                    "Menyambut dengan senyuman",
-                                    "Menutup pintu muka tetamu",
-                                    "Membiarkan tetamu berdiri lama",
+                                    "مڠوچڤ سلام",
+                                    "منجريت كتيك ڬورو مڠاجر",
+                                    "تيدق مڽياڤكن كرجا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Faedah melayan tetamu ialah ..",
+                                "عاقبة تيدق برادب دڠن ڬورو اياله ...",
                                 new List<string>
                                 {
-                                    "Dipandang baik",
-                                    "Dipandang sombong",
-                                    "Dipulaukan",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Akibat tidak beradab dengan tetamu ialah ...",
-                                new List<string>
-                                {
-                                    "Tetamu berasa gembira",
-                                    "Rumah disukai semua",
-                                    "Hubungan renggang",
-                                },
-                                2
-                            ),
-                            new Question(
-                                "Adab sebagai tetamu ialah.",
-                                new List<string>
-                                {
-                                    "Mengotorkan rumah tuan",
-                                    "Menghormati masa tuan rumah",
-                                    "Memarahi tuan rumah",
+                                    "مندافت كبركتن",
+                                    "سوكر مندافت علمو",
+                                    "منجادي موريد چمرلڠ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Batas pergaulan dengan tetamu perlu dijaga supaya ...",
+                                "مندڠر ارهن ڬورو اداله ...",
+                                new List<string> { "تيدق ڤنتيڠ", "ساتو ادب", "دلارڠ" },
+                                1
+                            ),
+                            new Question(
+                                "ڬورو يڠ دحرمتي اكن ...",
                                 new List<string>
                                 {
-                                    "Tidak menimbulkan fitnah",
-                                    "Melakukan perkara haram",
-                                    "Mengganggu jiran",
+                                    "تيدق سوك مڠاجر",
+                                    "لبيه موده ممبري علمو",
+                                    "ممبنچي موريد",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "ادب كتيك بلاجر اياله ...",
+                                new List<string> { "سوك بيسيڠ", "ممولاكن دڠن دعاء", "مڠڬڠڬو كاون" },
+                                1
+                            ),
+                            new Question(
+                                "ڤركارا يڠ ڤرلو دهيندري كتيك بلاجر اياله ...",
+                                new List<string>
+                                {
+                                    "منومڤوكن ڤرهاتين",
+                                    "ماكن سمبيل بلاجر",
+                                    "مڠولڠ كاجي",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "فاءيده برادب كتيك بلاجر اياله ...",
+                                new List<string>
+                                {
+                                    "موده ممهامي ڤلاجرن",
+                                    "سماكين مالس",
+                                    "تيدق برجاي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Tetamu yang baik tidak ...",
+                                "عاقبة تيدق برادب كتيك بلاجر اياله ...",
                                 new List<string>
                                 {
-                                    "Mengambil barang tanpa izin",
-                                    "Mengucap terima kasih",
-                                    "Menghormati ruang tuan rumah",
+                                    "لمه دالم ڤلاجرن",
+                                    "منجادي چمرلڠ",
+                                    "مندافت باڽق ڤهالا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Tuan rumah perlu ...",
+                                "كڤنتيڠن منجاڬ كبرسيهن سكوله اياله ...",
                                 new List<string>
                                 {
-                                    "Membiarkan tetamu menunggu",
-                                    "Menyambut tetamu",
-                                    "Berpura-pura tiada di rumah",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Melayan tetamu dengan baik adalah ...",
-                                new List<string>
-                                {
-                                    "Adab yang dituntut",
-                                    "Tidak penting",
-                                    "Dilarang",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "OKU bermaksud ..",
-                                new List<string>
-                                {
-                                    "Orang yang kuat",
-                                    "Orang yang sempurna",
-                                    "Orang yang mempunyai kekurangan tertentu",
-                                },
-                                2
-                            ),
-                            new Question(
-                                "Kategori OKU termasuk ...",
-                                new List<string>
-                                {
-                                    "Pendengaran",
-                                    "Kesihatan normal",
-                                    "Kecergasan penuh",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Adab dengan OKU ialah ...",
-                                new List<string>
-                                {
-                                    "Mengaibkan mereka",
-                                    "Menghulurkan bantuan",
-                                    "Mentertawakan kekurangan",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Faedah beradab dengan OKU ialah ...",
-                                new List<string>
-                                {
-                                    "Mendapat pahala",
-                                    "Mendapat musuh",
-                                    "Dibenci Allah",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Tidak menghormati OKU menyebabkan ..",
-                                new List<string>
-                                {
-                                    "Hubungan baik",
-                                    "Perbalahan",
-                                    "Kasih sayang bertambah",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Al-Quran ialah.",
-                                new List<string> { "Kalimah Allah", "Buku cerita", "Nota sekolah" },
-                                0
-                            ),
-                            new Question(
-                                "Adab dengan Al-Quran termasuk ...",
-                                new List<string>
-                                {
-                                    "Letak di lantai",
-                                    "Menjaga kebersihan diri",
-                                    "Membuka halaman secara kasar",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Faedah beradab dengan Al-Quran ialah ...",
-                                new List<string>
-                                {
-                                    "Dijauhi rahmat",
-                                    "Mendapat hidayah",
-                                    "Hati menjadi gelap",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Akibat tidak beradab dengan Al-Quran ialah ...",
-                                new List<string>
-                                {
-                                    "Mendapat pahala",
-                                    "Menjadi lebih baik",
-                                    "Mendapat dosa",
-                                },
-                                2
-                            ),
-                            new Question(
-                                "Menghormati kitab dan buku bermaksud ...",
-                                new List<string>
-                                {
-                                    "Merosakkan buku",
-                                    "Menjaga dengan rapi",
-                                    "Membuang sesuka hati",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Guru bermaksud ...",
-                                new List<string>
-                                {
-                                    "Orang yang mengajar",
-                                    "Kawan sebaya",
-                                    "Jiran sebelah rumah",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Adab dengan guru termasuk ...",
-                                new List<string>
-                                {
-                                    "Mengucap salam",
-                                    "Menjerit ketika guru mengajar",
-                                    "Tidak menyiapkan kerja",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Akibat tidak beradab dengan guru ialah ...",
-                                new List<string>
-                                {
-                                    "Mendapat keberkatan",
-                                    "Sukar mendapat ilmu",
-                                    "Menjadi murid cemerlang",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Mendengar arahan guru adalah ...",
-                                new List<string> { "Tidak penting", "Satu adab", "Dilarang" },
-                                1
-                            ),
-                            new Question(
-                                "Guru yang dihormati akan ...",
-                                new List<string>
-                                {
-                                    "Tidak suka mengajar",
-                                    "Lebih mudah memberi ilmu",
-                                    "Membenci murid",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Adab ketika belajar ialah ...",
-                                new List<string>
-                                {
-                                    "Suka bising",
-                                    "Memulakan dengan doa",
-                                    "Mengganggu kawan",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Perkara yang perlu dihindari ketika belajar ialah ...",
-                                new List<string>
-                                {
-                                    "Menumpukan perhatian",
-                                    "Makan sambil belajar",
-                                    "Mengulang kaji",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Faedah beradab ketika belajar ialah ...",
-                                new List<string>
-                                {
-                                    "Mudah memahami pelajaran",
-                                    "Semakin malas",
-                                    "Tidak berjaya",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Akibat tidak beradab ketika belajar ialah ...",
-                                new List<string>
-                                {
-                                    "Lemah dalam pelajaran",
-                                    "Menjadi cemerlang",
-                                    "Mendapat banyak pahala",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Kepentingan menjaga kebersihan sekolah ialah ...",
-                                new List<string>
-                                {
-                                    "Mewujudkan persekitaran sihat",
-                                    "Menyebabkan penyakit",
-                                    "Menimbulkan bau busuk",
+                                    "موجودكن ڤرسكيترن صيحت",
+                                    "مڽببكن ڤڽاكيت",
+                                    "منيمبولكن باو بوسوق",
                                 },
                                 0
                             ),
@@ -4606,409 +4121,355 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Apakah maksud qada' dan qadar?",
+                                "اڤاكه مقصود قضاء دان قدر؟",
                                 new List<string>
                                 {
-                                    "Perintah manusia",
-                                    "Ketentuan Allah sejak azali",
-                                    "Pilihan hamba",
-                                    "Keputusan imam",
+                                    "ڤرينته ماءنسي",
+                                    "كتنتوان الله سجق ازلي",
+                                    "ڤيليهن همبا",
+                                    "كڤوتوسن امام",
                                 },
                                 1
                             ),
                             new Question(
-                                "Beriman dengan qada' dan qadar hukumnya?",
-                                new List<string> { "Sunat", "Harus", "Wajib", "Makruh" },
+                                "برايمان دڠن قضاء دان قدر حكومڽ؟",
+                                new List<string> { "سنة", "هاروس", "واجب", "مكروه" },
                                 2
                             ),
                             new Question(
-                                "Salah satu ciri orang yang beriman dengan qada' dan qadar ialah?",
-                                new List<string>
-                                {
-                                    "Cepat marah",
-                                    "Redha dan sabar",
-                                    "Putus asa",
-                                    "Takbur",
-                                },
+                                "ساله ساتو چيري اورڠ يڠ برايمان دڠن قضاء دان قدر اياله؟",
+                                new List<string> { "چڤت ماره", "رضا دان صبر", "ڤوتوس اسا", "تكبر" },
                                 1
                             ),
                             new Question(
-                                "Orang yang tidak percaya kepada qada' dan qadar termasuk dalam golongan?",
-                                new List<string> { "Mukmin", "Kafir", "Soleh", "Musafir" },
+                                "اورڠ يڠ تيدق ڤرچاي كڤد قضاء دان قدر ترماسوق دالم ڬولوڠن؟",
+                                new List<string> { "مؤمن", "كافير", "صالح", "مسافير" },
                                 1
                             ),
                             new Question(
-                                "Percaya kepada qada' dan qadar termasuk dalam rukun?",
-                                new List<string> { "Islam", "Iman", "Ihsan", "Syariat" },
+                                "ڤرچاي كڤد قضاء دان قدر ترماسوق دالم روكون؟",
+                                new List<string> { "إسلام", "ايمان", "إحسان", "شريعة" },
                                 1
                             ),
                             new Question(
-                                "Qada' ialah?",
+                                "قضاء اياله؟",
                                 new List<string>
                                 {
-                                    "Ketentuan Allah sejak azali",
-                                    "Ketentuan setelah berlaku",
-                                    "Usaha manusia",
-                                    "Keputusan hakim",
+                                    "كتنتوان الله سجق ازلي",
+                                    "كتنتوان ستله برلاكو",
+                                    "اوسها ماءنسي",
+                                    "كڤوتوسن حاكيم",
                                 },
                                 0
                             ),
                             new Question(
-                                "Qadar ialah?",
+                                "قدر اياله؟",
                                 new List<string>
                                 {
-                                    "Takdir yang berlaku kepada makhluk",
-                                    "Pilihan manusia",
-                                    "Keputusan imam",
-                                    "Sifat manusia",
+                                    "تقدير يڠ برلاكو كڤد مخلوق",
+                                    "ڤيليهن ماءنسي",
+                                    "كڤوتوسن امام",
+                                    "صيفت ماءنسي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Orang beriman dengan qada' dan qadar akan sentiasa?",
-                                new List<string>
-                                {
-                                    "Sabar dan redha",
-                                    "Gelisah",
-                                    "Marah",
-                                    "Putus asa",
-                                },
+                                "اورڠ برايمان دڠن قضاء دان قدر اكن سنتياس؟",
+                                new List<string> { "صبر دان رضا", "ڬليسه", "ماره", "ڤوتوس اسا" },
                                 0
                             ),
                             new Question(
-                                "Apabila mendapat nikmat, orang beriman dengan qada' dan qadar akan?",
-                                new List<string> { "Kufur", "Bersyukur", "Marah", "Putus asa" },
+                                "اڤابيلا منداڤت نعمة، اورڠ برايمان دڠن قضاء دان قدر اكن؟",
+                                new List<string> { "كفور", "برشكور", "ماره", "ڤوتوس اسا" },
                                 1
                             ),
                             new Question(
-                                "Apabila ditimpa musibah, orang beriman dengan qada' dan qadar akan?",
-                                new List<string> { "Sabar", "Menangis", "Putus asa", "Mengeluh" },
+                                "اڤابيلا دتيمڤا مصيبة، اورڠ برايمان دڠن قضاء دان قدر اكن؟",
+                                new List<string> { "صبر", "مناڠيس", "ڤوتوس اسا", "مڠلوه" },
                                 0
                             ),
                             new Question(
-                                "Qada' dan qadar menunjukkan Allah Maha?",
-                                new List<string> { "Mengetahui", "Lemah", "Lupa", "Sakit" },
+                                "قضاء دان قدر منونجوقكن الله مها؟",
+                                new List<string> { "مڠتاهوءي", "لمه", "لوڤا", "ساكيت" },
                                 0
                             ),
                             new Question(
-                                "Percaya qada' dan qadar menjadikan hati?",
-                                new List<string> { "Tenang", "Gelisah", "Takut", "Malas" },
+                                "ڤرچاي قضاء دان قدر منجاديكن هاتي؟",
+                                new List<string> { "تنڠ", "ڬليسه", "تاكوت", "مالس" },
                                 0
                             ),
                             new Question(
-                                "Apakah maksud sifat Wahdaniyah?",
+                                "اڤاكه مقصود صيفت وحدانية؟",
                                 new List<string>
                                 {
-                                    "Allah Maha Esa",
-                                    "Allah Maha Pemurah",
-                                    "Allah Maha Kuasa",
-                                    "Allah Maha Bijaksana",
+                                    "الله مها اسا",
+                                    "الله مها ڤموره",
+                                    "الله مها كواس",
+                                    "الله مها بيجقسان",
                                 },
                                 0
                             ),
                             new Question(
-                                "Dalil naqli sifat Wahdaniyah terdapat dalam surah?",
+                                "دليل نقلي صيفت وحدانية تردڤت دالم سورة؟",
+                                new List<string> { "الإخلاص", "الفاتحة", "البقرة", "الناس" },
+                                0
+                            ),
+                            new Question(
+                                "دليل عقلي صيفت وحدانية اياله؟",
                                 new List<string>
                                 {
-                                    "Al-Ikhlas",
-                                    "Al-Fatihah",
-                                    "Al-Baqarah",
-                                    "An-Nas",
+                                    "عالم اين منونجوقكن اداڽ توهن يڠ ساتو",
+                                    "سموا اورڠ بركات بڬيتو",
+                                    "ماءنسي منوليس بوكو",
+                                    "سموا بندا سام",
                                 },
                                 0
                             ),
                             new Question(
-                                "Dalil aqli sifat Wahdaniyah ialah?",
+                                "صيفت يڠ برلاونن دڠن وحدانية اياله؟",
+                                new List<string> { "بربيلڠ-بيلڠ", "اسا", "مها كواس", "مها ڤموره" },
+                                0
+                            ),
+                            new Question(
+                                "اورڠ يڠ تيدق ڤرچاي كڤد صيفت وحدانية اياله؟",
+                                new List<string> { "كافير", "مؤمن", "صالح", "صبر" },
+                                0
+                            ),
+                            new Question(
+                                "اڤابيلا برايمان دڠن صيفت وحدانية، كيت اكن؟",
                                 new List<string>
                                 {
-                                    "Alam ini menunjukkan adanya Tuhan yang satu",
-                                    "Semua orang berkata begitu",
-                                    "Manusia menulis buku",
-                                    "Semua benda sama",
+                                    "مڽمبه الله سهاج",
+                                    "مڽمبه باڽق توهن",
+                                    "تيدق مڽمبه الله",
+                                    "منجادي سومبوڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Sifat yang berlawanan dengan Wahdaniyah ialah?",
+                                "الله مها اسا برمقصود الله تياد؟",
+                                new List<string> { "سكوتو", "كواس", "علمو", "ككاياءن" },
+                                0
+                            ),
+                            new Question(
+                                "ماءنسي يڠ ڤرچاي كڤد باڽق توهن دڤڠڬيل؟",
+                                new List<string> { "مشرك", "مؤمن", "صالح", "صبر" },
+                                0
+                            ),
+                            new Question(
+                                "صيفت وحدانية منونجوقكن الله ايت؟",
+                                new List<string> { "اسا دان توڠڬل", "باڽق", "دوا", "تيڬ" },
+                                0
+                            ),
+                            new Question(
+                                "دليل نقلي وحدانية برمقصود؟",
                                 new List<string>
                                 {
-                                    "Berbilang-bilang",
-                                    "Esa",
-                                    "Maha Kuasa",
-                                    "Maha Pemurah",
+                                    "دليل درڤد القرءان دان حديث",
+                                    "دليل درڤد عقل",
+                                    "دليل درڤد ماءنسي",
+                                    "دليل درڤد سجاره",
                                 },
                                 0
                             ),
                             new Question(
-                                "Orang yang tidak percaya kepada sifat Wahdaniyah ialah?",
-                                new List<string> { "Kafir", "Mukmin", "Soleh", "Sabar" },
-                                0
-                            ),
-                            new Question(
-                                "Apabila beriman dengan sifat Wahdaniyah, kita akan?",
+                                "دليل عقلي وحدانية برمقصود؟",
                                 new List<string>
                                 {
-                                    "Menyembah Allah sahaja",
-                                    "Menyembah banyak tuhan",
-                                    "Tidak menyembah Allah",
-                                    "Menjadi sombong",
+                                    "دليل درڤد عقل فيكيرن",
+                                    "دليل درڤد القرءان",
+                                    "دليل درڤد حديث",
+                                    "دليل درڤد كتاب إنجيل",
                                 },
                                 0
                             ),
                             new Question(
-                                "Allah Maha Esa bermaksud Allah tiada?",
-                                new List<string> { "Sekutu", "Kuasa", "Ilmu", "Kekayaan" },
-                                0
-                            ),
-                            new Question(
-                                "Manusia yang percaya kepada banyak tuhan dipanggil?",
-                                new List<string> { "Musyrik", "Mukmin", "Soleh", "Sabar" },
-                                0
-                            ),
-                            new Question(
-                                "Sifat Wahdaniyah menunjukkan Allah itu?",
-                                new List<string> { "Esa dan tunggal", "Banyak", "Dua", "Tiga" },
-                                0
-                            ),
-                            new Question(
-                                "Dalil naqli Wahdaniyah bermaksud?",
+                                "حكمة برايمان دڠن صيفت وحدانية اياله؟",
                                 new List<string>
                                 {
-                                    "Dalil daripada al-Quran dan hadis",
-                                    "Dalil daripada akal",
-                                    "Dalil daripada manusia",
-                                    "Dalil daripada sejarah",
+                                    "منجادي لبيه طاعة كڤد الله",
+                                    "منجادي سومبوڠ",
+                                    "منجادي لالاي",
+                                    "منجادي مالس",
                                 },
                                 0
                             ),
                             new Question(
-                                "Dalil agli Wahdaniyah bermaksud?",
+                                "اڤاكه مقصود صيفت قدرة؟",
                                 new List<string>
                                 {
-                                    "Dalil daripada akal fikiran",
-                                    "Dalil daripada al-Quran",
-                                    "Dalil daripada hadis",
-                                    "Dalil daripada kitab Injil",
+                                    "الله مها بركواس",
+                                    "الله مها كاي",
+                                    "الله مها بيجقسان",
+                                    "الله مها ڤڠاسيه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Hikmah beriman dengan sifat Wahdaniyah ialah?",
+                                "دليل نقلي صيفت قدرة تردڤت دالم ايات؟",
                                 new List<string>
                                 {
-                                    "Menjadi lebih taat kepada Allah",
-                                    "Menjadi sombong",
-                                    "Menjadi lalai",
-                                    "Menjadi malas",
+                                    "الله بركواس اتس تياڤ-تياڤ سسواتو",
+                                    "الله مها اسا",
+                                    "الله مها ڤڽايڠ",
+                                    "الله مها مڠتاهوءي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah maksud sifat Qudrat?",
+                                "دليل عقلي صيفت قدرة اياله؟",
                                 new List<string>
                                 {
-                                    "Allah Maha Berkuasa",
-                                    "Allah Maha Kaya",
-                                    "Allah Maha Bijaksana",
-                                    "Allah Maha Pengasih",
+                                    "عالم يڠ سمڤورنا منونجوقكن اداڽ كواس الله",
+                                    "سموا اورڠ كات بڬيتو",
+                                    "سموا بندا سام",
+                                    "تياد بوقتي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Dalil naqli sifat Qudrat terdapat dalam ayat?",
+                                "صيفت يڠ برلاونن دڠن قدرة اياله؟",
+                                new List<string> { "لمه", "بركواس", "كوات", "صبر" },
+                                0
+                            ),
+                            new Question(
+                                "اورڠ يڠ برايمان دڠن صيفت قدرة ڤرچاي بهاوا الله؟",
+                                new List<string> { "مها بركواس", "لمه", "تيدق تاهو", "تيدق ممڤو" },
+                                0
+                            ),
+                            new Question(
+                                "برايمان دڠن صيفت قدرة منجاديكن كيت؟",
                                 new List<string>
                                 {
-                                    "Allah berkuasa atas tiap-tiap sesuatu",
-                                    "Allah Maha Esa",
-                                    "Allah Maha Penyayang",
-                                    "Allah Maha Mengetahui",
+                                    "يقين كڤد الله",
+                                    "ڤوتوس اسا",
+                                    "لمه ايمان",
+                                    "تكبر",
                                 },
                                 0
                             ),
                             new Question(
-                                "Dalil agli sifat Qudrat ialah?",
+                                "چونتوه صيفت قدرة الله اياله؟",
                                 new List<string>
                                 {
-                                    "Alam yang sempurna menunjukkan adanya kuasa Allah",
-                                    "Semua orang kata begitu",
-                                    "Semua benda sama",
-                                    "Tiada bukti",
+                                    "منچيڤتا عالم",
+                                    "ماكن دان مينوم",
+                                    "تيدور",
+                                    "برجالن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Sifat yang berlawanan dengan Qudrat ialah?",
-                                new List<string> { "Lemah", "Berkuasa", "Kuat", "Sabar" },
+                                "الله تيدق موڠكين برصيفت؟",
+                                new List<string> { "لمه", "بركواس", "مها مڠتاهوءي", "مها بيجقسان" },
                                 0
                             ),
                             new Question(
-                                "Orang yang beriman dengan sifat Qudrat percaya bahawa Allah?",
+                                "دليل نقلي صيفت قدرة اياله ايات القرءان يڠ مڽبوت؟",
                                 new List<string>
                                 {
-                                    "Maha Berkuasa",
-                                    "Lemah",
-                                    "Tidak tahu",
-                                    "Tidak mampu",
+                                    "الله بركواس اتس تياڤ-تياڤ سسواتو",
+                                    "الله مها ڤموره",
+                                    "الله مها اسا",
+                                    "الله مها ڤڽابر",
                                 },
                                 0
                             ),
                             new Question(
-                                "Beriman dengan sifat Qudrat menjadikan kita?",
+                                "دليل عقلي صيفت قدرة اياله عقل يڠ مليهت؟",
                                 new List<string>
                                 {
-                                    "Yakin kepada Allah",
-                                    "Putus asa",
-                                    "Lemah iman",
-                                    "Takbur",
+                                    "عالم چيڤتاءن الله",
+                                    "بوكو ماءنسي",
+                                    "ڬمبر",
+                                    "رومه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Contoh sifat Qudrat Allah ialah?",
+                                "حكمة برايمان دڠن صيفت قدرة اياله؟",
                                 new List<string>
                                 {
-                                    "Mencipta alam",
-                                    "Makan dan minum",
-                                    "Tidur",
-                                    "Berjalan",
+                                    "منجادي لبيه يقين دان طاعة كڤد الله",
+                                    "منجادي مالس",
+                                    "منجادي لالاي",
+                                    "منجادي سومبوڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Allah tidak mungkin bersifat?",
-                                new List<string>
-                                {
-                                    "Lemah",
-                                    "Berkuasa",
-                                    "Maha Mengetahui",
-                                    "Maha Bijaksana",
-                                },
+                                "الله بركواس منچيڤتا؟",
+                                new List<string> { "عالم سمستا", "تيليفون", "كريتا", "كومڤوتر" },
                                 0
                             ),
                             new Question(
-                                "Dalil naqli sifat Qudrat ialah ayat al-Quran yang menyebut?",
-                                new List<string>
-                                {
-                                    "Allah berkuasa atas tiap-tiap sesuatu",
-                                    "Allah Maha Pemurah",
-                                    "Allah Maha Esa",
-                                    "Allah Maha Penyabar",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Dalil agli sifat Qudrat ialah akal yang melihat?",
-                                new List<string>
-                                {
-                                    "Alam ciptaan Allah",
-                                    "Buku manusia",
-                                    "Gambar",
-                                    "Rumah",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Hikmah beriman dengan sifat Qudrat ialah?",
-                                new List<string>
-                                {
-                                    "Menjadi lebih yakin dan taat kepada Allah",
-                                    "Menjadi malas",
-                                    "Menjadi lalai",
-                                    "Menjadi sombong",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Allah berkuasa mencipta?",
-                                new List<string>
-                                {
-                                    "Alam semesta",
-                                    "Telefon",
-                                    "Kereta",
-                                    "Komputer",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Manusia diciptakan oleh?",
-                                new List<string> { "Malaikat", "Jin", "Allah", "Nabi" },
+                                "ماءنسي دچيڤتاكن اوليه؟",
+                                new List<string> { "ملائكة", "جين", "الله", "نبي" },
                                 2
                             ),
                             new Question(
-                                "Proses kejadian manusia bermula dengan?",
-                                new List<string> { "Air mani", "Tanah", "Tulang", "Darah" },
+                                "ڤروسيس كجادين ماءنسي برمولا دڠن؟",
+                                new List<string> { "اءير ماني", "تانه", "تولڠ", "داره" },
                                 0
                             ),
                             new Question(
-                                "Al-Quran menyebut kejadian manusia bermula daripada?",
-                                new List<string> { "Tanah", "Kayu", "Batu", "Besi" },
+                                "القرءان مڽبوت كجادين ماءنسي برمولا درڤد؟",
+                                new List<string> { "تانه", "كايو", "باتو", "بسي" },
                                 0
                             ),
                             new Question(
-                                "Janin berada dalam rahim ibu selama?",
-                                new List<string> { "9 bulan", "5 bulan", "3 bulan", "7 bulan" },
+                                "جانين براد دالم رحيم ايبو سلاما؟",
+                                new List<string> { "9 بولن", "5 بولن", "3 بولن", "7 بولن" },
                                 0
                             ),
                             new Question(
-                                "Proses kejadian manusia dalam al-Quran disebut dalam surah?",
-                                new List<string>
-                                {
-                                    "Al-Mukminun",
-                                    "Al-Fatihah",
-                                    "Al-Ikhlas",
-                                    "An-Nas",
-                                },
+                                "ڤروسيس كجادين ماءنسي دالم القرءان دسبوت دالم سورة؟",
+                                new List<string> { "المؤمنون", "الفاتحة", "الإخلاص", "الناس" },
                                 0
                             ),
                             new Question(
-                                "Proses kejadian manusia bermula dengan nutfah, kemudian?",
-                                new List<string> { "Alaqah", "Mudghah", "Tulang", "Daging" },
+                                "ڤروسيس كجادين ماءنسي برمولا دڠن نطفة، كمودين؟",
+                                new List<string> { "علقة", "مضغة", "تولڠ", "داڬيڠ" },
                                 0
                             ),
                             new Question(
-                                "Selepas alaqah, kejadian manusia menjadi?",
-                                new List<string> { "Mudghah", "Nutfah", "Tanah", "Air" },
+                                "سلڤس علقة، كجادين ماءنسي منجادي؟",
+                                new List<string> { "مضغة", "نطفة", "تانه", "اءير" },
                                 0
                             ),
                             new Question(
-                                "Selepas mudghah, Allah menjadikan?",
-                                new List<string> { "Tulang", "Darah", "Air", "Rambut" },
+                                "سلڤس مضغة، الله منجاديكن؟",
+                                new List<string> { "تولڠ", "داره", "اءير", "رمبوت" },
                                 0
                             ),
                             new Question(
-                                "Selepas tulang, Allah menutupinya dengan?",
-                                new List<string> { "Daging", "Kulit", "Air", "Rambut" },
+                                "سلڤس تولڠ، الله منوتوڤيڽ دڠن؟",
+                                new List<string> { "داڬيڠ", "كوليت", "اءير", "رمبوت" },
                                 0
                             ),
                             new Question(
-                                "Proses kejadian manusia membuktikan bahawa Allah?",
-                                new List<string> { "Maha Pencipta", "Lemah", "Sakit", "Lalai" },
+                                "ڤروسيس كجادين ماءنسي ممبوقتيكن بهاوا الله؟",
+                                new List<string> { "مها ڤنچيڤتا", "لمه", "ساكيت", "لالاي" },
                                 0
                             ),
                             new Question(
-                                "Manusia melalui berapa fasa kehidupan?",
-                                new List<string> { "Lima", "Dua", "Tiga", "Empat" },
+                                "ماءنسي ملالوءي براڤ ف fasa كهيدوڤن؟",
+                                new List<string> { "ليم", "دوا", "تيڬ", "امڤت" },
                                 0
                             ),
                             new Question(
-                                "Fasa pertama kehidupan manusia ialah?",
-                                new List<string>
-                                {
-                                    "Dalam kandungan",
-                                    "Kanak-kanak",
-                                    "Dewasa",
-                                    "Tua",
-                                },
+                                "ف fasa ڤرتام كهيدوڤن ماءنسي اياله؟",
+                                new List<string> { "دالم كاندوڠن", "كانق-كانق", "ديواسا", "توا" },
                                 0
                             ),
                             new Question(
-                                "Fasa terakhir kehidupan manusia ialah?",
-                                new List<string> { "Mati", "Kanak-kanak", "Remaja", "Tua" },
+                                "ف fasa تراخير كهيدوڤن ماءنسي اياله؟",
+                                new List<string> { "ماتي", "كانق-كانق", "رماجا", "توا" },
                                 0
                             ),
                             new Question(
-                                "Penciptaan manusia membuktikan kewujudan?",
-                                new List<string> { "Allah", "Malaikat", "Syaitan", "Nabi" },
+                                "ڤنچيڤتاءن ماءنسي ممبوقتيكن كوجودن؟",
+                                new List<string> { "الله", "ملائكة", "شيطان", "نبي" },
                                 0
                             ),
                         },
@@ -5019,456 +4480,426 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Apakah maksud solat berjemaah?",
+                                "اڤاكه مقصود صلاة برجماعة؟",
                                 new List<string>
                                 {
-                                    "Solat seorang diri",
-                                    "Solat yang dilakukan bersama imam dan makmum",
-                                    "Solat ketika sakit",
-                                    "Solat ketika musafir",
+                                    "صلاة سأورڠ ديري",
+                                    "صلاة يڠ دلاكوكن برسام امام دان مأموم",
+                                    "صلاة كتيك ساكيت",
+                                    "صلاة كتيك مسافير",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah kelebihan solat berjemaah berbanding solat seorang?",
-                                new List<string>
-                                {
-                                    "Sama sahaja",
-                                    "10 darjat",
-                                    "27 darjat",
-                                    "100 darjat",
-                                },
+                                "اڤاكه كلبيهن صلاة برجماعة بربانديڠ صلاة سأورڠ؟",
+                                new List<string> { "سام سهاج", "10 درجت", "27 درجت", "100 درجت" },
                                 2
                             ),
                             new Question(
-                                "Siapakah yang memimpin solat berjemaah?",
-                                new List<string> { "Muazzin", "Imam", "Makmum", "Bilal" },
+                                "سياڤاكه يڠ مميمڤين صلاة برجماعة؟",
+                                new List<string> { "مؤذن", "امام", "مأموم", "بلال" },
                                 1
                             ),
                             new Question(
-                                "Makmum hendaklah mengikut imam dengan?",
+                                "مأموم هندقله مڠيكوت امام دڠن؟",
                                 new List<string>
                                 {
-                                    "Mendahului imam",
-                                    "Mengikut pergerakan imam",
-                                    "Lambat dari imam",
-                                    "Tidak ikut langsung",
+                                    "منداهولوءي امام",
+                                    "مڠيكوت ڤرڬرقن امام",
+                                    "لمبت دري امام",
+                                    "تيدق ايكوت لڠسوڠ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Saf solat berjemaah mestilah?",
+                                "صف صلاة برجماعة مستيله؟",
                                 new List<string>
                                 {
-                                    "Lurus dan rapat",
-                                    "Bengkok",
-                                    "Jauh-jauh",
-                                    "Berselerak",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Solat Jumaat dilakukan pada hari?",
-                                new List<string> { "Isnin", "Jumaat", "Sabtu", "Ahad" },
-                                1
-                            ),
-                            new Question(
-                                "Bilangan rakaat solat Jumaat ialah?",
-                                new List<string>
-                                {
-                                    "Dua rakaat",
-                                    "Tiga rakaat",
-                                    "Empat rakaat",
-                                    "Lima rakaat",
+                                    "لوروس دان راڤت",
+                                    "بيڠكوق",
+                                    "جاءوه-جاءوه",
+                                    "برسليرق",
                                 },
                                 0
                             ),
                             new Question(
-                                "Solat Jumaat menggantikan solat?",
-                                new List<string> { "Subuh", "Zohor", "Asar", "Maghrib" },
+                                "صلاة جمعة دلاكوكن ڤد هاري؟",
+                                new List<string> { "اثنين", "جمعة", "سبتو", "أحد" },
                                 1
                             ),
                             new Question(
-                                "Khutbah Jumaat dilakukan sebanyak?",
+                                "بيلاڠن ركعة صلاة جمعة اياله؟",
                                 new List<string>
                                 {
-                                    "Sekali",
-                                    "Dua kali",
-                                    "Tiga kali",
-                                    "Empat kali",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Siapakah yang wajib menunaikan solat Jumaat?",
-                                new List<string>
-                                {
-                                    "Semua orang Islam",
-                                    "Lelaki Islam yang cukup syarat",
-                                    "Perempuan",
-                                    "Kanak-kanak",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Apakah maksud solat jamak?",
-                                new List<string>
-                                {
-                                    "Menghimpunkan dua solat fardu dalam satu waktu",
-                                    "Meringankan solat",
-                                    "Mengganti solat",
-                                    "Menambah solat",
+                                    "دوا ركعة",
+                                    "تيڬ ركعة",
+                                    "امڤت ركعة",
+                                    "ليم ركعة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah maksud solat qasar?",
+                                "صلاة جمعة مڠڬنتيكن صلاة؟",
+                                new List<string> { "صبح", "ظهر", "عصر", "مغرب" },
+                                1
+                            ),
+                            new Question(
+                                "خطبة جمعة دلاكوكن سباڽق؟",
+                                new List<string> { "سكالي", "دوا كالي", "تيڬ كالي", "امڤت كالي" },
+                                1
+                            ),
+                            new Question(
+                                "سياڤاكه يڠ واجب منونايكن صلاة جمعة؟",
                                 new List<string>
                                 {
-                                    "Menghimpunkan dua solat",
-                                    "Memendekkan solat fardu empat rakaat kepada dua rakaat",
-                                    "Mengganti solat",
-                                    "Menambah rakaat solat",
+                                    "سموا اورڠ إسلام",
+                                    "للاكي إسلام يڠ چوكوڤ شرط",
+                                    "ڤرمڤوان",
+                                    "كانق-كانق",
                                 },
                                 1
                             ),
                             new Question(
-                                "Solat jamak terbahagi kepada berapa jenis?",
-                                new List<string> { "Satu", "Dua", "Tiga", "Empat" },
+                                "اڤاكه مقصود صلاة جمع؟",
+                                new List<string>
+                                {
+                                    "مڠهيمڤونكن دوا صلاة فرض دالم ساتو وقتو",
+                                    "مريڠنكن صلاة",
+                                    "مڠڬنتي صلاة",
+                                    "منمبه صلاة",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "اڤاكه مقصود صلاة قصر؟",
+                                new List<string>
+                                {
+                                    "مڠهيمڤونكن دوا صلاة",
+                                    "ممنديككن صلاة فرض امڤت ركعة كڤد دوا ركعة",
+                                    "مڠڬنتي صلاة",
+                                    "منمبه ركعة صلاة",
+                                },
                                 1
                             ),
                             new Question(
-                                "Solat Zohor dan Asar boleh dijamak pada waktu?",
-                                new List<string> { "Pagi", "Malam", "Zohor atau Asar", "Subuh" },
+                                "صلاة جمع تربهاڬي كڤد براڤ جنيس؟",
+                                new List<string> { "ساتو", "دوا", "تيڬ", "امڤت" },
+                                1
+                            ),
+                            new Question(
+                                "صلاة ظهر دان عصر بوليه دجمع ڤد وقتو؟",
+                                new List<string> { "ڤاڬي", "مالم", "ظهر اتاو عصر", "صبح" },
                                 2
                             ),
                             new Question(
-                                "Syarat utama solat jamak dan qasar ialah?",
-                                new List<string> { "Bermusafir", "Sakit", "Malas", "Sibuk" },
+                                "شرط اوتام صلاة جمع دان قصر اياله؟",
+                                new List<string> { "برمسافير", "ساكيت", "مالس", "سيبوق" },
                                 0
                             ),
                             new Question(
-                                "Orang sakit yang tidak mampu berdiri boleh solat dengan?",
-                                new List<string>
-                                {
-                                    "Duduk",
-                                    "Berbaring",
-                                    "Isyarat mata",
-                                    "Semua di atas",
-                                },
+                                "اورڠ ساكيت يڠ تيدق ممڤو برديري بوليه صلاة دڠن؟",
+                                new List<string> { "دودوق", "برباريڠ", "اشارت مات", "سموا د اتس" },
                                 3
                             ),
                             new Question(
-                                "Orang sakit yang tidak mampu berwuduk boleh?",
-                                new List<string> { "Tidak solat", "Bertayammum", "Mandi", "Tidur" },
+                                "اورڠ ساكيت يڠ تيدق ممڤو بروضوء بوليه؟",
+                                new List<string> { "تيدق صلاة", "برتيمم", "مندي", "تيدور" },
                                 1
                             ),
                             new Question(
-                                "Apabila tidak mampu rukuk dan sujud, orang sakit boleh?",
+                                "اڤابيلا تيدق ممڤو ركوع دان سجود، اورڠ ساكيت بوليه؟",
                                 new List<string>
                                 {
-                                    "Ganti solat",
-                                    "Isyarat dengan kepala",
-                                    "Tidak solat",
-                                    "Tidur",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Apabila tidak mampu bergerak langsung, orang sakit boleh?",
-                                new List<string>
-                                {
-                                    "Tinggalkan solat",
-                                    "Solat dengan hati",
-                                    "Solat dengan tangan",
-                                    "Tidur",
+                                    "ڬنتي صلاة",
+                                    "اشارت دڠن كڤالا",
+                                    "تيدق صلاة",
+                                    "تيدور",
                                 },
                                 1
                             ),
                             new Question(
-                                "Islam mengajar kita supaya?",
+                                "اڤابيلا تيدق ممڤو برڬرق لڠسوڠ، اورڠ ساكيت بوليه؟",
                                 new List<string>
                                 {
-                                    "Tidak solat ketika sakit",
-                                    "Tetap solat mengikut kemampuan",
-                                    "Meninggalkan solat",
-                                    "Melengah-lengahkan solat",
+                                    "تيڠڬلكن صلاة",
+                                    "صلاة دڠن هاتي",
+                                    "صلاة دڠن تاڠن",
+                                    "تيدور",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah maksud solat dalam kenderaan?",
+                                "إسلام مڠاجر كيت سوڤايا؟",
                                 new List<string>
                                 {
-                                    "Solat ketika berada di masjid",
-                                    "Solat ketika menaiki kenderaan",
-                                    "Solat sambil berjalan",
-                                    "Solat sambil berlari",
+                                    "تيدق صلاة كتيك ساكيت",
+                                    "تتڤ صلاة مڠيكوت كممڤوان",
+                                    "منيڠڬلكن صلاة",
+                                    "مليڠه-ليڠهكن صلاة",
                                 },
                                 1
                             ),
                             new Question(
-                                "Solat dalam kenderaan biasanya dilakukan ketika?",
+                                "اڤاكه مقصود صلاة دالم كندراءن؟",
                                 new List<string>
                                 {
-                                    "Bermusafir jauh",
-                                    "Berjalan kaki",
-                                    "Tidur",
-                                    "Bermain",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Arah kiblat bagi solat dalam kenderaan ialah?",
-                                new List<string>
-                                {
-                                    "Tidak penting",
-                                    "Mengikut kemampuan",
-                                    "Ke mana-mana",
-                                    "Menghadap utara",
+                                    "صلاة كتيك براد د مسجد",
+                                    "صلاة كتيك مناءيقي كندراءن",
+                                    "صلاة سمبيل برجالن",
+                                    "صلاة سمبيل برلاري",
                                 },
                                 1
                             ),
                             new Question(
-                                "Solat sunat boleh dilakukan dalam kenderaan dengan?",
+                                "صلاة دالم كندراءن بياساڽ دلاكوكن كتيك؟",
                                 new List<string>
                                 {
-                                    "Isyarat kepala",
-                                    "Berdiri tegak",
-                                    "Duduk atas tanah",
-                                    "Sujud betul-betul",
+                                    "برمسافير جاءوه",
+                                    "برجالن كاكي",
+                                    "تيدور",
+                                    "برماءين",
                                 },
                                 0
                             ),
                             new Question(
-                                "Solat fardu dalam kenderaan hanya boleh dilakukan jika?",
+                                "اره قبلة باڬي صلاة دالم كندراءن اياله؟",
                                 new List<string>
                                 {
-                                    "Sangat darurat",
-                                    "Malas turun",
-                                    "Tidak mahu berhenti",
-                                    "Hendak cepat sampai",
+                                    "تيدق ڤنتيڠ",
+                                    "مڠيكوت كممڤوان",
+                                    "ك مان-مان",
+                                    "مڠهادڤ اوتارا",
                                 },
-                                0
-                            ),
-                            new Question(
-                                "Orang yang mendapat pahala 27 darjat dalam solat ialah?",
-                                new List<string>
-                                {
-                                    "Orang solat berjemaah",
-                                    "Orang solat seorang",
-                                    "Orang tidur",
-                                    "Orang makan",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Apakah hukum solat berjemaah bagi lelaki?",
-                                new List<string> { "Sunat muakkad", "Wajib", "Harus", "Makruh" },
-                                0
-                            ),
-                            new Question(
-                                "Orang perempuan hukumnya solat Jumaat?",
-                                new List<string> { "Wajib", "Tidak wajib", "Sunat", "Makruh" },
                                 1
                             ),
                             new Question(
-                                "Solat jamak taqdim bermaksud?",
+                                "صلاة سنة بوليه دلاكوكن دالم كندراءن دڠن؟",
                                 new List<string>
                                 {
-                                    "Menghimpunkan solat di waktu yang pertama",
-                                    "Menghimpunkan solat di waktu kedua",
-                                    "Memendekkan solat",
-                                    "Menambah solat",
+                                    "اشارت كڤالا",
+                                    "برديري تڬق",
+                                    "دودوق اتس تانه",
+                                    "سجود بتول-بتول",
                                 },
                                 0
                             ),
                             new Question(
-                                "Solat jamak takhir bermaksud?",
+                                "صلاة فرض دالم كندراءن هاڽ بوليه دلاكوكن جك؟",
                                 new List<string>
                                 {
-                                    "Menghimpunkan solat di waktu yang kedua",
-                                    "Menghimpunkan solat di waktu pertama",
-                                    "Memendekkan solat",
-                                    "Menambah solat",
+                                    "ساڠت ضرورة",
+                                    "مالس تورون",
+                                    "تيدق ماهو برهنتي",
+                                    "هندق چڤت سمڤاي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Solat qasar dilakukan pada solat?",
+                                "اورڠ يڠ منداڤت ڤهالا 27 درجت دالم صلاة اياله؟",
                                 new List<string>
                                 {
-                                    "Empat rakaat",
-                                    "Tiga rakaat",
-                                    "Dua rakaat",
-                                    "Semua solat",
+                                    "اورڠ صلاة برجماعة",
+                                    "اورڠ صلاة سأورڠ",
+                                    "اورڠ تيدور",
+                                    "اورڠ ماكن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Orang sakit yang tidak boleh bertayammum boleh?",
+                                "اڤاكه حكوم صلاة برجماعة باڬي للاكي؟",
+                                new List<string> { "سنة مؤكد", "واجب", "هاروس", "مكروه" },
+                                0
+                            ),
+                            new Question(
+                                "اورڠ ڤرمڤوان حكومڽ صلاة جمعة؟",
+                                new List<string> { "واجب", "تيدق واجب", "سنة", "مكروه" },
+                                1
+                            ),
+                            new Question(
+                                "صلاة جمع تقديم برمقصود؟",
                                 new List<string>
                                 {
-                                    "Solat dengan isyarat",
-                                    "Tidak solat",
-                                    "Tunda solat",
-                                    "Tidak perlu solat",
+                                    "مڠهيمڤونكن صلاة د وقتو يڠ ڤرتام",
+                                    "مڠهيمڤونكن صلاة د وقتو كدوا",
+                                    "ممنديككن صلاة",
+                                    "منمبه صلاة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah syarat sah solat Jumaat?",
+                                "صلاة جمع تأخير برمقصود؟",
                                 new List<string>
                                 {
-                                    "Didirikan di tempat bermukim",
-                                    "Didirikan di padang pasir",
-                                    "Dilakukan seorang diri",
-                                    "Dilakukan di rumah",
+                                    "مڠهيمڤونكن صلاة د وقتو يڠ كدوا",
+                                    "مڠهيمڤونكن صلاة د وقتو ڤرتام",
+                                    "ممنديككن صلاة",
+                                    "منمبه صلاة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Bilangan minimum jemaah untuk solat Jumaat ialah?",
-                                new List<string> { "40 orang", "10 orang", "2 orang", "100 orang" },
-                                0
-                            ),
-                            new Question(
-                                "Apabila bermusafir, solat Asar boleh diqasar kepada?",
+                                "صلاة قصر دلاكوكن ڤد صلاة؟",
                                 new List<string>
                                 {
-                                    "Dua rakaat",
-                                    "Empat rakaat",
-                                    "Tiga rakaat",
-                                    "Satu rakaat",
+                                    "امڤت ركعة",
+                                    "تيڬ ركعة",
+                                    "دوا ركعة",
+                                    "سموا صلاة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apabila bermusafir, solat Zohor boleh dijamak dengan?",
-                                new List<string> { "Asar", "Maghrib", "Subuh", "Isyak" },
-                                0
-                            ),
-                            new Question(
-                                "Orang sakit yang tidak mampu mengangkat tangan untuk takbir boleh?",
+                                "اورڠ ساكيت يڠ تيدق بوليه برتيمم بوليه؟",
                                 new List<string>
                                 {
-                                    "Isyarat dengan jari",
-                                    "Tidak solat",
-                                    "Menunda solat",
-                                    "Menghadap ke lain",
+                                    "صلاة دڠن اشارت",
+                                    "تيدق صلاة",
+                                    "توندا صلاة",
+                                    "تيدق ڤرلو صلاة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Solat dalam kapal terbang dilakukan dengan cara?",
+                                "اڤاكه شرط صح صلاة جمعة؟",
                                 new List<string>
                                 {
-                                    "Duduk dan isyarat kepala",
-                                    "Tidur",
-                                    "Tidak solat",
-                                    "Berdiri penuh",
+                                    "دديريكن د تمڤت برمقين",
+                                    "دديريكن د ڤادڠ ڤاسير",
+                                    "دلاكوكن سأورڠ ديري",
+                                    "دلاكوكن د رومه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah hikmah solat berjemaah?",
+                                "بيلاڠن مينيموم جماعه اونتوق صلاة جمعة اياله؟",
+                                new List<string> { "40 اورڠ", "10 اورڠ", "2 اورڠ", "100 اورڠ" },
+                                0
+                            ),
+                            new Question(
+                                "اڤابيلا برمسافير، صلاة عصر بوليه دقصر كڤد؟",
                                 new List<string>
                                 {
-                                    "Menguatkan ukhuwah",
-                                    "Membazir masa",
-                                    "Melemahkan iman",
-                                    "Menjadi malas",
+                                    "دوا ركعة",
+                                    "امڤت ركعة",
+                                    "تيڬ ركعة",
+                                    "ساتو ركعة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Solat Jumaat diwajibkan kepada lelaki yang?",
+                                "اڤابيلا برمسافير، صلاة ظهر بوليه دجمع دڠن؟",
+                                new List<string> { "عصر", "مغرب", "صبح", "عشاء" },
+                                0
+                            ),
+                            new Question(
+                                "اورڠ ساكيت يڠ تيدق ممڤو مڠاڠكت تاڠن اونتوق تكبير بوليه؟",
                                 new List<string>
                                 {
-                                    "Bermukim",
-                                    "Musafir",
-                                    "Kanak-kanak",
-                                    "Orang sakit",
+                                    "اشارت دڠن جاري",
+                                    "تيدق صلاة",
+                                    "منوندا صلاة",
+                                    "مڠهادڤ ك لاءين",
                                 },
                                 0
                             ),
                             new Question(
-                                "Solat jamak biasanya dilakukan ketika?",
-                                new List<string> { "Bermusafir", "Bermain", "Bekerja", "Tidur" },
-                                0
-                            ),
-                            new Question(
-                                "Solat qasar tidak boleh dilakukan bagi solat?",
-                                new List<string> { "Subuh dan Maghrib", "Zohor", "Asar", "Isyak" },
-                                0
-                            ),
-                            new Question(
-                                "Solat orang sakit menunjukkan bahawa Islam itu?",
-                                new List<string> { "Mudah", "Susah", "Berat", "Tidak adil" },
-                                0
-                            ),
-                            new Question(
-                                "Solat dalam kenderaan lebih utama dilakukan jika?",
+                                "صلاة دالم كاڤل تربڠ دلاكوكن دڠن چارا؟",
                                 new List<string>
                                 {
-                                    "Solat sunat",
-                                    "Solat Jumaat",
-                                    "Solat fardu",
-                                    "Solat berjemaah",
+                                    "دودوق دان اشارت كڤالا",
+                                    "تيدور",
+                                    "تيدق صلاة",
+                                    "برديري ڤنوه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apabila tidak mampu rukuk, orang sakit boleh ganti dengan?",
+                                "اڤاكه حكمة صلاة برجماعة؟",
                                 new List<string>
                                 {
-                                    "Menundukkan kepala sedikit",
-                                    "Berdiri tegak",
-                                    "Duduk sahaja",
-                                    "Tidur",
+                                    "مڠواتكن اخوة",
+                                    "ممبازير ماس",
+                                    "ملمهكن ايمان",
+                                    "منجادي مالس",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah hukum solat Jumaat bagi lelaki yang musafir?",
-                                new List<string> { "Gugur kewajipan", "Wajib", "Sunat", "Makruh" },
+                                "صلاة جمعة دواجبكن كڤد للاكي يڠ؟",
+                                new List<string> { "برمقيم", "مسافير", "كانق-كانق", "اورڠ ساكيت" },
                                 0
                             ),
                             new Question(
-                                "Apakah solat yang boleh dijamak dengan solat Isyak?",
-                                new List<string> { "Maghrib", "Zohor", "Asar", "Subuh" },
+                                "صلاة جمع بياساڽ دلاكوكن كتيك؟",
+                                new List<string> { "برمسافير", "برماءين", "بكرجا", "تيدور" },
                                 0
                             ),
                             new Question(
-                                "Solat qasar dilakukan apabila perjalanan melebihi?",
+                                "صلاة قصر تيدق بوليه دلاكوكن باڬي صلاة؟",
+                                new List<string> { "صبح دان مغرب", "ظهر", "عصر", "عشاء" },
+                                0
+                            ),
+                            new Question(
+                                "صلاة اورڠ ساكيت منونجوقكن بهاوا إسلام ايت؟",
+                                new List<string> { "موده", "سوسه", "برت", "تيدق عاديل" },
+                                0
+                            ),
+                            new Question(
+                                "صلاة دالم كندراءن لبيه اوتام دلاكوكن جك؟",
                                 new List<string>
                                 {
-                                    "Dua marhalah",
-                                    "Satu marhalah",
-                                    "Tiga marhalah",
-                                    "Empat marhalah",
+                                    "صلاة سنة",
+                                    "صلاة جمعة",
+                                    "صلاة فرض",
+                                    "صلاة برجماعة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apabila sakit, jika tidak mampu berdiri maka solat dengan?",
+                                "اڤابيلا تيدق ممڤو ركوع، اورڠ ساكيت بوليه ڬنتي دڠن؟",
                                 new List<string>
                                 {
-                                    "Duduk",
-                                    "Baring",
-                                    "Tidur",
-                                    "Tidak perlu solat",
+                                    "منوندوقكن كڤالا سديكيت",
+                                    "برديري تڬق",
+                                    "دودوق سهاج",
+                                    "تيدور",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apabila sakit dan tidak mampu duduk, maka solat dengan?",
+                                "اڤاكه حكوم صلاة جمعة باڬي للاكي يڠ مسافير؟",
+                                new List<string> { "ڬوڬور كواجيڤن", "واجب", "سنة", "مكروه" },
+                                0
+                            ),
+                            new Question(
+                                "اڤاكه صلاة يڠ بوليه دجمع دڠن صلاة عشاء؟",
+                                new List<string> { "مغرب", "ظهر", "عصر", "صبح" },
+                                0
+                            ),
+                            new Question(
+                                "صلاة قصر دلاكوكن اڤابيلا ڤرجلانن ملبيهي؟",
                                 new List<string>
                                 {
-                                    "Berbaring mengiring",
-                                    "Tidur",
-                                    "Tidak solat",
-                                    "Menghadap ke lain",
+                                    "دوا مرحلة",
+                                    "ساتو مرحلة",
+                                    "تيڬ مرحلة",
+                                    "امڤت مرحلة",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "اڤابيلا ساكيت، جك تيدق ممڤو برديري مك صلاة دڠن؟",
+                                new List<string> { "دودوق", "باريڠ", "تيدور", "تيدق ڤرلو صلاة" },
+                                0
+                            ),
+                            new Question(
+                                "اڤابيلا ساكيت دان تيدق ممڤو دودوق، مك صلاة دڠن؟",
+                                new List<string>
+                                {
+                                    "برباريڠ مڠيريڠ",
+                                    "تيدور",
+                                    "تيدق صلاة",
+                                    "مڠهادڤ ك لاءين",
                                 },
                                 0
                             ),
@@ -5480,486 +4911,450 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Siapakah malaikat yang menyampaikan wahyu pertama kepada Nabi Muhammad SAW?",
-                                new List<string> { "Mikail", "Israfil", "Jibril", "Izrail" },
+                                "سياڤاكه ملائكة يڠ مڽمڤاءيكن وحيو ڤرتام كڤد نبي محمد ﷺ؟",
+                                new List<string> { "ميكائيل", "إسرافيل", "جبريل", "عزرائيل" },
                                 2
                             ),
                             new Question(
-                                "Wahyu pertama diturunkan di?",
-                                new List<string>
-                                {
-                                    "Gua Hira",
-                                    "Gua Tsur",
-                                    "Masjidil Haram",
-                                    "Kaabah",
-                                },
+                                "وحيو ڤرتام دتورونكن د؟",
+                                new List<string> { "ڬوا حراء", "ڬوا ثور", "مسجد الحرام", "كعبة" },
                                 0
                             ),
                             new Question(
-                                "Surah pertama yang diturunkan ialah?",
+                                "سورة ڤرتام يڠ دتورونكن اياله؟",
                                 new List<string>
                                 {
-                                    "Al-Fatihah",
-                                    "Al-Ikhlas",
-                                    "Al-'Alaq ayat 1-5",
-                                    "Al-Baqarah",
+                                    "الفاتحة",
+                                    "الإخلاص",
+                                    "العلق ايات 1-5",
+                                    "البقرة",
                                 },
                                 2
                             ),
                             new Question(
-                                "Nabi Muhammad SAW mula berdakwah secara rahsia selama?",
-                                new List<string> { "3 tahun", "5 tahun", "10 tahun", "13 tahun" },
+                                "نبي محمد ﷺ مولا بردعوه سچارا رهسيا سلاما؟",
+                                new List<string> { "3 تاهون", "5 تاهون", "10 تاهون", "13 تاهون" },
                                 0
                             ),
                             new Question(
-                                "Siapakah sahabat pertama yang memeluk Islam?",
+                                "سياڤاكه صحابت ڤرتام يڠ مملوق إسلام؟",
                                 new List<string>
                                 {
-                                    "Abu Bakar",
-                                    "Ali bin Abi Talib",
-                                    "Khadijah",
-                                    "Zaid bin Harithah",
+                                    "أبو بكر",
+                                    "علي بن أبي طالب",
+                                    "خديجة",
+                                    "زيد بن حارثة",
                                 },
                                 2
                             ),
                             new Question(
-                                "Mengapakah Rasulullah SAW memulakan dakwah secara rahsia?",
+                                "مڠاڤاكه رسول الله ﷺ ممولاكن دعوه سچارا رهسيا؟",
                                 new List<string>
                                 {
-                                    "Kerana takut",
-                                    "Kerana belum cukup ilmu",
-                                    "Supaya Islam lebih kuat dahulu",
-                                    "Kerana diperintah bapa saudara",
+                                    "كرانا تاكوت",
+                                    "كرانا بلوم چوكوڤ علمو",
+                                    "سوڤايا إسلام لبيه كوات دهولو",
+                                    "كرانا دڤرينته باڤ ساودارا",
                                 },
                                 2
                             ),
                             new Question(
-                                "Orang Quraisy menentang dakwah Rasulullah SAW kerana?",
+                                "اورڠ قريش مننتڠ دعوه رسول الله ﷺ كرانا؟",
                                 new List<string>
                                 {
-                                    "Islam mengajar menyembah Allah Yang Esa",
-                                    "Islam menyuruh minum arak",
-                                    "Islam mengajar berhala disembah",
-                                    "Islam membenarkan judi",
+                                    "إسلام مڠاجر مڽمبه الله يڠ اسا",
+                                    "إسلام مڽوروه مينوم ارق",
+                                    "إسلام مڠاجر برهالا دسمبه",
+                                    "إسلام ممبنركن جودي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Siapakah antara berikut yang menyokong Rasulullah SAW dalam dakwah?",
+                                "سياڤاكه انتارا بريكوت يڠ مڽوكوڠ رسول الله ﷺ دالم دعوه؟",
                                 new List<string>
                                 {
-                                    "Abu Jahal",
-                                    "Abu Lahab",
-                                    "Abu Talib",
-                                    "Utbah bin Rabi'ah",
+                                    "أبو جهل",
+                                    "أبو لهب",
+                                    "أبو طالب",
+                                    "عتبة بن ربيعة",
                                 },
                                 2
                             ),
                             new Question(
-                                "Apakah strategi Rasulullah SAW menghadapi tentangan Quraisy?",
+                                "اڤاكه ستراتيڬي رسول الله ﷺ مڠهادڤي تنتڠن قريش؟",
                                 new List<string>
                                 {
-                                    "Bersabar dan berdoa",
-                                    "Memarahi mereka",
-                                    "Menyembah berhala",
-                                    "Berpaling dari dakwah",
+                                    "برصبر دان بردعاء",
+                                    "مماراهي مريك",
+                                    "مڽمبه برهالا",
+                                    "برڤاليڠ دري دعوه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Akhlak Rasulullah SAW ketika berdakwah ialah?",
+                                "اخلاق رسول الله ﷺ كتيك بردعوه اياله؟",
                                 new List<string>
                                 {
-                                    "Sabar dan lemah lembut",
-                                    "Marah-marah",
-                                    "Menjerit",
-                                    "Memaksa",
+                                    "صبر دان لمه لمبوت",
+                                    "ماره-ماره",
+                                    "منجريت",
+                                    "ممقسا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Siapakah yang digelar As-Siddiq kerana membenarkan dakwah Rasulullah SAW?",
-                                new List<string> { "Umar", "Uthman", "Abu Bakar", "Ali" },
+                                "سياڤاكه يڠ دڬلر الصديق كرانا ممبنركن دعوه رسول الله ﷺ؟",
+                                new List<string> { "عمر", "عثمان", "أبو بكر", "علي" },
                                 2
                             ),
                             new Question(
-                                "Siapakah pemuda pertama yang memeluk Islam?",
+                                "سياڤاكه ڤمودا ڤرتام يڠ مملوق إسلام؟",
                                 new List<string>
                                 {
-                                    "Ali bin Abi Talib",
-                                    "Umar bin Khattab",
-                                    "Zubair bin Awwam",
-                                    "Talhah",
+                                    "علي بن أبي طالب",
+                                    "عمر بن الخطاب",
+                                    "زبير بن العوام",
+                                    "طلحة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Siapakah hamba pertama yang memeluk Islam?",
+                                "سياڤاكه همبا ڤرتام يڠ مملوق إسلام؟",
                                 new List<string>
                                 {
-                                    "Bilal bin Rabah",
-                                    "Zaid bin Harithah",
-                                    "Salman al-Farisi",
-                                    "Ammar bin Yasir",
+                                    "بلال بن رباح",
+                                    "زيد بن حارثة",
+                                    "سلمان الفارسي",
+                                    "عمار بن ياسر",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah faedah dakwah secara rahsia?",
+                                "اڤاكه فاءيده دعوه سچارا رهسيا؟",
                                 new List<string>
                                 {
-                                    "Islam dapat bertapak dengan selamat",
-                                    "Islam hilang",
-                                    "Islam ditolak",
-                                    "Islam tidak berkembang",
+                                    "إسلام داڤت برتاڤق دڠن سلامت",
+                                    "إسلام هيلڠ",
+                                    "إسلام دتولق",
+                                    "إسلام تيدق بركمبڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Golongan Quraisy menentang Islam kerana?",
+                                "ڬولوڠن قريش مننتڠ إسلام كرانا؟",
                                 new List<string>
                                 {
-                                    "Takut kehilangan pengaruh",
-                                    "Islam membenarkan berhala",
-                                    "Islam membenarkan arak",
-                                    "Islam menyuruh berjudi",
+                                    "تاكوت كهيلڠن ڤڠاروه",
+                                    "إسلام ممبنركن برهالا",
+                                    "إسلام ممبنركن ارق",
+                                    "إسلام مڽوروه برجودي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah maksud dakwah secara terbuka?",
+                                "اڤاكه مقصود دعوه سچارا تربوك؟",
                                 new List<string>
                                 {
-                                    "Menyampaikan Islam kepada umum",
-                                    "Menyembunyikan Islam",
-                                    "Mengajar hanya keluarga",
-                                    "Tidak berdakwah",
+                                    "مڽمڤاءيكن إسلام كڤد عموم",
+                                    "مڽمبوڽيكن إسلام",
+                                    "مڠاجر هاڽ كلوارڬ",
+                                    "تيدق بردعوه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Antara yang menentang Rasulullah SAW ialah?",
-                                new List<string> { "Abu Lahab", "Bilal", "Ali", "Abu Bakar" },
+                                "انتارا يڠ مننتڠ رسول الله ﷺ اياله؟",
+                                new List<string> { "أبو لهب", "بلال", "علي", "أبو بكر" },
                                 0
                             ),
                             new Question(
-                                "Apakah sifat Rasulullah SAW ketika menyampaikan dakwah?",
-                                new List<string> { "Lemah lembut", "Sombong", "Garang", "Marah" },
+                                "اڤاكه صيفت رسول الله ﷺ كتيك مڽمڤاءيكن دعوه؟",
+                                new List<string> { "لمه لمبوت", "سومبوڠ", "ڬارڠ", "ماره" },
                                 0
                             ),
                             new Question(
-                                "Siapakah isteri pertama Rasulullah SAW yang sentiasa menyokong baginda?",
-                                new List<string> { "Aisyah", "Hafsah", "Khadijah", "Ummu Salamah" },
+                                "سياڤاكه ايستري ڤرتام رسول الله ﷺ يڠ سنتياس مڽوكوڠ بڬيندا؟",
+                                new List<string> { "عائشة", "حفصة", "خديجة", "أم سلمة" },
                                 2
                             ),
                             new Question(
-                                "Apakah pengajaran dari dakwah secara rahsia?",
+                                "اڤاكه ڤڠاجرن دري دعوه سچارا رهسيا؟",
                                 new List<string>
                                 {
-                                    "Kita perlu berhikmah dalam berdakwah",
-                                    "Kita tidak perlu berdakwah",
-                                    "Kita boleh menghina orang lain",
-                                    "Kita boleh tinggalkan Islam",
+                                    "كيت ڤرلو برحكمة دالم بردعوه",
+                                    "كيت تيدق ڤرلو بردعوه",
+                                    "كيت بوليه مڠهينا اورڠ لاءين",
+                                    "كيت بوليه تيڠڬلكن إسلام",
                                 },
                                 0
                             ),
                             new Question(
-                                "Siapakah sahabat yang terkenal dengan sifat dermawan dan berdakwah?",
-                                new List<string> { "Abu Bakar", "Umar", "Uthman", "Ali" },
+                                "سياڤاكه صحابت يڠ تركنل دڠن صيفت درماون دان بردعوه؟",
+                                new List<string> { "أبو بكر", "عمر", "عثمان", "علي" },
                                 0
                             ),
                             new Question(
-                                "Siapakah sahabat yang terkenal berani dan tegas dalam Islam?",
-                                new List<string> { "Abu Bakar", "Umar", "Uthman", "Talhah" },
+                                "سياڤاكه صحابت يڠ تركنل براني دان تڬس دالم إسلام؟",
+                                new List<string> { "أبو بكر", "عمر", "عثمان", "طلحة" },
                                 1
                             ),
                             new Question(
-                                "Apakah peristiwa yang berlaku di Thaif?",
+                                "اڤاكه ڤريستيوا يڠ برلاكو د طائف؟",
                                 new List<string>
                                 {
-                                    "Rasulullah SAW diusir dan dicederakan",
-                                    "Rasulullah SAW disambut baik",
-                                    "Rasulullah SAW dilantik pemimpin",
-                                    "Rasulullah SAW berkahwin",
+                                    "رسول الله ﷺ دأوسير دان دچدراكن",
+                                    "رسول الله ﷺ دسمبوت باءيق",
+                                    "رسول الله ﷺ دلانتيق ڤميمڤين",
+                                    "رسول الله ﷺ بركهوين",
                                 },
                                 0
                             ),
                             new Question(
-                                "Rasulullah SAW berdoa di Thaif walaupun?",
+                                "رسول الله ﷺ بردعاء د طائف والاوڤون؟",
+                                new List<string> { "دساكيتي", "دحرمتي", "دسانجوڠ", "دسمبوت باءيق" },
+                                0
+                            ),
+                            new Question(
+                                "اڤاكه ڤڠاجرن دري ڤريستيوا طائف؟",
                                 new List<string>
                                 {
-                                    "Disakiti",
-                                    "Dihormati",
-                                    "Disanjung",
-                                    "Disambut baik",
+                                    "برصبر دالم مڠهادڤي چابرن",
+                                    "ڤوتوس اسا",
+                                    "تيدق ڤرلو بردعوه",
+                                    "برهنتي بردعوه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah pengajaran dari peristiwa Thaif?",
+                                "رسول الله ﷺ مڽمڤاءيكن دعوه كڤد قبيله كتيك؟",
                                 new List<string>
                                 {
-                                    "Bersabar dalam berdakwah",
-                                    "Putus asa",
-                                    "Tidak perlu berdakwah",
-                                    "Berhenti berdakwah",
+                                    "موسيم حج",
+                                    "بولن رمضان",
+                                    "هاري راي",
+                                    "بولن شعبان",
                                 },
                                 0
                             ),
                             new Question(
-                                "Rasulullah SAW menyampaikan dakwah kepada kabilah ketika?",
+                                "قبيله ماناكه يڠ اخيرڽ منريما إسلام؟",
+                                new List<string> { "أوس دان خزرج", "قريش", "طائف", "بني أمية" },
+                                0
+                            ),
+                            new Question(
+                                "اڤاكه ڤرجنجين عقبة؟",
                                 new List<string>
                                 {
-                                    "Musim haji",
-                                    "Bulan Ramadan",
-                                    "Hari raya",
-                                    "Bulan Syaaban",
+                                    "ڤرجنجين طاعة ستيا كڤد رسول الله ﷺ",
+                                    "ڤرجنجين دڠن قريش",
+                                    "ڤرجنجين دڠن طائف",
+                                    "ڤرجنجين داماي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Kabilah manakah yang akhirnya menerima Islam?",
+                                "اڤاكه ستراتيڬي أبو بكر دالم مڽيبركن إسلام؟",
                                 new List<string>
                                 {
-                                    "Aus dan Khazraj",
-                                    "Quraisy",
-                                    "Thaif",
-                                    "Bani Umayyah",
+                                    "مڠاجق صحابت-صحابت تردكت",
+                                    "مڠڬوناكن ككرسن",
+                                    "ممبوات ڤرجنجين دڠن قريش",
+                                    "مڽمبوڽيكن إسلام",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah perjanjian Aqabah?",
+                                "سياڤاكه صحابت يڠ ممراليكن بلال؟",
+                                new List<string> { "أبو بكر", "عمر", "عثمان", "علي" },
+                                0
+                            ),
+                            new Question(
+                                "اڤاكه يڠ دلاكوكن قريش كڤد رسول الله ﷺ دان صحابت؟",
                                 new List<string>
                                 {
-                                    "Perjanjian taat setia kepada Rasulullah SAW",
-                                    "Perjanjian dengan Quraisy",
-                                    "Perjanjian dengan Thaif",
-                                    "Perjanjian damai",
+                                    "ممولاوكن مريك",
+                                    "ممبري هديه",
+                                    "مڠحرمتي",
+                                    "ممبنتو",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah strategi Abu Bakar dalam menyebarkan Islam?",
+                                "ڤمولاءون رسول الله ﷺ برلاكو سلاما؟",
+                                new List<string> { "3 تاهون", "5 تاهون", "7 تاهون", "10 تاهون" },
+                                0
+                            ),
+                            new Question(
+                                "د ماناكه رسول الله ﷺ دان صحابت دڤولاوكن؟",
+                                new List<string> { "شعب أبي طالب", "ڬوا حراء", "كعبة", "مدينة" },
+                                0
+                            ),
+                            new Question(
+                                "اڤاكه عاقبة درڤد ڤمولاءون قريش؟",
                                 new List<string>
                                 {
-                                    "Mengajak sahabat-sahabat terdekat",
-                                    "Menggunakan kekerasan",
-                                    "Membuat perjanjian dengan Quraisy",
-                                    "Menyembunyikan Islam",
+                                    "اومت إسلام هيدوڤ سوسه دان لاڤر",
+                                    "إسلام سماكين كوات",
+                                    "إسلام دسمبوت باءيق",
+                                    "قريش ماسوق إسلام",
                                 },
                                 0
                             ),
                             new Question(
-                                "Siapakah sahabat yang memerdekakan Bilal?",
-                                new List<string> { "Abu Bakar", "Umar", "Uthman", "Ali" },
-                                0
-                            ),
-                            new Question(
-                                "Apakah yang dilakukan Quraisy kepada Rasulullah SAW dan sahabat?",
+                                "اڤاكه ڤڠاجرن درڤد ڤمولاءون رسول الله ﷺ؟",
                                 new List<string>
                                 {
-                                    "Memulaukan mereka",
-                                    "Memberi hadiah",
-                                    "Menghormati",
-                                    "Membantu",
+                                    "برصبر دالم مڠهادڤي چابرن",
+                                    "برهنتي بردعوه",
+                                    "مڽمبه برهالا",
+                                    "منيڠڬلكن إسلام",
                                 },
                                 0
                             ),
                             new Question(
-                                "Pemulauan Rasulullah SAW berlaku selama?",
-                                new List<string> { "3 years", "5 years", "7 years", "10 years" },
-                                0
-                            ),
-                            new Question(
-                                "Di manakah Rasulullah SAW dan sahabat dipulaukan?",
+                                "اڤاكه مقصود معجزة؟",
                                 new List<string>
                                 {
-                                    "Syi'b Abi Talib",
-                                    "Gua Hira",
-                                    "Kaabah",
-                                    "Madinah",
+                                    "ڤركارا لوار بياسا يڠ الله كورنياكن كڤد نبي",
+                                    "ڤركارا ڤليق",
+                                    "سحير",
+                                    "ڤرماءينن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah akibat daripada pemulauan Quraisy?",
+                                "معجزة تربسر نبي محمد ﷺ اياله؟",
                                 new List<string>
                                 {
-                                    "Umat Islam hidup susah dan lapar",
-                                    "Islam semakin kuat",
-                                    "Islam disambut baik",
-                                    "Quraisy masuk Islam",
+                                    "القرءان",
+                                    "ممبله لاءوت",
+                                    "توڠكت برتوكر اولر",
+                                    "مڽمبوهكن بوتا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah pengajaran daripada pemulauan Rasulullah SAW?",
+                                "اڤاكه توجوان معجزة؟",
                                 new List<string>
                                 {
-                                    "Bersabar dalam menghadapi cabaran",
-                                    "Berhenti berdakwah",
-                                    "Menyembah berhala",
-                                    "Meninggalkan Islam",
+                                    "ممبوقتيكن كرسولن نبي",
+                                    "اونتوق برماءين",
+                                    "اونتوق منونجوق-نونجوق",
+                                    "اونتوق سحير",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah maksud mukjizat?",
+                                "القرءان ممبوقتيكن كبنرن نبي محمد ﷺ كرانا؟",
                                 new List<string>
                                 {
-                                    "Perkara luar biasa yang Allah kurniakan kepada nabi",
-                                    "Perkara pelik",
-                                    "Sihir",
-                                    "Permainan",
+                                    "تياد سياڤا داڤت منيروڽ",
+                                    "دتوليس اوليه ماءنسي",
+                                    "سام سڤرتي كتاب لاءين",
+                                    "بوليه دڤيندا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Mukjizat terbesar Nabi Muhammad SAW ialah?",
+                                "اڤاكه معجزة يڠ برلاكو كتيك اورڠ قريش ممينتا تندا؟",
                                 new List<string>
                                 {
-                                    "Al-Quran",
-                                    "Membelah laut",
-                                    "Tongkat bertukar ular",
-                                    "Menyembuhkan buta",
+                                    "بولن تربله",
+                                    "لاءوت تربله",
+                                    "توڠكت منجادي اولر",
+                                    "اڤي منجادي سجوق",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah tujuan mukjizat?",
+                                "اءير كلوار دري چله جاري رسول الله ﷺ كتيك؟",
                                 new List<string>
                                 {
-                                    "Membuktikan kerasulan nabi",
-                                    "Untuk bermain",
-                                    "Untuk menunjuk-nunjuk",
-                                    "Untuk sihir",
+                                    "ڤارا صحابت كهاءوسن",
+                                    "صحابت لاڤر",
+                                    "صحابت تاكوت",
+                                    "صحابت ساكيت",
                                 },
                                 0
                             ),
                             new Question(
-                                "Al-Quran membuktikan kebenaran Nabi Muhammad SAW kerana?",
-                                new List<string>
-                                {
-                                    "Tiada siapa dapat menirunya",
-                                    "Ditulis oleh manusia",
-                                    "Sama seperti kitab lain",
-                                    "Boleh dipinda",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Apakah mukjizat yang berlaku ketika orang Quraisy meminta tanda?",
-                                new List<string>
-                                {
-                                    "Bulan terbelah",
-                                    "Laut terbelah",
-                                    "Tongkat menjadi ular",
-                                    "Api menjadi sejuk",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Air keluar dari celah jari Rasulullah SAW ketika?",
-                                new List<string>
-                                {
-                                    "Para sahabat kehausan",
-                                    "Sahabat lapar",
-                                    "Sahabat takut",
-                                    "Sahabat sakit",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Makanan bertambah dengan izin Allah ketika?",
-                                new List<string>
-                                {
-                                    "Perang",
-                                    "Jamuan kecil",
-                                    "Kenduri",
-                                    "Musim panas",
-                                },
+                                "ماكنن برتمبه دڠن ايذين الله كتيك؟",
+                                new List<string> { "ڤرڠ", "جموان كچيل", "كندوري", "موسيم ڤانس" },
                                 1
                             ),
                             new Question(
-                                "Apakah peristiwa besar yang berlaku sebelum solat lima waktu difardukan?",
+                                "اڤاكه ڤريستيوا بسر يڠ برلاكو سبلوم صلاة ليم وقتو دفرضوك؟",
+                                new List<string> { "إسراء معراج", "هجرة", "ڤرڠ بدر", "حج الوداع" },
+                                0
+                            ),
+                            new Question(
+                                "صلاة ليم وقتو دفرضوكن سماس ڤريستيوا؟",
                                 new List<string>
                                 {
-                                    "Israk Mikraj",
-                                    "Hijrah",
-                                    "Perang Badar",
-                                    "Haji Wada'",
+                                    "إسراء معراج",
+                                    "هجرة",
+                                    "ڤرڠ أحد",
+                                    "ڤمبيناءن كعبة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Solat lima waktu difardukan semasa peristiwa?",
+                                "اڤاكه حكمة معجزة رسول الله ﷺ؟",
                                 new List<string>
                                 {
-                                    "Israk Mikraj",
-                                    "Hijrah",
-                                    "Perang Uhud",
-                                    "Pembinaan Kaabah",
+                                    "مڠواتكن ايمان اومت إسلام",
+                                    "اونتوق برماءين",
+                                    "اونتوق منونجوق-نونجوق",
+                                    "اونتوق مناكوتكن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah hikmah mukjizat Rasulullah SAW?",
+                                "معجزة برلاكو دڠن ايذين؟",
+                                new List<string> { "الله", "ماءنسي", "ملائكة", "نبي" },
+                                0
+                            ),
+                            new Question(
+                                "اڤاكه يڠ ممبيذاكن معجزة دان سحير؟",
                                 new List<string>
                                 {
-                                    "Menguatkan iman umat Islam",
-                                    "Untuk bermain",
-                                    "Untuk menunjuk-nunjuk",
-                                    "Untuk menakutkan",
+                                    "معجزة دري الله، سحير دري جين",
+                                    "معجزة دري ماءنسي",
+                                    "معجزة سام سڤرتي سحير",
+                                    "كدوا-دواڽ سام",
                                 },
                                 0
                             ),
                             new Question(
-                                "Mukjizat berlaku dengan izin?",
-                                new List<string> { "Allah", "Manusia", "Malaikat", "Nabi" },
-                                0
-                            ),
-                            new Question(
-                                "Apakah yang membezakan mukjizat dan sihir?",
+                                "القرءان منجادي معجزة كرانا؟",
                                 new List<string>
                                 {
-                                    "Mukjizat dari Allah, sihir dari jin",
-                                    "Mukjizat dari manusia",
-                                    "Mukjizat sama seperti sihir",
-                                    "Kedua-duanya sama",
+                                    "بهاس دان ايسيڽ اينده دان بنر",
+                                    "سام سڤرتي بوكو بياسا",
+                                    "دتوليس صحابت",
+                                    "بوليه دڤيندا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Al-Quran menjadi mukjizat kerana?",
+                                "اڤاكه ڤڠاجرن درڤد معجزة نبي محمد ﷺ؟",
                                 new List<string>
                                 {
-                                    "Bahasa dan isinya indah dan benar",
-                                    "Sama seperti buku biasa",
-                                    "Ditulis sahabat",
-                                    "Boleh dipinda",
+                                    "ميقيني كرسولن بڬيندا",
+                                    "تيدق برايمان",
+                                    "منجادي سومبوڠ",
+                                    "لالاي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah pengajaran daripada mukjizat Nabi Muhammad SAW?",
+                                "اڤاكه معجزة يڠ ماسيه ككل هيڠڬ هاري اين؟",
                                 new List<string>
                                 {
-                                    "Meyakini kerasulan baginda",
-                                    "Tidak beriman",
-                                    "Menjadi sombong",
-                                    "Lalai",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Apakah mukjizat yang masih kekal hingga hari ini?",
-                                new List<string>
-                                {
-                                    "Al-Quran",
-                                    "Bulan terbelah",
-                                    "Air keluar dari jari",
-                                    "Makanan bertambah",
+                                    "القرءان",
+                                    "بولن تربله",
+                                    "اءير كلوار دري جاري",
+                                    "ماكنن برتمبه",
                                 },
                                 0
                             ),
@@ -5970,516 +5365,492 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Apakah maksud ziarah?",
+                                "اڤاكه مقصود زياره؟",
                                 new List<string>
                                 {
-                                    "Pergi melancong",
-                                    "Mengunjungi seseorang dengan tujuan baik",
-                                    "Membeli barang",
-                                    "Pergi bersukan",
+                                    "ڤرڬي ملنچوڠ",
+                                    "مڠونجوڠي سسأورڠ دڠن توجوان باءيق",
+                                    "ممبلي بارڠ",
+                                    "ڤرڬي برسوكن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Antara adab menziarahi rakan sebaya ialah?",
+                                "انتارا ادب منزيارهي راكن سبايا اياله؟",
                                 new List<string>
                                 {
-                                    "Memberi salam",
-                                    "Membuat bising",
-                                    "Mengambil barang tanpa izin",
-                                    "Bergaduh",
+                                    "ممبري سلام",
+                                    "ممبوات بيسيڠ",
+                                    "مڠامبيل بارڠ تنڤا ايذين",
+                                    "برڬادوه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apabila hendak pulang dari rumah rakan, kita perlu?",
+                                "اڤابيلا هندق ڤولڠ دري رومه راكن، كيت ڤرلو؟",
                                 new List<string>
                                 {
-                                    "Diam sahaja",
-                                    "Membanting pintu",
-                                    "Mengucapkan terima kasih",
-                                    "Membawa barangnya",
+                                    "ديام سهاج",
+                                    "ممبنتيڠ ڤينتو",
+                                    "مڠوچڤكن تريما كاسيه",
+                                    "ممباوا بارڠڽ",
                                 },
                                 2
                             ),
                             new Question(
-                                "Perbuatan yang dilarang ketika menziarahi rakan sebaya ialah?",
+                                "ڤربواتن يڠ دلارڠ كتيك منزيارهي راكن سبايا اياله؟",
                                 new List<string>
                                 {
-                                    "Memberi salam",
-                                    "Meminta izin masuk",
-                                    "Merosakkan barang rakan",
-                                    "Berbual sopan",
+                                    "ممبري سلام",
+                                    "ممينتا ايذين ماسوق",
+                                    "مروسقكن بارڠ راكن",
+                                    "بربوال سوڤن",
                                 },
                                 2
                             ),
                             new Question(
-                                "Kelebihan menziarahi rakan dengan adab yang baik ialah?",
+                                "كلبيهن منزيارهي راكن دڠن ادب يڠ باءيق اياله؟",
                                 new List<string>
                                 {
-                                    "Mendapat kasih sayang",
-                                    "Dibenci orang",
-                                    "Dimarahi jiran",
-                                    "Hilang kawan",
+                                    "مندافت كاسيه سايڠ",
+                                    "دبنچي اورڠ",
+                                    "دماراهي جيرن",
+                                    "هيلڠ كاون",
                                 },
                                 0
                             ),
                             new Question(
-                                "Akibat tidak beradab ketika menziarahi rakan ialah?",
+                                "عاقبة تيدق برادب كتيك منزيارهي راكن اياله؟",
+                                new List<string> { "دڤوجي", "دحرمتي", "دڤندڠ سيروڠ", "دسايڠي" },
+                                2
+                            ),
+                            new Question(
+                                "اڤابيلا راكن ممبري ماكنن، كيت ڤرلو؟",
                                 new List<string>
                                 {
-                                    "Dipuji",
-                                    "Dihormati",
-                                    "Dipandang serong",
-                                    "Disayangi",
+                                    "تولق دڠن كاسر",
+                                    "امبيل دڠن سوڤن",
+                                    "هينا ماكنن",
+                                    "بواڠ ماكنن",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "مڠحرمتي راكن سبايا كتيك زياره اكن؟",
+                                new List<string>
+                                {
+                                    "مڠواتكن ڤرصحابتن",
+                                    "ملمهكن هوبوڠن",
+                                    "منيمبولكن ڤرڬادوهن",
+                                    "ممبوات كبنچين",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "جك راكن تياد د رومه، كيت ڤرلو؟",
+                                new List<string>
+                                {
+                                    "ڤچهكن ڤينتو",
+                                    "ڤولڠ دڠن سوڤن",
+                                    "جريت ڤڠڬيل",
+                                    "ڤنجت ڤاڬر",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "عاقبة سوك ممبوات بيسيڠ كتيك منزيارهي راكن اياله؟",
+                                new List<string>
+                                {
+                                    "راكن سوك",
+                                    "راكن ڬمبيرا",
+                                    "راكن ماره",
+                                    "راكن حرمت",
                                 },
                                 2
                             ),
                             new Question(
-                                "Apabila rakan memberi makanan, kita perlu?",
+                                "اڤابيلا منزيارهي اورڠ ديواسا، كيت ڤرلو ممڠڬيل مريك دڠن؟",
                                 new List<string>
                                 {
-                                    "Tolak dengan kasar",
-                                    "Ambil dengan sopan",
-                                    "Hina makanan",
-                                    "Buang makanan",
+                                    "نام سهاج",
+                                    "ڤڠڬيلن حرمت",
+                                    "سينديرن",
+                                    "ڬلرن كاسر",
                                 },
                                 1
                             ),
                             new Question(
-                                "Menghormati rakan sebaya ketika ziarah akan?",
+                                "لارڠن كتيك منزيارهي اورڠ ديواسا اياله؟",
                                 new List<string>
                                 {
-                                    "Menguatkan persahabatan",
-                                    "Melemahkan hubungan",
-                                    "Menimbulkan pergaduhan",
-                                    "Membuat kebencian",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Jika rakan tiada di rumah, kita perlu?",
-                                new List<string>
-                                {
-                                    "Pecahkan pintu",
-                                    "Pulang dengan sopan",
-                                    "Jerit panggil",
-                                    "Panjat pagar",
+                                    "دودوق سوڤن",
+                                    "مموتوڠ ڤرچاكڤن",
+                                    "مندڠر نصيحت",
+                                    "ممبري سلام",
                                 },
                                 1
                             ),
                             new Question(
-                                "Akibat suka membuat bising ketika menziarahi rakan ialah?",
+                                "كلبيهن برادب دڠن اورڠ ديواسا اياله؟",
                                 new List<string>
                                 {
-                                    "Rakan suka",
-                                    "Rakan gembira",
-                                    "Rakan marah",
-                                    "Rakan hormat",
+                                    "دبنچي",
+                                    "دكاسيهي دان دحرمتي",
+                                    "دماراهي",
+                                    "دڤولاو",
                                 },
+                                1
+                            ),
+                            new Question(
+                                "عاقبة تيدق برادب دڠن اورڠ ديواسا اياله؟",
+                                new List<string> { "دسايڠي", "دحرمتي", "دڤندڠ رنده", "دكاسيهي" },
                                 2
                             ),
                             new Question(
-                                "Apabila menziarahi orang dewasa, kita perlu memanggil mereka dengan?",
+                                "اڤابيلا بربيچارا دڠن اورڠ ديواسا كيت هندقله؟",
                                 new List<string>
                                 {
-                                    "Nama sahaja",
-                                    "Panggilan hormat",
-                                    "Sindiran",
-                                    "Gelaran kasar",
+                                    "منڠكيڠ",
+                                    "سوڤن دان لمه لمبوت",
+                                    "مڠهينا",
+                                    "مموتوڠ چاكڤ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Larangan ketika menziarahi orang dewasa ialah?",
+                                "مڠحرمتي اورڠ ديواسا ترماسوق اخلاق؟",
+                                new List<string> { "بوروق", "موليا", "جاهت", "تيدق ڤنتيڠ" },
+                                1
+                            ),
+                            new Question(
+                                "بردعاء اونتوق كباءيقن اورڠ ديواسا اداله تندا؟",
+                                new List<string> { "بنچي", "حرمت دان كاسيه سايڠ", "دندم", "لالاي" },
+                                1
+                            ),
+                            new Question(
+                                "مڠاڠكت سوارا د هادڤن اورڠ ديواسا اداله؟",
                                 new List<string>
                                 {
-                                    "Duduk sopan",
-                                    "Memotong percakapan",
-                                    "Mendengar nasihat",
-                                    "Memberi salam",
+                                    "ادب بوروق",
+                                    "ادب موليا",
+                                    "عملن باءيق",
+                                    "عملن سنة",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "چونتوه ساودارا مارا اياله؟",
+                                new List<string> { "صحابت سكوله", "سڤوڤو", "جيرن سبله", "ڬورو" },
+                                1
+                            ),
+                            new Question(
+                                "لارڠن كتيك منزيارهي ساودارا مارا اياله؟",
+                                new List<string>
+                                {
+                                    "ممبنتو مريك",
+                                    "ممبوات بيسيڠ",
+                                    "مندعاكن مريك",
+                                    "ممبري سلام",
                                 },
                                 1
                             ),
                             new Question(
-                                "Kelebihan beradab dengan orang dewasa ialah?",
+                                "كلبيهن منزيارهي ساودارا مارا دڠن ادب باءيق اياله؟",
                                 new List<string>
                                 {
-                                    "Dibenci",
-                                    "Dikasihi dan dihormati",
-                                    "Dimarahi",
-                                    "Dipulau",
+                                    "مندافت كاسيه سايڠ",
+                                    "دڤولاو",
+                                    "دبنچي",
+                                    "دجاءوهي",
                                 },
-                                1
+                                0
                             ),
                             new Question(
-                                "Akibat tidak beradab dengan orang dewasa ialah?",
+                                "عاقبة تيدق برادب دڠن ساودارا مارا اياله؟",
                                 new List<string>
                                 {
-                                    "Disayangi",
-                                    "Dihormati",
-                                    "Dipandang rendah",
-                                    "Dikasihi",
+                                    "صلة الرحيم ترڤوتوس",
+                                    "صلة الرحيم برتمبه ارت",
+                                    "هوبوڠن برتمبه كاسيه",
+                                    "هوبوڠن دحرمتي",
                                 },
+                                0
+                            ),
+                            new Question(
+                                "اڤابيلا بربوال دڠن ساودارا مارا كيت هندقله؟",
+                                new List<string> { "كاسر", "مڠهينا", "سوڤن", "ممبنتق" },
                                 2
                             ),
                             new Question(
-                                "Apabila berbicara dengan orang dewasa kita hendaklah?",
+                                "مڠونجوڠي ساودارا مارا ڤد هاري راي اداله؟",
                                 new List<string>
                                 {
-                                    "Menengking",
-                                    "Sopan dan lemah lembut",
-                                    "Menghina",
-                                    "Memotong cakap",
+                                    "عملن باءيق",
+                                    "عملن بوروق",
+                                    "تيدق ڤنتيڠ",
+                                    "سيا-سيا",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "مڠحرمتي ساودارا مارا يڠ لبيه توا اداله؟",
+                                new List<string>
+                                {
+                                    "ادب موليا",
+                                    "ادب بوروق",
+                                    "تيدق ڤرلو",
+                                    "تيدق ڤنتيڠ",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "دعاء كڤد اورڠ ساكيت اياله؟",
+                                new List<string>
+                                {
+                                    "سموڬ چڤت ماتي",
+                                    "سموڬ الله مڽمبوهكنمو",
+                                    "سموڬ سماكين ساكيت",
+                                    "سموڬ سوسه",
                                 },
                                 1
                             ),
                             new Question(
-                                "Menghormati orang dewasa termasuk akhlak?",
-                                new List<string> { "Buruk", "Mulia", "Jahat", "Tidak penting" },
-                                1
-                            ),
-                            new Question(
-                                "Berdoa untuk kebaikan orang dewasa adalah tanda?",
+                                "لارڠن كتيك منزيارهي اورڠ ساكيت اياله؟",
                                 new List<string>
                                 {
-                                    "Benci",
-                                    "Hormat dan kasih sayang",
-                                    "Dendam",
-                                    "Lalai",
+                                    "ممبري كات سماڠت",
+                                    "ممبوات بيسيڠ",
+                                    "ممباچ دعاء",
+                                    "سڽوم",
                                 },
                                 1
                             ),
                             new Question(
-                                "Mengangkat suara di hadapan orang dewasa adalah?",
+                                "ادب منزيارهي اورڠ ساكيت د هوسڤيتل اياله؟",
                                 new List<string>
                                 {
-                                    "Adab buruk",
-                                    "Adab mulia",
-                                    "Amalan baik",
-                                    "Amalan sunat",
+                                    "دودوق سوڤن",
+                                    "ملومڤت-لومڤت",
+                                    "كتاوا كوات",
+                                    "ممبوات بيسيڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Contoh saudara mara ialah?",
+                                "لارڠن كتيك منزيارهي اورڠ ساكيت د هوسڤيتل اياله؟",
                                 new List<string>
                                 {
-                                    "Sahabat sekolah",
-                                    "Sepupu",
-                                    "Jiran sebelah",
-                                    "Guru",
+                                    "منجاڬ كبرسيهن",
+                                    "ممباوا ماكنن تيدق سسواي",
+                                    "منجاڬ ادب",
+                                    "بردعاء",
                                 },
                                 1
                             ),
                             new Question(
-                                "Larangan ketika menziarahi saudara mara ialah?",
+                                "چونتوه بواه تاڠن يڠ تيدق سسواي اونتوق اورڠ ساكيت اياله؟",
                                 new List<string>
                                 {
-                                    "Membantu mereka",
-                                    "Membuat bising",
-                                    "Mendoakan mereka",
-                                    "Memberi salam",
+                                    "بواه-بواهن سڬر",
+                                    "اءير برڬس",
+                                    "جوس بواه",
+                                    "بوكو دعاء",
                                 },
                                 1
                             ),
                             new Question(
-                                "Kelebihan menziarahi saudara mara dengan adab baik ialah?",
+                                "كلبيهن برادب كتيك منزيارهي اورڠ ساكيت اياله؟",
                                 new List<string>
                                 {
-                                    "Mendapat kasih sayang",
-                                    "Dipulau",
-                                    "Dibenci",
-                                    "Dijauhi",
+                                    "ممبينا كاسيه سايڠ",
+                                    "ممبوات اورڠ ساكيت بنچي",
+                                    "منمبه ڤرموسوهن",
+                                    "ممبوات ماره",
                                 },
                                 0
                             ),
                             new Question(
-                                "Akibat tidak beradab dengan saudara mara ialah?",
+                                "عاقبة تيدق برادب كتيك منزيارهي اورڠ ساكيت اياله؟",
                                 new List<string>
                                 {
-                                    "Silaturahim terputus",
-                                    "Silaturahim bertambah erat",
-                                    "Hubungan bertambah kasih",
-                                    "Hubungan dihormati",
+                                    "ممبوات اورڠ ساكيت ترڬڠڬو",
+                                    "اورڠ ساكيت ڬمبيرا",
+                                    "اورڠ ساكيت تنڠ",
+                                    "اورڠ ساكيت ڤوليه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apabila berbual dengan saudara mara kita hendaklah?",
-                                new List<string> { "Kasar", "Menghina", "Sopan", "Membentak" },
-                                2
-                            ),
-                            new Question(
-                                "Mengunjungi saudara mara pada hari raya adalah?",
-                                new List<string>
-                                {
-                                    "Amalan baik",
-                                    "Amalan buruk",
-                                    "Tidak penting",
-                                    "Sia-sia",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Menghormati saudara mara yang lebih tua adalah?",
-                                new List<string>
-                                {
-                                    "Adab mulia",
-                                    "Adab buruk",
-                                    "Tidak perlu",
-                                    "Tidak penting",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Doa kepada orang sakit ialah?",
-                                new List<string>
-                                {
-                                    "Semoga cepat mati",
-                                    "Semoga Allah menyembuhkanmu",
-                                    "Semoga semakin sakit",
-                                    "Semoga susah",
-                                },
+                                "ممبنتو اورڠ ساكيت اداله اخلاق؟",
+                                new List<string> { "بوروق", "موليا", "جاهت", "تيدق ڤنتيڠ" },
                                 1
                             ),
                             new Question(
-                                "Larangan ketika menziarahi orang sakit ialah?",
-                                new List<string>
-                                {
-                                    "Memberi kata semangat",
-                                    "Membuat bising",
-                                    "Membaca doa",
-                                    "Senyum",
-                                },
-                                1
+                                "مندعاكن كسمبوهن اورڠ ساكيت اداله تندا؟",
+                                new List<string> { "كاسيه سايڠ", "بنچي", "دندم", "سومبوڠ" },
+                                0
                             ),
                             new Question(
-                                "Adab menziarahi orang sakit di hospital ialah?",
+                                "مڠوچڤكن سلام كڤد اورڠ ساكيت اداله؟",
                                 new List<string>
                                 {
-                                    "Duduk sopan",
-                                    "Melompat-lompat",
-                                    "Ketawa kuat",
-                                    "Membuat bising",
+                                    "ادب موليا",
+                                    "ادب بوروق",
+                                    "تيدق ڤنتيڠ",
+                                    "سيا-سيا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Larangan ketika menziarahi orang sakit di hospital ialah?",
+                                "اڤابيلا منزيارهي كماتين كيت هندقله؟",
                                 new List<string>
                                 {
-                                    "Menjaga kebersihan",
-                                    "Membawa makanan tidak sesuai",
-                                    "Menjaga adab",
-                                    "Berdoa",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Contoh buah tangan yang tidak sesuai untuk orang sakit ialah?",
-                                new List<string>
-                                {
-                                    "Buah-buahan segar",
-                                    "Air bergas",
-                                    "Jus buah",
-                                    "Buku doa",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Kelebihan beradab ketika menziarahi orang sakit ialah?",
-                                new List<string>
-                                {
-                                    "Membina kasih sayang",
-                                    "Membuat orang sakit benci",
-                                    "Menambah permusuhan",
-                                    "Membuat marah",
+                                    "ديام دان تنڠ",
+                                    "كتاوا",
+                                    "ممبوات بيسيڠ",
+                                    "برماءين",
                                 },
                                 0
                             ),
                             new Question(
-                                "Akibat tidak beradab ketika menziarahi orang sakit ialah?",
+                                "مڠوچڤكن تعزية كڤد كلوارڬ سي ماتي اداله؟",
                                 new List<string>
                                 {
-                                    "Membuat orang sakit terganggu",
-                                    "Orang sakit gembira",
-                                    "Orang sakit tenang",
-                                    "Orang sakit pulih",
+                                    "ادب موليا",
+                                    "ادب بوروق",
+                                    "تيدق ڤرلو",
+                                    "تيدق ڤنتيڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Membantu orang sakit adalah akhlak?",
-                                new List<string> { "Buruk", "Mulia", "Jahat", "Tidak penting" },
-                                1
-                            ),
-                            new Question(
-                                "Mendoakan kesembuhan orang sakit adalah tanda?",
-                                new List<string> { "Kasih sayang", "Benci", "Dendam", "Sombong" },
-                                0
-                            ),
-                            new Question(
-                                "Mengucapkan salam kepada orang sakit adalah?",
+                                "دعاء كڤد سي ماتي اياله؟",
                                 new List<string>
                                 {
-                                    "Adab mulia",
-                                    "Adab buruk",
-                                    "Tidak penting",
-                                    "Sia-sia",
+                                    "يا الله، امڤونيله دي",
+                                    "يا الله، سيقساله دي",
+                                    "يا الله، هيناكن دي",
+                                    "يا الله، جاءوهيله دي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apabila menziarahi kematian kita hendaklah?",
+                                "مناڠيسي كماتين دڠن برلبيهن حكومڽ؟",
+                                new List<string> { "حرام", "واجب", "سنة", "هاروس" },
+                                0
+                            ),
+                            new Question(
+                                "مڠيريڠي جنازه هيڠڬ ك قبور اداله؟",
                                 new List<string>
                                 {
-                                    "Diam dan tenang",
-                                    "Ketawa",
-                                    "Membuat bising",
-                                    "Bermain",
+                                    "عملن موليا",
+                                    "عملن بوروق",
+                                    "تيدق ڤنتيڠ",
+                                    "سيا-سيا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Mengucapkan takziah kepada keluarga si mati adalah?",
+                                "اڤابيلا منزيارهي قبور كيت هندقله؟",
+                                new List<string> { "ممباچ دعاء", "منجريت", "برماءين", "كتاوا" },
+                                0
+                            ),
+                            new Question(
+                                "مڠوچڤكن سلام كڤد اهلي قبور اداله؟",
                                 new List<string>
                                 {
-                                    "Adab mulia",
-                                    "Adab buruk",
-                                    "Tidak perlu",
-                                    "Tidak penting",
+                                    "ادب موليا",
+                                    "ادب بوروق",
+                                    "تيدق ڤرلو",
+                                    "تيدق ڤنتيڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Doa kepada si mati ialah?",
+                                "دعاء كتيك منزيارهي قبور اياله؟",
                                 new List<string>
                                 {
-                                    "Ya Allah, ampunilah dia",
-                                    "Ya Allah, seksalah dia",
-                                    "Ya Allah, hinakan dia",
-                                    "Ya Allah, jauhilah dia",
+                                    "يا الله، امڤونكن ڤڠهوني قبور اين",
+                                    "يا الله، سيقساله ڤڠهوني قبور اين",
+                                    "يا الله، هيناكن ڤڠهوني قبور اين",
+                                    "يا الله، جاءوهيله ڤڠهوني قبور اين",
                                 },
                                 0
                             ),
                             new Question(
-                                "Menangisi kematian dengan berlebihan hukumnya?",
-                                new List<string> { "Haram", "Wajib", "Sunat", "Harus" },
-                                0
-                            ),
-                            new Question(
-                                "Mengiringi jenazah hingga ke kubur adalah?",
+                                "مڠحرمتي كاوسن قبور اداله؟",
                                 new List<string>
                                 {
-                                    "Amalan mulia",
-                                    "Amalan buruk",
-                                    "Tidak penting",
-                                    "Sia-sia",
+                                    "ادب موليا",
+                                    "ادب بوروق",
+                                    "تيدق ڤنتيڠ",
+                                    "تيدق ڤرلو",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apabila menziarahi kubur kita hendaklah?",
-                                new List<string> { "Membaca doa", "Menjerit", "Bermain", "Ketawa" },
-                                0
-                            ),
-                            new Question(
-                                "Mengucapkan salam kepada ahli kubur adalah?",
+                                "برماءين-ماءين د كاوسن قبور اداله؟",
                                 new List<string>
                                 {
-                                    "Adab mulia",
-                                    "Adab buruk",
-                                    "Tidak perlu",
-                                    "Tidak penting",
+                                    "ادب بوروق",
+                                    "ادب موليا",
+                                    "تيدق ڤنتيڠ",
+                                    "عملن باءيق",
                                 },
                                 0
                             ),
                             new Question(
-                                "Doa ketika menziarahi kubur ialah?",
+                                "اڤابيلا مڠحاضيري مجليس كراماين كيت هندقله؟",
                                 new List<string>
                                 {
-                                    "Ya Allah, ampunkan penghuni kubur ini",
-                                    "Ya Allah, seksalah penghuni kubur ini",
-                                    "Ya Allah, hinakan penghuni kubur ini",
-                                    "Ya Allah, jauhilah penghuni kubur ini",
+                                    "ممبري سلام",
+                                    "ممبوات بيسيڠ",
+                                    "مڽوسهكن توان رومه",
+                                    "مڠهينا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Menghormati kawasan kubur adalah?",
+                                "برڤاكاين سوڤن كتيك مجليس اداله؟",
                                 new List<string>
                                 {
-                                    "Adab mulia",
-                                    "Adab buruk",
-                                    "Tidak penting",
-                                    "Tidak perlu",
+                                    "ادب موليا",
+                                    "ادب بوروق",
+                                    "تيدق ڤنتيڠ",
+                                    "تيدق ڤرلو",
                                 },
                                 0
                             ),
                             new Question(
-                                "Bermain-main di kawasan kubur adalah?",
+                                "ممبنتو توان رومه دالم مجليس اداله؟",
                                 new List<string>
                                 {
-                                    "Adab buruk",
-                                    "Adab mulia",
-                                    "Tidak penting",
-                                    "Amalan baik",
+                                    "اخلاق موليا",
+                                    "اخلاق بوروق",
+                                    "تيدق ڤنتيڠ",
+                                    "تيدق ڤرلو",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apabila menghadiri majlis keramaian kita hendaklah?",
+                                "اڤابيلا ماكن د مجليس كيت هندقله؟",
                                 new List<string>
                                 {
-                                    "Memberi salam",
-                                    "Membuat bising",
-                                    "Menyusahkan tuan rumah",
-                                    "Menghina",
+                                    "تيدق ممبازير",
+                                    "ممبازير",
+                                    "ممبوات بيسيڠ",
+                                    "مڠهينا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Berpakaian sopan ketika majlis adalah?",
+                                "مڠحرمتي تتامو لاءين دالم مجليس اداله؟",
                                 new List<string>
                                 {
-                                    "Adab mulia",
-                                    "Adab buruk",
-                                    "Tidak penting",
-                                    "Tidak perlu",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Membantu tuan rumah dalam majlis adalah?",
-                                new List<string>
-                                {
-                                    "Akhlak mulia",
-                                    "Akhlak buruk",
-                                    "Tidak penting",
-                                    "Tidak perlu",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Apabila makan di majlis kita hendaklah?",
-                                new List<string>
-                                {
-                                    "Tidak membazir",
-                                    "Membazir",
-                                    "Membuat bising",
-                                    "Menghina",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Menghormati tetamu lain dalam majlis adalah?",
-                                new List<string>
-                                {
-                                    "Adab mulia",
-                                    "Adab buruk",
-                                    "Tidak penting",
-                                    "Tidak perlu",
+                                    "ادب موليا",
+                                    "ادب بوروق",
+                                    "تيدق ڤنتيڠ",
+                                    "تيدق ڤرلو",
                                 },
                                 0
                             ),
@@ -6490,504 +5861,504 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Apakah pengertian sifat Iradah Allah?",
+                                "اڤاكه ڤڠرتين صيفت إرادة الله؟",
                                 new List<string>
                                 {
-                                    "Allah Maha Mendengar",
-                                    "Allah Maha Berkuasa",
-                                    "Allah Menentukan segala kehendak-Nya",
-                                    "Allah Maha Melihat",
+                                    "الله مها مندڠر",
+                                    "الله مها بركواس",
+                                    "الله مننتوكن سڬالا كهندق-ڽ",
+                                    "الله مها مليهت",
                                 },
                                 2
                             ),
                             new Question(
-                                "Dalil agli Allah bersifat Iradah ialah ...",
+                                "دليل عقلي الله برصيفت إرادة اياله ...",
                                 new List<string>
                                 {
-                                    "Mustahil Allah tidak berkehendak",
-                                    "Allah Maha Mendengar",
-                                    "Allah Maha Melihat",
-                                    "Mustahil Allah berkuasa",
+                                    "مستحيل الله تيدق بركهندق",
+                                    "الله مها مندڠر",
+                                    "الله مها مليهت",
+                                    "مستحيل الله بركواس",
                                 },
                                 0
                             ),
                             new Question(
-                                "Sifat berlawanan dengan Iradah ialah ...",
-                                new List<string> { "Kehendak", "Terpaksa", "Ilmu", "Hidup" },
+                                "صيفت برلاونن دڠن إرادة اياله ...",
+                                new List<string> { "كهندق", "ترڤقسا", "علمو", "هيدوڤ" },
                                 1
                             ),
                             new Question(
-                                "Kesan beriman dengan sifat Iradah ialah ...",
+                                "كسن برايمان دڠن صيفت إرادة اياله ...",
                                 new List<string>
                                 {
-                                    "Tenang menerima takdir Allah",
-                                    "Putus asa dengan hidup",
-                                    "Tidak percaya pada takdir",
-                                    "Tidak mahu berusaha",
+                                    "تنڠ منريما تقدير الله",
+                                    "ڤوتوس اسا دڠن هيدوڤ",
+                                    "تيدق ڤرچاي ڤد تقدير",
+                                    "تيدق ماهو بروسها",
                                 },
                                 0
                             ),
                             new Question(
-                                "Akibat tidak beriman dengan sifat Iradah ialah ...",
+                                "عاقبة تيدق برايمان دڠن صيفت إرادة اياله ...",
                                 new List<string>
                                 {
-                                    "Hidup bahagia",
-                                    "Lemah iman",
-                                    "Semakin yakin pada takdir",
-                                    "Meningkatkan amal",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Apakah pengertian sifat Ilmu Allah?",
-                                new List<string>
-                                {
-                                    "Allah Maha Mengetahui segala perkara",
-                                    "Allah Maha Mendengar",
-                                    "Allah Maha Melihat",
-                                    "Allah Maha Berkuasa",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Dalil naqli Allah Maha Mengetahui ialah ...",
-                                new List<string>
-                                {
-                                    "Surah Al-Baqarah ayat 255",
-                                    "Surah Al-Fatihah ayat 1",
-                                    "Surah Al-Ikhlas ayat 1",
-                                    "Surah Al-Kafirun ayat 6",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Dalil agli Allah bersifat Ilmu ialah ...",
-                                new List<string>
-                                {
-                                    "Mustahil Allah jahil",
-                                    "Mustahil Allah berkuasa",
-                                    "Mustahil Allah mendengar",
-                                    "Mustahil Allah hidup",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Perbezaan ilmu Allah dengan ilmu manusia ialah ...",
-                                new List<string>
-                                {
-                                    "Ilmu manusia terbatas, ilmu Allah tidak terbatas",
-                                    "Ilmu manusia sempurna",
-                                    "Ilmu Allah terbatas",
-                                    "Ilmu Allah sama dengan manusia",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Sifat berlawanan dengan Ilmu ialah ...",
-                                new List<string> { "Tahu", "Jahil", "Hidup", "Berkuasa" },
-                                1
-                            ),
-                            new Question(
-                                "Kesan beriman dengan sifat Ilmu ialah ...",
-                                new List<string>
-                                {
-                                    "Yakin Allah mengetahui segala amal",
-                                    "Tidak takut melakukan dosa",
-                                    "Berbuat sesuka hati",
-                                    "Tidak berusaha",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Akibat tidak beriman dengan sifat Ilmu ialah ...",
-                                new List<string>
-                                {
-                                    "Menjadi lebih bertakwa",
-                                    "Hilang rasa takut kepada Allah",
-                                    "Menambah amal soleh",
-                                    "Semakin rajin beribadah",
+                                    "هيدوڤ بهاڬيا",
+                                    "لمه ايمان",
+                                    "سماكين يقين ڤد تقدير",
+                                    "منيڠكتكن عمل",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah pengertian sifat Sama'?",
+                                "اڤاكه ڤڠرتين صيفت علم الله؟",
                                 new List<string>
                                 {
-                                    "Allah Maha Melihat",
-                                    "Allah Maha Mendengar",
-                                    "Allah Maha Berkuasa",
-                                    "Allah Maha Mengetahui",
+                                    "الله مها مڠتاهوءي سڬالا ڤركارا",
+                                    "الله مها مندڠر",
+                                    "الله مها مليهت",
+                                    "الله مها بركواس",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "دليل نقلي الله مها مڠتاهوءي اياله ...",
+                                new List<string>
+                                {
+                                    "سورة البقرة ايات 255",
+                                    "سورة الفاتحة ايات 1",
+                                    "سورة الإخلاص ايات 1",
+                                    "سورة الكافرون ايات 6",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "دليل عقلي الله برصيفت علم اياله ...",
+                                new List<string>
+                                {
+                                    "مستحيل الله جاهيل",
+                                    "مستحيل الله بركواس",
+                                    "مستحيل الله مندڠر",
+                                    "مستحيل الله هيدوڤ",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "ڤربيذاءن علمو الله دڠن علمو ماءنسي اياله ...",
+                                new List<string>
+                                {
+                                    "علمو ماءنسي ترباتس، علمو الله تيدق ترباتس",
+                                    "علمو ماءنسي سمڤورنا",
+                                    "علمو الله ترباتس",
+                                    "علمو الله سام دڠن ماءنسي",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "صيفت برلاونن دڠن علم اياله ...",
+                                new List<string> { "تاهو", "جاهيل", "هيدوڤ", "بركواس" },
+                                1
+                            ),
+                            new Question(
+                                "كسن برايمان دڠن صيفت علم اياله ...",
+                                new List<string>
+                                {
+                                    "يقين الله مڠتاهوءي سڬالا عمل",
+                                    "تيدق تاكوت ملاكوكن دوسا",
+                                    "بربوات سسوك هاتي",
+                                    "تيدق بروسها",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "عاقبة تيدق برايمان دڠن صيفت علم اياله ...",
+                                new List<string>
+                                {
+                                    "منجادي لبيه برتقوى",
+                                    "هيلڠ راس تاكوت كڤد الله",
+                                    "منمبه عمل صالح",
+                                    "سماكين راجين برعبادة",
                                 },
                                 1
                             ),
                             new Question(
-                                "Dalil naqli Allah Maha Mendengar ialah ...",
+                                "اڤاكه ڤڠرتين صيفت سمع؟",
                                 new List<string>
                                 {
-                                    "Surah Al-Baqarah ayat 127",
-                                    "Surah Al-Fatihah ayat 1",
-                                    "Surah Al-Ikhlas ayat 2",
-                                    "Surah An-Nas ayat 6",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Dalil agli Allah bersifat Sama' ialah ...",
-                                new List<string>
-                                {
-                                    "Mustahil Allah tuli",
-                                    "Mustahil Allah bisu",
-                                    "Mustahil Allah jahil",
-                                    "Mustahil Allah mati",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Perbezaan pendengaran Allah dengan manusia ialah ...",
-                                new List<string>
-                                {
-                                    "Allah mendengar dengan telinga",
-                                    "Allah mendengar tanpa alat, manusia perlukan telinga",
-                                    "Allah mendengar sedikit sahaja",
-                                    "Allah mendengar sama seperti manusia",
+                                    "الله مها مليهت",
+                                    "الله مها مندڠر",
+                                    "الله مها بركواس",
+                                    "الله مها مڠتاهوءي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Sifat berlawanan dengan Sama' ialah ...",
-                                new List<string> { "Mendengar", "Tuli", "Melihat", "Jahil" },
-                                1
-                            ),
-                            new Question(
-                                "Kesan beriman dengan sifat Sama' ialah ...",
+                                "دليل نقلي الله مها مندڠر اياله ...",
                                 new List<string>
                                 {
-                                    "Takut berkata buruk",
-                                    "Tidak peduli berkata apa-apa",
-                                    "Tidak menjaga lidah",
-                                    "Suka bergaduh",
+                                    "سورة البقرة ايات 127",
+                                    "سورة الفاتحة ايات 1",
+                                    "سورة الإخلاص ايات 2",
+                                    "سورة الناس ايات 6",
                                 },
                                 0
                             ),
                             new Question(
-                                "Akibat tidak beriman dengan sifat Sama' ialah ...",
+                                "دليل عقلي الله برصيفت سمع اياله ...",
                                 new List<string>
                                 {
-                                    "Sentiasa berzikir",
-                                    "Tidak menjaga percakapan",
-                                    "Menjadi lebih berhati-hati",
-                                    "Sentiasa takut kepada Allah",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Apakah pengertian sifat Basar?",
-                                new List<string>
-                                {
-                                    "Allah Maha Melihat",
-                                    "Allah Maha Mendengar",
-                                    "Allah Maha Berkuasa",
-                                    "Allah Maha Hidup",
+                                    "مستحيل الله تولي",
+                                    "مستحيل الله بيسو",
+                                    "مستحيل الله جاهيل",
+                                    "مستحيل الله ماتي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Dalil naqli Allah Maha Melihat ialah ...",
+                                "ڤربيذاءن ڤندڠرن الله دڠن ماءنسي اياله ...",
                                 new List<string>
                                 {
-                                    "Surah Al-Baqarah ayat 233",
-                                    "Surah Al-Mulk ayat 19",
-                                    "Surah Al-Fatihah ayat 5",
-                                    "Surah Al-Ikhlas ayat 1",
+                                    "الله مندڠر دڠن تليڠا",
+                                    "الله مندڠر تنڤا الت، ماءنسي ڤرلوكن تليڠا",
+                                    "الله مندڠر سديكيت سهاج",
+                                    "الله مندڠر سام سڤرتي ماءنسي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Dalil agli Allah bersifat Basar ialah ...",
-                                new List<string>
-                                {
-                                    "Mustahil Allah buta",
-                                    "Mustahil Allah bisu",
-                                    "Mustahil Allah jahil",
-                                    "Mustahil Allah tuli",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Sifat berlawanan dengan Basar ialah ...",
-                                new List<string> { "Melihat", "Buta", "Tuli", "Jahil" },
+                                "صيفت برلاونن دڠن سمع اياله ...",
+                                new List<string> { "مندڠر", "تولي", "مليهت", "جاهيل" },
                                 1
                             ),
                             new Question(
-                                "Kesan beriman dengan sifat Basar ialah ...",
+                                "كسن برايمان دڠن صيفت سمع اياله ...",
                                 new List<string>
                                 {
-                                    "Yakin Allah melihat perbuatan kita",
-                                    "Berani buat maksiat",
-                                    "Tidak menjaga perbuatan",
-                                    "Tidak peduli orang lain",
+                                    "تاكوت بركات بوروق",
+                                    "تيدق ڤدولي بركات اڤ-اڤ",
+                                    "تيدق منجاڬ ليده",
+                                    "سوك برڬادوه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Akibat tidak beriman dengan sifat Basar ialah ...",
+                                "عاقبة تيدق برايمان دڠن صيفت سمع اياله ...",
                                 new List<string>
                                 {
-                                    "Hidup bahagia",
-                                    "Suka buat maksiat",
-                                    "Rajin beribadah",
-                                    "Suka menolong",
+                                    "سنتياس برذكر",
+                                    "تيدق منجاڬ ڤرچاكڤن",
+                                    "منجادي لبيه برهاتي-هاتي",
+                                    "سنتياس تاكوت كڤد الله",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah pengertian sifat Hayat?",
+                                "اڤاكه ڤڠرتين صيفت بصر؟",
                                 new List<string>
                                 {
-                                    "Allah Maha Hidup",
-                                    "Allah Maha Mendengar",
-                                    "Allah Maha Mengetahui",
-                                    "Allah Maha Melihat",
+                                    "الله مها مليهت",
+                                    "الله مها مندڠر",
+                                    "الله مها بركواس",
+                                    "الله مها هيدوڤ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Dalil naqli Allah Maha Hidup ialah ...",
+                                "دليل نقلي الله مها مليهت اياله ...",
                                 new List<string>
                                 {
-                                    "Surah Al-Baqarah ayat 255",
-                                    "Surah Al-Fatihah ayat 6",
-                                    "Surah Al-Ikhlas ayat 3",
-                                    "Surah An-Nas ayat 5",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Dalil agli Allah bersifat Hayat ialah ...",
-                                new List<string>
-                                {
-                                    "Mustahil Allah mati",
-                                    "Mustahil Allah tuli",
-                                    "Mustahil Allah buta",
-                                    "Mustahil Allah lemah",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Sifat berlawanan dengan Hayat ialah ...",
-                                new List<string> { "Hidup", "Mati", "Tidur", "Lupa" },
-                                1
-                            ),
-                            new Question(
-                                "Perbezaan Hayat Allah dengan manusia ialah ...",
-                                new List<string>
-                                {
-                                    "Hayat manusia kekal",
-                                    "Hayat Allah kekal, manusia sementara",
-                                    "Hayat Allah sementara",
-                                    "Hayat Allah sama dengan manusia",
+                                    "سورة البقرة ايات 233",
+                                    "سورة الملك ايات 19",
+                                    "سورة الفاتحة ايات 5",
+                                    "سورة الإخلاص ايات 1",
                                 },
                                 1
                             ),
                             new Question(
-                                "Kesan beriman dengan sifat Hayat Allah ialah ...",
+                                "دليل عقلي الله برصيفت بصر اياله ...",
                                 new List<string>
                                 {
-                                    "Yakin Allah Maha Hidup selama-lamanya",
-                                    "Takut mati",
-                                    "Tidak beribadah",
-                                    "Tidak mahu belajar",
+                                    "مستحيل الله بوتا",
+                                    "مستحيل الله بيسو",
+                                    "مستحيل الله جاهيل",
+                                    "مستحيل الله تولي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Akibat tidak beriman dengan sifat Hayat ialah ...",
-                                new List<string>
-                                {
-                                    "Tidak yakin kepada Allah",
-                                    "Semakin bertakwa",
-                                    "Semakin rajin beribadah",
-                                    "Semakin tawakal",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Apakah pengertian Rasul?",
-                                new List<string>
-                                {
-                                    "Lelaki pilihan Allah yang menerima wahyu",
-                                    "Malaikat yang patuh",
-                                    "Wali Allah",
-                                    "Sahabat Nabi",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Sifat wajib bagi Rasul ialah ...",
-                                new List<string>
-                                {
-                                    "Siddiq, Amanah, Tabligh, Fatonah",
-                                    "Jahil, Khianat, Menipu, Lalai",
-                                    "Kaya, Miskin, Kuat, Lemah",
-                                    "Tinggi, Rendah, Cepat, Lambat",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Sifat mustahil bagi Rasul ialah ...",
-                                new List<string> { "Siddiq", "Khianat", "Amanah", "Tabligh" },
+                                "صيفت برلاونن دڠن بصر اياله ...",
+                                new List<string> { "مليهت", "بوتا", "تولي", "جاهيل" },
                                 1
                             ),
                             new Question(
-                                "Sifat harus bagi Rasul ialah ...",
+                                "كسن برايمان دڠن صيفت بصر اياله ...",
                                 new List<string>
                                 {
-                                    "Berkahwin atau tidak",
-                                    "Kaya",
-                                    "Miskin",
-                                    "Tidak mati",
+                                    "يقين الله مليهت ڤربواتن كيت",
+                                    "براني بوات معصية",
+                                    "تيدق منجاڬ ڤربواتن",
+                                    "تيدق ڤدولي اورڠ لاءين",
                                 },
                                 0
                             ),
                             new Question(
-                                "Hukum beriman dengan sifat Rasul ialah ...",
-                                new List<string> { "Harus", "Sunat", "Wajib", "Makruh" },
+                                "عاقبة تيدق برايمان دڠن صيفت بصر اياله ...",
+                                new List<string>
+                                {
+                                    "هيدوڤ بهاڬيا",
+                                    "سوك بوات معصية",
+                                    "راجين برعبادة",
+                                    "سوك منولوڠ",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "اڤاكه ڤڠرتين صيفت حياة؟",
+                                new List<string>
+                                {
+                                    "الله مها هيدوڤ",
+                                    "الله مها مندڠر",
+                                    "الله مها مڠتاهوءي",
+                                    "الله مها مليهت",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "دليل نقلي الله مها هيدوڤ اياله ...",
+                                new List<string>
+                                {
+                                    "سورة البقرة ايات 255",
+                                    "سورة الفاتحة ايات 6",
+                                    "سورة الإخلاص ايات 3",
+                                    "سورة الناس ايات 5",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "دليل عقلي الله برصيفت حياة اياله ...",
+                                new List<string>
+                                {
+                                    "مستحيل الله ماتي",
+                                    "مستحيل الله تولي",
+                                    "مستحيل الله بوتا",
+                                    "مستحيل الله لمه",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "صيفت برلاونن دڠن حياة اياله ...",
+                                new List<string> { "هيدوڤ", "ماتي", "تيدور", "لوڤا" },
+                                1
+                            ),
+                            new Question(
+                                "ڤربيذاءن حياة الله دڠن ماءنسي اياله ...",
+                                new List<string>
+                                {
+                                    "حياة ماءنسي ككل",
+                                    "حياة الله ككل، ماءنسي سمنتارا",
+                                    "حياة الله سمنتارا",
+                                    "حياة الله سام دڠن ماءنسي",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "كسن برايمان دڠن صيفت حياة الله اياله ...",
+                                new List<string>
+                                {
+                                    "يقين الله مها هيدوڤ سلاما-لاماڽ",
+                                    "تاكوت ماتي",
+                                    "تيدق برعبادة",
+                                    "تيدق ماهو بلاجر",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "عاقبة تيدق برايمان دڠن صيفت حياة اياله ...",
+                                new List<string>
+                                {
+                                    "تيدق يقين كڤد الله",
+                                    "سماكين برتقوى",
+                                    "سماكين راجين برعبادة",
+                                    "سماكين توكل",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "اڤاكه ڤڠرتين رسول؟",
+                                new List<string>
+                                {
+                                    "للاكي ڤيليهن الله يڠ منريما وحيو",
+                                    "ملائكة يڠ ڤاتوه",
+                                    "والي الله",
+                                    "صحابة نبي",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "صيفت واجب باڬي رسول اياله ...",
+                                new List<string>
+                                {
+                                    "صدق، أمانة، تبليغ، فطانة",
+                                    "جاهيل، خيانت، منيڤو، لالاي",
+                                    "كاي، ميسكين، كوات، لمه",
+                                    "تيڠڬي، رنده، چڤت، لمبت",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "صيفت مستحيل باڬي رسول اياله ...",
+                                new List<string> { "صدق", "خيانت", "أمانة", "تبليغ" },
+                                1
+                            ),
+                            new Question(
+                                "صيفت هاروس باڬي رسول اياله ...",
+                                new List<string>
+                                {
+                                    "بركهوين اتاو تيدق",
+                                    "كاي",
+                                    "ميسكين",
+                                    "تيدق ماتي",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "حكوم برايمان دڠن صيفت رسول اياله ...",
+                                new List<string> { "هاروس", "سنة", "واجب", "مكروه" },
                                 2
                             ),
                             new Question(
-                                "Kesan beriman dengan sifat Rasul ialah ...",
+                                "كسن برايمان دڠن صيفت رسول اياله ...",
                                 new List<string>
                                 {
-                                    "Menjadikan Rasul contoh teladan",
-                                    "Tidak mengikut Rasul",
-                                    "Membenci Rasul",
-                                    "Lalai daripada sunnah",
+                                    "منجاديكن رسول چونتوه تلادن",
+                                    "تيدق مڠيكوت رسول",
+                                    "ممبنچي رسول",
+                                    "لالاي درڤد سنة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah maksud perkara Sam'iyat?",
+                                "اڤاكه مقصود ڤركارا سمعيات؟",
                                 new List<string>
                                 {
-                                    "Perkara yang hanya diketahui melalui wahyu",
-                                    "Perkara yang dapat dibuktikan akal",
-                                    "Perkara yang boleh dilihat",
-                                    "Perkara yang boleh dirasa",
+                                    "ڤركارا يڠ هاڽ دكتاهوءي ملالوءي وحيو",
+                                    "ڤركارا يڠ داڤت دبوقتيكن عقل",
+                                    "ڤركارا يڠ بوليه دليهت",
+                                    "ڤركارا يڠ بوليه دراس",
                                 },
                                 0
                             ),
                             new Question(
-                                "Hukum beriman dengan perkara Sam'iyat ialah ...",
-                                new List<string> { "Wajib", "Sunat", "Harus", "Makruh" },
+                                "حكوم برايمان دڠن ڤركارا سمعيات اياله ...",
+                                new List<string> { "واجب", "سنة", "هاروس", "مكروه" },
                                 0
                             ),
                             new Question(
-                                "Antara contoh perkara Sam'iyat ialah ...",
+                                "انتارا چونتوه ڤركارا سمعيات اياله ...",
                                 new List<string>
                                 {
-                                    "Alam barzakh",
-                                    "Membaca doa",
-                                    "Mengaji Al-Quran",
-                                    "Menunaikan haji",
+                                    "عالم برزخ",
+                                    "ممباچ دعاء",
+                                    "مڠاجي القرءان",
+                                    "منونايكن حج",
                                 },
                                 0
                             ),
                             new Question(
-                                "Nama malaikat yang wajib diketahui ialah ...",
+                                "نام ملائكة يڠ واجب دكتاهوءي اياله ...",
                                 new List<string>
                                 {
-                                    "Jibril, Mikail, Israfil, Izrail",
-                                    "Jibril, Malik, Raqib, Atid",
-                                    "Mikail, Israfil, Nakir, Munkar",
-                                    "Hanya Jibril",
+                                    "جبريل، ميكائيل، إسرافيل، عزرائيل",
+                                    "جبريل، مالك، رقيب، عتيد",
+                                    "ميكائيل، إسرافيل، نكير، منكر",
+                                    "هاڽ جبريل",
                                 },
                                 0
                             ),
                             new Question(
-                                "Soalan kubur ditanya oleh ..",
+                                "سؤالن قبور دتاڽ اوليه ..",
                                 new List<string>
                                 {
-                                    "Malaikat Raqib dan Atid",
-                                    "Malaikat Munkar dan Nakir",
-                                    "Malaikat Mikail dan Israfil",
-                                    "Malaikat Jibril dan Izrail",
+                                    "ملائكة رقيب دان عتيد",
+                                    "ملائكة منكر دان نكير",
+                                    "ملائكة ميكائيل دان إسرافيل",
+                                    "ملائكة جبريل دان عزرائيل",
                                 },
                                 1
                             ),
                             new Question(
-                                "Contoh nikmat kubur ialah ...",
+                                "چونتوه نعمة قبور اياله ...",
                                 new List<string>
                                 {
-                                    "Bau harum dari syurga",
-                                    "Azab dengan api",
-                                    "Dihimpit kubur",
-                                    "Dipukul malaikat",
+                                    "باو هاروم دري شرڬ",
+                                    "عذاب دڠن اڤي",
+                                    "دهيمڤيت قبور",
+                                    "دڤوكول ملائكة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Contoh azab kubur ialah ...",
+                                "چونتوه عذاب قبور اياله ...",
                                 new List<string>
                                 {
-                                    "Cahaya terang dari syurga",
-                                    "Kubur diluaskan",
-                                    "Himpitan kubur",
-                                    "Bau harum",
+                                    "چهاي ترڠ دري شرڬ",
+                                    "قبور دلواسكن",
+                                    "هيمڤيتن قبور",
+                                    "باو هاروم",
                                 },
                                 2
                             ),
                             new Question(
-                                "Padang Mahsyar ialah.",
+                                "ڤادڠ محشر اياله.",
                                 new List<string>
                                 {
-                                    "Tempat berkumpul manusia selepas dibangkitkan",
-                                    "Tempat manusia belajar",
-                                    "Tempat orang mati disemadikan",
-                                    "Tempat malaikat tinggal",
+                                    "تمڤت بركومڤول ماءنسي سلڤس دباڠكيتكن",
+                                    "تمڤت ماءنسي بلاجر",
+                                    "تمڤت اورڠ ماتي دسماديكن",
+                                    "تمڤت ملائكة تيڠڬل",
                                 },
                                 0
                             ),
                             new Question(
-                                "Hisab bermaksud ...",
+                                "حساب برمقصود ...",
                                 new List<string>
                                 {
-                                    "Timbangan amalan",
-                                    "Soal jawab amalan manusia",
-                                    "Tempat manusia berkumpul",
-                                    "Jambatan menuju syurga",
+                                    "تيمبڠن عملن",
+                                    "سؤال جواب عملن ماءنسي",
+                                    "تمڤت ماءنسي بركومڤول",
+                                    "جمبتن منوجو شرڬ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Mizan ialah ...",
+                                "ميزان اياله ...",
                                 new List<string>
                                 {
-                                    "Timbangan amalan baik dan buruk",
-                                    "Soalan kubur",
-                                    "Nikmat kubur",
-                                    "Hari kiamat",
+                                    "تيمبڠن عملن باءيق دان بوروق",
+                                    "سؤالن قبور",
+                                    "نعمة قبور",
+                                    "هاري قيامة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Titian Sirat ialah ...",
+                                "تيتين صراط اياله ...",
                                 new List<string>
                                 {
-                                    "Jambatan di atas neraka menuju syurga",
-                                    "Jalan menuju padang Mahsyar",
-                                    "Pintu masuk syurga",
-                                    "Pintu masuk neraka",
+                                    "جمبتن د اتس نراك منوجو شرڬ",
+                                    "جالن منوجو ڤادڠ محشر",
+                                    "ڤينتو ماسوق شرڬ",
+                                    "ڤينتو ماسوق نراك",
                                 },
                                 0
                             ),
                             new Question(
-                                "Golongan ahli syurga ialah ...",
+                                "ڬولوڠن اهلي شرڬ اياله ...",
                                 new List<string>
                                 {
-                                    "Orang beriman dan beramal soleh",
-                                    "Orang kafir",
-                                    "Orang munafik",
-                                    "Orang engkar",
+                                    "اورڠ برايمان دان برعمل صالح",
+                                    "اورڠ كافير",
+                                    "اورڠ منافق",
+                                    "اورڠ ايڠكر",
                                 },
                                 0
                             ),
@@ -6998,438 +6369,426 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Apakah pengertian solat sunat rawatib?",
+                                "اڤاكه ڤڠرتين صلاة سنة رواتب؟",
                                 new List<string>
                                 {
-                                    "Solat yang dilakukan pada waktu malam sahaja",
-                                    "Solat yang mengiringi solat fardhu",
-                                    "Solat yang dilakukan hanya pada bulan Ramadan",
-                                    "Solat yang dilakukan ketika ada hajat tertentu",
+                                    "صلاة يڠ دلاكوكن ڤد وقتو مالم سهاج",
+                                    "صلاة يڠ مڠيريڠي صلاة فرض",
+                                    "صلاة يڠ دلاكوكن هاڽ ڤد بولن رمضان",
+                                    "صلاة يڠ دلاكوكن كتيك اد حاجت ترتنتو",
                                 },
                                 1
                             ),
                             new Question(
-                                "Solat sunat rawatib dilakukan ...",
+                                "صلاة سنة رواتب دلاكوكن ...",
                                 new List<string>
                                 {
-                                    "Sebelum dan selepas solat fardhu",
-                                    "Selepas solat jenazah",
-                                    "Selepas solat istikharah",
-                                    "Pada malam Jumaat sahaja",
+                                    "سبلوم دان سلڤس صلاة فرض",
+                                    "سلڤس صلاة جنازه",
+                                    "سلڤس صلاة استخارة",
+                                    "ڤد مالم جمعة سهاج",
                                 },
                                 0
                             ),
                             new Question(
-                                "Hukum solat sunat rawatib ialah ...",
-                                new List<string>
-                                {
-                                    "Wajib",
-                                    "Sunat muakkad",
-                                    "Sunat biasa",
-                                    "Harus",
-                                },
+                                "حكوم صلاة سنة رواتب اياله ...",
+                                new List<string> { "واجب", "سنة مؤكد", "سنة بياسا", "هاروس" },
                                 1
                             ),
                             new Question(
-                                "Bilangan rakaat solat sunat rawatib muakkad yang paling utama ialah ...",
-                                new List<string>
-                                {
-                                    "6 rakaat",
-                                    "8 rakaat",
-                                    "10 rakaat",
-                                    "12 rakaat",
-                                },
+                                "بيلاڠن ركعة صلاة سنة رواتب مؤكد يڠ ڤاليڠ اوتام اياله ...",
+                                new List<string> { "6 ركعة", "8 ركعة", "10 ركعة", "12 ركعة" },
                                 3
                             ),
                             new Question(
-                                "Antara fadhilat solat rawatib ialah ...",
+                                "انتارا فضيلة صلاة رواتب اياله ...",
                                 new List<string>
                                 {
-                                    "Mendapat pahala syahid",
-                                    "Dibina rumah di syurga",
-                                    "Mendapat rezeki melimpah",
-                                    "Umur dipanjangkan",
+                                    "مندافت ڤهالا شهيد",
+                                    "دبينا رومه د شرڬ",
+                                    "مندافت رزقي مليمڤه",
+                                    "عمور دڤنجڠكن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah pengertian solat tarawih?",
+                                "اڤاكه ڤڠرتين صلاة تراويح؟",
                                 new List<string>
                                 {
-                                    "Solat sunat di bulan Ramadan pada malam hari",
-                                    "Solat sunat selepas Subuh",
-                                    "Solat sunat untuk memohon hajat",
-                                    "Solat sunat pada pagi hari raya",
+                                    "صلاة سنة د بولن رمضان ڤد مالم هاري",
+                                    "صلاة سنة سلڤس صبح",
+                                    "صلاة سنة اونتوق مموهون حاجت",
+                                    "صلاة سنة ڤد ڤاڬي هاري راي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Bilangan rakaat solat witir yang paling sedikit ialah ...",
-                                new List<string> { "1 rakaat", "2 rakaat", "3 rakaat", "4 rakaat" },
+                                "بيلاڠن ركعة صلاة وتر يڠ ڤاليڠ سديكيت اياله ...",
+                                new List<string> { "1 ركعة", "2 ركعة", "3 ركعة", "4 ركعة" },
                                 0
                             ),
                             new Question(
-                                "Fadhilat solat tarawih antaranya ialah ...",
+                                "فضيلة صلاة تراويح انتاراڽ اياله ...",
                                 new List<string>
                                 {
-                                    "Menghapuskan dosa-dosa kecil",
-                                    "Memberi kesihatan tubuh badan",
-                                    "Memanjangkan umur",
-                                    "Menyembuhkan penyakit",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Apakah pengertian solat hajat?",
-                                new List<string>
-                                {
-                                    "Solat sunat kerana gerhana",
-                                    "Solat sunat untuk memohon sesuatu hajat",
-                                    "Solat sunat selepas solat fardhu",
-                                    "Solat sunat di bulan Syawal",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Bilangan rakaat solat hajat ialah ...",
-                                new List<string> { "1 rakaat", "2 rakaat", "3 rakaat", "4 rakaat" },
-                                1
-                            ),
-                            new Question(
-                                "Antara fadhilat solat hajat ialah ...",
-                                new List<string>
-                                {
-                                    "Hajat dipermudahkan Allah",
-                                    "Umur dipanjangkan",
-                                    "Mendapat rumah di syurga",
-                                    "Doa ditolak",
+                                    "مڠهاڤوسكن دوسا-دوسا كچيل",
+                                    "ممبري كصيحتن توبوه بادن",
+                                    "ممنجڠكن عمور",
+                                    "مڽمبوهكن ڤڽاكيت",
                                 },
                                 0
                             ),
                             new Question(
-                                "Bilakah waktu solat dhuha bermula?",
+                                "اڤاكه ڤڠرتين صلاة حاجت؟",
                                 new List<string>
                                 {
-                                    "Selepas matahari naik hingga tergelincir",
-                                    "Selepas solat Maghrib",
-                                    "Selepas Isyak",
-                                    "Selepas Subuh",
+                                    "صلاة سنة كرانا ڬرهانا",
+                                    "صلاة سنة اونتوق مموهون سسواتو حاجت",
+                                    "صلاة سنة سلڤس صلاة فرض",
+                                    "صلاة سنة د بولن شوال",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "بيلاڠن ركعة صلاة حاجت اياله ...",
+                                new List<string> { "1 ركعة", "2 ركعة", "3 ركعة", "4 ركعة" },
+                                1
+                            ),
+                            new Question(
+                                "انتارا فضيلة صلاة حاجت اياله ...",
+                                new List<string>
+                                {
+                                    "حاجت دڤرمودهكن الله",
+                                    "عمور دڤنجڠكن",
+                                    "مندافت رومه د شرڬ",
+                                    "دعاء دتولق",
                                 },
                                 0
                             ),
                             new Question(
-                                "Bilangan rakaat solat dhuha paling sedikit ialah ...",
-                                new List<string> { "2 rakaat", "4 rakaat", "6 rakaat", "8 rakaat" },
-                                0
-                            ),
-                            new Question(
-                                "Doa selepas solat dhuha memohon ...",
+                                "بيلاكه وقتو صلاة ضحى برمولا؟",
                                 new List<string>
                                 {
-                                    "Kekuatan iman",
-                                    "Rezeki yang berkat",
-                                    "Kesembuhan dari sakit",
-                                    "Umur panjang",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Apakah pengertian solat tahajud?",
-                                new List<string>
-                                {
-                                    "Solat sunat selepas Subuh",
-                                    "Solat sunat malam selepas tidur",
-                                    "Solat sunat kerana gerhana",
-                                    "Solat sunat berjemaah di bulan Ramadan",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Syarat untuk solat tahajud ialah ...",
-                                new List<string>
-                                {
-                                    "Perlu dilakukan berjemaah",
-                                    "Perlu tidur dahulu sebelum bangun",
-                                    "Perlu dilakukan selepas Asar",
-                                    "Perlu dilakukan selepas Subuh",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Antara fadhilat solat tahajud ialah ...",
-                                new List<string>
-                                {
-                                    "Menyihatkan badan",
-                                    "Mendekatkan diri kepada Allah",
-                                    "Panjang umur",
-                                    "Mendapat harta banyak",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Solat istikharah dilakukan apabila ...",
-                                new List<string>
-                                {
-                                    "Hendak membuat pilihan",
-                                    "Hendak menziarahi kubur",
-                                    "Hendak menyambut hari raya",
-                                    "Hendak menunaikan haji",
+                                    "سلڤس ماتاهاري ناءيق هيڠڬ ترڬلينچير",
+                                    "سلڤس صلاة مغرب",
+                                    "سلڤس عشاء",
+                                    "سلڤس صبح",
                                 },
                                 0
                             ),
                             new Question(
-                                "Bilangan rakaat solat istikharah ialah ...",
-                                new List<string> { "1 rakaat", "2 rakaat", "3 rakaat", "4 rakaat" },
-                                1
+                                "بيلاڠن ركعة صلاة ضحى ڤاليڠ سديكيت اياله ...",
+                                new List<string> { "2 ركعة", "4 ركعة", "6 ركعة", "8 ركعة" },
+                                0
                             ),
                             new Question(
-                                "Apakah fadhilat solat istikharah?",
+                                "دعاء سلڤس صلاة ضحى مموهون ...",
                                 new List<string>
                                 {
-                                    "Mendapat kekayaan",
-                                    "Mendapat petunjuk Allah",
-                                    "Mendapat umur panjang",
-                                    "Mendapat kesihatan",
+                                    "كقواتن ايمان",
+                                    "رزقي يڠ بركت",
+                                    "كسمبوهن دري ساكيت",
+                                    "عمور ڤنجڠ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Solat gerhana dilakukan ketika ...",
+                                "اڤاكه ڤڠرتين صلاة تهجد؟",
                                 new List<string>
                                 {
-                                    "Berlaku gerhana matahari atau bulan",
-                                    "Berlaku ribut",
-                                    "Berlaku banjir",
-                                    "Berlaku gempa bumi",
+                                    "صلاة سنة سلڤس صبح",
+                                    "صلاة سنة مالم سلڤس تيدور",
+                                    "صلاة سنة كرانا ڬرهانا",
+                                    "صلاة سنة برجماعة د بولن رمضان",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "شرط اونتوق صلاة تهجد اياله ...",
+                                new List<string>
+                                {
+                                    "ڤرلو دلاكوكن برجماعة",
+                                    "ڤرلو تيدور دهولو سبلوم باڠون",
+                                    "ڤرلو دلاكوكن سلڤس عصر",
+                                    "ڤرلو دلاكوكن سلڤس صبح",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "انتارا فضيلة صلاة تهجد اياله ...",
+                                new List<string>
+                                {
+                                    "مڽيحتكن بادن",
+                                    "مندكتكن ديري كڤد الله",
+                                    "ڤنجڠ عمور",
+                                    "مندافت هرتا باڽق",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "صلاة استخارة دلاكوكن اڤابيلا ...",
+                                new List<string>
+                                {
+                                    "هندق ممبوات ڤيليهن",
+                                    "هندق منزيارهي قبور",
+                                    "هندق مڽمبوت هاري راي",
+                                    "هندق منونايكن حج",
                                 },
                                 0
                             ),
                             new Question(
-                                "Lafaz seruan untuk solat gerhana ialah ...",
+                                "بيلاڠن ركعة صلاة استخارة اياله ...",
+                                new List<string> { "1 ركعة", "2 ركعة", "3 ركعة", "4 ركعة" },
+                                1
+                            ),
+                            new Question(
+                                "اڤاكه فضيلة صلاة استخارة؟",
                                 new List<string>
                                 {
-                                    "Allahu Akbar",
-                                    "As-salatu jami'ah",
-                                    "La ilaha illallah",
-                                    "Subhanallah",
+                                    "مندافت ككاياءن",
+                                    "مندافت ڤتونجوق الله",
+                                    "مندافت عمور ڤنجڠ",
+                                    "مندافت كصيحتن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Bilangan rakaat solat gerhana matahari ialah ...",
-                                new List<string> { "1 rakaat", "2 rakaat", "3 rakaat", "4 rakaat" },
-                                1
-                            ),
-                            new Question(
-                                "Apakah fadhilat solat gerhana?",
+                                "صلاة ڬرهانا دلاكوكن كتيك ...",
                                 new List<string>
                                 {
-                                    "Mendapat petunjuk",
-                                    "Mengingatkan kebesaran Allah",
-                                    "Menyihatkan badan",
-                                    "Menambahkan rezeki",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Bilakah solat hari raya Aidilfitri dilaksanakan?",
-                                new List<string>
-                                {
-                                    "Selepas Subuh",
-                                    "Selepas matahari naik",
-                                    "Selepas Maghrib",
-                                    "Selepas Isyak",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Bilangan rakaat solat hari raya ialah ...",
-                                new List<string> { "1 rakaat", "2 rakaat", "3 rakaat", "4 rakaat" },
-                                1
-                            ),
-                            new Question(
-                                "Apakah lafaz takbir hari raya?",
-                                new List<string>
-                                {
-                                    "Allahu Akbar 3 kali dan Alhamdulillah",
-                                    "Allahu Akbar, Allahu Akbar, Allahu Akbar Walillahilhamd",
-                                    "Subhanallah Walhamdulillah",
-                                    "La ilaha illallah",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Antara fadhilat solat hari raya ialah ...",
-                                new List<string>
-                                {
-                                    "Menghapuskan dosa besar",
-                                    "Mendapat ganjaran pahala",
-                                    "Mendapat umur panjang",
-                                    "Menjadi kaya",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Apakah pengertian solat taubat?",
-                                new List<string>
-                                {
-                                    "Solat sunat memohon keampunan dosa",
-                                    "Solat sunat malam selepas tidur",
-                                    "Solat sunat kerana hajat",
-                                    "Solat sunat gerhana",
+                                    "برلاكو ڬرهانا ماتاهاري اتاو بولن",
+                                    "برلاكو ريبوت",
+                                    "برلاكو بنجير",
+                                    "برلاكو ڬمڤا بومي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Bilangan rakaat solat taubat ialah ...",
-                                new List<string> { "1 rakaat", "2 rakaat", "3 rakaat", "4 rakaat" },
+                                "لفظ سروان اونتوق صلاة ڬرهانا اياله ...",
+                                new List<string>
+                                {
+                                    "الله اكبر",
+                                    "الصلاة جامعة",
+                                    "لا إله إلا الله",
+                                    "سبحان الله",
+                                },
                                 1
                             ),
                             new Question(
-                                "Waktu yang sesuai untuk solat taubat ialah.",
+                                "بيلاڠن ركعة صلاة ڬرهانا ماتاهاري اياله ...",
+                                new List<string> { "1 ركعة", "2 ركعة", "3 ركعة", "4 ركعة" },
+                                1
+                            ),
+                            new Question(
+                                "اڤاكه فضيلة صلاة ڬرهانا؟",
                                 new List<string>
                                 {
-                                    "Bila-bila masa kecuali waktu yang dilarang",
-                                    "Selepas Subuh",
-                                    "Selepas Asar",
-                                    "Selepas Maghrib",
+                                    "مندافت ڤتونجوق",
+                                    "مڠيڠتكن كبسرن الله",
+                                    "مڽيحتكن بادن",
+                                    "منمبهكن رزقي",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "بيلاكه صلاة هاري راي عيد الفطري دلقساناكن؟",
+                                new List<string>
+                                {
+                                    "سلڤس صبح",
+                                    "سلڤس ماتاهاري ناءيق",
+                                    "سلڤس مغرب",
+                                    "سلڤس عشاء",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "بيلاڠن ركعة صلاة هاري راي اياله ...",
+                                new List<string> { "1 ركعة", "2 ركعة", "3 ركعة", "4 ركعة" },
+                                1
+                            ),
+                            new Question(
+                                "اڤاكه لفظ تكبير هاري راي؟",
+                                new List<string>
+                                {
+                                    "الله اكبر 3 كالي دان الحمدلله",
+                                    "الله اكبر، الله اكبر، الله اكبر ولله الحمد",
+                                    "سبحان الله والحمدلله",
+                                    "لا إله إلا الله",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "انتارا فضيلة صلاة هاري راي اياله ...",
+                                new List<string>
+                                {
+                                    "مڠهاڤوسكن دوسا بسر",
+                                    "مندافت ڬنجرن ڤهالا",
+                                    "مندافت عمور ڤنجڠ",
+                                    "منجادي كاي",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "اڤاكه ڤڠرتين صلاة توبة؟",
+                                new List<string>
+                                {
+                                    "صلاة سنة مموهون كأمڤونن دوسا",
+                                    "صلاة سنة مالم سلڤس تيدور",
+                                    "صلاة سنة كرانا حاجت",
+                                    "صلاة سنة ڬرهانا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Antara fadhilat solat taubat ialah.",
+                                "بيلاڠن ركعة صلاة توبة اياله ...",
+                                new List<string> { "1 ركعة", "2 ركعة", "3 ركعة", "4 ركعة" },
+                                1
+                            ),
+                            new Question(
+                                "وقتو يڠ سسواي اونتوق صلاة توبة اياله.",
                                 new List<string>
                                 {
-                                    "Dosa dihapuskan Allah",
-                                    "Mendapat rumah di syurga",
-                                    "Mendapat umur panjang",
-                                    "Mendapat kesihatan",
+                                    "بيلا-بيلا ماس كچوالي وقتو يڠ دلارڠ",
+                                    "سلڤس صبح",
+                                    "سلڤس عصر",
+                                    "سلڤس مغرب",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah pengertian puasa?",
+                                "انتارا فضيلة صلاة توبة اياله.",
                                 new List<string>
                                 {
-                                    "Menahan diri daripada makan, minum dan perkara membatalkan puasa",
-                                    "Menahan diri dari bercakap",
-                                    "Menahan diri dari tidur",
-                                    "Menahan diri dari marah",
+                                    "دوسا دهاڤوسكن الله",
+                                    "مندافت رومه د شرڬ",
+                                    "مندافت عمور ڤنجڠ",
+                                    "مندافت كصيحتن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Hukum berpuasa di bulan Ramadan ialah ...",
-                                new List<string> { "Harus", "Sunat", "Wajib", "Makruh" },
+                                "اڤاكه ڤڠرتين ڤواسا؟",
+                                new List<string>
+                                {
+                                    "مناهم ديري درڤد ماكن، مينوم دان ڤركارا ممبطلكن ڤواسا",
+                                    "مناهم ديري دري برچاكڤ",
+                                    "مناهم ديري دري تيدور",
+                                    "مناهم ديري دري ماره",
+                                },
+                                0
+                            ),
+                            new Question(
+                                "حكوم برڤواسا د بولن رمضان اياله ...",
+                                new List<string> { "هاروس", "سنة", "واجب", "مكروه" },
                                 2
                             ),
                             new Question(
-                                "Antara perkara yang membatalkan puasa ialah ...",
+                                "انتارا ڤركارا يڠ ممبطلكن ڤواسا اياله ...",
                                 new List<string>
                                 {
-                                    "Mandi wajib",
-                                    "Makan dan minum dengan sengaja",
-                                    "Tidur pada siang hari",
-                                    "Berjalan jauh",
+                                    "مندي واجب",
+                                    "ماكن دان مينوم دڠن سڠاج",
+                                    "تيدور ڤد سياڠ هاري",
+                                    "برجالن جاءوه",
                                 },
                                 1
                             ),
                             new Question(
-                                "Antara fadhilat puasa Ramadan ialah ...",
+                                "انتارا فضيلة ڤواسا رمضان اياله ...",
                                 new List<string>
                                 {
-                                    "Mendapat kesihatan",
-                                    "Menghapuskan dosa",
-                                    "Mendapat umur panjang",
-                                    "Menjadi kaya",
+                                    "مندافت كصيحتن",
+                                    "مڠهاڤوسكن دوسا",
+                                    "مندافت عمور ڤنجڠ",
+                                    "منجادي كاي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah kepentingan puasa bagi seorang Muslim?",
+                                "اڤاكه كڤنتيڠن ڤواسا باڬي سأورڠ مسلم؟",
                                 new List<string>
                                 {
-                                    "Melatih diri bersabar",
-                                    "Menjadi kuat",
-                                    "Menjadi kaya",
-                                    "Menjadi pandai",
+                                    "ملاتيه ديري برصبر",
+                                    "منجادي كوات",
+                                    "منجادي كاي",
+                                    "منجادي ڤنداي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Antara jenis puasa wajib selain Ramadan ialah ...",
+                                "انتارا جنيس ڤواسا واجب سلاين رمضان اياله ...",
                                 new List<string>
                                 {
-                                    "Puasa Isnin Khamis",
-                                    "Puasa Arafah",
-                                    "Puasa Nazar",
-                                    "Puasa Syawal",
-                                },
-                                2
-                            ),
-                            new Question(
-                                "Antara contoh puasa sunat ialah ...",
-                                new List<string>
-                                {
-                                    "Puasa Ramadan",
-                                    "Puasa Kifarah",
-                                    "Puasa Isnin dan Khamis",
-                                    "Puasa Nazar",
+                                    "ڤواسا اثنين خميس",
+                                    "ڤواسا عرفة",
+                                    "ڤواسا نذر",
+                                    "ڤواسا شوال",
                                 },
                                 2
                             ),
                             new Question(
-                                "Antara hikmah puasa terhadap kesihatan ialah ...",
+                                "انتارا چونتوه ڤواسا سنة اياله ...",
                                 new List<string>
                                 {
-                                    "Mengurangkan berat badan",
-                                    "Menyihatkan tubuh badan",
-                                    "Menjadi kuat",
-                                    "Panjang umur",
+                                    "ڤواسا رمضان",
+                                    "ڤواسا كفارة",
+                                    "ڤواسا اثنين دان خميس",
+                                    "ڤواسا نذر",
+                                },
+                                2
+                            ),
+                            new Question(
+                                "انتارا حكمة ڤواسا ترهادڤ كصيحتن اياله ...",
+                                new List<string>
+                                {
+                                    "مڠورڠكن برت بادن",
+                                    "مڽيحتكن توبوه بادن",
+                                    "منجادي كوات",
+                                    "ڤنجڠ عمور",
                                 },
                                 1
                             ),
                             new Question(
-                                "Antara hikmah puasa dari segi rohani ialah ...",
+                                "انتارا حكمة ڤواسا دري سڬي روحاني اياله ...",
                                 new List<string>
                                 {
-                                    "Membersihkan hati",
-                                    "Mendapat umur panjang",
-                                    "Menjadi kaya",
-                                    "Mendapat pangkat",
+                                    "ممبرسيهكن هاتي",
+                                    "مندافت عمور ڤنجڠ",
+                                    "منجادي كاي",
+                                    "مندافت ڤڠكت",
                                 },
                                 0
                             ),
                             new Question(
-                                "Antara larangan ketika berpuasa ialah ...",
+                                "انتارا لارڠن كتيك برڤواسا اياله ...",
                                 new List<string>
                                 {
-                                    "Makan dan minum pada siang hari",
-                                    "Tidur pada siang hari",
-                                    "Belajar pada siang hari",
-                                    "Bekerja pada siang hari",
+                                    "ماكن دان مينوم ڤد سياڠ هاري",
+                                    "تيدور ڤد سياڠ هاري",
+                                    "بلاجر ڤد سياڠ هاري",
+                                    "بكرجا ڤد سياڠ هاري",
                                 },
                                 0
                             ),
                             new Question(
-                                "Antara hikmah puasa terhadap hubungan sosial ialah ...",
+                                "انتارا حكمة ڤواسا ترهادڤ هوبوڠن سوسيال اياله ...",
                                 new List<string>
                                 {
-                                    "Menjauhkan diri dari masyarakat",
-                                    "Menimbulkan rasa simpati",
-                                    "Menjadi kaya",
-                                    "Mendapat pangkat",
+                                    "منجاءوهكن ديري دري مشاركت",
+                                    "منيمبولكن راس سيمڤاتي",
+                                    "منجادي كاي",
+                                    "مندافت ڤڠكت",
                                 },
                                 1
                             ),
                             new Question(
-                                "Puasa enam hari di bulan Syawal dinamakan puasa ...",
+                                "ڤواسا انم هاري د بولن شوال ديناماكن ڤواسا ...",
                                 new List<string>
                                 {
-                                    "Puasa Nazar",
-                                    "Puasa Sunat Syawal",
-                                    "Puasa Arafah",
-                                    "Puasa Isnin Khamis",
+                                    "ڤواسا نذر",
+                                    "ڤواسا سنة شوال",
+                                    "ڤواسا عرفة",
+                                    "ڤواسا اثنين خميس",
                                 },
                                 1
                             ),
@@ -7440,552 +6799,540 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Apakah peristiwa penting yang berlaku dalam Perang Badar?",
+                                "اڤاكه ڤريستيوا ڤنتيڠ يڠ برلاكو دالم ڤرڠ بدر؟",
                                 new List<string>
                                 {
-                                    "Rasulullah SAW berhijrah ke Madinah",
-                                    "Pertempuran pertama antara Islam dan Quraisy",
-                                    "Perjanjian Hudaibiyah ditandatangani",
-                                    "Pembukaan Kota Mekah",
+                                    "رسول الله ﷺ برهجرة ك مدينة",
+                                    "ڤرتمڤورن ڤرتام انتارا إسلام دان قريش",
+                                    "ڤرجنجين حديبية دتنداتاڠني",
+                                    "ڤمبوكاءن كوتا مكة",
                                 },
                                 1
                             ),
                             new Question(
-                                "Sebab utama berlakunya Perang Badar ialah?",
+                                "سبب اوتام برلاكوڽ ڤرڠ بدر اياله؟",
                                 new List<string>
                                 {
-                                    "Orang Quraisy merampas harta orang Islam",
-                                    "Orang Quraisy menyerang Madinah",
-                                    "Orang Quraisy membantu Yahudi",
-                                    "Orang Quraisy menghalang Rasulullah SAW berdakwah",
+                                    "اورڠ قريش مرمڤس هرتا اورڠ إسلام",
+                                    "اورڠ قريش مڽرڠ مدينة",
+                                    "اورڠ قريش ممبنتو يهودي",
+                                    "اورڠ قريش مڠهالڠ رسول الله ﷺ بردعوه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Bilangan tentera Islam dalam Perang Badar ialah lebih kurang?",
+                                "بيلاڠن تنترا إسلام دالم ڤرڠ بدر اياله لبيه كورڠ؟",
                                 new List<string>
                                 {
-                                    "313 orang",
-                                    "500 orang",
-                                    "700 orang",
-                                    "1000 orang",
+                                    "313 اورڠ",
+                                    "500 اورڠ",
+                                    "700 اورڠ",
+                                    "1000 اورڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Bilangan tentera Quraisy dalam Perang Badar ialah lebih kurang?",
+                                "بيلاڠن تنترا قريش دالم ڤرڠ بدر اياله لبيه كورڠ؟",
                                 new List<string>
                                 {
-                                    "200 orang",
-                                    "500 orang",
-                                    "1000 orang",
-                                    "1500 orang",
+                                    "200 اورڠ",
+                                    "500 اورڠ",
+                                    "1000 اورڠ",
+                                    "1500 اورڠ",
                                 },
                                 2
                             ),
                             new Question(
-                                "Pertolongan Allah kepada tentera Islam dalam Perang Badar ialah dengan?",
+                                "ڤرتولوڠن الله كڤد تنترا إسلام دالم ڤرڠ بدر اياله دڠن؟",
                                 new List<string>
                                 {
-                                    "Turunnya hujan",
-                                    "Turunnya malaikat",
-                                    "Turunnya ribut pasir",
-                                    "Turunnya guruh dan kilat",
+                                    "تورونڽ هوجن",
+                                    "تورونڽ ملائكة",
+                                    "تورونڽ ريبوت ڤاسير",
+                                    "تورونڽ ڬوروه دان كيلت",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah hasil daripada Perang Badar?",
+                                "اڤاكه حاصيل درڤد ڤرڠ بدر؟",
                                 new List<string>
                                 {
-                                    "Islam kalah",
-                                    "Islam menang dengan pertolongan Allah",
-                                    "Quraisy menyerah diri",
-                                    "Tentera Islam lari dari medan perang",
+                                    "إسلام كاله",
+                                    "إسلام منڠ دڠن ڤرتولوڠن الله",
+                                    "قريش مڽره ديري",
+                                    "تنترا إسلام لاري دري ميدن ڤرڠ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah hikmah daripada Perang Badar?",
+                                "اڤاكه حكمة درڤد ڤرڠ بدر؟",
                                 new List<string>
                                 {
-                                    "Menunjukkan kelemahan tentera Islam",
-                                    "Menguatkan iman dan semangat umat Islam",
-                                    "Mengurangkan dakwah Rasulullah SAW",
-                                    "Menghalang Islam berkembang",
+                                    "منونجوقكن كلمهن تنترا إسلام",
+                                    "مڠواتكن ايمان دان سماڠت اومت إسلام",
+                                    "مڠورڠكن دعوه رسول الله ﷺ",
+                                    "مڠهالڠ إسلام بركمبڠ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah peristiwa penting yang berlaku dalam Perang Uhud?",
+                                "اڤاكه ڤريستيوا ڤنتيڠ يڠ برلاكو دالم ڤرڠ أحد؟",
                                 new List<string>
                                 {
-                                    "Rasulullah SAW diboikot",
-                                    "Rasulullah SAW cedera",
-                                    "Rasulullah SAW berhijrah",
-                                    "Rasulullah SAW wafat",
+                                    "رسول الله ﷺ دبويكوت",
+                                    "رسول الله ﷺ چدرا",
+                                    "رسول الله ﷺ برهجرة",
+                                    "رسول الله ﷺ وفت",
                                 },
                                 1
                             ),
                             new Question(
-                                "Sebab utama Perang Uhud berlaku ialah?",
+                                "سبب اوتام ڤرڠ أحد برلاكو اياله؟",
                                 new List<string>
                                 {
-                                    "Orang Quraisy ingin membalas kekalahan di Badar",
-                                    "Orang Quraisy ingin menghalang hijrah",
-                                    "Orang Quraisy ingin menawan Madinah",
-                                    "Orang Quraisy ingin berdamai",
+                                    "اورڠ قريش ايڠين ممبالس ككالهن د بدر",
+                                    "اورڠ قريش ايڠين مڠهالڠ هجرة",
+                                    "اورڠ قريش ايڠين مناون مدينة",
+                                    "اورڠ قريش ايڠين برداماي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Siapakah sahabat yang menjaga Rasulullah SAW dalam Perang Uhud?",
+                                "سياڤاكه صحابت يڠ منجاڬ رسول الله ﷺ دالم ڤرڠ أحد؟",
                                 new List<string>
                                 {
-                                    "Abu Bakar",
-                                    "Ali bin Abi Talib",
-                                    "Talhah bin Ubaidillah",
-                                    "Umar Al-Khattab",
+                                    "أبو بكر",
+                                    "علي بن أبي طالب",
+                                    "طلحة بن عبيد الله",
+                                    "عمر الخطاب",
                                 },
                                 2
                             ),
                             new Question(
-                                "Apakah strategi tentera Islam dalam Perang Uhud?",
+                                "اڤاكه ستراتيڬي تنترا إسلام دالم ڤرڠ أحد؟",
                                 new List<string>
                                 {
-                                    "Memasang parit",
-                                    "Menempatkan pemanah di Bukit Uhud",
-                                    "Menyerang pada waktu malam",
-                                    "Berlindung dalam masjid",
+                                    "مماسڠ ڤاريت",
+                                    "منمڤتكن ڤمانه د بوكيت أحد",
+                                    "مڽرڠ ڤد وقتو مالم",
+                                    "برليندوڠ دالم مسجد",
                                 },
                                 1
                             ),
                             new Question(
-                                "Mengapa tentera Islam kalah dalam Perang Uhud?",
+                                "مڠاڤ تنترا إسلام كاله دالم ڤرڠ أحد؟",
                                 new List<string>
                                 {
-                                    "Mereka lapar",
-                                    "Pemanah tidak mematuhi arahan Nabi",
-                                    "Mereka terlalu sedikit",
-                                    "Mereka tiada senjata",
+                                    "مريك لاڤر",
+                                    "ڤمانه تيدق مماتوهي ارهن نبي",
+                                    "مريك ترلالو سديكيت",
+                                    "مريك تياد سنجات",
                                 },
                                 1
                             ),
                             new Question(
-                                "Siapakah yang terbunuh dalam Perang Uhud sebagai syahid terkenal?",
+                                "سياڤاكه يڠ تربونوه دالم ڤرڠ أحد سباڬاي شهيد تركنل؟",
                                 new List<string>
                                 {
-                                    "Hamzah bin Abdul Muttalib",
-                                    "Bilal bin Rabah",
-                                    "Abu Ubaidah Al-Jarrah",
-                                    "Abdullah bin Mas'ud",
+                                    "حمزة بن عبد المطلب",
+                                    "بلال بن رباح",
+                                    "أبو عبيدة الجراح",
+                                    "عبدالله بن مسعود",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah hikmah daripada Perang Uhud?",
+                                "اڤاكه حكمة درڤد ڤرڠ أحد؟",
                                 new List<string>
                                 {
-                                    "Tentera Islam tidak perlu taat perintah",
-                                    "Umat Islam belajar pentingnya taat pemimpin",
-                                    "Tentera Quraisy semakin takut",
-                                    "Islam semakin lemah",
+                                    "تنترا إسلام تيدق ڤرلو طاعة ڤرينته",
+                                    "اومت إسلام بلاجر ڤنتيڠڽ طاعة ڤميمڤين",
+                                    "تنترا قريش سماكين تاكوت",
+                                    "إسلام سماكين لمه",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah peristiwa penting yang berlaku dalam Perang Khandaq?",
+                                "اڤاكه ڤريستيوا ڤنتيڠ يڠ برلاكو دالم ڤرڠ خندق؟",
                                 new List<string>
                                 {
-                                    "Tentera Islam menggali parit",
-                                    "Tentera Islam menawan Mekah",
-                                    "Tentera Islam berdamai dengan Quraisy",
-                                    "Tentera Islam lari dari perang",
+                                    "تنترا إسلام مڠڬالي ڤاريت",
+                                    "تنترا إسلام مناون مكة",
+                                    "تنترا إسلام برداماي دڠن قريش",
+                                    "تنترا إسلام لاري دري ڤرڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Sebab utama Perang Khandaq berlaku ialah?",
+                                "سبب اوتام ڤرڠ خندق برلاكو اياله؟",
                                 new List<string>
                                 {
-                                    "Quraisy ingin membalas dendam Uhud",
-                                    "Quraisy mahu berdamai",
-                                    "Quraisy mahu membantu Yahudi",
-                                    "Quraisy mahu menawan Madinah",
+                                    "قريش ايڠين ممبالس دندم أحد",
+                                    "قريش ماهو برداماي",
+                                    "قريش ماهو ممبنتو يهودي",
+                                    "قريش ماهو مناون مدينة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Siapakah yang mencadangkan strategi menggali parit?",
-                                new List<string>
-                                {
-                                    "Abu Hurairah",
-                                    "Salman Al-Farisi",
-                                    "Abu Bakar",
-                                    "Umar",
-                                },
+                                "سياڤاكه يڠ منچادڠكن ستراتيڬي مڠڬالي ڤاريت؟",
+                                new List<string> { "أبو هريرة", "سلمان الفارسي", "أبو بكر", "عمر" },
                                 1
                             ),
                             new Question(
-                                "Pertolongan Allah kepada tentera Islam dalam Perang Khandaq ialah?",
+                                "ڤرتولوڠن الله كڤد تنترا إسلام دالم ڤرڠ خندق اياله؟",
                                 new List<string>
                                 {
-                                    "Hujan ribut yang kuat",
-                                    "Tentera Quraisy kelaparan",
-                                    "Tentera Quraisy diserang binatang",
-                                    "Tentera Quraisy sakit",
+                                    "هوجن ريبوت يڠ كوات",
+                                    "تنترا قريش كلاڤرن",
+                                    "تنترا قريش دسرڠ بيناتڠ",
+                                    "تنترا قريش ساكيت",
                                 },
                                 0
                             ),
                             new Question(
-                                "Bilangan tentera Quraisy dan sekutunya dalam Perang Khandaq lebih kurang?",
+                                "بيلاڠن تنترا قريش دان سكوتوڽ دالم ڤرڠ خندق لبيه كورڠ؟",
                                 new List<string>
                                 {
-                                    "3000 orang",
-                                    "5000 orang",
-                                    "10,000 orang",
-                                    "15,000 orang",
+                                    "3000 اورڠ",
+                                    "5000 اورڠ",
+                                    "10,000 اورڠ",
+                                    "15,000 اورڠ",
                                 },
                                 2
                             ),
                             new Question(
-                                "Apakah gelaran lain bagi Perang Khandaq?",
+                                "اڤاكه ڬلرن لاءين باڬي ڤرڠ خندق؟",
+                                new List<string> { "ڤرڠ احزاب", "ڤرڠ تبوك", "ڤرڠ حنين", "ڤرڠ بدر" },
+                                0
+                            ),
+                            new Question(
+                                "اڤاكه حكمة درڤد ڤرڠ خندق؟",
                                 new List<string>
                                 {
-                                    "Perang Ahzab",
-                                    "Perang Tabuk",
-                                    "Perang Hunain",
-                                    "Perang Badar",
+                                    "منونجوقكن كلمهن اومت إسلام",
+                                    "منونجوقكن ڤنتيڠڽ ستراتيڬي دان كصبرن",
+                                    "منونجوقكن كهيبتن تنترا قريش",
+                                    "ملمهكن اومت إسلام",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "اڤاكه ڤريستيوا ڤنتيڠ يڠ برلاكو د حديبية؟",
+                                new List<string>
+                                {
+                                    "تنترا إسلام برڤرڠ",
+                                    "رسول الله ﷺ مڠاداكن ڤرجنجين داماي",
+                                    "رسول الله ﷺ برهجرة",
+                                    "رسول الله ﷺ وفت",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "سبب اوتام ڤرجنجين حديبية دأداكن اياله؟",
+                                new List<string>
+                                {
+                                    "اورڠ إسلام ماهو ماسوق مكة اونتوق عمرة",
+                                    "اورڠ إسلام ماهو برداڬڠ",
+                                    "اورڠ إسلام ماهو برهجرة",
+                                    "اورڠ إسلام ماهو برڤرڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah hikmah daripada Perang Khandaq?",
+                                "سياڤاكه اوتوسن رسول الله ﷺ يڠ دهانتر ك مكة؟",
                                 new List<string>
                                 {
-                                    "Menunjukkan kelemahan umat Islam",
-                                    "Menunjukkan pentingnya strategi dan kesabaran",
-                                    "Menunjukkan kehebatan tentera Quraisy",
-                                    "Melemahkan umat Islam",
+                                    "أبو سفيان",
+                                    "عثمان بن عفان",
+                                    "علي بن أبي طالب",
+                                    "أبو بكر",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah peristiwa penting yang berlaku di Hudaibiyah?",
+                                "انتارا ايسي كاندوڠن ڤرجنجين حديبية اياله؟",
                                 new List<string>
                                 {
-                                    "Tentera Islam berperang",
-                                    "Rasulullah SAW mengadakan perjanjian damai",
-                                    "Rasulullah SAW berhijrah",
-                                    "Rasulullah SAW wafat",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Sebab utama Perjanjian Hudaibiyah diadakan ialah?",
-                                new List<string>
-                                {
-                                    "Orang Islam mahu masuk Mekah untuk umrah",
-                                    "Orang Islam mahu berdagang",
-                                    "Orang Islam mahu berhijrah",
-                                    "Orang Islam mahu berperang",
+                                    "ڬنچاتن سنجات سلاما 10 تاهون",
+                                    "قريش مستي ماسوق إسلام",
+                                    "تنترا إسلام مستي كاله",
+                                    "اومت إسلام تيدق بوليه برهجرة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Siapakah utusan Rasulullah SAW yang dihantar ke Mekah?",
+                                "كسن ڤرجنجين حديبية كڤد اومت إسلام اياله؟",
                                 new List<string>
                                 {
-                                    "Abu Sufyan",
-                                    "Uthman bin Affan",
-                                    "Ali bin Abi Talib",
-                                    "Abu Bakar",
+                                    "إسلام سماكين لمه",
+                                    "إسلام سماكين بركمبڠ",
+                                    "إسلام كاله دالم ڤڤرڠن",
+                                    "إسلام برهجرة ك حبشة",
                                 },
                                 1
                             ),
                             new Question(
-                                "Antara isi kandungan Perjanjian Hudaibiyah ialah?",
+                                "مڠاڤ ڤرجنجين حديبية دأڠڬڤ كمنڠن بسر إسلام؟",
                                 new List<string>
                                 {
-                                    "Gencatan senjata selama 10 tahun",
-                                    "Quraisy mesti masuk Islam",
-                                    "Tentera Islam mesti kalah",
-                                    "Umat Islam tidak boleh berhijrah",
+                                    "كرانا إسلام بوليه برداڬڠ",
+                                    "كرانا إسلام بوليه مڽيبركن دعوه دڠن امن",
+                                    "كرانا إسلام منڠ ڤرڠ",
+                                    "كرانا إسلام داڤت هرتا رمڤسن",
+                                },
+                                1
+                            ),
+                            new Question(
+                                "اڤاكه حكمة درڤد ڤرجنجين حديبية؟",
+                                new List<string>
+                                {
+                                    "ڤنتيڠڽ منڤتي جنجي دان كصبرن",
+                                    "ڤنتيڠڽ ملڠڬر جنجي",
+                                    "ڤنتيڠڽ ڤڤرڠن",
+                                    "ڤنتيڠڽ منيڤو موسوه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Kesan Perjanjian Hudaibiyah kepada umat Islam ialah?",
+                                "اڤاكه ڤريستيوا ڤنتيڠ دالم ڤمبوكاءن كوتا مكة؟",
                                 new List<string>
                                 {
-                                    "Islam semakin lemah",
-                                    "Islam semakin berkembang",
-                                    "Islam kalah dalam peperangan",
-                                    "Islam berhijrah ke Habsyah",
+                                    "رسول الله ﷺ وفت",
+                                    "رسول الله ﷺ دان تنترا إسلام مماسوقي مكة تنڤا ڤرتومڤهن داره",
+                                    "تنترا قريش مڽرڠ مدينة",
+                                    "ڤرجنجين حديبية دتنداتاڠني",
                                 },
                                 1
                             ),
                             new Question(
-                                "Mengapa Perjanjian Hudaibiyah dianggap kemenangan besar Islam?",
+                                "سبب اوتام ڤمبوكاءن كوتا مكة اياله؟",
                                 new List<string>
                                 {
-                                    "Kerana Islam boleh berdagang",
-                                    "Kerana Islam boleh menyebarkan dakwah dengan aman",
-                                    "Kerana Islam menang perang",
-                                    "Kerana Islam dapat harta rampasan",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Apakah hikmah daripada Perjanjian Hudaibiyah?",
-                                new List<string>
-                                {
-                                    "Pentingnya menepati janji dan kesabaran",
-                                    "Pentingnya melanggar janji",
-                                    "Pentingnya peperangan",
-                                    "Pentingnya menipu musuh",
+                                    "قريش ملڠڬر ڤرجنجين حديبية",
+                                    "قريش مڽرڠ مدينة",
+                                    "قريش مڠهينا رسول الله ﷺ",
+                                    "قريش مناون صحابت",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah peristiwa penting dalam Pembukaan Kota Mekah?",
+                                "بيلاڠن تنترا إسلام يڠ منوجو ك مكة اياله لبيه كورڠ؟",
                                 new List<string>
                                 {
-                                    "Rasulullah SAW wafat",
-                                    "Rasulullah SAW dan tentera Islam memasuki Mekah tanpa pertumpahan darah",
-                                    "Tentera Quraisy menyerang Madinah",
-                                    "Perjanjian Hudaibiyah ditandatangani",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Sebab utama Pembukaan Kota Mekah ialah?",
-                                new List<string>
-                                {
-                                    "Quraisy melanggar Perjanjian Hudaibiyah",
-                                    "Quraisy menyerang Madinah",
-                                    "Quraisy menghina Rasulullah SAW",
-                                    "Quraisy menawan sahabat",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Bilangan tentera Islam yang menuju ke Mekah ialah lebih kurang?",
-                                new List<string>
-                                {
-                                    "2000 orang",
-                                    "5000 orang",
-                                    "10,000 orang",
-                                    "20,000 orang",
+                                    "2000 اورڠ",
+                                    "5000 اورڠ",
+                                    "10,000 اورڠ",
+                                    "20,000 اورڠ",
                                 },
                                 2
                             ),
                             new Question(
-                                "Sikap Rasulullah SAW terhadap Quraisy setelah menang ialah?",
+                                "سيكڤ رسول الله ﷺ ترهادڤ قريش ستله منڠ اياله؟",
                                 new List<string>
                                 {
-                                    "Membalas dendam",
-                                    "Membunuh semua musuh",
-                                    "Memberi pengampunan",
-                                    "Menghalau mereka",
+                                    "ممبالس دندم",
+                                    "ممبونوه سموا موسوه",
+                                    "ممبري ڤڠامڤونن",
+                                    "مڠهالاو مريك",
                                 },
                                 2
                             ),
                             new Question(
-                                "Apakah kesan Pembukaan Kota Mekah?",
+                                "اڤاكه كسن ڤمبوكاءن كوتا مكة؟",
                                 new List<string>
                                 {
-                                    "Islam semakin kuat dan berkembang",
-                                    "Quraisy semakin berkuasa",
-                                    "Islam semakin lemah",
-                                    "Islam berhijrah lagi",
+                                    "إسلام منجادي اڬام يڠ كوات دان ترسيبر لواس",
+                                    "قريش سماكين بركواس",
+                                    "إسلام سماكين لمه",
+                                    "إسلام برهجرة لاڬي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah pengajaran daripada Pembukaan Kota Mekah?",
+                                "اڤاكه ڤڠاجرن درڤد ڤمبوكاءن كوتا مكة؟",
                                 new List<string>
                                 {
-                                    "Kemenangan Islam dengan pertolongan Allah",
-                                    "Pentingnya berperang selalu",
-                                    "Membalas dendam itu mulia",
-                                    "Islam mesti berundur",
+                                    "كمنڠن إسلام دڠن ڤرتولوڠن الله",
+                                    "ڤنتيڠڽ برڤرڠ سلالو",
+                                    "ممبالس دندم ايت موليا",
+                                    "إسلام مستي بروندور",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah hikmah daripada Pembukaan Kota Mekah?",
+                                "اڤاكه حكمة درڤد ڤمبوكاءن كوتا مكة؟",
                                 new List<string>
                                 {
-                                    "Islam menjadi agama yang kuat dan tersebar luas",
-                                    "Islam menjadi lemah",
-                                    "Islam berhenti berkembang",
-                                    "Islam hanya untuk Mekah",
+                                    "إسلام منجادي اڬام يڠ كوات دان ترسيبر لواس",
+                                    "إسلام منجادي لمه",
+                                    "إسلام برهنتي بركمبڠ",
+                                    "إسلام هاڽ اونتوق مكة",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah peristiwa sebelum kewafatan Rasulullah SAW?",
+                                "اڤاكه ڤريستيوا سبلوم كوفاتن رسول الله ﷺ؟",
                                 new List<string>
                                 {
-                                    "Rasulullah SAW sakit",
-                                    "Rasulullah SAW berhijrah",
-                                    "Rasulullah SAW berperang",
-                                    "Rasulullah SAW wafat",
+                                    "رسول الله ﷺ ساكيت",
+                                    "رسول الله ﷺ برهجرة",
+                                    "رسول الله ﷺ برڤرڠ",
+                                    "رسول الله ﷺ وفت",
                                 },
                                 0
                             ),
                             new Question(
-                                "Sebab utama kewafatan Rasulullah SAW ialah?",
+                                "سبب اوتام كوفاتن رسول الله ﷺ اياله؟",
                                 new List<string>
                                 {
-                                    "Baginda cedera di Badar",
-                                    "Baginda cedera di Uhud",
-                                    "Baginda sakit tenat",
-                                    "Baginda berhijrah",
+                                    "بڬيندا چدرا د بدر",
+                                    "بڬيندا چدرا د أحد",
+                                    "بڬيندا ساكيت تنيت",
+                                    "بڬيندا برهجرة",
                                 },
                                 2
                             ),
                             new Question(
-                                "Siapakah yang menjadi pengganti Rasulullah SAW selepas kewafatan baginda?",
+                                "سياڤاكه يڠ منجادي ڤڠڬنتي رسول الله ﷺ سلڤس كوفاتن بڬيندا؟",
                                 new List<string>
                                 {
-                                    "Umar Al-Khattab",
-                                    "Abu Bakar As-Siddiq",
-                                    "Ali bin Abi Talib",
-                                    "Uthman bin Affan",
+                                    "عمر الخطاب",
+                                    "أبو بكر الصديق",
+                                    "علي بن أبي طالب",
+                                    "عثمان بن عفان",
                                 },
                                 1
                             ),
                             new Question(
-                                "Bagaimanakah sikap sahabat ketika menghadapi kewafatan Rasulullah SAW?",
+                                "باڬايماناكه سيكڤ صحابت كتيك مڠهادڤي كوفاتن رسول الله ﷺ؟",
                                 new List<string>
                                 {
-                                    "Menangis, sedih tetapi redha",
-                                    "Bergembira",
-                                    "Berperang",
-                                    "Melarikan diri",
+                                    "مناڠيس، سديه تتاڤي رضا",
+                                    "برڬمبيرا",
+                                    "برڤرڠ",
+                                    "ملاريكن ديري",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah iktibar daripada kewafatan Rasulullah SAW?",
+                                "اڤاكه اعتبار درڤد كوفاتن رسول الله ﷺ؟",
                                 new List<string>
                                 {
-                                    "Setiap yang hidup pasti akan mati",
-                                    "Rasulullah SAW kekal hidup",
-                                    "Islam berakhir",
-                                    "Umat Islam hilang agama",
+                                    "ستياڤ يڠ هيدوڤ ڤستي اكن ماتي",
+                                    "رسول الله ﷺ ككل هيدوڤ",
+                                    "إسلام براخير",
+                                    "اومت إسلام هيلڠ اڬام",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah ketokohan Rasulullah SAW dalam keluarga?",
+                                "اڤاكه كتوكوهن رسول الله ﷺ دالم كلوارڬ؟",
                                 new List<string>
                                 {
-                                    "Pemimpin yang zalim",
-                                    "Suami dan ayah yang penyayang",
-                                    "Abang yang kasar",
-                                    "Bapa saudara yang garang",
+                                    "ڤميمڤين يڠ ظاليم",
+                                    "سوامي دان ايه يڠ ڤڽايڠ",
+                                    "ابڠ يڠ كاسر",
+                                    "باڤ ساودارا يڠ ڬارڠ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah contoh akhlak Rasulullah SAW terhadap isteri baginda?",
+                                "اڤاكه چونتوه اخلاق رسول الله ﷺ ترهادڤ ايستري بڬيندا؟",
                                 new List<string>
                                 {
-                                    "Suka memarahi",
-                                    "Membantu dalam urusan rumah",
-                                    "Mengabaikan tanggungjawab",
-                                    "Tidak bercakap",
+                                    "سوك مماراهي",
+                                    "ممبنتو دالم اوروسن رومه",
+                                    "مڠابايكن تڠڬوڠجواب",
+                                    "تيدق برچاكڤ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah contoh Rasulullah SAW dalam mendidik anak?",
+                                "اڤاكه چونتوه رسول الله ﷺ دالم منديديق انق؟",
                                 new List<string>
                                 {
-                                    "Mengabaikan pendidikan anak",
-                                    "Memberi kasih sayang dan tunjuk ajar",
-                                    "Membiarkan tanpa bimbingan",
-                                    "Bersikap kasar",
+                                    "مڠابايكن ڤنديديقن انق",
+                                    "ممبري كاسيه سايڠ دان تونجوق اجر",
+                                    "ممبياركن تنڤا بيمبيڠن",
+                                    "برسيكڤ كاسر",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah ketokohan Rasulullah SAW dalam bersosial?",
+                                "اڤاكه كتوكوهن رسول الله ﷺ دالم برسوسيال؟",
                                 new List<string>
                                 {
-                                    "Menjauhi jiran",
-                                    "Mengasihi jiran dan masyarakat",
-                                    "Membenci orang miskin",
-                                    "Tidak peduli dengan masyarakat",
+                                    "منجاءوهي جيرن",
+                                    "مڠاسيهي جيرن دان مشاركت",
+                                    "ممبنچي اورڠ ميسكين",
+                                    "تيدق ڤدولي دڠن مشاركت",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah sikap Rasulullah SAW dalam perhubungan dengan sahabat?",
+                                "اڤاكه سيكڤ رسول الله ﷺ دالم ڤرهوبوڠن دڠن صحابت؟",
                                 new List<string>
                                 {
-                                    "Sombong",
-                                    "Mementingkan diri",
-                                    "Mesra dan menghormati mereka",
-                                    "Tidak bercakap dengan mereka",
+                                    "سومبوڠ",
+                                    "ممنتيڠكن ديري",
+                                    "مسرا دان مڠحرمتي مريك",
+                                    "تيدق برچاكڤ دڠن مريك",
                                 },
                                 2
                             ),
                             new Question(
-                                "Apakah sifat Rasulullah SAW ketika bermesyuarat dengan sahabat?",
+                                "اڤاكه صيفت رسول الله ﷺ كتيك برمشوارت دڠن صحابت؟",
                                 new List<string>
                                 {
-                                    "Tidak mendengar pandangan",
-                                    "Bermusyawarah dan mendengar pendapat sahabat",
-                                    "Membuat keputusan sendiri sahaja",
-                                    "Menolak pandangan semua",
+                                    "تيدق مندڠر ڤندڠن",
+                                    "برمشوارت دان مندڠر ڤنداڤت صحابت",
+                                    "ممبوات كڤوتوسن سنديري سهاج",
+                                    "منولق ڤندڠن سموا",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah sifat utama Rasulullah SAW yang menjadi contoh?",
+                                "اڤاكه صيفت اوتام رسول الله ﷺ يڠ منجادي چونتوه؟",
                                 new List<string>
                                 {
-                                    "Jujur, amanah, menyampaikan, bijaksana",
-                                    "Menipu dan khianat",
-                                    "Zalim dan sombong",
-                                    "Pemarah dan kasar",
+                                    "جوجور، أمانة، مڽمڤاءيكن، بيجقسان",
+                                    "منيڤو دان خيانت",
+                                    "ظاليم دان سومبوڠ",
+                                    "ڤماره دان كاسر",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah iktibar daripada ketokohan Rasulullah SAW dalam keluarga?",
+                                "اڤاكه اعتبار درڤد كتوكوهن رسول الله ﷺ دالم كلوارڬ؟",
                                 new List<string>
                                 {
-                                    "Kita mesti berkasar dengan keluarga",
-                                    "Kita mesti menunaikan tanggungjawab dengan kasih sayang",
-                                    "Kita tidak perlu peduli keluarga",
-                                    "Kita hanya pentingkan diri",
+                                    "كيت مستي بركاسر دڠن كلوارڬ",
+                                    "كيت مستي منونايكن تڠڬوڠجواب دڠن كاسيه سايڠ",
+                                    "كيت تيدق ڤرلو ڤدولي كلوارڬ",
+                                    "كيت هاڽ ڤنتيڠكن ديري",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah iktibar daripada ketokohan Rasulullah SAW dalam bersosial?",
+                                "اڤاكه اعتبار درڤد كتوكوهن رسول الله ﷺ دالم برسوسيال؟",
                                 new List<string>
                                 {
-                                    "Mengasihi jiran dan masyarakat",
-                                    "Membenci jiran",
-                                    "Mengabaikan masyarakat",
-                                    "Memutuskan silaturahim",
+                                    "مڠاسيهي جيرن دان مشاركت",
+                                    "ممبنچي جيرن",
+                                    "مڠابايكن مشاركت",
+                                    "مموتوسكن صلة الرحيم",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apakah iktibar daripada ketokohan Rasulullah SAW dalam perhubungan dengan sahabat?",
+                                "اڤاكه اعتبار درڤد كتوكوهن رسول الله ﷺ دالم ڤرهوبوڠن دڠن صحابت؟",
                                 new List<string>
                                 {
-                                    "Hormat-menghormati dan setia kawan",
-                                    "Bermusuhan dengan kawan",
-                                    "Tidak peduli sahabat",
-                                    "Mementingkan diri",
+                                    "حرمت-مڠحرمتي دان ستيا كاون",
+                                    "برموسوهن دڠن كاون",
+                                    "تيدق ڤدولي صحابت",
+                                    "ممنتيڠكن ديري",
                                 },
                                 0
                             ),
@@ -7996,559 +7343,547 @@ namespace Watermelon
                         questions = new List<Question>
                         {
                             new Question(
-                                "Apakah maksud berinteraksi?",
+                                "اڤاكه مقصود برينترقسي؟",
                                 new List<string>
                                 {
-                                    "Bercakap seorang diri",
-                                    "Berhubung dengan orang lain",
-                                    "Menulis sahaja",
-                                    "Duduk diam",
+                                    "برچاكڤ سأورڠ ديري",
+                                    "برهوبوڠ دڠن اورڠ لاءين",
+                                    "منوليس سهاج",
+                                    "دودوق ديام",
                                 },
                                 1
                             ),
                             new Question(
-                                "Antara adab berinteraksi ialah?",
+                                "انتارا ادب برينترقسي اياله؟",
                                 new List<string>
                                 {
-                                    "Menggunakan kata-kata kasar",
-                                    "Senyum dan memberi salam",
-                                    "Memotong percakapan",
-                                    "Menjerit",
+                                    "مڠڬوناكن كات-كات كاسر",
+                                    "سڽوم دان ممبري سلام",
+                                    "مموتوڠ ڤرچاكڤن",
+                                    "منجريت",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apabila berbual dengan orang lain, kita hendaklah?",
-                                new List<string>
-                                {
-                                    "Menghina",
-                                    "Mendengar dengan sopan",
-                                    "Menyampuk",
-                                    "Menengking",
-                                },
+                                "اڤابيلا بربوال دڠن اورڠ لاءين، كيت هندقله؟",
+                                new List<string> { "مڠهينا", "مندڠر دڠن سوڤن", "مڽمڤوق", "منڠكيڠ" },
                                 1
                             ),
                             new Question(
-                                "Menghormati orang ketika berinteraksi menunjukkan?",
+                                "مڠحرمتي اورڠ كتيك برينترقسي منونجوقكن؟",
                                 new List<string>
                                 {
-                                    "Akhlak mulia",
-                                    "Akhlak buruk",
-                                    "Tidak penting",
-                                    "Sia-sia",
+                                    "اخلاق موليا",
+                                    "اخلاق بوروق",
+                                    "تيدق ڤنتيڠ",
+                                    "سيا-سيا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Akibat tidak beradab ketika berinteraksi ialah?",
+                                "عاقبة تيدق برادب كتيك برينترقسي اياله؟",
+                                new List<string> { "دسايڠي", "دبنچي", "دحرمتي", "دكاسيهي" },
+                                1
+                            ),
+                            new Question(
+                                "ميديا سوسيال اياله؟",
                                 new List<string>
                                 {
-                                    "Disayangi",
-                                    "Dibenci",
-                                    "Dihormati",
-                                    "Dikasihi",
+                                    "تمڤت برجومڤا",
+                                    "اڤليكاسي دالم تالين اونتوق برهوبوڠ",
+                                    "كداي ممبلي-بله",
+                                    "مجليس رسمي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Media sosial ialah?",
+                                "ادب مڠڬوناكن ميديا سوسيال اياله؟",
                                 new List<string>
                                 {
-                                    "Tempat berjumpa",
-                                    "Aplikasi dalam talian untuk berhubung",
-                                    "Kedai membeli-belah",
-                                    "Majlis rasmi",
+                                    "مڽيبركن فتنة",
+                                    "مڠحرمتي ڤريۏاسي اورڠ لاءين",
+                                    "مڠهينا كاون",
+                                    "بركات بوهوڠ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Adab menggunakan media sosial ialah?",
+                                "ڤركارا يڠ دلارڠ دالم ميديا سوسيال اياله؟",
                                 new List<string>
                                 {
-                                    "Menyebarkan fitnah",
-                                    "Menghormati privasi orang lain",
-                                    "Menghina kawan",
-                                    "Berkata bohong",
+                                    "بركوڠسي علمو برمنفعة",
+                                    "مڽيبركن بريتا ڤلسو",
+                                    "ممبري سلام",
+                                    "منوليس دعاء",
                                 },
                                 1
                             ),
                             new Question(
-                                "Perkara yang dilarang dalam media sosial ialah?",
+                                "مڠڬوناكن بهاس سوڤن دالم ميديا سوسيال منونجوقكن؟",
                                 new List<string>
                                 {
-                                    "Berkongsi ilmu bermanfaat",
-                                    "Menyebarkan berita palsu",
-                                    "Memberi salam",
-                                    "Menulis doa",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Menggunakan bahasa sopan dalam media sosial menunjukkan?",
-                                new List<string>
-                                {
-                                    "Akhlak mulia",
-                                    "Akhlak buruk",
-                                    "Tidak penting",
-                                    "Sia-sia",
+                                    "اخلاق موليا",
+                                    "اخلاق بوروق",
+                                    "تيدق ڤنتيڠ",
+                                    "سيا-سيا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Akibat menyalahgunakan media sosial ialah?",
+                                "عاقبة مڽالهڬوناكن ميديا سوسيال اياله؟",
                                 new List<string>
                                 {
-                                    "Mendapat kawan baru",
-                                    "Hilang kepercayaan orang lain",
-                                    "Mendapat ilmu bermanfaat",
-                                    "Dikasihi",
+                                    "مندافت كاون بارو",
+                                    "هيلڠ كڤرچاياءن اورڠ لاءين",
+                                    "مندافت علمو برمنفعة",
+                                    "دكاسيهي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah maksud muamalah?",
+                                "اڤاكه مقصود معاملة؟",
                                 new List<string>
                                 {
-                                    "Hubungan sesama manusia",
-                                    "Hubungan dengan haiwan",
-                                    "Hubungan dengan tumbuhan",
-                                    "Hubungan dengan alam sekitar",
+                                    "هوبوڠن سسام ماءنسي",
+                                    "هوبوڠن دڠن حيوان",
+                                    "هوبوڠن دڠن تومبوهن",
+                                    "هوبوڠن دڠن عالم سكيتر",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apabila berhutang kita mesti?",
+                                "اڤابيلا برهوتڠ كيت مستي؟",
                                 new List<string>
                                 {
-                                    "Melupakan hutang",
-                                    "Membayar semula pada masa ditetapkan",
-                                    "Tidak membayar",
-                                    "Menipu pemberi hutang",
+                                    "ملوڤاكن هوتڠ",
+                                    "ممباير سمولا ڤد ماس دتتڤكن",
+                                    "تيدق ممباير",
+                                    "منيڤو ڤمبري هوتڠ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Orang yang tidak membayar hutang hukumnya?",
-                                new List<string> { "Wajib", "Sunat", "Haram", "Harus" },
+                                "اورڠ يڠ تيدق ممباير هوتڠ حكومڽ؟",
+                                new List<string> { "واجب", "سنة", "حرام", "هاروس" },
                                 2
                             ),
                             new Question(
-                                "Antara adab berjual beli ialah?",
+                                "انتارا ادب برجوال بلي اياله؟",
                                 new List<string>
                                 {
-                                    "Menipu timbangan",
-                                    "Jujur dan amanah",
-                                    "Menyorok barang",
-                                    "Mengambil untung berlebihan",
+                                    "منيڤو تيمبڠن",
+                                    "جوجور دان أمانة",
+                                    "مڽوروق بارڠ",
+                                    "مڠامبيل اونتوڠ برلبيهن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Orang yang menipu dalam jual beli akan?",
+                                "اورڠ يڠ منيڤو دالم جوال بلي اكن؟",
                                 new List<string>
                                 {
-                                    "Dikasihi Allah",
-                                    "Dilaknat Allah",
-                                    "Dipuji orang",
-                                    "Dihormati",
+                                    "دكاسيهي الله",
+                                    "دلعنة الله",
+                                    "دڤوجي اورڠ",
+                                    "دحرمتي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Berkongsi rezeki bersama orang lain akan?",
+                                "بركوڠسي رزقي برسام اورڠ لاءين اكن؟",
                                 new List<string>
                                 {
-                                    "Menambah permusuhan",
-                                    "Mendapat keberkatan",
-                                    "Menambah kebencian",
-                                    "Menimbulkan dendam",
+                                    "منمبه ڤرموسوهن",
+                                    "مندافت كبركتن",
+                                    "منمبه كبنچين",
+                                    "منيمبولكن دندم",
                                 },
                                 1
                             ),
                             new Question(
-                                "Bersedekah kepada orang miskin termasuk?",
+                                "برصدقه كڤد اورڠ ميسكين ترماسوق؟",
                                 new List<string>
                                 {
-                                    "Amalan sia-sia",
-                                    "Amalan mulia",
-                                    "Amalan tercela",
-                                    "Amalan dilarang",
+                                    "عملن سيا-سيا",
+                                    "عملن موليا",
+                                    "عملن ترچلا",
+                                    "عملن دلارڠ",
                                 },
                                 1
                             ),
                             new Question(
-                                "Akibat menipu dalam hutang dan jual beli ialah?",
+                                "عاقبة منيڤو دالم هوتڠ دان جوال بلي اياله؟",
                                 new List<string>
                                 {
-                                    "Mendapat keberkatan",
-                                    "Kehilangan keberkatan",
-                                    "Disayangi Allah",
-                                    "Dipuji",
+                                    "مندافت كبركتن",
+                                    "كهيلڠن كبركتن",
+                                    "دسايڠي الله",
+                                    "دڤوجي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Contoh harta benda awam ialah?",
+                                "چونتوه هرتا بندا عوام اياله؟",
                                 new List<string>
                                 {
-                                    "Bas sekolah",
-                                    "Taman permainan",
-                                    "Jalan raya",
-                                    "Semua di atas",
+                                    "بس سكوله",
+                                    "تامن ڤرماءينن",
+                                    "جالن راي",
+                                    "سموا د اتس",
                                 },
                                 3
                             ),
                             new Question(
-                                "Adab menjaga harta awam ialah?",
+                                "ادب منجاڬ هرتا عوام اياله؟",
                                 new List<string>
                                 {
-                                    "Merosakkan kerusi taman",
-                                    "Menconteng dinding sekolah",
-                                    "Menggunakannya dengan baik",
-                                    "Membuang sampah merata-rata",
+                                    "مروسقكن كروسي تامن",
+                                    "منچونتيڠ دينديڠ سكوله",
+                                    "مڠڬوناكنڽ دڠن باءيق",
+                                    "ممبواڠ سمڤه مراتا-رات",
                                 },
                                 2
                             ),
                             new Question(
-                                "Merosakkan harta awam hukumnya?",
-                                new List<string> { "Harus", "Haram", "Sunat", "Makruh" },
+                                "مروسقكن هرتا عوام حكومڽ؟",
+                                new List<string> { "هاروس", "حرام", "سنة", "مكروه" },
                                 1
                             ),
                             new Question(
-                                "Kelebihan menjaga harta awam ialah?",
+                                "كلبيهن منجاڬ هرتا عوام اياله؟",
                                 new List<string>
                                 {
-                                    "Mendapat pahala",
-                                    "Dibenci orang",
-                                    "Dihina",
-                                    "Merugikan",
+                                    "مندافت ڤهالا",
+                                    "دبنچي اورڠ",
+                                    "دهينا",
+                                    "مروڬيكن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Akibat merosakkan harta awam ialah?",
+                                "عاقبة مروسقكن هرتا عوام اياله؟",
                                 new List<string>
                                 {
-                                    "Disayangi masyarakat",
-                                    "Ditimpa kerugian",
-                                    "Dipuji orang",
-                                    "Mendapat pahala",
+                                    "دسايڠي مشاركت",
+                                    "دتيمڤا كروڬين",
+                                    "دڤوجي اورڠ",
+                                    "مندافت ڤهالا",
                                 },
                                 1
                             ),
                             new Question(
-                                "Antara contoh menjaga alam sekitar ialah?",
+                                "انتارا چونتوه منجاڬ عالم سكيتر اياله؟",
                                 new List<string>
                                 {
-                                    "Membakar sampah sembarangan",
-                                    "Membuang sampah di tempatnya",
-                                    "Menebang pokok sesuka hati",
-                                    "Mengotorkan sungai",
+                                    "ممباكر سمڤه سمبارڠن",
+                                    "ممبواڠ سمڤه د تمڤتڽ",
+                                    "منبڠ ڤوكوق سسوك هاتي",
+                                    "مڠوتوركن سوڠاي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Islam mengajar umatnya supaya?",
+                                "إسلام مڠاجر اومتڽ سوڤايا؟",
                                 new List<string>
                                 {
-                                    "Merosakkan bumi",
-                                    "Memelihara alam sekitar",
-                                    "Mengabaikan kebersihan",
-                                    "Membazir sumber",
+                                    "مروسقكن بومي",
+                                    "ممليهارا عالم سكيتر",
+                                    "مڠابايكن كبرسيهن",
+                                    "ممبازير سومبر",
                                 },
                                 1
                             ),
                             new Question(
-                                "Membuang sampah merata-rata akan menyebabkan?",
+                                "ممبواڠ سمڤه مراتا-رات اكن مڽببكن؟",
                                 new List<string>
                                 {
-                                    "Alam sekitar bersih",
-                                    "Penyakit dan pencemaran",
-                                    "Masyarakat sihat",
-                                    "Mendapat pahala",
+                                    "عالم سكيتر برسيه",
+                                    "ڤڽاكيت دان ڤنچمارن",
+                                    "مشاركت صيحت",
+                                    "مندافت ڤهالا",
                                 },
                                 1
                             ),
                             new Question(
-                                "Menanam pokok adalah amalan?",
+                                "منانم ڤوكوق اداله عملن؟",
                                 new List<string>
                                 {
-                                    "Baik dan mendapat pahala",
-                                    "Tidak berguna",
-                                    "Buruk",
-                                    "Haram",
+                                    "باءيق دان مندافت ڤهالا",
+                                    "تيدق برڬونا",
+                                    "بوروق",
+                                    "حرام",
                                 },
                                 0
                             ),
                             new Question(
-                                "Akibat tidak menjaga alam sekitar ialah?",
+                                "عاقبة تيدق منجاڬ عالم سكيتر اياله؟",
                                 new List<string>
                                 {
-                                    "Mendapat keberkatan",
-                                    "Hidup sihat",
-                                    "Bencana alam",
-                                    "Ketenangan",
+                                    "مندافت كبركتن",
+                                    "هيدوڤ صيحت",
+                                    "بنچان عالم",
+                                    "كتنڠن",
                                 },
                                 2
                             ),
                             new Question(
-                                "Doa ketika masuk masjid ialah?",
+                                "دعاء كتيك ماسوق مسجد اياله؟",
                                 new List<string>
                                 {
-                                    "Allahummaftah li abwaba rahmatik",
-                                    "Allahumma inni as'aluka ilman nafi'a",
-                                    "Subhanallah",
-                                    "Bismillahirrahmanirrahim",
+                                    "اللهم افتح لي ابواب رحمتك",
+                                    "اللهم اني اسألك علما نافعا",
+                                    "سبحان الله",
+                                    "بسم الله الرحمن الرحيم",
                                 },
                                 0
                             ),
                             new Question(
-                                "Doa ketika keluar masjid ialah?",
+                                "دعاء كتيك كلوار مسجد اياله؟",
                                 new List<string>
                                 {
-                                    "Allahummaftah li abwaba rahmatik",
-                                    "Allahumma inni as'aluka fadhlika",
-                                    "Alhamdulillah",
-                                    "Astaghfirullah",
+                                    "اللهم افتح لي ابواب رحمتك",
+                                    "اللهم اني اسألك فضلك",
+                                    "الحمدلله",
+                                    "استغفر الله",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apabila masuk masjid kita perlu?",
+                                "اڤابيلا ماسوق مسجد كيت ڤرلو؟",
                                 new List<string>
                                 {
-                                    "Berlari-lari",
-                                    "Mendahulukan kaki kanan",
-                                    "Membuat bising",
-                                    "Membawa makanan",
+                                    "برلاري-لاري",
+                                    "منداهولوكن كاكي كانن",
+                                    "ممبوات بيسيڠ",
+                                    "ممباوا ماكنن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apabila keluar masjid kita perlu?",
+                                "اڤابيلا كلوار مسجد كيت ڤرلو؟",
                                 new List<string>
                                 {
-                                    "Mendahulukan kaki kiri",
-                                    "Mendahulukan kaki kanan",
-                                    "Melompat",
-                                    "Membanting pintu",
+                                    "منداهولوكن كاكي كيري",
+                                    "منداهولوكن كاكي كانن",
+                                    "ملومڤت",
+                                    "ممبنتيڠ ڤينتو",
                                 },
                                 0
                             ),
                             new Question(
-                                "Antara larangan di masjid ialah?",
+                                "انتارا لارڠن د مسجد اياله؟",
                                 new List<string>
                                 {
-                                    "Membaca Al-Quran",
-                                    "Tidur berlebihan",
-                                    "Berzikir",
-                                    "Solat sunat",
+                                    "ممباچ القرءان",
+                                    "تيدور برلبيهن",
+                                    "برذكر",
+                                    "صلاة سنة",
                                 },
                                 1
                             ),
                             new Question(
-                                "Apakah maksud iktikaf?",
+                                "اڤاكه مقصود اعتكاف؟",
                                 new List<string>
                                 {
-                                    "Duduk di masjid dengan niat tertentu",
-                                    "Tidur di rumah",
-                                    "Berjalan-jalan di taman",
-                                    "Berjualan di pasar",
+                                    "دودوق د مسجد دڠن نية ترتنتو",
+                                    "تيدور د رومه",
+                                    "برجالن-جالن د تامن",
+                                    "برجوالن د ڤاسر",
                                 },
                                 0
                             ),
                             new Question(
-                                "Hukum iktikaf ialah?",
-                                new List<string> { "Wajib", "Sunat", "Haram", "Makruh" },
+                                "حكوم اعتكاف اياله؟",
+                                new List<string> { "واجب", "سنة", "حرام", "مكروه" },
                                 1
                             ),
                             new Question(
-                                "Antara amalan ketika iktikaf ialah?",
+                                "انتارا عملن كتيك اعتكاف اياله؟",
                                 new List<string>
                                 {
-                                    "Membaca Al-Quran",
-                                    "Bermain bola",
-                                    "Membuat bising",
-                                    "Tidur berlebihan",
+                                    "ممباچ القرءان",
+                                    "برماءين بولا",
+                                    "ممبوات بيسيڠ",
+                                    "تيدور برلبيهن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Orang yang beriktikaf hendaklah?",
+                                "اورڠ يڠ برعتكاف هندقله؟",
                                 new List<string>
                                 {
-                                    "Menjaga adab di masjid",
-                                    "Merosakkan masjid",
-                                    "Berjual beli",
-                                    "Bergurau senda",
+                                    "منجاڬ ادب د مسجد",
+                                    "مروسقكن مسجد",
+                                    "برجوال بلي",
+                                    "برڬوراو سندا",
                                 },
                                 0
                             ),
                             new Question(
-                                "Kelebihan iktikaf ialah?",
+                                "كلبيهن اعتكاف اياله؟",
                                 new List<string>
                                 {
-                                    "Mendapat pahala",
-                                    "Dibenci Allah",
-                                    "Dimarahi orang",
-                                    "Dirugikan",
+                                    "مندافت ڤهالا",
+                                    "دبنچي الله",
+                                    "دماراهي اورڠ",
+                                    "دروڬيكن",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apabila guru sedang mengajar kita hendaklah?",
+                                "اڤابيلا ڬورو سدڠ مڠاجر كيت هندقله؟",
                                 new List<string>
                                 {
-                                    "Bising",
-                                    "Mendengar dengan khusyuk",
-                                    "Bermain",
-                                    "Berjalan-jalan",
-                                },
-                                1
-                            ),
-                            new Question(
-                                "Antara adab di majlis ilmu ialah?",
-                                new List<string>
-                                {
-                                    "Duduk sopan",
-                                    "Menyampuk guru",
-                                    "Ketawa kuat",
-                                    "Berbual kosong",
-                                },
-                                0
-                            ),
-                            new Question(
-                                "Mencatat ilmu ketika belajar menunjukkan?",
-                                new List<string> { "Rajin", "Malas", "Lalai", "Tidak penting" },
-                                0
-                            ),
-                            new Question(
-                                "Menghormati guru dalam majlis ilmu hukumnya?",
-                                new List<string> { "Wajib", "Harus", "Makruh", "Haram" },
-                                0
-                            ),
-                            new Question(
-                                "Akibat tidak beradab dalam majlis ilmu ialah?",
-                                new List<string>
-                                {
-                                    "Mendapat keberkatan",
-                                    "Hilang keberkatan ilmu",
-                                    "Mendapat pahala",
-                                    "Dihormati",
+                                    "بيسيڠ",
+                                    "مندڠر دڠن خشوع",
+                                    "برماءين",
+                                    "برجالن-جالن",
                                 },
                                 1
                             ),
                             new Question(
-                                "Hukum solat Jumaat ialah?",
+                                "انتارا ادب د مجليس علمو اياله؟",
                                 new List<string>
                                 {
-                                    "Wajib bagi lelaki",
-                                    "Sunat bagi lelaki",
-                                    "Harus bagi wanita",
-                                    "Makruh",
+                                    "دودوق سوڤن",
+                                    "مڽمڤوق ڬورو",
+                                    "كتاوا كوات",
+                                    "بربوال كوسوڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Apabila mendengar khutbah Jumaat kita mesti?",
+                                "منچاتت علمو كتيك بلاجر منونجوقكن؟",
+                                new List<string> { "راجين", "مالس", "لالاي", "تيدق ڤنتيڠ" },
+                                0
+                            ),
+                            new Question(
+                                "مڠحرمتي ڬورو دالم مجليس علمو حكومڽ؟",
+                                new List<string> { "واجب", "هاروس", "مكروه", "حرام" },
+                                0
+                            ),
+                            new Question(
+                                "عاقبة تيدق برادب دالم مجليس علمو اياله؟",
                                 new List<string>
                                 {
-                                    "Berbual",
-                                    "Diam dan mendengar",
-                                    "Tidur",
-                                    "Keluar masjid",
+                                    "مندافت كبركتن",
+                                    "هيلڠ كبركتن علمو",
+                                    "مندافت ڤهالا",
+                                    "دحرمتي",
                                 },
                                 1
                             ),
                             new Question(
-                                "Antara adab solat Hari Raya ialah?",
+                                "حكوم صلاة جمعة اياله؟",
                                 new List<string>
                                 {
-                                    "Membaca takbir raya",
-                                    "Bermain mercun di masjid",
-                                    "Bising dalam saf",
-                                    "Mengganggu orang solat",
+                                    "واجب باڬي للاكي",
+                                    "سنة باڬي للاكي",
+                                    "هاروس باڬي وانيتا",
+                                    "مكروه",
                                 },
                                 0
                             ),
                             new Question(
-                                "Sunat pergi ke solat Hari Raya dengan?",
+                                "اڤابيلا مندڠر خطبة جمعة كيت مستي؟",
                                 new List<string>
                                 {
-                                    "Jalan yang sama pergi dan balik",
-                                    "Jalan yang berbeza",
-                                    "Tidak pergi",
-                                    "Tidur",
+                                    "بربوال",
+                                    "ديام دان مندڠر",
+                                    "تيدور",
+                                    "كلوار مسجد",
                                 },
                                 1
                             ),
                             new Question(
-                                "Hukum solat jenazah ialah?",
-                                new List<string> { "Fardu kifayah", "Fardu ain", "Sunat", "Harus" },
+                                "انتارا ادب صلاة هاري راي اياله؟",
+                                new List<string>
+                                {
+                                    "ممباچ تكبير راي",
+                                    "برماءين مرچون د مسجد",
+                                    "بيسيڠ دالم صف",
+                                    "مڠڬڠڬو اورڠ صلاة",
+                                },
                                 0
                             ),
                             new Question(
-                                "Bilangan takbir dalam solat jenazah ialah?",
-                                new List<string> { "Tiga", "Empat", "Lima", "Enam" },
+                                "سنة ڤرڬي ك صلاة هاري راي دڠن؟",
+                                new List<string>
+                                {
+                                    "جالن يڠ سام ڤرڬي دان باليق",
+                                    "جالن يڠ بربيذا",
+                                    "تيدق ڤرڬي",
+                                    "تيدور",
+                                },
                                 1
                             ),
                             new Question(
-                                "Doa dalam solat jenazah dibaca untuk?",
+                                "حكوم صلاة جنازه اياله؟",
+                                new List<string> { "فرض كفاية", "فرض عين", "سنة", "هاروس" },
+                                0
+                            ),
+                            new Question(
+                                "بيلاڠن تكبير دالم صلاة جنازه اياله؟",
+                                new List<string> { "تيڬ", "امڤت", "ليم", "انم" },
+                                1
+                            ),
+                            new Question(
+                                "دعاء دالم صلاة جنازه دباچ اونتوق؟",
                                 new List<string>
                                 {
-                                    "Mayat sahaja",
-                                    "Semua orang hidup",
-                                    "Mayat dan orang Islam",
-                                    "Orang bukan Islam",
+                                    "ميت سهاج",
+                                    "سموا اورڠ هيدوڤ",
+                                    "ميت دان اورڠ إسلام",
+                                    "اورڠ بوكن إسلام",
                                 },
                                 2
                             ),
                             new Question(
-                                "Mengiringi jenazah hingga ke kubur adalah?",
+                                "مڠيريڠي جنازه هيڠڬ ك قبور اداله؟",
                                 new List<string>
                                 {
-                                    "Amalan mulia",
-                                    "Amalan buruk",
-                                    "Tidak penting",
-                                    "Dilarang",
+                                    "عملن موليا",
+                                    "عملن بوروق",
+                                    "تيدق ڤنتيڠ",
+                                    "دلارڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Kemudahan masjid seperti?",
+                                "كمودهن مسجد سڤرتي؟",
                                 new List<string>
                                 {
-                                    "Air, kipas, karpet",
-                                    "Pasar malam",
-                                    "Kedai makan",
-                                    "Jalan raya",
+                                    "اءير، كيڤس، كرڤيت",
+                                    "ڤاسر مالم",
+                                    "كداي ماكن",
+                                    "جالن راي",
                                 },
                                 0
                             ),
                             new Question(
-                                "Menguruskan kemudahan masjid termasuk?",
+                                "مڠوروسكن كمودهن مسجد ترماسوق؟",
                                 new List<string>
                                 {
-                                    "Tanggungjawab bersama",
-                                    "Tidak penting",
-                                    "Kerja sia-sia",
-                                    "Dilarang",
+                                    "تڠڬوڠجواب برسام",
+                                    "تيدق ڤنتيڠ",
+                                    "كرجا سيا-سيا",
+                                    "دلارڠ",
                                 },
                                 0
                             ),
                             new Question(
-                                "Merosakkan kemudahan masjid hukumnya?",
-                                new List<string> { "Harus", "Haram", "Sunat", "Makruh" },
+                                "مروسقكن كمودهن مسجد حكومڽ؟",
+                                new List<string> { "هاروس", "حرام", "سنة", "مكروه" },
                                 1
                             ),
                             new Question(
-                                "Menjaga kebersihan masjid adalah?",
+                                "منجاڬ كبرسيهن مسجد اداله؟",
                                 new List<string>
                                 {
-                                    "Amalan mulia",
-                                    "Amalan buruk",
-                                    "Tidak penting",
-                                    "Amalan dilarang",
+                                    "عملن موليا",
+                                    "عملن بوروق",
+                                    "تيدق ڤنتيڠ",
+                                    "عملن دلارڠ",
                                 },
                                 0
                             ),

@@ -24472,7 +24472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: 67cf59cb-32b4-43af-b38a-829e3f04a4e9
-  title: Kumpul beberapa kayu
+  title: "\u06A9\u0648\u0645\u06A4\u0648\u0644 \u0628\u0628\u0631\u0627\u06A4 \u06A9\u0627\u064A\u0648"
   rewardType: 0
   resourceReward:
     currencyType: 1

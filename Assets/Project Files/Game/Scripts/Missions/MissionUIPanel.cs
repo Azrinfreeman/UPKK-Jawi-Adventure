@@ -1,4 +1,5 @@
-﻿using TMPro;
+﻿using ArabicSupport;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,18 +7,31 @@ namespace Watermelon
 {
     public class MissionUIPanel : MonoBehaviour
     {
-        [SerializeField] Button clickHandler;
+        [SerializeField]
+        Button clickHandler;
 
         [Space]
-        [SerializeField] GameObject previewIconObject;
-        [SerializeField] GameObject missionCompletePanel;
-        [SerializeField] TextMeshProUGUI rewardText;
-        [SerializeField] GameObject backgroundObj;
+        [SerializeField]
+        GameObject previewIconObject;
+
+        [SerializeField]
+        GameObject missionCompletePanel;
+
+        [SerializeField]
+        TextMeshProUGUI rewardText;
+
+        [SerializeField]
+        GameObject backgroundObj;
 
         [Header("Missions")]
-        [SerializeField] MissionCollectUICase collectMission;
-        [SerializeField] MissionUnlockUICase buildMission;
-        [SerializeField] MissionTaskUICase taskMission;
+        [SerializeField]
+        MissionCollectUICase collectMission;
+
+        [SerializeField]
+        MissionUnlockUICase buildMission;
+
+        [SerializeField]
+        MissionTaskUICase taskMission;
 
         private Mission activeMission;
 
@@ -108,16 +122,17 @@ namespace Watermelon
 #if MODULE_HAPTIC
                     Haptic.Play(Haptic.HAPTIC_LIGHT);
 #endif
-
                 }
-                else if (activeMission.MissionStage == Mission.Stage.Finished && activeMission.RewardType == MissionRewardType.Resources)
+                else if (
+                    activeMission.MissionStage == Mission.Stage.Finished
+                    && activeMission.RewardType == MissionRewardType.Resources
+                )
                 {
                     MissionsController.CompleteMission();
 
 #if MODULE_HAPTIC
                     Haptic.Play(Haptic.HAPTIC_MEDIUM);
 #endif
-
                 }
             }
         }
@@ -205,12 +220,19 @@ namespace Watermelon
                     Mission.ResourceRewardData reward = activeMission.ResourceReward;
                     if (reward != null && reward.Amount > 0)
                     {
-                        rewardText.text = string.Format("{0} <sprite name={1}>", reward.Amount, reward.CurrencyType);
+                        rewardText.text = string.Format(
+                            "{0} <sprite name={1}>",
+                            ArabicFixer.Fix(reward.Amount.ToString(), true, true),
+                            ArabicFixer.Fix(reward.CurrencyType.ToString(), true, true)
+                        );
                     }
                 }
                 else
                 {
-                    rewardText.text = activeMission.RewardType == MissionRewardType.Tool ? "TOOL UNLOCKED" : "NEW BUILDING";
+                    rewardText.text =
+                        activeMission.RewardType == MissionRewardType.Tool
+                            ? "TOOL UNLOCKED"
+                            : "NEW BUILDING";
                 }
             }
         }
@@ -232,26 +254,37 @@ namespace Watermelon
                 Mission.ResourceRewardData reward = activeMission.ResourceReward;
 
                 Currency currency = CurrencyController.GetCurrency(reward.CurrencyType);
-                if(currency.FloatingCloud.AddToCloud)
+                if (currency.FloatingCloud.AddToCloud)
                 {
                     UIGame gameUI = UIController.GetPage<UIGame>();
 
-                    CurrencyUI currencyUI = gameUI.CurrenciesUIController.ActivateCurrency(reward.CurrencyType);
+                    CurrencyUI currencyUI = gameUI.CurrenciesUIController.ActivateCurrency(
+                        reward.CurrencyType
+                    );
 
                     Tween.NextFrame(() =>
                     {
-                        FloatingCloud.SpawnCurrency(reward.CurrencyType.ToString(), floatingCloundSpawn, currencyUI.RectTransform, 10, "");
+                        FloatingCloud.SpawnCurrency(
+                            reward.CurrencyType.ToString(),
+                            floatingCloundSpawn,
+                            currencyUI.RectTransform,
+                            10,
+                            ""
+                        );
                     });
                 }
             }
 
             if (missionCompletePanel.activeSelf)
             {
-                missionCompletePanel.transform.DOScale(0f, 0.15f).SetEasing(Ease.Type.BackIn).OnComplete(() =>
-                {
-                    missionCompletePanel.SetActive(false);
-                    missionCompletePanel.transform.localScale = Vector3.one;
-                });
+                missionCompletePanel
+                    .transform.DOScale(0f, 0.15f)
+                    .SetEasing(Ease.Type.BackIn)
+                    .OnComplete(() =>
+                    {
+                        missionCompletePanel.SetActive(false);
+                        missionCompletePanel.transform.localScale = Vector3.one;
+                    });
             }
 
             backgroundObj.SetActive(false);
@@ -293,7 +326,8 @@ namespace Watermelon
         protected GameObject parentObject;
         public GameObject ParentObject => parentObject;
 
-        [SerializeField] protected TextMeshProUGUI titleText;
+        [SerializeField]
+        protected TextMeshProUGUI titleText;
 
         protected MissionUIPanel uiPanel;
         protected Mission mission;
@@ -308,24 +342,17 @@ namespace Watermelon
             this.mission = mission;
         }
 
-        public virtual void Disable()
-        {
+        public virtual void Disable() { }
 
-        }
+        public virtual void UpdateUI() { }
 
-        public virtual void UpdateUI()
-        {
-
-        }
-
-        public virtual void Unload()
-        {
-
-        }
+        public virtual void Unload() { }
 
         public virtual void SetTitle(string title)
         {
-            titleText.text = title;
+            titleText.text = ArabicFixer.Fix(title, true, true);
+            ;
+            ;
         }
 
         public enum Type
@@ -340,8 +367,11 @@ namespace Watermelon
     public class MissionCollectUICase : MissionUICase
     {
         [Space]
-        [SerializeField] RectTransform panelRectTransform;
-        [SerializeField] TextMeshProUGUI descriptionText;
+        [SerializeField]
+        RectTransform panelRectTransform;
+
+        [SerializeField]
+        TextMeshProUGUI descriptionText;
 
         public override void Initialise(MissionUIPanel uiPanel)
         {
@@ -358,13 +388,14 @@ namespace Watermelon
         public override void UpdateUI()
         {
             descriptionText.text = mission.GetFormattedProgress();
-
+            Debug.Log(descriptionText.text);
             mission.OnUIUpdated();
         }
 
         public override void SetTitle(string title)
         {
-            titleText.text = title;
+            titleText.text = ArabicFixer.Fix(title, true, true);
+            ;
         }
     }
 
@@ -372,20 +403,32 @@ namespace Watermelon
     public class MissionUnlockUICase : MissionUICase
     {
         [Space]
-        [SerializeField] RectTransform panelRectTransform;
+        [SerializeField]
+        RectTransform panelRectTransform;
 
         [Space]
-        [SerializeField] GameObject resourcePrefab;
-        [SerializeField] Transform resourcesContainer;
+        [SerializeField]
+        GameObject resourcePrefab;
+
+        [SerializeField]
+        Transform resourcesContainer;
 
         [Space]
-        [SerializeField] Color defaultAmountColor;
-        [SerializeField] Color activeAmountColor;
+        [SerializeField]
+        Color defaultAmountColor;
+
+        [SerializeField]
+        Color activeAmountColor;
 
         [Space]
-        [SerializeField] GameObject constructionProgressPanel;
-        [SerializeField] TMP_Text constructionProgressText;
-        [SerializeField] Image constructionIconImage;
+        [SerializeField]
+        GameObject constructionProgressPanel;
+
+        [SerializeField]
+        TMP_Text constructionProgressText;
+
+        [SerializeField]
+        Image constructionIconImage;
 
         private Pool resourcePool;
 
@@ -495,7 +538,10 @@ namespace Watermelon
 
         private void OnGotHit()
         {
-            constructionProgressText.text = unlockingMission.LinkedBuilding.HitsMade + "/" + unlockingMission.LinkedBuilding.ConstructionHitsRequired;
+            constructionProgressText.text =
+                unlockingMission.LinkedBuilding.HitsMade
+                + "/"
+                + unlockingMission.LinkedBuilding.ConstructionHitsRequired;
         }
 
         private void OnConstructed()
@@ -512,10 +558,14 @@ namespace Watermelon
 
         public override void SetTitle(string title)
         {
-            titleText.text = title;
+            titleText.text = ArabicFixer.Fix(title, true, true);
+            ;
 
             Vector2 prefferedValue = titleText.GetPreferredValues(title);
-            panelRectTransform.sizeDelta = new Vector2(prefferedValue.x + 80, panelRectTransform.sizeDelta.y);
+            panelRectTransform.sizeDelta = new Vector2(
+                prefferedValue.x + 80,
+                panelRectTransform.sizeDelta.y
+            );
         }
     }
 
@@ -523,7 +573,8 @@ namespace Watermelon
     public class MissionTaskUICase : MissionUICase
     {
         [Space]
-        [SerializeField] TextMeshProUGUI descriptionText;
+        [SerializeField]
+        TextMeshProUGUI descriptionText;
 
         public override void Initialise(MissionUIPanel uiPanel)
         {
@@ -545,7 +596,7 @@ namespace Watermelon
 
         public override void SetTitle(string title)
         {
-            titleText.text = string.Empty;
+            titleText.text = ArabicFixer.Fix(string.Empty, true, true);
         }
     }
 }

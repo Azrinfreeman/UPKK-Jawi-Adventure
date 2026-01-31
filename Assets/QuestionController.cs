@@ -163,10 +163,11 @@ namespace Watermelon
 
             answers = questionNumber;
             //display question
-            questionText.text = QuestionClasses
+            questionText.GetComponent<JawiFix>().originalText = QuestionClasses
                 .instance.levels[level - 1]
                 .questions[questionNumber]
                 .question.ToString();
+            questionText.GetComponent<JawiFix>().ApplyFix();
             //apply answer to button
 
             //choose which button to put answer
@@ -244,9 +245,10 @@ namespace Watermelon
             buttonParents[buttonNum]
                 .GetComponent<Button>()
                 .onClick.AddListener(() => CorrectButtonFunction(buttonNum));
-            buttonParents[buttonNum].GetChild(0).GetComponent<TextMeshProUGUI>().text = answerArray[
+            buttonParents[buttonNum].GetChild(0).GetComponent<JawiFix>().originalText = answerArray[
                 QuestionClasses.instance.levels[level - 1].questions[answers].AnswerOnButton
             ];
+            buttonParents[buttonNum].GetChild(0).GetComponent<JawiFix>().ApplyFix();
             //remove from the array
 
             answerArray.RemoveAt(
@@ -326,9 +328,9 @@ namespace Watermelon
                         );
                         buttonParents[i]
                             .transform.GetChild(0)
-                            .GetComponent<TextMeshProUGUI>()
-                            .text = answerArray[0];
-
+                            .GetComponent<JawiFix>()
+                            .originalText = answerArray[0];
+                        buttonParents[i].transform.GetChild(0).GetComponent<JawiFix>().ApplyFix();
                         //remove from the array
                         answerArray.RemoveAt(0);
                     }
@@ -406,9 +408,9 @@ namespace Watermelon
                         );
                         buttonParents[i]
                             .transform.GetChild(0)
-                            .GetComponent<TextMeshProUGUI>()
-                            .text = answerArray[0];
-
+                            .GetComponent<JawiFix>()
+                            .originalText = answerArray[0];
+                        buttonParents[i].transform.GetChild(0).GetComponent<JawiFix>().ApplyFix();
                         //remove from the array
                         answerArray.RemoveAt(0);
                     }

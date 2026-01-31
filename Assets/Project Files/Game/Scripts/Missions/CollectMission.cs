@@ -1,15 +1,18 @@
-﻿using UnityEngine;
+﻿using ArabicSupport;
+using UnityEngine;
 
 namespace Watermelon
 {
     public sealed class CollectMission : Mission
     {
         [BoxGroup("Collect Mission Special", "Collect Mission Special")]
-        [SerializeField] CurrencyType currencyType;
+        [SerializeField]
+        CurrencyType currencyType;
         public CurrencyType CurrencyType => currencyType;
 
         [BoxGroup("Collect Mission Special")]
-        [SerializeField] int amount;
+        [SerializeField]
+        int amount;
 
         private Save save;
 
@@ -72,7 +75,12 @@ namespace Watermelon
 
         public override string GetFormattedProgress()
         {
-            return string.Format("{0}/{1} <sprite name={2}>", save.CollectedItems, amount, currencyType);
+            return string.Format(
+                "{0}/{1} <sprite name={2}>",
+                ArabicFixer.Fix(save.CollectedItems.ToString(), true, true),
+                ArabicFixer.Fix(amount.ToString(), true, true),
+                currencyType
+            );
         }
 
         public override float GetProgress()

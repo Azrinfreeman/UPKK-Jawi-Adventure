@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="Container" style="flex-grow: 1; -unity-font-definition: url(&quot;project://database/Assets/NotoNaskhArabic-Regular.ttf?fileID=12800000&amp;guid=f8668b51ea588c946bf6e711273bc478&amp;type=3#NotoNaskhArabic-Regular&quot;);">
+            <ui:Label text="ڤاکه کڤد ڠاپا" language-direction="RTL" focusable="false" style="align-self: auto; -unity-text-align: upper-right; -unity-font-definition: url(&quot;project://database/Assets/NotoNaskhArabic-Regular.ttf?fileID=12800000&amp;guid=f8668b51ea588c946bf6e711273bc478&amp;type=3#NotoNaskhArabic-Regular&quot;); -unity-font-style: normal; font-size: 38px; align-content: flex-start; align-items: stretch; position: relative; top: 1px; left: 0; width: 272px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
